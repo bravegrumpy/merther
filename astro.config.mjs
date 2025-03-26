@@ -34,5 +34,9 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
   },
-  integrations: [icon(), sitemap(), pageInsight(), mdx(), react()]
+  integrations: [icon(), sitemap(), pageInsight(), mdx(), 
+    react({
+      include: ['**/react/*'],
+      experimentalReactChildren: true
+    })]
 });

@@ -4,6 +4,7 @@ import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
 const author = "Bravegrumpy";
+import { mainLinks, secondaryLinks } from "@/scripts/data.js";
 
 import Article from "@/components/Article.astro"
 
@@ -18,7 +19,7 @@ await e().forEach(h => headings.push(h));
 import RenderHeadings from "@/components/react/RenderHeadings";
 ---
 
-<Layout headTitle={headTitle} pageTitle={pageTitle} author={author}>
+<Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks} secondaryLinks={secondaryLinks}>
     <Article heading="Table of Contents">
         <RenderHeadings headings={headings} />
     </Article>

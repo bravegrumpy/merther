@@ -7,7 +7,19 @@ const today = dayjs();
 
 import { Icon } from "astro-icon/components";
 
-const { headTitle="Merther", pageTitle="Merther Fanfiction", author="BraveGrumpy", link=false, frontmatter } = Astro.props;
+import { Navigation, Anchor, defaultLinks } from "@/components/react/Navigation.jsx";
+import { defineMiddleware } from "astro:middleware";
+
+const { 
+    headTitle="Merther", 
+    pageTitle="Merther Fanfiction", 
+    author="BraveGrumpy", 
+    link=false, 
+    frontmatter, 
+    mainLinks = defaultLinks,
+    secondaryLinks
+} = Astro.props;
+
 ---
 <!doctype html>
 <html lang="en">
@@ -20,7 +32,7 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction", author="BraveGrumpy
 		<link rel="icon" href={favicon.src}>
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<title>{headTitle}</title>
-        <style>
+        <style is:global>
             .chnav-container {
                 justify-content: center;
             }
@@ -44,13 +56,38 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction", author="BraveGrumpy
                 text-decoration: underline;
                 cursor: pointer;
             }
+            .menu-container {
+                margin-bottom: 60px;
+            }
+            .back-to-top:hover {
+                height: fit-content;
+                scale: 105%;
+            }
         </style>
 	</head>
 	<body style="visibility:hidden">
 		<script>0</script>
 		<header>
-		<h1 class="text-gradient text-center">{pageTitle}</h1>
-        <p class="byline">Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
+            {
+                mainLinks ? 
+                    <Navigation>{
+                        mainLinks.map((link: any) => <Anchor href={link.href} text={link.text} />)}</Navigation> :
+                    <p></p>
+            }
+		    <h1 class="text-gradient text-center">{pageTitle}</h1>
+            <p class="byline">Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
+            {
+                secondaryLinks
+                ? <Navigation>
+                    {
+                        secondaryLinks.map(
+                            (link: any) => <Anchor href={link.href} text={link.text} />
+                        )
+                    }
+                </Navigation>
+                : ""
+
+            }
 		</header>
         <main>
             <hr class="section start">
@@ -86,4 +123,4 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction", author="BraveGrumpy
 			</style>
 		</noscript>
 	</body>
-</html>
+</
