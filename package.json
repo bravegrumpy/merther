@@ -9,6 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.4"
+    "@astrojs/sitemap": "^3.3.0",
+    "astro": "^5.5.4",
+    "astro-icon": "^1.1.5",
+    "astro-page-insight": "^0.10.1",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "@iconify-json/svg-spinners": "^1.2.2"
   }
 }

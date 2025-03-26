@@ -1,0 +1,15 @@
+---
+import Layout from "@/layouts/Layout.astro"
+const headTitle = "Home | Merther";
+const pageTitle = "Merther Fanfiction";
+const author = "Bravegrumpy";
+
+import { Content as WorksList } from "@/pages/pages/content/introduction.md";
+import Article from "@/components/Article.astro";
+---
+
+<Layout headTitle={headTitle} pageTitle={pageTitle} author={author}>
+    <Article>
+        <WorksList />
+    </Article>
+</Layout>
