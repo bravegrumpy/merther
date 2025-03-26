@@ -8,26 +8,13 @@ import { mainLinks, secondaryLinks } from "@/scripts/data.js";
 
 import Article from "@/components/Article.astro"
 
-let headings = new Array();
-import WorkList, { getHeadings as wl} from "@/pages/pages/content/introduction.mdx"
+import WorkList from "@/pages/pages/content/introduction.mdx"
 
-await wl().forEach(h => headings.push(h))
+import Explicit from "@/pages/pages/content/explicit.mdx"
 
-import Explicit, { getHeadings as e} from "@/pages/pages/content/explicit.mdx"
-await e().forEach(h => headings.push(h));
-
-import { TOC } from "astro-toc"
-import RenderHeadings from "@/components/react/RenderHeadings";
-headings.forEach(heading => heading.url = heading.slug)
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks} secondaryLinks={secondaryLinks}>
-    <Article heading="Table of Contents">
-        <Debug {headings} />
-        <hr class="section">
-        <TOC toc={headings} as="number" />
-    </Article>
-    <hr class="section">
     <Article>
         <WorkList />
     </Article>

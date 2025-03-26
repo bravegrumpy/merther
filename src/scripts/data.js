@@ -55,7 +55,7 @@ const secondaryLinks = [
     {
         key: "01_Misunderstood_00_W3C",
         href: "/misunderstood/w3Css",
-        text: "AO3 Clote"
+        text: "AO3 Clone"
     },
     {
         key: "01_Misunderstood_00_W3C",
