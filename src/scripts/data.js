@@ -28,38 +28,38 @@ const secondaryLinks = [
         text: "Home"
     },
     {
-        key: "01_Misunderstood_02_MH",
+        key: "01_Misunderstood_01_MH",
         href: "/misunderstood",
         text: "Misunderstood Home"
     },
     {
-        key: "01_Misunderstood_03_NoStyling",
+        key: "01_Misunderstood_02_NoStyling",
         href: "/misunderstood/unstyled",
         text: "No Styling"
     },
     {
-        key: "01_Misunderstood_00_Simple",
+        key: "01_Misunderstood_03_Simple",
         href: "/misunderstood/simple",
         text: "Vanilla CSS Styling"
     },
     {
-        key: "01_Misunderstood_00_W3C",
+        key: "01_Misunderstood_04_W3C",
         href: "/misunderstood/w3Css",
         text: "W3.CSS Bootstrap-type styling"
     },
     {
-        key: "01_Misunderstood_00_W3C",
-        href: "/misunderstood",
+        key: "01_Misunderstood_05_Tailwindcss",
+        href: "/tailwindcss",
         text: "Tailwindcss"
     },
     {
-        key: "01_Misunderstood_00_W3C",
-        href: "/misunderstood/w3Css",
+        key: "01_Misunderstood_06_AO3Clone",
+        href: "/misunderstood/ao3",
         text: "AO3 Clone"
     },
     {
-        key: "01_Misunderstood_00_W3C",
-        href: "/misunderstood",
+        key: "01_Misunderstood_07Print",
+        href: "/print",
         text: "Print Friendly Version"
     },
 ];

@@ -8,9 +8,8 @@ const today = dayjs();
 import { Icon } from "astro-icon/components";
 
 import { Navigation, Anchor, defaultLinks } from "@/components/react/Navigation.jsx";
-import { defineMiddleware } from "astro:middleware";
 
-const { 
+let { 
     headTitle="Merther", 
     pageTitle="Merther Fanfiction", 
     author="BraveGrumpy", 
@@ -19,6 +18,13 @@ const {
     mainLinks = defaultLinks,
     secondaryLinks
 } = Astro.props;
+
+headTitle = frontmatter ? frontmatter.headTitle : headTitle;
+pageTitle = frontmatter ? frontmatter.pageTitle : pageTitle;
+author = frontmatter ? frontmatter.author : author;
+link = frontmatter ? frontmatter.link : link;
+mainLinks = frontmatter ? frontmatter.mainLinks : mainLinks;
+secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
 
 ---
 <!doctype html>
