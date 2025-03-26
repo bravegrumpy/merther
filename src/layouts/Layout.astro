@@ -6,7 +6,12 @@ const today = dayjs();
 
 import { Icon } from "astro-icon/components";
 
-const { headTitle="Merther", pageTitle="Merther Fanfiction" } = Astro.props;
+let { headTitle="Merther", pageTitle="Merther Fanfiction", author="Bravegrumpy", link=false, frontmatter } = Astro.props;
+
+headTitle = frontmatter ? frontmatter.headTitle : headTitle;
+pageTitle = frontmatter ? frontmatter.pageTitle : pageTitle;
+author = frontmatter ? frontmatter.author : author;
+link = frontmatter ? frontmatter.link : link;
 ---
 
 <!DOCTYPE html>
@@ -18,6 +23,7 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction" } = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="fanfiction, writing, smut, pornography, noncon, darkfic">
 		<meta name="description" content="Erotic Fanfiction of BBC Merlin">
+        <link rel="sitemap" href="/sitemap-index.xml">
 		<link rel="icon" href={favicon.src} >
 		<title>{headTitle}</title>
 
@@ -51,10 +57,11 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction" } = Astro.props;
 		<script>0</script>
 		<header>
 		<h1 class="text-gradient text-center">{pageTitle}</h1>
+        <p class="byline">Written By {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
 		</header>
-        <main style="color: #2e045e">
+        <main>
+            <hr class="section start">
             <slot>
-                <hr class="section start">
                 <article>
                     <h2 class="text-gradient">Under Construction</h2>
                     <div id="under-construction">
@@ -69,8 +76,8 @@ const { headTitle="Merther", pageTitle="Merther Fanfiction" } = Astro.props;
                         </nav>
                     </div>
                 </article>
-                <hr class="section end">
             </slot>
+            <hr class="section end">
         </main>
 		<footer>
 			<p>Copyright &copy; {today.format("YYYY")} <a href="https://www.bravegrumpy.com" target="_blank">Bravegrumpy</a></p>

@@ -1,0 +1,12 @@
+---
+import Layout from "@/layouts/Layout.astro";
+const matches = import.meta.glob('@/pages/posts/*.md', { eager: true});
+const posts = Object.values(matches);
+// let i = 1;
+import  Content  from "@/pages/posts/content.md";
+let a = 1 + 3;
+---
+<Layout>
+    {posts.map(post => <p>{JSON.stringify(post)}</p>)}
+    <hr>
+</Layout>

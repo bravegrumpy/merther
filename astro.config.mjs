@@ -5,8 +5,13 @@ import pageInsight from 'astro-page-insight';
 
 import icon from 'astro-icon';
 
+
+import sitemap from '@astrojs/sitemap';
+
+
 // https://astro.build/config
 export default defineConfig({
+  site: "https://merther.vercel.app",
   integrations: [
     pageInsight({
       lh: {
@@ -20,6 +25,7 @@ export default defineConfig({
         showOnLoad: true
       }
     }), 
-    icon()
+    icon(), 
+    sitemap()
   ]
 });
