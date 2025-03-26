@@ -61,7 +61,7 @@ header .bottom-nav {
 }
 .menu:hover {
   background-color: hsla(44, 81%, 25%, 0.11);
-  scale: 105%;
+  scale: 101%;
   color: maroon;
 }
 .menu.pages {
@@ -71,7 +71,7 @@ header .bottom-nav {
   text-wrap: nowrap;
   text-align: center;
   vertical-align: middle;
-  font-size: 0.85470085rem;
+  font-size: 0.89285714rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -91,7 +91,7 @@ header .bottom-nav {
   font-weight: bold;
 }
 .menu.back-to-top:hover {
-  scale: 110%;
+  scale: 105%;
   opacity: 100%;
   background-color: blanchedalmond;
 }
@@ -243,7 +243,7 @@ article {
   text-align: center;
 }
 h1 {
-  font-size: 4.10840033rem;
+  font-size: 2.77307876rem;
 }
 h1.text-gradient {
   margin: 0 auto;
@@ -264,20 +264,20 @@ h6 {
   font-family: 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 h2 {
-  font-size: 2.19244804rem;
+  font-size: 1.76234168rem;
 }
 h3 {
-  font-size: 1.87388721rem;
+  font-size: 1.57351936rem;
 }
 h4 {
-  font-size: 1.601613rem;
+  font-size: 1.404928rem;
   page-break-before: auto;
 }
 h5 {
-  font-size: 1.3689rem;
+  font-size: 1.2544rem;
 }
 h6 {
-  font-size: 1.17rem;
+  font-size: 1.12rem;
 }
 hr {
   background: linear-gradient(to right, #9900ff 0%, #006600 100%);
@@ -532,7 +532,7 @@ h2.heading {
   padding-top: 20px;
   width: fit-content;
   filter: hue-rotate(90deg) sepia(0.8);
-  font-size: 1.87388721rem;
+  font-size: 1.57351936rem;
 }
 .userstuff hr {
   width: calc(100% + (3 * 20px) + 4px);
