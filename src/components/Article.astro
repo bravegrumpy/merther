@@ -1,10 +1,10 @@
 ---
 import { Icon } from "astro-icon/components";
-const { heading="Under Construction"} = Astro.props;
+const { heading} = Astro.props;
 ---
 
 <article>
-    <h2 class="text-gradient">{heading}</h2>
+    {heading ? <h2>{heading}</h2> : ""}
   <slot>
     <article>
       <div id="under-construction">

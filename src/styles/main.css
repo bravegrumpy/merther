@@ -71,7 +71,7 @@ header .bottom-nav {
   text-wrap: nowrap;
   text-align: center;
   vertical-align: middle;
-  font-size: 0.86956522rem;
+  font-size: 0.85470085rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -243,7 +243,7 @@ article {
   text-align: center;
 }
 h1 {
-  font-size: 3.51787629rem;
+  font-size: 4.10840033rem;
 }
 h1.text-gradient {
   margin: 0 auto;
@@ -264,20 +264,20 @@ h6 {
   font-family: 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 h2 {
-  font-size: 2.01135719rem;
+  font-size: 2.19244804rem;
 }
 h3 {
-  font-size: 1.74900625rem;
+  font-size: 1.87388721rem;
 }
 h4 {
-  font-size: 1.520875rem;
+  font-size: 1.601613rem;
   page-break-before: auto;
 }
 h5 {
-  font-size: 1.3225rem;
+  font-size: 1.3689rem;
 }
 h6 {
-  font-size: 1.15rem;
+  font-size: 1.17rem;
 }
 hr {
   background: linear-gradient(to right, #9900ff 0%, #006600 100%);
@@ -532,7 +532,7 @@ h2.heading {
   padding-top: 20px;
   width: fit-content;
   filter: hue-rotate(90deg) sepia(0.8);
-  font-size: 1.74900625rem;
+  font-size: 1.87388721rem;
 }
 .userstuff hr {
   width: calc(100% + (3 * 20px) + 4px);

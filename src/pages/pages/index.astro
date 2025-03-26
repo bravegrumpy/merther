@@ -1,15 +1,33 @@
 ---
+import { Debug } from "astro:components";
 import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
 const author = "Bravegrumpy";
 
-import { Content as WorksList } from "@/pages/pages/content/introduction.md";
-import Article from "@/components/Article.astro";
+import Article from "@/components/Article.astro"
+
+let headings = new Array();
+import WorkList, { getHeadings as wl} from "@/pages/pages/content/introduction.mdx"
+
+await wl().forEach(h => headings.push(h))
+
+import Explicit, { getHeadings as e} from "@/pages/pages/content/explicit.mdx"
+await e().forEach(h => headings.push(h));
+
+import RenderHeadings from "@/components/react/RenderHeadings";
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author}>
+    <Article heading="Table of Contents">
+        <RenderHeadings headings={headings} />
+    </Article>
+    <hr class="section">
     <Article>
-        <WorksList />
+        <WorkList />
+    </Article>
+    <hr class="section">
+    <Article>
+        <Explicit />
     </Article>
 </Layout>

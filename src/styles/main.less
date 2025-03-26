@@ -15,7 +15,7 @@
 // // None of these get copied into CSS.
 // // Less calculation in final CSS.
 @p-size: 1.0rem;
-@size-factor: 1.15;
+@size-factor: 1.17;
 @h6-size: @p-size * @size-factor;
 @h5-size: @h6-size * @size-factor;
 @h4-size: @h5-size * @size-factor;
@@ -394,8 +394,9 @@ h1 {
         padding: @base-padding;
     }
 }
+@h1h2-fonts: "Style Script", 'Recursive', 'Brush Script MT', 'sans-serif';
 h1, h2 {
-    font-family: "Style Script", 'Recursive', 'Brush Script MT', 'sans-serif';
+    font-family: @h1h2-fonts;
     &.text-center {
         text-align: center;
     }
@@ -477,44 +478,45 @@ footer {
     border-right: @sides-border-width @sides-border-style @sides-border-color;
     border-bottom: @sides-border-width @sides-border-style @sides-border-color;
 }
-
-#lib.fonts {
-    .default {
-        .paragraph() {
-            @text-font-family: "Recursive", "Kurale", "Georgia", serif;
-            @other-font-properties: {
-                @casl: 0; @mono: 0; @wght: 390;
-                font-variation-settings: @font-variation-settings-default;
+#lib {
+    .fonts {
+        .default {
+            .paragraph() {
+                @text-font-family: "Recursive", "Kurale", "Georgia", serif;
+                @other-font-properties: {
+                    @casl: 0; @mono: 0; @wght: 390;
+                    font-variation-settings: @font-variation-settings-default;
+                }
+            }
+            .italic() {
+                @other-font-properties: {
+                    @slnt: -12; @crsv: 0; @casl: 0; @wght: 370;
+                    font-variation-settings: @font-variation-settings-default;
+                    font-style: italic;
+                }
             }
         }
-        .italic() {
-            @other-font-properties: {
-                @slnt: -12; @crsv: 0; @casl: 0; @wght: 370;
-                font-variation-settings: @font-variation-settings-default;
+        .heading() {
+            @common-fonts: 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
+        }
+        .initialize(@unique-font: "Delius", @italic-font: @unique-font) {
+            @character-font-family: @unique-font;
+            #lib.fonts.default.paragraph;
+            #lib.fonts.heading;
+            p {
+                font-family: @text-font-family;
+                @other-font-properties();
+            }
+            em {
+                @character-font-family: @italic-font;
+                #lib.fonts.default.italic();
+                font-family: @text-font-family;
+                @other-font-properties();
                 font-style: italic;
             }
-        }
-    }
-    .heading() {
-        @common-fonts: 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
-    }
-    .initialize(@unique-font: "Delius", @italic-font: @unique-font) {
-        @character-font-family: @unique-font;
-        #lib.fonts.default.paragraph;
-        #lib.fonts.heading;
-        p {
-            font-family: @text-font-family;
-            @other-font-properties();
-        }
-        em {
-            @character-font-family: @italic-font;
-            #lib.fonts.default.italic();
-            font-family: @text-font-family;
-            @other-font-properties();
-            font-style: italic;
-        }
-        h4 {
-            font-family: @common-fonts;
+            h4 {
+                font-family: @common-fonts;
+            }
         }
     }
 }
