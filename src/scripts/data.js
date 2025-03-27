@@ -6,7 +6,7 @@ const mainLinks = [
     },
     {
         key: "01_Misunderstood",
-        href: "/misunderstood",
+        href: "/misunderstood/simple",
         text: "Misunderstood",
     },
     {
