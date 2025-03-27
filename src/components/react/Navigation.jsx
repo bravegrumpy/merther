@@ -1,7 +1,7 @@
-function Navigation ({ className="menu-container pages-container", children }) {
+function Navigation ({ className="menu-container pages-container", id, children }) {
     return (
         <>
-            <nav className={className}>
+            <nav className={className} id={id ? id : ""}>
                 {children}
             </nav>
         </>

@@ -1,5 +1,18 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import { mainLinks, secondaryLinks } from "@/scripts/data";
+
+const pageTitle = "Misunderstood";
+const headTitle = "Misunderstood | Merther"
+
+import Article from "@/components/Article.astro";
+
+import Chapter1 from "@/pages/misunderstood/chapters/01_Again.md"
+
+import { Chapter } from "@/components/react/Chapters"
 ---
-<Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks}/>
+<Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle}>
+    <Chapter client:load chapterNameHeading="Chapter 1: Again" previousChapterSrc="#top" nextChapterSrc="#ch02">
+        <Chapter1 />
+    </Chapter>
+</Layout>

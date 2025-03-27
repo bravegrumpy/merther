@@ -76,7 +76,7 @@ import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@f
 		<header>
             {
                 mainLinks ? 
-                    <Navigation>{
+                    <Navigation id="main-nav">{
                         mainLinks.map((link: any) => <Anchor href={link.href} text={link.text} />)}</Navigation> :
                     <p></p>
             }
@@ -84,7 +84,7 @@ import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@f
             <p class="byline">Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
             {
                 secondaryLinks
-                ? <Navigation>
+                ? <Navigation id="top">
                     {
                         secondaryLinks.map(
                             (link: any) => <Anchor href={link.href} text={link.text} />
