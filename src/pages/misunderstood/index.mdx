@@ -1,0 +1,34 @@
+---
+layout: "@/layouts/Layout.astro"
+
+pageTitle: "Misunderstood"
+headTitle: "Misunderstood | Merther"
+author: "Bravegrumpy"
+---
+import { Navigation, Anchor } from "@/components/react/Navigation";
+import { secondaryLinks } from "@/scripts/data";
+
+### Choose your preferred style system
+    
+All choices have the same content, only the styling is different.
+
+When I say the same, I mean that all of the conent is pulled from the same files. The _only_ difference is in the style system.
+
+<Navigation>
+    {
+        secondaryLinks.map((link) =>
+            <Anchor href={link.href} text={link.text} />
+        )
+    }
+</Navigation>
+
+
+### Auxilarary Pages
+
+I have a couple pages that are not interlinked with the styling system.
+
+First off is the obvious one, [a printer-friendly page.](/misunderstood/print) There is not much else to say about it.
+
+Secondly, I did an experiment with [Claude.ai](https://claude.ai) to see if it can recreate the code for a web page, given a screen shot of the styling system. [here are the results.](/misunderstood/claude_ai) I am not totally happy, as they are not *identical*. More specifically, it failed to capture the text-gradient of the title. However, it did choose that is fairly similar to the one I used, and got the colors fairly accurate.  I noticed that the more custom elements I made, the less likely that the AI would recognize and be able to recreate them.
+
+[Click here](/misunderstood/print) for a print friendly version.

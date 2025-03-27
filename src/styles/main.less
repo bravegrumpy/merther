@@ -3,7 +3,7 @@
 // @import (css) url('https://fonts.googleapis.com/css2?family=Delius&family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Style+Script&display=swap');
 
 // @import (css) url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Autour+One&family=Bad+Script&family=Beth+Ellen&family=Bilbo&family=Bilbo+Swash+Caps&family=Birthstone&family=Birthstone+Bounce:wght@400;500&family=Bonbon&family=Bonheur+Royale&family=Bubblegum+Sans&family=Butterfly+Kids&family=Caesar+Dressing&family=Cagliostro&family=Calligraffitti&family=Caramel&family=Carattere&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Charmonman:wght@400;700&family=Chilanka&family=Comforter&family=Coming+Soon&family=Cookie&family=Covered+By+Your+Grace&family=Crafty+Girls&family=Delius&family=Delius+Swash+Caps&family=Devonshire&family=Dr+Sugiyama&family=Eagle+Lake&family=East+Sea+Dokdo&family=Farsan&family=Fasthand&family=Festive&family=Fondamento:ital@0;1&family=Freehand&family=Gloria+Hallelujah&family=Grape+Nuts&family=Handlee&family=Homemade+Apple&family=Indie+Flower&family=Merienda:wght@300..900&family=Moon+Dance&family=Mr+Bedfort&family=Nothing+You+Could+Do&family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Srisakdi:wght@400;700&family=Style+Script&display=swap');
-@import './fonts.css';
+// @import './fonts.css';
 
 // - Translating original CSS into LESS, and then using VSCode extension to compile to css.
 // - This makes the final CSS simpler.
@@ -35,9 +35,9 @@
 @cdn: "https://cdn.bravegrumpy.com/AO3Styles/images/";
 @local: "/images/";
 
-@url: "@{cdn}"; // allowed values: cdn, local;
+@url: "@{local}"; // allowed values: cdn, local;
 
-@bg-pattern-background-image: url("@{url}topography/topography_brown.png"); //change to whatever image
+@bg-pattern-background-image: url("@{cdn}topography/topography_brown.png"); //change to whatever image
 
 // // Main Background Image size and positioning
 @base-padding: 20px;

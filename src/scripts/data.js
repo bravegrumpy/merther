@@ -49,7 +49,7 @@ const secondaryLinks = [
     },
     {
         key: "01_Misunderstood_05_Tailwindcss",
-        href: "/tailwindcss",
+        href: "/misunderstood/tailwindcss",
         text: "Tailwindcss"
     },
     {
@@ -59,7 +59,7 @@ const secondaryLinks = [
     },
     {
         key: "01_Misunderstood_07Print",
-        href: "/print",
+        href: "/misunderstood/print",
         text: "Print Friendly Version"
     },
 ];

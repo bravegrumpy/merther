@@ -23,6 +23,8 @@ import rehypeExternalLinks from 'rehype-external-links';
 
 import react from '@astrojs/react';
 
+import svelte from '@astrojs/svelte';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://merther.vercel.app',
@@ -34,8 +36,8 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
   },
-  integrations: [ icon(), sitemap(), pageInsight(), mdx(), react({
+  integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  })]
+  }), svelte()]
 });

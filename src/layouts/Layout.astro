@@ -23,9 +23,10 @@ headTitle = frontmatter ? frontmatter.headTitle : headTitle;
 pageTitle = frontmatter ? frontmatter.pageTitle : pageTitle;
 author = frontmatter ? frontmatter.author : author;
 link = frontmatter ? frontmatter.link : link;
-mainLinks = frontmatter ? frontmatter.mainLinks : mainLinks;
-secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
+mainLinks = frontmatter ? frontmatter.mainLinks ? frontmatter.mainLinks : mainLinks : mainLinks;
+secondaryLinks = frontmatter ? frontmatter.secondaryLinks ? frontmatter.secondaryLinks : secondaryLinks : secondaryLinks;
 
+import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script"
 ---
 <!doctype html>
 <html lang="en">
@@ -39,13 +40,13 @@ secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<title>{headTitle}</title>
         <style is:global>
-            .chnav-container {
+            .tmp-container {
                 justify-content: center;
             }
             .pages-container {
                 margin-bottom: 60px;
             }
-            .chnav {
+            .tmp {
                 font-size: 1.5rem;
                 width: 40ch;
                 height: fit-content;
@@ -71,8 +72,7 @@ secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
             }
         </style>
 	</head>
-	<body style="visibility:hidden">
-		<script>0</script>
+	<body>
 		<header>
             {
                 mainLinks ? 
@@ -107,8 +107,8 @@ secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
                         <hr>
                         <h3>Elevator music from the queue starts playing&hellip;<span></span></h3>
                         <p style="text-align: center;"><Icon name="svg-spinners:bars-scale-middle" size={200} style="color: #2e045e12;" /></p>
-                        <nav class="menu-container chnav-container">
-                            <button class="menu back-to-top chnav" onclick="history.back()">Go back </button>
+                        <nav class="menu-container chnav-container tmp-container">
+                            <button class="menu back-to-top chnav tmp" onclick="history.back()">Go back </button>
                         </nav>
                     </div>
                 </article>
@@ -120,13 +120,5 @@ secondaryLinks = frontmatter ? frontmatter.secondaryLinks : secondaryLinks;
 			<p style="font-size: 0.85rem; width:35ch; text-align: center;">This is an unofficial fan site and is not affiliated with <em>BBC Merlin</em> or <abbr title="Organization for Transformative Works"><a href="https://transformativeworks.org" target="_blank">OTW</a></abbr></p>
 			<p>All Rights Reserved </p>
 		</footer>
-		<script src="@/scripts/visibility.js"></script>
-		<noscript>
-			<style>
-				body {
-					visibility: visible;
-				}
-			</style>
-		</noscript>
 	</body>
 </
