@@ -1,6 +1,6 @@
 export { ChapterPreamble, Chapter };
 function ChapterPreamble(props) {
-    const anchorClass = "menu back-to-top"
+    const anchorClass = "menu back-to-top chnav"
     return(
         <>
             <span className="chapter-preamble">
@@ -18,9 +18,11 @@ function ChapterPreamble(props) {
 function Chapter(props){
     return(
         <>
-            <ChapterPreamble chapterNameHeading={props.chapterNameHeading} previousChapterSrc={props.previousChapterSrc} nextChapterSrc={props.nextChapterSrc} />
-            <article>
-                {props.children}
+            <article id={props.articleId}>
+                <ChapterPreamble chapterNameHeading={props.chapterNameHeading} previousChapterSrc={props.previousChapterSrc} nextChapterSrc={props.nextChapterSrc} />
+                <div className="chapter">
+                    {props.children}
+                </div>
             </article>
         </>
     );

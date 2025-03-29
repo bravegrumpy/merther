@@ -15,7 +15,7 @@
 // // None of these get copied into CSS.
 // // Less calculation in final CSS.
 @p-size: 1.0rem;
-@size-factor: 1.12;
+@size-factor: 1.15;
 @h6-size: @p-size * @size-factor;
 @h5-size: @h6-size * @size-factor;
 @h4-size: @h5-size * @size-factor;
@@ -35,7 +35,7 @@
 @cdn: "https://cdn.bravegrumpy.com/AO3Styles/images/";
 @local: "/images/";
 
-@url: "@{local}"; // allowed values: cdn, local;
+@url: "@{cdn}"; // allowed values: cdn, local;
 
 @bg-pattern-background-image: url("@{cdn}topography/topography_brown.png"); //change to whatever image
 
@@ -516,7 +516,7 @@ footer {
                 font-style: italic;
             }
             h4 {
-                font-family: @common-fonts;
+                font-family: @character-font-family, @common-fonts;
             }
         }
     }

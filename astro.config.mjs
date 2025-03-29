@@ -34,7 +34,7 @@ export default defineConfig({
       remarkDefinitionList,
       [remarkRehype, { handlers: { ...defListHastHandlers}}]
     ],
-    rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
+    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, {behavior: "prepend"}], [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
   },
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],

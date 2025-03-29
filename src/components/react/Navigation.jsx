@@ -1,7 +1,7 @@
 function Navigation ({ className="menu-container pages-container", id, children }) {
     return (
         <>
-            <nav className={className} id={id ? id : ""}>
+            <nav className={className} id={id ? id : ""} style={{"margin-bottom": "60px"}}>
                 {children}
             </nav>
         </>
