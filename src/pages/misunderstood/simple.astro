@@ -11,14 +11,30 @@ import { Chapter } from "@/components/react/Chapters"
 
 import Chapter1 from "@/pages/misunderstood/chapters/01_Again.mdx"
 import Chapter2 from "@/pages/misunderstood/chapters/02_Hungry.mdx"
+import Chapter3 from "@/pages/misunderstood/chapters/03_Afraid.mdx"
+import Chapter4 from "@/pages/misunderstood/chapters/04_Reflections.mdx"
+import Chapter5 from "@/pages/misunderstood/chapters/05_Honesty.mdx"
+import Chapter6 from "@/pages/misunderstood/chapters/06_Necessary.mdx"
 
 import '@fontsource/mr-bedfort'
 ---
 <Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle}>
-    <Chapter client:load articleId="ch01" chapterNameHeading="Chapter 1: Again" previousChapterSrc="#top" nextChapterSrc="#ch02">
+    <Chapter client:load articleId="ch01" chapterNameHeading="Chapter 1: Again" nextChapterSrc="#ch02">
         <Chapter1 />
     </Chapter>
     <Chapter client:load articleId="ch02" chapterNameHeading="Chapter 2: Hungry" previousChapterSrc="#ch01" nextChapterSrc="#ch03">
         <Chapter2 />
+    </Chapter>
+    <Chapter client:load articleId="ch03" chapterNameHeading="Chapter 3: Afraid" previousChapterSrc="#ch02" nextChapterSrc="#ch04">
+        <Chapter3 />
+    </Chapter>
+    <Chapter client:load articleId="ch04" chapterNameHeading="Chapter 4: Reflections" previousChapterSrc="#ch03" nextChapterSrc="#ch05">
+        <Chapter4 />
+    </Chapter>
+    <Chapter client:load articleId="ch05" chapterNameHeading="Chapter 5: Honesty" previousChapterSrc="#ch04" nextChapterSrc="#ch06">
+        <Chapter5 />
+    </Chapter>
+    <Chapter client:load articleId="ch06" chapterNameHeading="Chapter 6: Necessary" previousChapterSrc="#ch05">
+        <Chapter6 />
     </Chapter>
 </Layout>

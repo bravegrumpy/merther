@@ -7,8 +7,8 @@ function ChapterPreamble(props) {
                 <h2 className="text-gradient chapter-title" style={{'padding-right': "2rem",}}>
                     {props.chapterNameHeading}
                 </h2>
-                <a className={anchorClass} href={props.previousChapterSrc}>{'\u2190'} Previous Chapter</a>
-                <a className={anchorClass} href={props.nextChapterSrc}>Next Chapter {'\u2192'}</a>
+                { props.previousChapterSrc ? <a className={anchorClass} href={props.previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p className={`w-[20ch]`}></p> }
+                { props.nextChapterSrc ? <a className={anchorClass} href={props.nextChapterSrc}>Next Chapter {'\u2192'}</a> : <p className={`w-[15ch]`}></p> }
                 <a className={anchorClass} href="#top">Back to top {'\u2191'}</a>
             </span>
         </>
