@@ -1,3 +1,5 @@
+import { mainLinks } from "@/scripts/data"
+
 export function Navigation ({ className="menu-container pages-container", id, children }) {
     return (
         <>
@@ -14,25 +16,27 @@ export function Anchor({ href, className="menu pages", text, keyId }) {
     );
 }
 
-export const defaultLinks =[
-    {
-        key: "00_Home",
-        href: "/pages",
-        text: "Home",
-    },
-    {
-        key: "01_Misunderstood",
-        href: "/misunderstood",
-        text: "Misunderstood",
-    },
-    {
-        key: "02_Muses",
-        href: "/muses",
-        text: "Muses",
-    },
-    {
-        key: "03_Kinks",
-        href: "/external/iron",
-        text: "Kinks",
-    },
-] 
+// export const defaultLinks =[
+//     {
+//         key: "00_Home",
+//         href: "/pages",
+//         text: "Home",
+//     },
+//     {
+//         key: "01_Misunderstood",
+//         href: "/misunderstood",
+//         text: "Misunderstood",
+//     },
+//     {
+//         key: "02_Muses",
+//         href: "/muses",
+//         text: "Muses",
+//     },
+//     {
+//         key: "03_Kinks",
+//         href: "/external/iron",
+//         text: "Kinks",
+//     },
+// ] 
+
+export const defaultLinks = mainLinks;
