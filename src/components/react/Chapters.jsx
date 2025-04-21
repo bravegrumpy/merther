@@ -3,7 +3,7 @@ export function ChapterPreamble(props) {
     return(
         <>
             <span className="chapter-preamble">
-                <h2 className="text-gradient chapter-title" style={{'padding-right': "2rem",}}>
+                <h2 className="text-gradient chapter-title" style={{paddingRight: "2rem",}}>
                     {props.chapterNameHeading}
                 </h2>
                 { props.previousChapterSrc ? <a className={anchorClass} href={props.previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p className={`w-[20ch]`}></p> }
@@ -45,7 +45,7 @@ export function ChapterNav(props) {
             <button onClick={toggleContents} className="chnav menu chnav-start">Contents: </button>
             {
                 props.chapters.map((chapter) => (<>
-                    <a className="chnav menu chlst hide" href={chapter.href}>{chapter.text}</a>
+                    <a key={`link-${chapter.id}`} className="chnav menu chlst hide" href={chapter.href}>{chapter.text}</a>
                 </>))
             }
         </nav>
