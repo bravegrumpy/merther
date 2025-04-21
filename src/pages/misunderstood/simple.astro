@@ -7,6 +7,39 @@ const headTitle = "Misunderstood | Merther"
 
 import Article from "@/components/Article.astro";
 
+const chapters = [
+        {
+            id: "ch01",
+            href: "#ch01",
+            text: "Again"
+        },
+        {
+            id: "ch02",
+            href: "#ch02",
+            text: "Hungry"
+        },
+        {
+            id: "ch03",
+            href: "#ch03",
+            text: "Afraid"
+        },
+        {
+            id: "ch04",
+            href: "#ch04",
+            text: "Reflections"
+        },
+        {
+            id: "ch05",
+            href: "#ch05",
+            text: "Honesty"
+        },
+        {
+            id: "ch06",
+            href: "#ch06",
+            text: "Necessary"
+        },
+]
+
 import { Chapter, ChapterNav } from "@/components/react/Chapters"
 
 import Chapter1 from "@/pages/misunderstood/chapters/01_Again.mdx"
@@ -19,22 +52,39 @@ import Chapter6 from "@/pages/misunderstood/chapters/06_Necessary.mdx"
 import '@fontsource/mr-bedfort'
 ---
 <Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle}>
-    <ChapterNav client:load href="#c01" text="hello"/>
+    <ChapterNav client:load chapters={chapters} />
+    <hr class="section" />
+        <Article>
+            <div class="chapter-preamble latest-chapter">
+                <h2 class="text-gradient" style="padding-left: 20px;">Latest Chapter:</h2>
+                <h3>
+                    <a href="#ch06" style="color: #2e045e">Chapter6: Necessary</a>
+                </h3>
+                <div></div>
+            </div>
+            <p class="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px </p>
+        </Article>
+    <hr class="section" />
     <Chapter client:load articleId="ch01" chapterNameHeading="Chapter 1: Again" nextChapterSrc="#ch02">
         <Chapter1 />
     </Chapter>
+    <hr class="section" />
     <Chapter client:load articleId="ch02" chapterNameHeading="Chapter 2: Hungry" previousChapterSrc="#ch01" nextChapterSrc="#ch03">
         <Chapter2 />
     </Chapter>
+    <hr class="section" />
     <Chapter client:load articleId="ch03" chapterNameHeading="Chapter 3: Afraid" previousChapterSrc="#ch02" nextChapterSrc="#ch04">
         <Chapter3 />
     </Chapter>
+    <hr class="section" />
     <Chapter client:load articleId="ch04" chapterNameHeading="Chapter 4: Reflections" previousChapterSrc="#ch03" nextChapterSrc="#ch05">
         <Chapter4 />
     </Chapter>
+    <hr class="section" />
     <Chapter client:load articleId="ch05" chapterNameHeading="Chapter 5: Honesty" previousChapterSrc="#ch04" nextChapterSrc="#ch06">
         <Chapter5 />
     </Chapter>
+    <hr class="section" />
     <Chapter client:load articleId="ch06" chapterNameHeading="Chapter 6: Necessary" previousChapterSrc="#ch05">
         <Chapter6 />
     </Chapter>

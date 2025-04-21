@@ -1,5 +1,4 @@
-export { ChapterPreamble, Chapter };
-function ChapterPreamble(props) {
+export function ChapterPreamble(props) {
     const anchorClass = "menu back-to-top chnav"
     return(
         <>
@@ -15,7 +14,7 @@ function ChapterPreamble(props) {
     );
 }
 
-function Chapter(props){
+export function Chapter(props){
     return(
         <>
             <article id={props.articleId}>
@@ -26,4 +25,29 @@ function Chapter(props){
             </article>
         </>
     );
+}
+
+export function ChapterNav(props) {
+    function reloadPage() {
+        location.reload();
+    }
+    function toggleContents() {
+        var links = document.querySelectorAll("a.chlst");
+
+        links.forEach((link) => {
+            link.classList.toggle('hide');
+            // link.style.display === "inline" ? link.style.display = "none" : link.style.display = "inline"
+        })
+    }
+    return(<>
+        <nav className="menu-container chnav-container">
+            <button className="chnav menu chnav-start" onClick={reloadPage}>⟳</button>
+            <button onClick={toggleContents} className="chnav menu chnav-start">Contents: </button>
+            {
+                props.chapters.map((chapter) => (<>
+                    <a className="chnav menu chlst hide" href={chapter.href}>{chapter.text}</a>
+                </>))
+            }
+        </nav>
+    </>);
 }
