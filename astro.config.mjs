@@ -29,12 +29,21 @@ import svelte from '@astrojs/svelte';
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
   markdown: {
+    shikiConfig: {
+      themes: {
+        dark: 'catppuccin-mocha',
+        light: 'catppuccin-frappe'
+      }
+    },
     remarkPlugins: [
       [remarkToc, {heading: 'Contents'}],
       remarkDefinitionList,
       [remarkRehype, { handlers: { ...defListHastHandlers}}]
     ],
     rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, {behavior: "prepend"}], [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
+  },
+  prefetch: {
+    defaultStrategy: 'viewport'
   },
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
