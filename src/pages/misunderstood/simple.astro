@@ -7,7 +7,7 @@ const headTitle = "Misunderstood | Merther"
 
 import Article from "@/components/Article.astro";
 
-import { Chapter } from "@/components/react/Chapters"
+import { Chapter, ChapterNav } from "@/components/react/Chapters"
 
 import Chapter1 from "@/pages/misunderstood/chapters/01_Again.mdx"
 import Chapter2 from "@/pages/misunderstood/chapters/02_Hungry.mdx"
@@ -19,6 +19,7 @@ import Chapter6 from "@/pages/misunderstood/chapters/06_Necessary.mdx"
 import '@fontsource/mr-bedfort'
 ---
 <Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle}>
+    <ChapterNav client:load href="#c01" text="hello"/>
     <Chapter client:load articleId="ch01" chapterNameHeading="Chapter 1: Again" nextChapterSrc="#ch02">
         <Chapter1 />
     </Chapter>
