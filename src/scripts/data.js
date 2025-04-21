@@ -14,11 +14,11 @@ const mainLinks = [
         href: "/muses",
         text: "Muses",
     },
-    // {
-    //     key: "03_Kinks",
-    //     href: "/external/iron",
-    //     text: "Kinks",
-    // },
+    {
+        key: "03_Kinks",
+        href: "/external/iron",
+        text: "Kinks",
+    },
 ];
 
 const secondaryLinks = [
