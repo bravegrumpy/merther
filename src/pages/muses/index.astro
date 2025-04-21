@@ -1,0 +1,22 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import { Chapter, ChapterNav } from "@/components/react/Chapters"
+import { mainLinks } from "@/scripts/data";
+
+import Content from "@/pages/muses/content/index.mdx"
+import Summary from "@/pages/muses/content/summary.mdx"
+import Notes from "@/pages/muses/content/notes.mdx"
+
+const headTitle = "Muses | Merther Fanfic";
+const pageTitle = "Merlin Muses at Masturbating Monarch"
+---
+<Layout mainLinks={mainLinks} headTitle={headTitle} pageTitle={pageTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy">
+    <h2>Summary</h2>
+    <Summary />
+    <hr />
+    <h2>Notes</h2>
+    <Notes />
+    <hr />
+    <Content />
+</Layout>

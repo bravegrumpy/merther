@@ -4,7 +4,19 @@ import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
 const author = "Bravegrumpy";
-import { mainLinks } from "@/scripts/data.js";
+// import { mainLinks } from "@/scripts/data.js";
+const mainLinks = [
+    {
+        key: "00_Home",
+        href: "/pages",
+        text: "Home"
+    },
+    {
+        key: "01_Misunderstood",
+        href: "/misunderstood/simple",
+        text: "Misunderstood"
+    }
+]
 
 import Article from "@/components/Article.astro"
 

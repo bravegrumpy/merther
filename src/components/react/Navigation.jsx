@@ -1,20 +1,20 @@
-function Navigation ({ className="menu-container pages-container", id, children }) {
+export function Navigation ({ className="menu-container pages-container", id, children }) {
     return (
         <>
-            <nav className={className} id={id ? id : ""} style={{marginBottom: "60px", marginLeft:'-20px', width: "105%"}}>
+            <nav className={className} id={id ? id : ""} style={{ marginBottom: "60px", marginLeft:'50px', width: "100%"}}>
                 {children}
             </nav>
         </>
     );
 }
 
-function Anchor({ href, className="menu pages", text }) {
+export function Anchor({ href, className="menu pages", text, keyId }) {
     return (
-        <a href={href} className={className}>{text}</a>
+        <a key={`anchor_key-${keyId}`} href={href} className={className}>{text}</a>
     );
 }
 
-const defaultLinks =[
+export const defaultLinks =[
     {
         key: "00_Home",
         href: "/pages",
@@ -36,5 +36,3 @@ const defaultLinks =[
         text: "Kinks",
     },
 ] 
-
-export { Navigation, Anchor, defaultLinks }

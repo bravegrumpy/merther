@@ -46,7 +46,7 @@
 @img-mult-margin: 2;
 @base-img-margin: ((@img-mult-margin * @default-width) - 5px);
 @base-width-img: (@img-mult-wide * @default-width) - (2 * @base-padding);
-@base-width: 110ch;//45vw; //change me;
+@base-width: 90ch;//45vw; //change me;
 @default-margin: auto;
 @base-margin: @default-margin;//change me;
 
@@ -259,6 +259,9 @@ article {
     padding-bottom: @base-padding;
     width: @base-width;
     z-index: 30;
+}
+dt {
+    padding-top: @base-padding;
 }
 .chapter-preamble {
     display: flex;
@@ -552,7 +555,7 @@ footer {
     #lib.fonts.initialize("Bonheur Royale", "Covered By Your Grace");
 }
 
-@print-width: 8.5in;
+@print-width: 8.0in;
 @media print {
     @page {
         margin: 0.25in;

@@ -27,8 +27,6 @@ mainLinks = frontmatter ? frontmatter.mainLinks ? frontmatter.mainLinks : mainLi
 secondaryLinks = frontmatter ? frontmatter.secondaryLinks ? frontmatter.secondaryLinks : secondaryLinks : secondaryLinks;
 
 import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script";
-
-import "@fontsource/mr-bedfort"; import "@fontsource/gloria-hallelujah"; import "@fontsource/comforter"; import "@fontsource/merienda"; import "@fontsource/shadows-into-light"; import "@fontsource/bilbo-swash-caps"; import "@fontsource/bonheur-royale"
 ---
 <!doctype html>
 <html lang="en">
@@ -93,7 +91,7 @@ import "@fontsource/mr-bedfort"; import "@fontsource/gloria-hallelujah"; import 
             {
                 mainLinks ? 
                     <Navigation id="main-nav">{
-                        mainLinks.map((link: any) => <Anchor href={link.href} text={link.text} />)}</Navigation> :
+                        mainLinks.map((link: any) => <Anchor keyId={link.key} href={link.href} text={link.text} />)}</Navigation> :
                     <p></p>
             }
 		    <h1 class="text-gradient text-center">{pageTitle}</h1>
@@ -103,7 +101,7 @@ import "@fontsource/mr-bedfort"; import "@fontsource/gloria-hallelujah"; import 
                 ? <Navigation id="top">
                     {
                         secondaryLinks.map(
-                            (link: any) => <Anchor href={link.href} text={link.text} />
+                            (link: any) => <Anchor keyId={`secondary_key_${link.key}`} href={link.href} text={link.text} />
                         )
                     }
                 </Navigation>
