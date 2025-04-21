@@ -652,12 +652,15 @@ footer {
         font-family: "Recursive", sans;
     }
 }
-@tags-bg-color: #cea581;
+@tags-bg-color: {
+    background-color: #cea58160;
+}
 .tags {
     max-height: 30ch;
     overflow-y: scroll;
-    background-color: @tags-bg-color;
+    @tags-bg-color();
     color: black;
+    border: 1px solid currentColor;
 }
 #chapters {
     @chapter-bg-all-layers();
