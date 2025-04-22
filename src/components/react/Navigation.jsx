@@ -1,9 +1,12 @@
 import { mainLinks } from "@/scripts/data"
 
-export function Navigation ({ className="menu-container pages-container", id, children }) {
+export function Navigation ({ className="menu-container pages-container", id, line=false, children }) {
     return (
         <>
             <nav className={className} id={id ? id : ""} style={{ marginBottom: "60px", marginLeft:'50px', width: "100%"}}>
+                {
+                    line ? <hr style={{ marginLeft: '-90px'}} /> : <></>
+                }
                 {children}
             </nav>
         </>

@@ -16,7 +16,9 @@ let {
     link=false, 
     frontmatter, 
     mainLinks = defaultLinks,
-    secondaryLinks
+    secondaryLinks,
+    topLine = false,
+    bottomLine = false
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
@@ -88,15 +90,18 @@ import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@f
 		<header>
             {
                 mainLinks ? 
-                    <Navigation id="main-nav">{
+                    <Navigation id="main-nav" line={topLine}>{
                         mainLinks.map((link: any) => <Anchor keyId={link.key} href={link.href} text={link.text} />)}</Navigation> :
                     <p></p>
             }
 		    <h1 class="text-gradient text-center">{pageTitle}</h1>
-            <p class="byline">Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
+                <p class="byline" style={{ display: "inline", width: "fit-content"}}>Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
+                <slot name="header" />
+            </div>
             {
                 secondaryLinks
-                ? <Navigation id="top">
+                ? <Navigation id="top" line={bottomLine}>
                     {
                         secondaryLinks.map(
                             (link: any) => <Anchor keyId={`secondary_key_${link.key}`} href={link.href} text={link.text} />
