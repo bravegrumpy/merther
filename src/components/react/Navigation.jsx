@@ -43,3 +43,17 @@ export function Anchor({ href, className="menu pages", text, keyId }) {
 // ] 
 
 export const defaultLinks = mainLinks;
+
+export function StyleToggle({ buttonText="Toggle Styling Options", showText="Show Style Options", hideText="Hide Style Options" }) {
+    function toggleStyle() {
+        const nav = document.getElementById('top-nav');
+        const btn = document.getElementById('toggle');
+        nav.style.display === 'none' ? nav.style.display = 'flex' : nav.style.display = 'none';
+        btn.innerText === showText ? btn.innerText = hideText : btn.innerText = showText;
+    }
+    return (<>
+        <div slot="header" className="chnav-container menu-container" style={{justifyContent: "between", alignContent: "center"}}>
+            <button onClick={toggleStyle} id="toggle" className="chnav chnav-start chlist menu">{buttonText}</button>
+        </div>
+    </>);
+}

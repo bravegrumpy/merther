@@ -7,7 +7,7 @@ const today = dayjs();
 
 import { Icon } from "astro-icon/components";
 
-import { Navigation, Anchor, defaultLinks } from "@/components/react/Navigation.jsx";
+import { Navigation, Anchor, defaultLinks, StyleToggle } from "@/components/react/Navigation";
 
 let { 
     headTitle='Merther', 
@@ -18,7 +18,8 @@ let {
     mainLinks = defaultLinks,
     secondaryLinks,
     topLine = false,
-    bottomLine = false
+    bottomLine = true,
+    styleToggle = true,
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
@@ -27,6 +28,9 @@ author = frontmatter ? frontmatter.author : author;
 link = frontmatter ? frontmatter.link : link;
 mainLinks = frontmatter ? frontmatter.mainLinks ? frontmatter.mainLinks : mainLinks : mainLinks;
 secondaryLinks = frontmatter ? frontmatter.secondaryLinks ? frontmatter.secondaryLinks : secondaryLinks : secondaryLinks;
+topLine = frontmatter ? frontmatter.topLine : topLine;
+bottomLine = frontmatter ? frontmatter.bottomLine : bottomLine;
+styleToggle = frontmatter ? frontmatter.styleToggle : styleToggle;
 
 import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script";
 ---
@@ -97,11 +101,15 @@ import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@f
 		    <h1 class="text-gradient text-center">{pageTitle}</h1>
             <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
                 <p class="byline" style={{ display: "inline", width: "fit-content"}}>Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p>
-                <slot name="header" />
+                <slot name="header">
+                    {
+                        styleToggle ? <StyleToggle client:load /> : <p></p>
+                    }
+                </slot>
             </div>
             {
                 secondaryLinks
-                ? <Navigation id="top" line={bottomLine}>
+                ? <Navigation id="top-nav" line={bottomLine}>
                     {
                         secondaryLinks.map(
                             (link: any) => <Anchor keyId={`secondary_key_${link.key}`} href={link.href} text={link.text} />

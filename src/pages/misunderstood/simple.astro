@@ -52,23 +52,10 @@ import Chapter4 from "@/pages/misunderstood/content/chapters/04_Reflections.mdx"
 import Chapter5 from "@/pages/misunderstood/content/chapters/05_Honesty.mdx"
 import Chapter6 from "@/pages/misunderstood/content/chapters/06_Necessary.mdx"
 
-let secondaryStyles = secondaryLinks;
-
-const ln = true;
-
+import { StyleToggle } from "@/components/react/Navigation"
 ---
-<Layout secondaryLinks={secondaryStyles} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy" bottomLine={ln} >
-    <script is:inline>
-        function toggleStyles() {
-            const nav = document.getElementById('top');
-            const btn = document.getElementById('toggle');
-            nav.style.display === 'none' ? nav.style.display = 'flex' : nav.style.display = 'none';
-            btn.innerText === "Show Style Options" ? btn.innerText = "Hide Style Options" : btn.innerText = "Show Style Options";
-        }
-    </script>
-    <div slot="header" class="chnav-container menu-container" style="justify-content: center">
-        <button onclick="toggleStyles()" id="toggle" class="chnav chnav-start chlist menu">Toggle Styling Options</button>
-    </div>
+<Layout secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy" bottomLine={true} >
+    <StyleToggle slot="header" client:only="react" />
     <ChapterNav client:load chapters={chapters} />
     <hr class="section" />
         <Article>

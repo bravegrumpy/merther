@@ -40,7 +40,7 @@ export function ChapterNav(props) {
         })
     }
     return(<>
-        <nav className="menu-container chnav-container">
+        <nav className="menu-container chnav-container" id="top">
             <button className="chnav menu chnav-start" onClick={reloadPage}>⟳</button>
             <button onClick={toggleContents} className="chnav menu chnav-start">Contents: </button>
             {
