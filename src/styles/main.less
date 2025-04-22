@@ -37,7 +37,7 @@
 
 @url: "@{cdn}"; // allowed values: cdn, local;
 
-@bg-pattern-background-image: url("@{cdn}topography/topography_brown.png"); //change to whatever image
+@bg-pattern-background-image: url("@{url}topography/topography_brown.png"); //change to whatever image
 
 // // Main Background Image size and positioning
 @base-padding: 20px;
@@ -500,22 +500,22 @@ footer {
             .paragraph() {
                 @text-font-family: "Recursive", "Kurale", "Georgia", serif;
                 @other-font-properties: {
-                    @casl: 0; @mono: 0; @wght: 390;
+                    @casl: 0.6; @mono: 0; @wght: 390; @slnt: 0;
                     font-variation-settings: @font-variation-settings-default;
                 }
             }
             .italic() {
                 @other-font-properties: {
-                    @slnt: -12; @crsv: 0; @casl: 0; @wght: 370;
-                    font-variation-settings: @font-variation-settings-default;
-                    font-style: italic;
+                    @slnt: -8; @crsv: 0.5; @casl: 0.75; @wght: 400;
+                    font-variation-settings: @CASL @casl, @CRSV @crsv, @WGHT @wght, @SLNT @slnt, @MONO @mono;
+                    // font-style: italic;
                 }
             }
         }
         .heading() {
             @common-fonts: 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
         }
-        .initialize(@unique-font: "Delius", @italic-font: @unique-font) {
+        .initialize(@unique-font: "Delius", @italic-font: @unique-font, @heading-font: @unique-font) {
             @character-font-family: @unique-font;
             #lib.fonts.default.paragraph;
             #lib.fonts.heading;
@@ -528,9 +528,13 @@ footer {
                 #lib.fonts.default.italic();
                 font-family: @text-font-family;
                 @other-font-properties();
-                font-style: italic;
+            }
+            strong {
+                @casl: 1; @crsv: 1; @mono: 1; @wght: 600; @slnt: 0;
+                font-variation-settings: @CASL @casl, @CRSV @crsv, @MONO @mono, @WGHT @wght, @SLNT @slnt;
             }
             h4 {
+                @character-font-family: @heading-font;
                 font-family: @character-font-family, @common-fonts;
             }
         }

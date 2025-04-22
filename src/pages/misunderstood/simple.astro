@@ -1,4 +1,6 @@
 ---
+import "@fontsource/mr-bedfort"; import "@fontsource/caudex";
+import "@fontsource/gloria-hallelujah"; import "@fontsource/cedarville-cursive";
 import Layout from "@/layouts/Layout.astro"
 import { secondaryLinks } from "@/scripts/data";
 
@@ -49,9 +51,8 @@ import Chapter4 from "@/pages/misunderstood/content/chapters/04_Reflections.mdx"
 import Chapter5 from "@/pages/misunderstood/content/chapters/05_Honesty.mdx"
 import Chapter6 from "@/pages/misunderstood/content/chapters/06_Necessary.mdx"
 
-let secondaryStyles: any = null;
 ---
-<Layout secondaryLinks={secondaryStyles} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy">
+<Layout secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy">
     <style is:inline>
         const handleToggle = () => {
             secondaryStyles !== null ? secondaryStyles = null : secondaryStyles = secondaryLinks;
@@ -67,7 +68,7 @@ let secondaryStyles: any = null;
             <div class="chapter-preamble latest-chapter">
                 <h2 class="text-gradient" style="padding-left: 20px;">Latest Chapter:</h2>
                 <h3>
-                    <a href="#ch06" style="color: #2e045e">Chapter6: Necessary</a>
+                    <a href="#ch06" style="color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';">Chapter 6: Necessary</a>
                 </h3>
                 <div></div>
             </div>

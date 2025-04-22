@@ -342,84 +342,98 @@ footer {
 }
 .arthur p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .arthur em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.arthur strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .arthur h4 {
   font-family: "Mr Bedfort", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .merlin p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .merlin em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.merlin strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .merlin h4 {
   font-family: "Gloria Hallelujah", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .freya p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .freya em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.freya strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .freya h4 {
   font-family: "Comforter", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .lancelot p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .lancelot em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.lancelot strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .lancelot h4 {
   font-family: "Merienda", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .george p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .george em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.george strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .george h4 {
   font-family: "Shadows Into Light", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .gwenivere p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .gwenivere em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.gwenivere strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .gwenivere h4 {
   font-family: "Bilbo Swash Caps", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 .leon p {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" 0, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 390;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
 }
 .leon em {
   font-family: "Recursive", "Kurale", "Georgia", serif;
-  font-variation-settings: "slnt" -12, "CASL" 0, "CRSV" 0, "MONO" 0, "wght" 370;
-  font-style: italic;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.leon strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
 }
 .leon h4 {
   font-family: "Bonheur Royale", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
