@@ -497,6 +497,10 @@ footer {
   .byline {
     display: none;
   }
+  .menu-container,
+  .pages-container {
+    display: none;
+  }
 }
 #preface {
   background-image: conic-gradient(rgba(162, 143, 124, 0.57843137), rgba(162, 143, 124, 0.57843137)), repeating-linear-gradient(to right, rgba(36, 26, 21, 0.25) 2.5%, rgba(122, 97, 74, 0.25) 5%, rgba(182, 145, 113, 0.25) 10%, rgba(143, 108, 76, 0.25) 15%, rgba(186, 166, 147, 0.25) 20%, rgba(143, 108, 76, 0.25) 30%, rgba(182, 145, 113, 0.25) 35%, rgba(122, 97, 74, 0.25) 45%, rgba(36, 26, 21, 0.25) 50%), linear-gradient(to top, rgba(162, 146, 124, 0.2) 0%, rgba(162, 143, 124, 0.2) 100%), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
