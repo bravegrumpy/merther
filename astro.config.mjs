@@ -34,6 +34,7 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
+  output: 'server',
 
   markdown: {
     shikiConfig: {
