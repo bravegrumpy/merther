@@ -29,6 +29,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 import pdf from 'astro-pdf';
 
+import aiRobotsTxt from 'astro-ai-robots-txt';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -65,7 +67,7 @@ export default defineConfig({
         }
       }
     }
-  })],
+  }), aiRobotsTxt()],
 
   vite: {
     plugins: [tailwindcss()]

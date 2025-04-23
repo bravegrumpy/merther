@@ -33,6 +33,7 @@
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "astro": "^5.7.4",
+    "astro-ai-robots-txt": "^0.1.2",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
     "astro-pdf": "^1.7.2",
