@@ -19,6 +19,11 @@ const mainLinks = [
         href: "/external/iron",
         text: "Kinks",
     },
+    {
+        key: 'testing',
+        href: '/recaptchaTest',
+        text: 'Test'
+    }
 ];
 
 const secondaryLinks = [

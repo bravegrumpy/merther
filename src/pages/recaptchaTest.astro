@@ -1,0 +1,32 @@
+---
+const siteKey = import.meta.env.PUBLIC_CAPTCHA_SITE_KEY;
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <script is:inline src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+        <button class="g-recaptcha"
+        data-sitekey={ siteKey }
+        data-callback="onSubmit"
+        data-action="submit"> Click me to verify the captcha challenge! </button>
+  
+      <script is:inline>
+        function onSubmit(token) {
+          fetch("/recaptcha", {
+            method: "POST",
+            body: JSON.stringify({ recaptcha: token })
+          })
+          .then((response) => response.json())
+          .then((gResponse) => {
+            if (gResponse.success) {
+              // Captcha verification was a success
+            } else {
+              // Captcha verification failed
+            }
+          })
+        }
+      </script>
+    </body>
+</html>
