@@ -27,7 +27,9 @@ export function Chapter(props){
     );
 }
 
-export function ChapterNav(props) {
+export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnClass='', chapterClass='', chId='top' }) {
+    reloadClass = reloadClass === '' ? chapterClass : reloadClass;
+    contentsBtnClass = contentsBtnClass === '' ? chapterClass : contentsBtnClass;
     function reloadPage() {
         location.reload();
     }
@@ -36,16 +38,17 @@ export function ChapterNav(props) {
 
         links.forEach((link) => {
             link.classList.toggle('hide');
+            link.classList.toggle('hidden');
             // link.style.display === "inline" ? link.style.display = "none" : link.style.display = "inline"
         })
     }
     return(<>
-        <nav className="menu-container chnav-container" id="top">
-            <button className="chnav menu chnav-start" onClick={reloadPage}>⟳</button>
-            <button onClick={toggleContents} className="chnav menu chnav-start">Contents: </button>
+        <nav className={`menu-container chnav-container ${navClass}`} id={chId}>
+            <button className={`chnav menu chnav-start ${reloadClass}`} onClick={reloadPage}>⟳</button>
+            <button onClick={toggleContents} className={`chnav menu chnav-start ${contentsBtnClass}`}>Contents: </button>
             {
-                props.chapters.map((chapter) => (<>
-                    <a key={`link-${chapter.id}`} className="chnav menu chlst hide" href={chapter.href}>{chapter.text}</a>
+                chapters.map((chapter) => (<>
+                    <a key={`link-${chapter.id}`} className={`chnav menu chlst hide ${chapterClass}`} href={chapter.href}>{chapter.text}</a>
                 </>))
             }
         </nav>

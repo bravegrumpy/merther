@@ -44,7 +44,7 @@ export function Anchor({ href, className="menu pages", text, keyId }) {
 
 export const defaultLinks = mainLinks;
 
-export function StyleToggle({ buttonText="Toggle Styling Options", showText="Show Style Options", hideText="Hide Style Options", btnId="toggle", target='top-nav' }) {
+export function StyleToggle({ buttonText="Toggle Styling Options", showText="Show Style Options", hideText="Hide Style Options", btnId="toggle", target='top-nav', className='' }) {
     function toggleStyle() {
         const nav = document.getElementById(target);
         const btn = document.getElementById(btnId);
@@ -53,7 +53,7 @@ export function StyleToggle({ buttonText="Toggle Styling Options", showText="Sho
     }
     return (<>
         {/* <div className="chnav-container menu-container" style={{justifyContent: "between", alignContent: "center"}}> */}
-            <button onClick={toggleStyle} id={btnId} className="chnav chnav-start chlist menu">{buttonText}</button>
+            <button onClick={toggleStyle} id={btnId} className={`chnav chnav-start chlist menu ${className}`}>{buttonText}</button>
         {/* </div> */}
     </>);
 }

@@ -4,21 +4,105 @@ import UnstyledLayout from "@/layouts/UnstyledLayout.astro";
 import { mainLinks, secondaryLinks } from "@/scripts/data";
 import { Navigation, Anchor, StyleToggle } from "@/components/react/Navigation";
 
+import { ChapterNav } from "@/components/react/Chapters";
+
 import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script"
 
 const headTitle = "Misunderstood | Merther"
+
+import { Content as Chapter1, frontmatter as ch1Frontmatter } from "@/pages/misunderstood/content/chapters/01_Again.mdx"
+import { Content as Chapter2, frontmatter as ch2Frontmatter } from "@/pages/misunderstood/content/chapters/02_Hungry.mdx"
+import { Content as Chapter3, frontmatter as ch3Frontmatter } from "@/pages/misunderstood/content/chapters/03_Afraid.mdx"
+import { Content as Chapter4, frontmatter as ch4Frontmatter } from "@/pages/misunderstood/content/chapters/04_Reflections.mdx"
+import { Content as Chapter5, frontmatter as ch5Frontmatter } from "@/pages/misunderstood/content/chapters/05_Honesty.mdx"
+import { Content as Chapter6, frontmatter as ch6Frontmatter } from "@/pages/misunderstood/content/chapters/06_Necessary.mdx"
+
+const Chapters = [
+    {
+        Content: Chapter1,
+        id: ch1Frontmatter.id,
+        href: ch1Frontmatter.href,
+        text: ch1Frontmatter.text,
+        chapter: ch1Frontmatter.chapter
+    },
+    {
+        Content: Chapter2,
+        id: ch2Frontmatter.id,
+        href: ch2Frontmatter.href,
+        text: ch2Frontmatter.text,
+        chapter: ch2Frontmatter.chapter
+    },
+    {
+        Content: Chapter3,
+        id: ch3Frontmatter.id,
+        href: ch3Frontmatter.href,
+        text: ch3Frontmatter.text,
+        chapter: ch3Frontmatter.chapter
+    },
+    {
+        Content: Chapter2,
+        id: ch4Frontmatter.id,
+        href: ch4Frontmatter.href,
+        text: ch4Frontmatter.text,
+        chapter: ch4Frontmatter.chapter
+    },
+    {
+        Content: Chapter5,
+        id: ch5Frontmatter.id,
+        href: ch5Frontmatter.href,
+        text: ch5Frontmatter.text,
+        chapter: ch5Frontmatter.chapter
+    },
+    {
+        Content: Chapter6,
+        id: ch6Frontmatter.id,
+        href: ch6Frontmatter.href,
+        text: ch6Frontmatter.text,
+        chapter: ch6Frontmatter.chapter
+    }
+]
+
 ---
 
 <UnstyledLayout headTitle={headTitle} bodyClasses="bg-[url(https://cdn.bravegrumpy.com/AO3Styles/images/topography/topography_brown.png)] bg-background">
-    <div class="bg-violet-100/40 w-full lg:w-[110ch] mx-auto">
-        <header class="bg-violet-600 text-indigo-50 md:w-[80ch] mx-auto px-10 pt-2">
+    <div class="bg-violet-100/40 w-full lg:w-[120ch] mx-auto">
+        <header class="bg-violet-600 text-indigo-50 md:w-[110ch] mx-auto">
             <div class="bg-lime-950 p-4">
-                <Navigation client:load id="main-nav" >
+                <Navigation client:load id="main-nav" className="flex flex-row flex-wrap gap-1 content-between " >
                     {
-                        mainLinks.map((link) => <Anchor href={link.href} keyId={`LinkId_${link.key}`} text={link.text} />)
+                        mainLinks.map((link) => <Anchor href={link.href} keyId={`LinkId_${link.key}`} text={link.text} className="hover:bg-green-200 text-xl font-[Delius] odd:bg-green-300 py-2 text-neutral-800 even:bg-emerald-300 px-4" />)
                     }
                 </Navigation>
             </div>
+            <div class="bg-black/0">
+            <h1 class="font-[Style_Script] text-8xl mx-auto py-5 text-indigo-300 w-fit">Misunderstood</h1>
+            </div>
+            <div class="mx-auto w-fit">
+                <StyleToggle client:load className="mx-auto text-xl hover:text-2xl bg-slate-400 px-10 py-2 font-[Delius] font-bold border-8 border-solid border-slate-500 text-slate-600" />
+            </div>
+            <div class="flex flex-row flex-wrap gap-5 py-5 pl-13 h-fit" id="top-nav">
+                {
+                    secondaryLinks.map((link) => (<>
+                        <Anchor href={link.href} className="w-[15ch] even:bg-emerald-300 odd:bg-green-300 py-1 text-center px-5 text-neutral-800 text-xl font-[Delius] align-middle border-2 border-solid hover:bg-green-200 border-neutral-800" text={link.text} keyId={link.key} />
+                    </>))
+                }
+            </div>    
         </header>
+        <main class="w-[110ch] mx-auto flex flex-col gap-0 ">
+            <ChapterNav client:load chapters={Chapters} navClass="px-20 w-[110ch] odd:bg-violet-50 even:bg-green-50 flex flex-row flex-wrap justify-start gap-2 py-5 mx-auto" chapterClass="odd:bg-green-300 even:bg-emerald-300 px-5 py-2 text-lg font-[Delius]" />
+            <hr class="border-transparent h-10 bg-linear-[to_top,var(--color-section-100)_0%,var(--color-section-200)_30%,var(--color-section-300)_50%,var(--color-section-400)_100%] sticky top-0" />
+            {
+                Chapters.map((Chapter) => { 
+                    const Content = Chapter.Content;
+                    return (<>
+                    <div id={Chapter.id} class="font-[Recursive] odd:bg-violet-50 even:bg-green-50 px-20">
+                        <h2 class="font-[Style_Script] text-3xl py-5">Chapter {Chapter.chapter}: {Chapter.text}</h2>
+                        <Content />
+                        <hr class="border-transparent h-10 bg-linear-[to_top,var(--color-section-100)_0%,var(--color-section-200)_30%,var(--color-section-300)_50%,var(--color-section-400)_100%] w-[99ch] -ml-20 sticky bottom-0" />
+                    </div>
+                    </>)
+                })
+            }
+        </main>
     </div>
 </UnstyledLayout>
