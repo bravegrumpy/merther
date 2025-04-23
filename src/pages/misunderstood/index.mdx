@@ -4,6 +4,7 @@ layout: "@/layouts/Layout.astro"
 pageTitle: "Misunderstood"
 headTitle: "Misunderstood | Merther"
 author: "Bravegrumpy"
+bottomInitialDisplay: 'none'
 ---
 import { Navigation, Anchor } from "@/components/react/Navigation";
 import { secondaryLinks } from "@/scripts/data";
@@ -20,7 +21,7 @@ All choices have the same content, only the styling is different.
 
 When I say the same, I mean that all of the conent is pulled from the same files. The _only_ difference is in the style system.
 
-<Navigation>
+<Navigation id="top">
     {
         secondaryLinks.map((link) =>
             <Anchor href={link.href} text={link.text} />

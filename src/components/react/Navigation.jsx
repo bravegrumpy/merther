@@ -1,9 +1,9 @@
 import { mainLinks } from "@/scripts/data"
 
-export function Navigation ({ className="menu-container pages-container", id, line=false, children }) {
+export function Navigation ({ className="menu-container pages-container", id, line=false, displayStyle="flex", children}) {
     return (
         <>
-            <nav className={className} id={id ? id : ""} style={{ marginBottom: "60px", marginLeft:'50px', width: "100%"}}>
+            <nav className={className} id={id ? id : ""} style={{ marginBottom: "60px", marginLeft:'50px', width: "100%", display: displayStyle}}>
                 {
                     line ? <hr style={{ marginLeft: '-90px'}} /> : <></>
                 }
@@ -44,16 +44,16 @@ export function Anchor({ href, className="menu pages", text, keyId }) {
 
 export const defaultLinks = mainLinks;
 
-export function StyleToggle({ buttonText="Toggle Styling Options", showText="Show Style Options", hideText="Hide Style Options" }) {
+export function StyleToggle({ buttonText="Toggle Styling Options", showText="Show Style Options", hideText="Hide Style Options", btnId="toggle", target='top-nav' }) {
     function toggleStyle() {
-        const nav = document.getElementById('top-nav');
-        const btn = document.getElementById('toggle');
+        const nav = document.getElementById(target);
+        const btn = document.getElementById(btnId);
         nav.style.display === 'none' ? nav.style.display = 'flex' : nav.style.display = 'none';
-        btn.innerText === showText ? btn.innerText = hideText : btn.innerText = showText;
+        nav.style.display === 'none' ? btn.innerText = showText : btn.innerText = hideText;
     }
     return (<>
-        <div slot="header" className="chnav-container menu-container" style={{justifyContent: "between", alignContent: "center"}}>
-            <button onClick={toggleStyle} id="toggle" className="chnav chnav-start chlist menu">{buttonText}</button>
-        </div>
+        {/* <div className="chnav-container menu-container" style={{justifyContent: "between", alignContent: "center"}}> */}
+            <button onClick={toggleStyle} id={btnId} className="chnav chnav-start chlist menu">{buttonText}</button>
+        {/* </div> */}
     </>);
 }

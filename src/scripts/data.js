@@ -30,7 +30,7 @@ const secondaryLinks = [
     {
         key: "01_Misunderstood_01_MH",
         href: "/misunderstood",
-        text: "Misunderstood Home"
+        text: "Misunderstood Index"
     },
     {
         key: "01_Misunderstood_02_NoStyling",

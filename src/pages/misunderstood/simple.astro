@@ -55,7 +55,9 @@ import Chapter6 from "@/pages/misunderstood/content/chapters/06_Necessary.mdx"
 import { StyleToggle } from "@/components/react/Navigation"
 ---
 <Layout secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy" bottomLine={true} >
-    <StyleToggle slot="header" client:only="react" />
+    <div slot="header">
+        <StyleToggle client:only="react" />
+    </div>
     <ChapterNav client:load chapters={chapters} />
     <hr class="section" />
         <Article>

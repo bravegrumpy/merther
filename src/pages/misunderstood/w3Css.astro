@@ -2,5 +2,9 @@
 import Layout from "@/layouts/Layout.astro"
 
 import { mainLinks, secondaryLinks } from "@/scripts/data"
+
+import { StyleToggle } from "@/components/react/Navigation"
 ---
-<Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks}></Layout>
+<Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks}>
+    <StyleToggle slot="header" client:load />
+</Layout>

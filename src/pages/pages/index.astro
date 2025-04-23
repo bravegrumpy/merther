@@ -3,14 +3,14 @@ import { Debug } from "astro:components";
 import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
-const author = "Bravegrumpy";
+const author = null;
 import { mainLinks } from "@/scripts/data.js";
 
 import Article from "@/components/Article.astro"
 
 import WorkList from "@/pages/pages/content/introduction.mdx"
 
-import Explicit from "@/pages/pages/content/explicit.mdx"
+import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
 
 ---
 

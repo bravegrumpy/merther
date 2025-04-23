@@ -1,5 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import { secondaryLinks } from "@/scripts/data";
+
+import { StyleToggle } from "@/components/react/Navigation";
 ---
-<Layout secondaryLinks={secondaryLinks}/>
+<Layout secondaryLinks={secondaryLinks}>
+    <StyleToggle slot="header" client:load />
+</Layout>
