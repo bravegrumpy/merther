@@ -11,7 +11,6 @@
   "dependencies": {
     "@astrojs/mdx": "^4.2.4",
     "@astrojs/react": "^4.2.4",
-    "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/svelte": "^7.0.10",
     "@fontsource-variable/recursive": "^5.2.5",
@@ -36,8 +35,8 @@
     "astro": "^5.7.4",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
+    "astro-pdf": "^1.7.2",
     "dayjs": "^1.11.13",
-    "markdown-it": "^14.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "rehype-autolink-headings": "^7.1.0",
@@ -47,7 +46,6 @@
     "remark-definition-list": "^2.0.0",
     "remark-rehype": "^11.1.1",
     "remark-toc": "^9.0.0",
-    "sanitize-html": "^2.16.0",
     "svelte": "^5.25.3",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.2"

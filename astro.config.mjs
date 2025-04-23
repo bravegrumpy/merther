@@ -27,6 +27,8 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
+import pdf from 'astro-pdf';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -53,7 +55,17 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte()],
+  }), svelte(), pdf({
+    pages:  {
+      '/misunderstood/simple': {
+        throwOnFail: true,
+        pdf: {
+          format: 'LETTER',
+          printBackground: false
+        }
+      }
+    }
+  })],
 
   vite: {
     plugins: [tailwindcss()]
