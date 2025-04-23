@@ -1,6 +1,9 @@
 ---
 import "@/styles/main.css";
-import favicon from "@/assets/images/favicon.png"
+// import favicon from "@/assets/images/favicon.png"
+const favicon = {
+    src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png"
+}
 import dayjs from 'dayjs';
 
 const today = dayjs();
@@ -44,7 +47,7 @@ import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@f
 		<meta name="generator" content={Astro.generator} />
 		<meta name="keywords" content="fanfiction, writing, smut, pornography, noncon, darkfic">
 		<meta name="description" content="Erotic Fanfiction of BBC Merlin">
-		<link rel="icon" href={favicon.src}>
+		<link rel="icon" href={favicon.src} />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<title>{headTitle}</title>
         <style is:global>
