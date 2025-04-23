@@ -25,9 +25,12 @@ import react from '@astrojs/react';
 
 import svelte from '@astrojs/svelte';
 
+import tailwindcss from '@tailwindcss/vite';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
+
   markdown: {
     shikiConfig: {
       themes: {
@@ -42,11 +45,17 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, {behavior: "prepend"}], [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
   },
+
   prefetch: {
     defaultStrategy: 'viewport'
   },
+
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte()]
+  }), svelte()],
+
+  vite: {
+    plugins: [tailwindcss()]
+  }
 });

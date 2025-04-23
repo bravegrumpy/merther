@@ -2,149 +2,227 @@
 import "@/styles/main.css";
 // import favicon from "@/assets/images/favicon.png"
 const favicon = {
-    src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png"
-}
-import dayjs from 'dayjs';
+  src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
+};
+import dayjs from "dayjs";
+
+import UnstyledLayout from "./UnstyledLayout.astro";
 
 const today = dayjs();
 
 import { Icon } from "astro-icon/components";
 
-import { Navigation, Anchor, defaultLinks } from "@/components/react/Navigation";
+import {
+  Navigation,
+  Anchor,
+  defaultLinks,
+} from "@/components/react/Navigation";
 
-let { 
-    headTitle='Merther', 
-    pageTitle="Merther Fanfiction", 
-    author="BraveGrumpy", 
-    link=false, 
-    frontmatter, 
-    mainLinks = defaultLinks,
-    secondaryLinks,
-    topLine = false,
-    bottomLine = true,
-    topInitialDisplay = 'flex',
-    bottomInitialDisplay = 'none'
+let {
+  headTitle = "Merther",
+  pageTitle = "Merther Fanfiction",
+  author = "BraveGrumpy",
+  link = false,
+  frontmatter,
+  mainLinks = defaultLinks,
+  secondaryLinks,
+  topLine = false,
+  bottomLine = true,
+  topInitialDisplay = "flex",
+  bottomInitialDisplay = "none",
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
 pageTitle = frontmatter ? frontmatter.pageTitle : pageTitle;
 author = frontmatter ? frontmatter.author : author;
 link = frontmatter ? frontmatter.link : link;
-mainLinks = frontmatter ? frontmatter.mainLinks ? frontmatter.mainLinks : mainLinks : mainLinks;
-secondaryLinks = frontmatter ? frontmatter.secondaryLinks ? frontmatter.secondaryLinks : secondaryLinks : secondaryLinks;
+mainLinks = frontmatter
+  ? frontmatter.mainLinks
+    ? frontmatter.mainLinks
+    : mainLinks
+  : mainLinks;
+secondaryLinks = frontmatter
+  ? frontmatter.secondaryLinks
+    ? frontmatter.secondaryLinks
+    : secondaryLinks
+  : secondaryLinks;
 topLine = frontmatter ? frontmatter.topLine : topLine;
 bottomLine = frontmatter ? frontmatter.bottomLine : bottomLine;
-topInitialDisplay = frontmatter ? frontmatter.topInitialDisplay ? frontmatter.topInitialDisplay : topInitialDisplay : topInitialDisplay;
-bottomInitialDisplay = frontmatter ? frontmatter.bottomInitialDisplay ? frontmatter.bottomInitialDisplay : bottomInitialDisplay : bottomInitialDisplay;
+topInitialDisplay = frontmatter
+  ? frontmatter.topInitialDisplay
+    ? frontmatter.topInitialDisplay
+    : topInitialDisplay
+  : topInitialDisplay;
+bottomInitialDisplay = frontmatter
+  ? frontmatter.bottomInitialDisplay
+    ? frontmatter.bottomInitialDisplay
+    : bottomInitialDisplay
+  : bottomInitialDisplay;
 
-import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script";
+import "@fontsource/delius";
+import "@fontsource-variable/recursive";
+import "@fontsource/style-script";
 ---
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="keywords" content="fanfiction, writing, smut, pornography, noncon, darkfic">
-		<meta name="description" content="Erotic Fanfiction of BBC Merlin">
-		<link rel="icon" href={favicon.src} />
-		<link rel="sitemap" href="/sitemap-index.xml" />
-		<title>{headTitle}</title>
-        <style is:global>
-            *, body {
-                font-family: 'Recursive';
-            }
 
-            main {
-                font-family: "Recursive";
-            }
-            p {
-                font-family: "Recursive"
-            }
-        </style>
-        <style>
-            .tmp-container {
-                justify-content: center;
-            }
-            .pages-container {
-                margin-bottom: 60px;
-            }
-            .tmp {
-                font-size: 1.5rem;
-                width: 40ch;
-                height: fit-content;
-            }
-            .fake-btn:hover {
-                opacity: 50%;
-            }
-            .text-gradient {
-                text-align: center;
-                width: 100%;
-            }
-            h2 {
-                font-size: 1.9rem;
-            }
-            .return {
-                color: blue;
-                text-decoration: underline;
-                cursor: pointer;
-            }
-            .back-to-top:hover {
-                height: fit-content;
-                scale: 105%;
-            }
-        </style>
-	</head>
-	<body>
-		<header>
-            {
-                mainLinks ? 
-                    <Navigation id="main-nav" line={topLine} displayStyle={topInitialDisplay}>{
-                        mainLinks.map((link: any) => <Anchor keyId={link.key} href={link.href} text={link.text} />)}</Navigation> :
-                    <p></p>
-            }
-		    <h1 class="text-gradient text-center">{pageTitle}</h1>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", paddingBottom: "20px"}}>
-                { author ? <p class="byline" style={{ display: "inline", width: "fit-content"}}>Written by {link ? <a href={`${link}`} target="_blank">{author}</a> : author}</p> : <slot name="author" />}
-                <slot name="header" />
-            </div>
-            {
-                secondaryLinks
-                ? <Navigation id="top-nav" line={bottomLine} displayStyle={bottomInitialDisplay}>
-                    {
-                        secondaryLinks.map(
-                            (link: any) => <Anchor keyId={`secondary_key_${link.key}`} href={link.href} text={link.text} />
-                        )
-                    }
-                </Navigation>
-                : ""
-
-            }
-		</header>
-        <main>
-            <hr class="section start">
-            <slot>
-                <article>
-                    <h2 class="text-gradient">Under Construction</h2>
-                    <div id="under-construction">
-                        <p>Please hold while this page is building....</p>
-                        <p>A representative should get back to you with a completed page in 3 to 5 business weeks.</p>
-                        <p>If you don't feel like waiting, <span class="return" onclick="history.back()">go back to where you came from</span>.</p>
-                        <hr>
-                        <h3>Elevator music from the queue starts playing&hellip;<span></span></h3>
-                        <p style="text-align: center;"><Icon name="svg-spinners:bars-scale-middle" size={200} style="color: #2e045e12;" /></p>
-                        <nav class="menu-container chnav-container tmp-container">
-                            <button class="menu back-to-top chnav tmp" onclick="history.back()">Go back </button>
-                        </nav>
-                    </div>
-                </article>
-            </slot>
-            <hr class="section end">
-        </main>
-		<footer>
-			<p>Copyright &copy; {today.format('YYYY')} <a href="https://www.bravegrumpy.com" target="_blank">Bravegrumpy</a></p>
-			<p style="font-size: 0.85rem; width:35ch; text-align: center;">This is an unofficial fan site and is not affiliated with <em>BBC Merlin</em> or <abbr title="Organization for Transformative Works"><a href="https://transformativeworks.org" target="_blank">OTW</a></abbr></p>
-			<p>All Rights Reserved </p>
-		</footer>
-	</body>
-</
+<UnstyledLayout headTitle={headTitle} favicon={favicon}>
+  <style slot="head" is:global>
+    *,
+    body {
+      font-family: "Recursive";
+    }
+    main {
+      font-family: "Recursive";
+    }
+    p {
+      font-family: "Recursive";
+    }
+  </style>
+  <style slot="head1">
+    .tmp-container {
+      justify-content: center;
+    }
+    .pages-container {
+      margin-bottom: 60px;
+    }
+    .tmp {
+      font-size: 1.5rem;
+      width: 40ch;
+      height: fit-content;
+    }
+    .fake-btn:hover {
+      opacity: 50%;
+    }
+    .text-gradient {
+      text-align: center;
+      width: 100%;
+    }
+    h2 {
+      font-size: 1.9rem;
+    }
+    .return {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .back-to-top:hover {
+      height: fit-content;
+      scale: 105%;
+    }
+  </style>
+  <header>
+    {
+      mainLinks ? (
+        <Navigation
+          id="main-nav"
+          line={topLine}
+          displayStyle={topInitialDisplay}
+        >
+          {mainLinks.map((link: any) => (
+            <Anchor keyId={link.key} href={link.href} text={link.text} />
+          ))}
+        </Navigation>
+      ) : (
+        <p />
+      )
+    }
+    <h1 class="text-gradient text-center">{pageTitle}</h1>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        paddingBottom: "20px",
+      }}
+    >
+      {
+        author ? (
+          <p class="byline" style={{ display: "inline", width: "fit-content" }}>
+            Written by{" "}
+            {link ? (
+              <a href={`${link}`} target="_blank">
+                {author}
+              </a>
+            ) : (
+              author
+            )}
+          </p>
+        ) : (
+          <slot name="author" />
+        )
+      }
+      <slot name="header" />
+    </div>
+    {
+      secondaryLinks ? (
+        <Navigation
+          id="top-nav"
+          line={bottomLine}
+          displayStyle={bottomInitialDisplay}
+        >
+          {secondaryLinks.map((link: any) => (
+            <Anchor
+              keyId={`secondary_key_${link.key}`}
+              href={link.href}
+              text={link.text}
+            />
+          ))}
+        </Navigation>
+      ) : (
+        ""
+      )
+    }
+  </header>
+  <main>
+    <hr class="section start" />
+    <slot>
+      <article>
+        <h2 class="text-gradient">Under Construction</h2>
+        <div id="under-construction">
+          <p>Please hold while this page is building....</p>
+          <p>
+            A representative should get back to you with a completed page in 3
+            to 5 business weeks.
+          </p>
+          <p>
+            If you don't feel like waiting, <span
+              class="return"
+              onclick="history.back()">go back to where you came from</span
+            >.
+          </p>
+          <hr />
+          <h3>
+            Elevator music from the queue starts playing&hellip;<span></span>
+          </h3>
+          <p style="text-align: center;">
+            <Icon
+              name="svg-spinners:bars-scale-middle"
+              size={200}
+              style="color: #2e045e12;"
+            />
+          </p>
+          <nav class="menu-container chnav-container tmp-container">
+            <button class="menu back-to-top chnav tmp" onclick="history.back()"
+              >Go back
+            </button>
+          </nav>
+        </div>
+      </article>
+    </slot>
+    <hr class="section end" />
+  </main>
+  <footer>
+    <p>
+      Copyright &copy; {today.format("YYYY")}
+      <a href="https://www.bravegrumpy.com" target="_blank">Bravegrumpy</a>
+    </p>
+    <p style="font-size: 0.85rem; width:35ch; text-align: center;">
+      This is an unofficial fan site and is not affiliated with <em
+        >BBC Merlin</em
+      > or <abbr title="Organization for Transformative Works"
+        ><a href="https://transformativeworks.org" target="_blank">OTW</a></abbr
+      >
+    </p>
+    <p>All Rights Reserved</p>
+  </footer>
+</UnstyledLayout>

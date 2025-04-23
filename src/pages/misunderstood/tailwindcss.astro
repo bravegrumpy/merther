@@ -1,9 +1,24 @@
 ---
-import Layout from "@/layouts/Layout.astro"
-import { secondaryLinks } from "@/scripts/data";
+import "@/styles/global.css"
+import UnstyledLayout from "@/layouts/UnstyledLayout.astro";
+import { mainLinks, secondaryLinks } from "@/scripts/data";
+import { Navigation, Anchor, StyleToggle } from "@/components/react/Navigation";
 
-import { StyleToggle } from "@/components/react/Navigation";
+import "@fontsource/delius"; import "@fontsource-variable/recursive"; import "@fontsource/style-script"
+
+const headTitle = "Misunderstood | Merther"
 ---
-<Layout secondaryLinks={secondaryLinks}>
-    <StyleToggle slot="header" client:load />
-</Layout>
+
+<UnstyledLayout headTitle={headTitle} bodyClasses="bg-[url(https://cdn.bravegrumpy.com/AO3Styles/images/topography/topography_brown.png)] bg-background">
+    <div class="bg-violet-100/40 w-full lg:w-[110ch] mx-auto">
+        <header class="bg-violet-600 text-indigo-50 md:w-[80ch] mx-auto px-10 pt-2">
+            <div class="bg-lime-950 p-4">
+                <Navigation client:load id="main-nav" >
+                    {
+                        mainLinks.map((link) => <Anchor href={link.href} keyId={`LinkId_${link.key}`} text={link.text} />)
+                    }
+                </Navigation>
+            </div>
+        </header>
+    </div>
+</UnstyledLayout>
