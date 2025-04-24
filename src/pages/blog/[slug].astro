@@ -1,0 +1,40 @@
+---
+import BlogLayout from "@/layouts/BlogLayout.astro"
+import { XataClient } from "@/xata";
+
+export async function getStaticPaths() {
+    const xata = new XataClient({
+        apiKey: import.meta.env.XATA_API_KEY,
+        branch: import.meta.env.XATA_BRANCH
+    });
+    const posts = await xata.db.posts.getAll();
+    const routes = posts.map(({ slug, title, text, created_at}) => {
+        return {
+            params: { slug },
+            props: { title, text, created_at, }
+        }
+    });
+    return routes;
+}
+
+const { slug } = Astro.params;
+const post = Astro.props
+
+---
+
+<BlogLayout title={post.title}>
+    <div class="w-full max-w-5xl mt-16">
+        <p class="mb-2">
+            <a href="/blog" class="text-purple-600">
+                &larr; Back to blog;
+            </a>
+        </p>
+
+        <h1 class="text-3xl mb-2">{post?.title}</h1>
+        <p>Current location: {slug}</p>
+        <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
+            {post?.created_at}
+        </p>
+        <p class="text-xl">{post.title}</p>
+    </div>
+</BlogLayout>

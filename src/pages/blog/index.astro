@@ -1,25 +1,38 @@
 ---
-import { XataClient } from "@/xata";
+import BlogLayout from '@/layouts/BlogLayout.astro';
+
+import { XataClient } from '@/xata';
 
 const xata = new XataClient({
-    apiKey: import.meta.env.XATA_API_KEY,
-    branch: import.meta.env.XATA_BRANCH
+  apiKey: import.meta.env.XATA_API_KEY,
+  branch: import.meta.env.XATA_BRANCH
 });
 
-const { records } = await xata.db.posts.getPaginated({
-    pagination: {
-        size: 50
-    }
-})
+let posts = await xata.db.posts.getAll();
 ---
-<!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8" />
-    </head>
-    <ul>
-        {records.map((post) => (
-            <li>{post.title}</li>
-        ))}
-    </ul>
-</html>
+
+<BlogLayout title="Get started with Xata and Astro">
+
+  <div class="w-full max-w-5xl mt-16">
+    {posts.length === 0 && <p>No blog posts found</p>}
+    {posts.map((posts) => (
+      <div class="mb-16">
+        <p class="text-xs mb-2 text-purple-950 dark:text-purple-200">
+          {posts.created_at}
+        </p>
+        <h2 class="text-2xl mb-2">
+          <a href={`/blog/${posts.slug}`}>{posts.title}</a>
+        </h2>
+        <p class="text-purple-950 dark:text-purple-200 mb-5">
+          {posts.title}
+        </p>
+        <a
+          href={`blog/${posts.slug}`}
+          class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
+        >
+          Read more &rarr;
+        </a>
+      </div>
+    ))}
+  </div>
+</BlogLayout>
