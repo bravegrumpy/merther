@@ -14,9 +14,7 @@ export async function GET(context){
         items: misunderstood.map((chapter) => ({
             title: chapter.data.title,
             link: `/misunderstood/simple/${chapter.id}/`,
-            content: sanitizeHtml(parser.render(chapter.body), {
-                allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-            }),
+            content: sanitizeHtml(parser.render(chapter.body)),
         })),
         customData: `<language>en-us</language>`,
     });
