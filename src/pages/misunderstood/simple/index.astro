@@ -11,106 +11,7 @@ const headTitle = "Misunderstood | Merther"
 
 import Article from "@/components/Article.astro";
 
-const chaptersOrg = [
-        {
-            id: "ch01",
-            href: "#ch01",
-            text: "Again"
-        },
-        {
-            id: "ch02",
-            href: "#ch02",
-            text: "Hungry"
-        },
-        {
-            id: "ch03",
-            href: "#ch03",
-            text: "Afraid"
-        },
-        {
-            id: "ch04",
-            href: "#ch04",
-            text: "Reflections"
-        },
-        {
-            id: "ch05",
-            href: "#ch05",
-            text: "Honesty"
-        },
-        {
-            id: "ch06",
-            href: "#ch06",
-            text: "Necessary"
-        },
-]
-
 import { Chapter, ChapterNav } from "@/components/react/Chapters"
-
-// import { Content as Chapter1, frontmatter as ch1frontmatter } from "@/misunderstood/chapters/01_Again.mdx"
-// import { Content as Chapter2, frontmatter as ch2frontmatter } from "@/misunderstood/chapters/02_Hungry.mdx"
-// import { Content as Chapter3, frontmatter as ch3frontmatter } from "@/misunderstood/chapters/03_Afraid.mdx"
-// import { Content as Chapter4, frontmatter as ch4frontmatter } from "@/misunderstood/chapters/04_Reflections.mdx"
-// import { Content as Chapter5, frontmatter as ch5frontmatter } from "@/misunderstood/chapters/05_Honesty.mdx"
-// import { Content as Chapter6, frontmatter as ch6frontmatter } from "@/misunderstood/chapters/06_Necessary.mdx"
-
-// const chapters = [
-//     {
-//         content: Chapter1,
-//         frontmatter: ch1frontmatter,
-//         id: ch1frontmatter.id,
-//         href: ch1frontmatter.href,
-//         text: ch1frontmatter.text,
-//         previous: '',
-//         next: ch2frontmatter.href
-
-
-//     }, 
-//     {
-//         content: Chapter2,
-//         frontmatter: ch2frontmatter,
-//         id: ch2frontmatter.id,
-//         href: ch2frontmatter.href,
-//         text: ch2frontmatter.text,
-//         previous: ch1frontmatter.href,
-//         next: ch3frontmatter.href
-//     }, 
-//     {
-//         content: Chapter3,
-//         frontmatter: ch3frontmatter,
-//         id: ch3frontmatter.id,
-//         href: ch3frontmatter.href,
-//         text: ch3frontmatter.text,
-//         previous: ch2frontmatter.href,
-//         next: ch4frontmatter.href
-//     }, 
-//     {
-//         content: Chapter4,
-//         frontmatter: ch4frontmatter,
-//         id: ch4frontmatter.id,
-//         href: ch4frontmatter.href,
-//         text: ch4frontmatter.text,
-//         previous: ch3frontmatter.href,
-//         next: ch5frontmatter.href
-//     }, 
-//     {
-//         content: Chapter5,
-//         frontmatter: ch5frontmatter,
-//         id: ch5frontmatter.id,
-//         href: ch5frontmatter.href,
-//         text: ch5frontmatter.text,
-//         previous: ch4frontmatter.href,
-//         next: ch6frontmatter.href
-//     }, 
-//     {
-//         content: Chapter6,
-//         frontmatter: ch6frontmatter,
-//         id: ch6frontmatter.id,
-//         href: ch6frontmatter.href,
-//         text: ch6frontmatter.text,
-//         previous: ch5frontmatter.href,
-//         next: ''
-//     }
-// ];
 
 import { StyleToggle } from "@/components/react/Navigation"
 
@@ -120,64 +21,13 @@ dayjs.extend(utc)
 
 import { getCollection, render } from "astro:content"
 
-const Misunderstood = await getCollection('misunderstood');
+const Misunderstood = await getCollection('misunderstood')
+
+Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
 
 const chapters = Misunderstood.map((ch) => ch.data);
 
 ---
-<!-- <Layout secondaryLinks={secondaryLinks} pageTitle={pageTitle} headTitle={headTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy" bottomLine={true} >
-    <div slot="header">
-        <StyleToggle client:only="react" />
-    </div>
-    <ChapterNav client:load chapters={chaptersOrg} />
-    <hr class="section" />
-    <Article>
-        <div class="chapter-preamble latest-chapter">
-            <h2 class="text-gradient" style="padding-left: 20px;">Latest Chapter:</h2>
-            <h3>
-                <a href="#ch06" style="color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';">Chapter 6: Necessary</a>
-            </h3>
-            <div></div>
-        </div>
-        <p class="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px </p>
-    </Article>
-    {
-        chapters.map((chapter) => {
-            const Content = chapter.content;
-            const previous = chapters[chapter.frontmatter.chapter - 2] ? chapters[chapter.frontmatter.chapter - 2].frontmatter.href : '';
-            const next = chapters[chapter.frontmatter.chapter] ? chapters[chapter.frontmatter.chapter].frontmatter.href : '';
-            const lastModified = dayjs(chapter.frontmatter.lastModified).utc();
-            const readingTime = chapter.frontmatter.minutesRead;
-            return(<>
-                <hr class="section" />
-                <Chapter articleId={chapter.frontmatter.id} chapterNameHeading={chapter.frontmatter.title} previousChapterSrc={previous} nextChapterSrc={next}>
-                    <div>
-                        <p><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('hh:mm a')}</p>
-                        <p><span class="notes">Reading Time:</span> {readingTime}</p>
-                    </div>
-                    <Content />
-                </Chapter>
-            </>);
-        })
-    }
-</Layout> -->
-
-<!-- <Layout headTitle={headTitle} pageTitle={pageTitle}>
-    <Navigation id="chapterNavLinks">
-        {
-            Misunderstood.map((chapter: any) => {
-                if (chapter.frontmatter.chapter === 0) {
-                    return (<></>)
-                } else {
-                    return(<>
-                        <Anchor href={chapter.url} keyId={`ChapterNav_${chapter.frontmatter.id}`} text={chapter.frontmatter.text} />
-                    </>);
-                }
-            })
-        }
-    </Navigation>
-</Layout> -->
-
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:load />
     <ChapterNav chapters={chapters} client:load/>
@@ -195,13 +45,19 @@ const chapters = Misunderstood.map((ch) => ch.data);
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);
-            const previous = '';
-            const next = ''
+            const previous = Misunderstood[chapter.data.chapter - 2] ? Misunderstood[chapter.data.chapter - 2].data.href : '';
+            const next = Misunderstood[chapter.data.chapter] ? Misunderstood[chapter.data.chapter].data.href : '';
             const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
             return (<>
-                <p>{JSON.stringify(remarkPluginFrontmatter)}</p>
-                <Content />
+                <hr class="section" />
+                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
+                    <div>
+                        <p><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('hh:mm a')}</p>
+                        <p><span class="notes">Reading Time:</span> {readingTime}</p>
+                    </div>
+                    <Content />
+                </Chapter>
             </>);
         })
     }
@@ -223,5 +79,17 @@ const chapters = Misunderstood.map((ch) => ch.data);
     .notes {
         font-family: "Delius";
         font-size: 1.2rem;
+    }
+    @media print {
+        .chapterStats, .text, .notes {
+            display: none;
+        }
+    }
+</style>
+<style is:global>
+    @media print {
+        .byline {
+            display: none;
+        }
     }
 </style>
