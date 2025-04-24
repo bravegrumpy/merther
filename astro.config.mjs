@@ -35,9 +35,6 @@ import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import node from '@astrojs/node';
-import awsAmplify from 'astro-aws-amplify';
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -108,11 +105,4 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-
-  // output: 'server',
-  // adapter: node({
-  //   mode: 'standalone',
-  // }),
-  output: 'server',
-  adapter: awsAmplify()
 });
