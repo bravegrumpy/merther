@@ -21,6 +21,9 @@ import remarkRehype from 'remark-rehype';
 
 import rehypeExternalLinks from 'rehype-external-links';
 
+import { remarkModifiedTime } from './remark-modified-time.mjs';
+import { remarkReadingTime } from './remark-reading-time.mjs';
+
 import react from '@astrojs/react';
 
 import svelte from '@astrojs/svelte';
@@ -48,9 +51,15 @@ export default defineConfig({
     remarkPlugins: [
       [remarkToc, {heading: 'Contents'}],
       remarkDefinitionList,
-      [remarkRehype, { handlers: { ...defListHastHandlers}}]
+      [remarkRehype, { handlers: { ...defListHastHandlers}}],
+      remarkModifiedTime,
+      remarkReadingTime
     ],
-    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, {behavior: "prepend"}], [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] ]
+    rehypePlugins: [
+      rehypeSlug, 
+      [rehypeAutolinkHeadings, {behavior: "prepend"}], 
+      [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] 
+    ]
   },
 
   prefetch: {

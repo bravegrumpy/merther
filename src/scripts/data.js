@@ -18,11 +18,6 @@ const mainLinks = [
         key: "03_Kinks",
         href: "/external/iron",
         text: "Kinks",
-    },
-    {
-        key: 'testing',
-        href: '/recaptchaTest',
-        text: 'Test'
     }
 ];
 
