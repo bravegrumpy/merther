@@ -35,7 +35,7 @@ import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import node from '@astrojs/node';
+import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
@@ -67,41 +67,52 @@ export default defineConfig({
     defaultStrategy: 'viewport'
   },
 
-  integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
-    include: ['**/react/*'],
-    experimentalReactChildren: true
-  }), svelte(), pdf({
-    pages:  {
-      '/misunderstood/print': {
-        throwOnFail: true,
-        pdf: {
-          format: 'Letter',
-          printBackground: false
-        }
-      },
-      '/misunderstood/simple': {
-        throwOnFail: true,
-        pdf: {
-          format: 'LETTER',
-          printBackground: false
-        }
-      },
-      "/misunderstood/simple/01_again": {
-        throwOnFail: true,
-        pdf: {
-          format: 'Letter',
-          printBackground: false
+  integrations: [
+    icon(), 
+    sitemap({
+      xslURL: "@/sitemap/sitemap-index.xsl"
+    }), 
+    pageInsight(), 
+    mdx(), 
+    react({
+      include: ['**/react/*'],
+      experimentalReactChildren: true
+    }), 
+    svelte(), 
+    pdf({
+      pages:  {
+        '/misunderstood/print': {
+          throwOnFail: true,
+          pdf: {
+            format: 'Letter',
+            printBackground: false
+          }
+        },
+        '/misunderstood/simple': {
+          throwOnFail: true,
+          pdf: {
+            format: 'LETTER',
+            printBackground: false
+          }
+        },
+        "/misunderstood/simple/01_again": {
+          throwOnFail: true,
+          pdf: {
+            format: 'Letter',
+            printBackground: false
+          }
         }
       }
-    }
-  }), aiRobotsTxt()],
+    }), 
+    aiRobotsTxt()
+  ],
 
   vite: {
     plugins: [tailwindcss()]
   },
 
-  output: 'static',
-  // adapter: node({
-  //   mode: 'standalone',
-  // }),
+  output: 'server',
+  adapter: node({
+    mode: 'standalone',
+  }),
 });
