@@ -34,12 +34,12 @@ import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import node from '@astrojs/node';
+import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
-  output:  'static',
+  output:  'server',
 
   markdown: {
     shikiConfig: {
@@ -99,7 +99,7 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  // adapter: node({
-  //   mode: 'standalone'
-  // })
+  adapter: node({
+    mode: 'standalone'
+  })
 });
