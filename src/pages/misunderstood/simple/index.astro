@@ -195,7 +195,9 @@ const chapters = Misunderstood.map((ch) => ch.data);
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);
-            const lastModiffied = remarkPluginFrontmatter.lastModified;
+            const previous = '';
+            const next = ''
+            const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
             return (<>
                 <p>{JSON.stringify(remarkPluginFrontmatter)}</p>
