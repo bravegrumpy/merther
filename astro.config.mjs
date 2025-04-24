@@ -31,11 +31,37 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
-import pdf from 'astro-pdf';
+// import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import vercel from '@astrojs/vercel';
+
+const pdfPagesOptions = {
+  pages: {
+    '/misunderstood/print': {
+      throwOnFail: true,
+      pdf: {
+        format: 'Letter',
+        printBackground: false
+      }
+    },
+    '/misunderstood/simple': {
+      throwOnFail: true,
+      pdf: {
+        format: 'LETTER',
+        printBackground: false
+      }
+    },
+    '/misunderstood/simple/01_again': {
+      throwOnFail: true,
+      pdf: {
+        format: 'LETTER',
+        printBackground: false
+      }
+    }
+  }
+};
 
 // https://astro.build/config
 export default defineConfig({
@@ -76,31 +102,6 @@ export default defineConfig({
       experimentalReactChildren: true
     }), 
     svelte(), 
-    pdf({
-      pages:  {
-        '/misunderstood/print': {
-          throwOnFail: true,
-          pdf: {
-            format: 'Letter',
-            printBackground: false
-          }
-        },
-        '/misunderstood/simple': {
-          throwOnFail: true,
-          pdf: {
-            format: 'LETTER',
-            printBackground: false
-          }
-        },
-        "/misunderstood/simple/01_again": {
-          throwOnFail: true,
-          pdf: {
-            format: 'Letter',
-            printBackground: false
-          }
-        }
-      }
-    }), 
     aiRobotsTxt()
   ],
 
@@ -108,5 +109,6 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
+  output: 'server',
   adapter: vercel(),
 });
