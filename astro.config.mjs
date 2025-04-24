@@ -69,9 +69,7 @@ export default defineConfig({
 
   integrations: [
     icon(), 
-    sitemap({
-      xslURL: "/sitemap/sitemap-index.xsl"
-    }), 
+    sitemap(), 
     pageInsight(), 
     mdx(), 
     react({
