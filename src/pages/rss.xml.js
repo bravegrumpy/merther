@@ -12,6 +12,9 @@ export async function GET(context) {
         description: 'A collection of Merlin fan works.',
         site: context.site,
         items: Misunderstood.map((chapter) => ({
+            id: chapter.data.id,
+            href: chapter.data.href,
+            chapter: chapter.data.chapter,
             title: chapter.data.title,
             pubDate: chapter.data.pubDate,
             published: chapter.data.published,
@@ -24,6 +27,6 @@ export async function GET(context) {
             }),
         })),
         customData: `<language>en-us</language>`,
-        // stylesheet: "/rss/styles.xsl"
+        stylesheet: "/rss/styles.xsl"
     })
 }

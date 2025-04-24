@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <xsl:template match="/">
         <html>
             <head>
@@ -20,8 +20,15 @@
                     </tr>
                     </xsl:for-each>
                 </table>
-                <h1><xsl:value-of select="rss/channel/title" /></h1>
-                <xsl:for-each select="rss/channel/item"></xsl:for-each>
+                <h1>
+                    <xsl:value-of select="rss/channel/title" />
+                </h1>
+                <xsl:for-each select="rss/channel/item">
+                    <div>
+                        <p>Publised on: <xsl:value-of select="pubDate"/></p>
+                        <xsl:value-of select="content:encoded" disable-output-escaping="yes" />
+                    </div>
+                </xsl:for-each>
             </body>
         </html>
     </xsl:template>
