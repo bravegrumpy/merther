@@ -18,6 +18,7 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='' } = Astro.props;
     <meta name="description" content="Erotic Fanfiction of BBC Merlin" />
     <link rel="icon" href={favicon.src} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
     <slot name="head" />
     <slot name="head1" />
