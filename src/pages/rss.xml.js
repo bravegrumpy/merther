@@ -22,7 +22,6 @@ export async function GET(context) {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
             }),
         })),
-        customData: `<language>en-us</language>`,
-        stylesheet: "@/styles/rss.xsl"
+        customData: `<language>en-us</language>`
     })
 }
