@@ -35,7 +35,7 @@ import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import node from '@astrojs/node';
+import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
@@ -108,8 +108,8 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  // output: 'static',
-  // adapter: node({
-  //   mode: 'standalone',
-  // }),
+  output: 'server',
+  adapter: node({
+    mode: 'standalone',
+  }),
 });
