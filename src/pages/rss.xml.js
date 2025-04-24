@@ -22,9 +22,9 @@ export async function GET(context) {
             chapter: chapter.data.chapter,
             text: chapter.data.text,
             link: `/misunderstood/simple/${chapter.id}/`,
-            content: sanitizeHtml(parser.render(chapter.body), {
-                allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-            }),
+            content: `<![CDATA[${sanitizeHtml(parser.render(chapter.body), {
+                allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'div']),
+            })}]]>`,
         })),
         customData: `<language>en-us</language>`,
         stylesheet: "/rss/styles.xsl"
