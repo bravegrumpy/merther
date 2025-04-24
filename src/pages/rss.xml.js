@@ -24,6 +24,6 @@ export async function GET(context) {
             }),
         })),
         customData: `<language>en-us</language>`,
-        stylesheet: "/rss/styles.xsl"
+        // stylesheet: "/rss/styles.xsl"
     })
 }
