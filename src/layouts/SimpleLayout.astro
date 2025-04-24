@@ -9,7 +9,10 @@ import { StyleToggle } from "@/components/react/Navigation";
 
 import { ChapterNav, Chapter } from "@/components/react/Chapters";
 
-const rawChapters = import.meta.glob('@/pages/misunderstood/content/chapters/*.{md,mdx}', { eager: true})
+import { render, getCollection } from "astro:content";
+
+const rawChapters = import.meta.glob('@/misunderstood/chapters/*.{md,mdx}', { eager: true})
+
 const Misunderstood: any = Object.values(rawChapters)
 
 let chapters = new Array();
