@@ -15,6 +15,8 @@ export async function GET(context) {
             pubDate: chapter.data.pubDate,
             published: chapter.data.published,
             description: chapter.data.description,
+            chapter: chapter.data.chapter,
+            text: chapter.data.text,
             link: `/misunderstood/simple/${chapter.id}/`,
             content: sanitizeHtml(parser.render(chapter.body), {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
