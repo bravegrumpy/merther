@@ -2,7 +2,11 @@
 import Layout from "@/layouts/Layout.astro"
 import { secondaryLinks } from "@/scripts/data";
 
-import Chapter1 from "@/pages/misunderstood/content/chapters/01_Again.mdx";
+import { render, getCollection } from "astro:content"
+
+const Misunderstood = await getCollection('misunderstood');
+
+const { Content } = await render(Misunderstood[0])
 
  
 ---
@@ -10,7 +14,7 @@ import Chapter1 from "@/pages/misunderstood/content/chapters/01_Again.mdx";
     document.title = "Misunderstood | Merther"
 </script>
 <h1><a href="/misunderstood">Misunderstood</a></h1>
-<Chapter1 />
+<Content />
 
 <style>
     a {
