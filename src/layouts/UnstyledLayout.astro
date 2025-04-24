@@ -5,6 +5,7 @@ const icon = {
 const { headTitle = "Merther", favicon = icon, bodyClasses='' } = Astro.props;
 
 import Analytics from "@vercel/analytics/astro";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 ---
 
 <!doctype html>
@@ -23,6 +24,7 @@ import Analytics from "@vercel/analytics/astro";
     <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
     <Analytics />
+    <SpeedInsights />
     <slot name="head" />
   </head>
   <body class={bodyClasses}>

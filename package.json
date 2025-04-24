@@ -35,6 +35,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "@xata.io/cli": "^0.16.12",
     "@xata.io/client": "^0.30.1",
     "astro": "^5.7.4",
