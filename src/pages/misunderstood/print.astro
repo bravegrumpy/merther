@@ -1,27 +1,26 @@
 ---
-import Layout from "@/layouts/Layout.astro"
-import { secondaryLinks } from "@/scripts/data";
+import "@/styles/print.css"
+import UnstyledLayout from "@/layouts/UnstyledLayout.astro"
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+const headTitle = "Misunderstood | Merther";
+const pageTitle = "Misunderstood";
 
-import { render, getCollection } from "astro:content"
+import { Debug } from "astro:components"
 
 const Misunderstood = await getCollection('misunderstood');
+Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
 
-const { Content } = await render(Misunderstood[0])
-
- 
 ---
-<script>
-    document.title = "Misunderstood | Merther"
-</script>
-<h1><a href="/misunderstood">Misunderstood</a></h1>
-<p>Hello</p>
-<style>
-    a {
-        color: black;
-        text-decoration: none;
+<UnstyledLayout headTitle={headTitle}>
+    <h1><a href="/misunderstood">{pageTitle}</a></h1>
+    {
+        Misunderstood.map(async (chapter) => {
+            const { Content, remarkPluginFrontmatter } = await render(chapter);
+            return(<>
+                <h2>{chapter.data.title}</h2>
+                <Content />
+            </>);
+        })
     }
-    body {
-        width: 90ch;
-        margin: 0px auto;
-    }
-</style>
+</UnstyledLayout>

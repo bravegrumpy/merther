@@ -4,11 +4,8 @@ import "@/styles/main.css";
 const favicon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
-import dayjs from "dayjs";
 
 import UnstyledLayout from "./UnstyledLayout.astro";
-
-const today = dayjs();
 
 import { Icon } from "astro-icon/components";
 
@@ -63,54 +60,56 @@ import "@fontsource/delius";
 import "@fontsource-variable/recursive";
 import "@fontsource/style-script";
 
-import { Footer } from "@/components/react/Components"
+import { Footer } from "@/components/react/Components";
 ---
 
 <UnstyledLayout headTitle={headTitle} favicon={favicon}>
-  <style slot="head" is:global>
-    *,
-    body {
-      font-family: "Recursive";
-    }
-    main {
-      font-family: "Recursive";
-    }
-    p {
-      font-family: "Recursive";
-    }
-  </style>
-  <style slot="head1">
-    .tmp-container {
-      justify-content: center;
-    }
-    .pages-container {
-      margin-bottom: 60px;
-    }
-    .tmp {
-      font-size: 1.5rem;
-      width: 40ch;
-      height: fit-content;
-    }
-    .fake-btn:hover {
-      opacity: 50%;
-    }
-    .text-gradient {
-      text-align: center;
-      width: 100%;
-    }
-    h2 {
-      font-size: 1.9rem;
-    }
-    .return {
-      color: blue;
-      text-decoration: underline;
-      cursor: pointer;
-    }
-    .back-to-top:hover {
-      height: fit-content;
-      scale: 105%;
-    }
-  </style>
+  <Fragment slot="head">
+    <style is:global>
+      *,
+      body {
+        font-family: "Recursive";
+      }
+      main {
+        font-family: "Recursive";
+      }
+      p {
+        font-family: "Recursive";
+      }
+    </style>
+    <style>
+      .tmp-container {
+        justify-content: center;
+      }
+      .pages-container {
+        margin-bottom: 60px;
+      }
+      .tmp {
+        font-size: 1.5rem;
+        width: 40ch;
+        height: fit-content;
+      }
+      .fake-btn:hover {
+        opacity: 50%;
+      }
+      .text-gradient {
+        text-align: center;
+        width: 100%;
+      }
+      h2 {
+        font-size: 1.9rem;
+      }
+      .return {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .back-to-top:hover {
+        height: fit-content;
+        scale: 105%;
+      }
+    </style>
+  </Fragment>
   <header>
     {
       mainLinks ? (

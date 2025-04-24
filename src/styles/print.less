@@ -1,0 +1,17 @@
+body {
+    width: 90ch;
+    margin: 0px auto;
+
+    h1 {
+        a {
+            color: currentColor;
+            text-decoration: none;
+            &:hover, &:focus, &:active {
+                color: blue;
+                text-decoration: underline;
+                text-decoration-thickness: 5px;
+                text-decoration-color: $color;
+            }
+        }
+    }
+}

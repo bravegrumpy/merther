@@ -21,7 +21,6 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='' } = Astro.props;
     <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
     <slot name="head" />
-    <slot name="head1" />
   </head>
   <body class={bodyClasses}>
     <slot />
