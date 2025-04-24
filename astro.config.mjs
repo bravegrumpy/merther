@@ -71,10 +71,24 @@ export default defineConfig({
     experimentalReactChildren: true
   }), svelte(), pdf({
     pages:  {
+      '/misunderstood/print': {
+        throwOnFail: true,
+        pdf: {
+          format: 'Letter',
+          printBackground: false
+        }
+      },
       '/misunderstood/simple': {
         throwOnFail: true,
         pdf: {
           format: 'LETTER',
+          printBackground: false
+        }
+      },
+      "/misunderstood/simple/01_again": {
+        throwOnFail: true,
+        pdf: {
+          format: 'Letter',
           printBackground: false
         }
       }
