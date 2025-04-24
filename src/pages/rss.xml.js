@@ -4,6 +4,8 @@ export function GET(context) {
     return rss({
         title: 'Merther Fanfic',
         description: 'A collection of Merlin fan works.',
-        site: context.site
+        site: context.site,
+        items: [],
+        customData: `<language>en-us</language>`,
     })
 }
