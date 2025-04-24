@@ -1,4 +1,4 @@
-const mainLinks = [
+export const mainLinks = [
     {
         key: "00_Home",
         href: "/pages",
@@ -18,10 +18,15 @@ const mainLinks = [
         key: "03_Kinks",
         href: "/external/iron",
         text: "Kinks",
+    },
+    {
+        key: "ZZ_Blog",
+        href:"/blog",
+        text: "Blog"
     }
 ];
 
-const secondaryLinks = [
+export const secondaryLinks = [
     {
         key: "01_Misunderstood_00_Home",
         href: "/pages",
@@ -64,4 +69,3 @@ const secondaryLinks = [
     },
 ];
 
-export { mainLinks, secondaryLinks }
