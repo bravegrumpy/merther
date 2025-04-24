@@ -7,9 +7,15 @@
         <body>
             <table border="1">
                 <tr bgcolor="#9acd32">
-                    <th>Chapter Number</th>
-                    <th>Chatper Title</th>
+                    <th>Number</th>
+                    <th>Title</th>
                 </tr>
+                <xsl:for-each select="chapter">
+                    <tr>
+                        <td><xsl:value-of select="chapter" /></td>
+                        <td><xsl:value-of select="text" /></td>
+                    </tr>
+                </xsl:for-each>
             </table>
         </body>
     </html>
