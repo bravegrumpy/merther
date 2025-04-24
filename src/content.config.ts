@@ -10,7 +10,9 @@ const misunderstood = defineCollection({
         text: z.string(),
         chapter: z.number(),
         title: z.string(),
-        tags: z.optional(z.array(z.string()))
+        tags: z.optional(z.array(z.string())),
+        pubDate: z.optional(z.date()),
+        published: z.boolean()
     })
 });
 
