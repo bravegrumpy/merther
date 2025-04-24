@@ -11,7 +11,8 @@ export async function GET(context) {
             title: chapter.data.title,
             pubDate: chapter.data.pubDate,
             published: chapter.data.published,
-            description: chapter.data.description
+            description: chapter.data.description,
+            link: `/misunderstood/simple/${chapter.id}`
         })),
         customData: `<language>en-us</language>`,
     })
