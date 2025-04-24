@@ -6,6 +6,7 @@ const parser = new MarkdownIt();
 
 export async function GET(context) {
     const Misunderstood = await getCollection('misunderstood');
+    Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
     return rss({
         title: 'Merther Fanfic',
         description: 'A collection of Merlin fan works.',
@@ -22,6 +23,7 @@ export async function GET(context) {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
             }),
         })),
-        customData: `<language>en-us</language>`
+        customData: `<language>en-us</language>`,
+        stylesheet: "/rss/styles.xsl"
     })
 }

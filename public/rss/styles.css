@@ -1,0 +1,15 @@
+body {
+    background-color: #88ccff;
+    color: #223300;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+table {
+    width: 90ch;
+    margin: 0px auto;
+}
+
+td {
+    background-color: #88aaee;
+}
