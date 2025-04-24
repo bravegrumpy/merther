@@ -28,7 +28,7 @@
                         <div class="chapter">
                             <h2><xsl:value-of select="title" /></h2>
                             <p>Published on: <xsl:value-of select="pubDate"/></p>
-                            <xsl:value-of select="content:encoded" />
+                            <xsl:value-of select="content:encoded" disable-output-escaping="yes" />
                         </div>
                     </xsl:for-each>
                 </div>
