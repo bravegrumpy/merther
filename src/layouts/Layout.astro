@@ -62,6 +62,8 @@ bottomInitialDisplay = frontmatter
 import "@fontsource/delius";
 import "@fontsource-variable/recursive";
 import "@fontsource/style-script";
+
+import { Footer } from "@/components/react/Components"
 ---
 
 <UnstyledLayout headTitle={headTitle} favicon={favicon}>
@@ -211,18 +213,5 @@ import "@fontsource/style-script";
     </slot>
     <hr class="section end" />
   </main>
-  <footer>
-    <p>
-      Copyright &copy; {today.format("YYYY")}
-      <a href="https://www.bravegrumpy.com" target="_blank">Bravegrumpy</a>
-    </p>
-    <p style="font-size: 0.85rem; width:35ch; text-align: center;">
-      This is an unofficial fan site and is not affiliated with <em
-        >BBC Merlin</em
-      > or <abbr title="Organization for Transformative Works"
-        ><a href="https://transformativeworks.org" target="_blank">OTW</a></abbr
-      >
-    </p>
-    <p>All Rights Reserved</p>
-  </footer>
+  <Footer />
 </UnstyledLayout>
