@@ -22,6 +22,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeExternalLinks from 'rehype-external-links';
 
 import { remarkModifiedTime } from './remark-modified-time.mjs';
+
 import { remarkReadingTime } from './remark-reading-time.mjs';
 
 import react from '@astrojs/react';
@@ -39,8 +40,6 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
-  output:  'static',
-
   markdown: {
     shikiConfig: {
       themes: {
