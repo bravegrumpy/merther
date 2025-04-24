@@ -20,6 +20,8 @@
                     </tr>
                     </xsl:for-each>
                 </table>
+                <h1><xsl:value-of select="rss/channel/title" /></h1>
+                <xsl:for-each select="rss/channel/item"></xsl:for-each>
             </body>
         </html>
     </xsl:template>
