@@ -21,12 +21,9 @@ export function getStaticPaths() {
 
 const { chapter } = Astro.params;
 
-const { Content } = await render(Misunderstood[0][0])
-
 ---
 
 <Layout>
     <Debug Misunderstood={Misunderstood} />
     <h1>{chapter}</h1>
-    <Content/>
 </Layout>
