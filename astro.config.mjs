@@ -108,7 +108,7 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  // output: 'static',
+  output: 'static',
   // adapter: node({
   //   mode: 'standalone',
   // }),
