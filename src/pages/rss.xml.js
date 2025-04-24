@@ -17,7 +17,6 @@ export async function GET(context){
             content: sanitizeHtml(parser.render(chapter.body), {
                 allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
             }),
-            ...chapter.data
         })),
         customData: `<language>en-us</language>`,
     });
