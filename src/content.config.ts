@@ -12,7 +12,10 @@ const misunderstood = defineCollection({
         title: z.string(),
         tags: z.optional(z.array(z.string())),
         pubDate: z.optional(z.date()),
-        published: z.boolean()
+        published: z.boolean(),
+        description: z.string(),
+        notes: z.optional(z.string()),
+        endnotes: z.optional(z.string())
     })
 });
 

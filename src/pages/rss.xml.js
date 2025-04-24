@@ -9,7 +9,9 @@ export async function GET(context) {
         site: context.site,
         items: Misunderstood.map((chapter) => ({
             title: chapter.data.title,
-            
+            pubDate: chapter.data.pubDate,
+            published: chapter.data.published,
+            description: chapter.data.description
         })),
         customData: `<language>en-us</language>`,
     })
