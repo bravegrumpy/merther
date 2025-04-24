@@ -40,6 +40,7 @@
     "astro-page-insight": "^0.10.1",
     "astro-pdf": "^1.7.2",
     "dayjs": "^1.11.13",
+    "markdown-it": "^14.1.0",
     "mdast-util-to-string": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -51,6 +52,7 @@
     "remark-definition-list": "^2.0.0",
     "remark-rehype": "^11.1.1",
     "remark-toc": "^9.0.0",
+    "sanitize-html": "^2.16.0",
     "svelte": "^5.25.3",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.2"
