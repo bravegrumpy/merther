@@ -31,35 +31,7 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
-import pdf from 'astro-pdf';
-
 import aiRobotsTxt from 'astro-ai-robots-txt';
-
-const pdfPagesOptions = {
-  pages: {
-    '/misunderstood/print': {
-      throwOnFail: true,
-      pdf: {
-        format: 'Letter',
-        printBackground: false
-      }
-    },
-    '/misunderstood/simple': {
-      throwOnFail: true,
-      pdf: {
-        format: 'LETTER',
-        printBackground: false
-      }
-    },
-    '/misunderstood/simple/01_again': {
-      throwOnFail: true,
-      pdf: {
-        format: 'LETTER',
-        printBackground: false
-      }
-    }
-  }
-};
 
 // https://astro.build/config
 export default defineConfig({
@@ -93,23 +65,6 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), pdf({
-    pages: {
-      "/misunderstood/print": {
-        throwOnFail: true,
-        pdf: {
-          format: 'letter',
-          printBackground: false
-        }
-      },
-      "/misunderstood/simple": {
-        throwOnFail: true,
-        pdf: {
-          format: "LETTER",
-          printBackground: false
-        }
-      }
-    }
   }), svelte(), aiRobotsTxt()],
 
   vite: {
