@@ -14,7 +14,10 @@ export async function getStaticPaths() {
         return {
             params: { slug: post.slug },
             props: {
-                post: post
+                post: {
+                    title: post.title,
+
+                }
             },
         }
     });
@@ -22,7 +25,7 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
-const { post }  = Astro.props;
+const { post }: { post: any}  = Astro.props;
 
 ---
 
