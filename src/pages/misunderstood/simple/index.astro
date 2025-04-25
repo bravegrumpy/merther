@@ -26,7 +26,6 @@ const Misunderstood = await getCollection('misunderstood')
 Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
 
 const chapters = Misunderstood.map((ch) => ch.data);
-
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:only="react" />
