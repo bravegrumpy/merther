@@ -23,7 +23,7 @@ export const mainLinks = [
         key: "ZZ_Auth",
         href:"/auth",
         text: "Test Auth"
-    // }
+    }
 ];
 
 export const secondaryLinks = [
