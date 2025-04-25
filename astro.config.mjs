@@ -62,10 +62,6 @@ export default defineConfig({
     ]
   },
 
-  prefetch: {
-    defaultStrategy: 'viewport'
-  },
-
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
