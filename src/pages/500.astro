@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro"
+const headTitle = "500 | Internal Error"
+const pageTitle = "Internal Error"
+const author = null
+
+interface Props {
+    error:  unknown
+}
+
+const { error } = Astro.props;
+---
+
+<Layout headTitle={headTitle} pageTitle={pageTitle} author={author}>
+    <h2>Error 500: {pageTitle} </h2>
+    <h3> The requested page { error instanceof Error ? error.message : 'has an internal error'}</h3>
+
+    <p>Check your url and try again.</p>
+    <p>Otherwise, you can hope that the scribes writing the stories will remember that htis page is supposed to exist</p>
+
+    <hr />
+
+    <h3>While you are waiting for the scribes to write cheesy calligraphy...</h3>
+    
+    <nav class="menu-container chnav-container">
+        <a class="menu chnav" onclick="history.back()">&leftarrow;Back</a>
+        <a class="menu chnav" href="/pages">Home</a>
+    </nav>
+</Layout>
