@@ -35,7 +35,7 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import pdf from 'astro-pdf';
 
-import { pdfPagesOptions } from '@/scripts/data';
+import { pdfPagesOptions } from './src/scripts/data';
 
 // https://astro.build/config
 export default defineConfig({
@@ -72,6 +72,20 @@ export default defineConfig({
   }), svelte(), aiRobotsTxt(), pdf({
     pages: {
       '/misunderstood/print': {
+        throwOnFail: false,
+        pdf: {
+          format: 'LETTER',
+          printBackground: true
+        }
+      },
+      "/misunderstood/simple": {
+        throwOnFail: false,
+        pdf: {
+          format: 'letter',
+          printBackground: true,
+        }
+      },
+      "/misunderstood/simple/01_again": {
         throwOnFail: false,
         pdf: {
           format: 'LETTER',
