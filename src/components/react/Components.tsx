@@ -1,5 +1,4 @@
 import dayjs from 'dayjs';
-
 export function Footer({ footerClass, copyrightClass, disclaimerClass }: { footerClass?: string, copyrightClass?: string, disclaimerClass?: string }) {
     const today = dayjs();
     return (<>
