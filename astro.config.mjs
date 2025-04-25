@@ -33,6 +33,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
+import pdf from 'astro-pdf';
+
+import { pdfPagesOptions } from '@/scripts/data';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -65,7 +69,17 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt()],
+  }), svelte(), aiRobotsTxt(), pdf({
+    pages: {
+      '/misunderstood/print': {
+        throwOnFail: false,
+        pdf: {
+          format: 'LETTER',
+          printBackground: true
+        }
+      }
+    }
+  })],
 
   vite: {
     plugins: [tailwindcss()]
