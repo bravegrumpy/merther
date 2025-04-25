@@ -24,21 +24,9 @@ export async function getStaticPaths() {
     return routes;
 }
 
-const xata = new XataClient({
-    apiKey: import.meta.env.XATA_API_KEY,
-    branch: import.meta.env.XATA_BRANCH
-});
-
 const { slug } = Astro.params;
+const post = Astro.props;
 
-const posts = await xata.db.posts.filter({ 'slug': slug }).getAll();
-
-const post = {
-    title: posts[0]?.title,
-    created_at: posts[0]?.created_at,
-    text: posts[0]?.text
-
-}
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 dayjs.extend(utc);
