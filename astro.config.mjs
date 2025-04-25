@@ -37,6 +37,8 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import node from '@astrojs/node';
 
+import auth from 'auth-astro';
+
 const pdfPagesOptions = {
   pages: {
     '/misunderstood/print': {
@@ -92,18 +94,10 @@ export default defineConfig({
     defaultStrategy: 'viewport'
   },
 
-  integrations: [
-    icon(), 
-    sitemap(), 
-    pageInsight(), 
-    mdx(), 
-    react({
-      include: ['**/react/*'],
-      experimentalReactChildren: true
-    }),
-    svelte(), 
-    aiRobotsTxt()
-  ],
+  integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
+    include: ['**/react/*'],
+    experimentalReactChildren: true
+  }), svelte(), aiRobotsTxt(), auth()],
 
   vite: {
     plugins: [tailwindcss()]
