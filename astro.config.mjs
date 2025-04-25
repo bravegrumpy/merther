@@ -65,7 +65,7 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt()]]
+  }), svelte(), aiRobotsTxt()],
 
   vite: {
     plugins: [tailwindcss()]
