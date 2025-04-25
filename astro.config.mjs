@@ -101,6 +101,13 @@ export default defineConfig({
           format: 'letter',
           printBackground: false
         }
+      },
+      "/misunderstood/simple": {
+        throwOnFail: true,
+        pdf: {
+          format: "LETTER",
+          printBackground: true
+        }
       }
     }
   }), svelte(), aiRobotsTxt()],
