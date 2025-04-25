@@ -5,20 +5,40 @@ import { XataClient } from "@/xata";
 export async function getStaticPaths() {
     const xata = new XataClient({
         apiKey: import.meta.env.XATA_API_KEY,
-        branch: import.meta.env.XATA_BRANCH
+        branch: import.meta.env.XATA_API_KEY
     });
+
     const posts = await xata.db.posts.getAll();
-    const routes = posts.map(({ slug, title, text, created_at}) => {
+
+    const routes: any = posts.map((post) => {
         return {
             params: { slug },
-            props: { title, text, created_at, }
+            props: {
+                title: post.title,
+                author: post.author,
+                text: post.text,
+                created_at: post.created_at,
+            },
         }
     });
     return routes;
 }
 
+const xata = new XataClient({
+    apiKey: import.meta.env.XATA_API_KEY,
+    branch: import.meta.env.XATA_BRANCH
+});
+
 const { slug } = Astro.params;
-const post = Astro.props
+
+const posts = await xata.db.posts.filter({ 'slug': slug }).getAll();
+
+const post = {
+    title: posts[0]?.title,
+    created_at: posts[0]?.created_at,
+    text: posts[0]?.text
+
+}
 
 ---
 
@@ -36,5 +56,6 @@ const post = Astro.props
             {post?.created_at}
         </p>
         <p class="text-xl">{post.title}</p>
+        <p>{post.text}</p>
     </div>
 </BlogLayout>
