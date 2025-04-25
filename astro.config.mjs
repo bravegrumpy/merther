@@ -101,6 +101,17 @@ export default defineConfig({
       include: ['**/react/*'],
       experimentalReactChildren: true
     }), 
+    pdf({
+      pages: {
+        '/misunderstood/print': {
+          throwOnFail: false,
+          pdf: {
+            format: 'LETTER',
+            printBackground: false,
+          }
+        }
+      }
+    }),
     svelte(), 
     aiRobotsTxt()
   ],
