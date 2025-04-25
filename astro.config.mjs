@@ -35,6 +35,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
+import node from '@astrojs/node';
+
 const pdfPagesOptions = {
   pages: {
     '/misunderstood/print': {
@@ -106,4 +108,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+
+  adapter: node({
+    mode: 'standalone'
+  })
 });
