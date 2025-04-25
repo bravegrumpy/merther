@@ -87,7 +87,7 @@ export default defineConfig({
         throwOnFail: false,
         pdf: {
           format: 'LETTER',
-          printBackground: true
+          printBackground: false
         }
       }
     }
