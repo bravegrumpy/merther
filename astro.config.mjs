@@ -35,8 +35,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-import vercel from '@astrojs/vercel';
-
 const pdfPagesOptions = {
   pages: {
     '/misunderstood/print': {
@@ -108,12 +106,4 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-
-  output: 'server',
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true
-    },
-    skewProtection: true
-  }),
 });
