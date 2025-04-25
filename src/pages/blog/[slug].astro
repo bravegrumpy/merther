@@ -14,10 +14,7 @@ export async function getStaticPaths() {
         return {
             params: { slug: post.slug },
             props: {
-                title: post.title,
-                author: post.author,
-                text: post.text,
-                created_at: post.created_at,
+                post: post
             },
         }
     });
