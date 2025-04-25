@@ -2,13 +2,13 @@
 layout: "@/layouts/Layout.astro"
 headTitle: "500 | Internal Error"
 pageTitle: "Internal Error"
-mainLinks: null
 author: null
 ---
 
-## Error 500: Internal Error
 
-### The requested page as an internal error
+## Error 500: {frontmatter.pageTitle}
+
+### The requested page { error.message ? error.message : 'has an internal error'}
 
 Check your url and try again.
 
