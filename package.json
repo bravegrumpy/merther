@@ -42,6 +42,7 @@
     "astro-ai-robots-txt": "^0.1.2",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
+    "astro-pdf": "^1.7.2",
     "dayjs": "^1.11.13",
     "markdown-it": "^14.1.0",
     "mdast-util-to-string": "^4.0.0",
