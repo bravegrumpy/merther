@@ -61,6 +61,8 @@
     "typescript": "^5.8.2"
   },
   "devDependencies": {
+    "@iconify-json/game-icons": "^1.2.1",
+    "@iconify-json/hugeicons": "^1.2.4",
     "@iconify-json/svg-spinners": "^1.2.2",
     "@tailwindcss/typography": "^0.5.16"
   }

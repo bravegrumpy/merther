@@ -1,6 +1,17 @@
 ---
 import BlogLayout from "@/layouts/BlogLayout.astro"
+import { Icon } from "astro-icon/components"
 import { XataClient } from "@/xata";
+
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc'
+import isToday from 'dayjs/plugin/isToday';
+import isYesterday from 'dayjs/plugin/isYesterday';
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(utc);
+dayjs.extend(isToday);
+dayjs.extend(isYesterday);
+dayjs.extend(advancedFormat)
 
 export async function getStaticPaths() {
     const xata = new XataClient({
@@ -27,4 +38,17 @@ const { post }: { post: any}  = Astro.props;
 ---
 
 <BlogLayout title={post.title}>
+    <div class="w-full max-w-5xl mt-16">
+        <p class="mb-2">
+            <a href="/blog" class="text-purple-600 hover:scale-105">
+            <Icon name="hugeicons:circle-arrow-left-01" width="28" height="28" class="inline pb-1"/> Back to blog
+            </a>
+        </p>
+
+        <h1 class="text-3xl mb-2">{post.title}</h1>
+        <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
+            {dayjs(post.created_at).isToday() ? 'Today' : dayjs(post.created_at).isYesterday() ? 'Yesterday' :  dayjs(post.created_At).format('dddd, MMMM Do YYYY')} at {dayjs(post.created_at).format('hh:mm a')}
+        </p>
+        <p class="text-xl">{post.text}</p>
+    </div>
 </BlogLayout>
