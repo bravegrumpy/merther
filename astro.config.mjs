@@ -37,6 +37,10 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
 
+  prefetch: {
+    defaultStrategy: 'viewport'
+  },
+
   markdown: {
     shikiConfig: {
       themes: {
