@@ -27,9 +27,6 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const { post }  = Astro.props;
 
-import dayjs from 'dayjs'
-import utc from 'dayjs/plugin/utc'
-dayjs.extend(utc);
 ---
 
 <BlogLayout title={post.title}>
