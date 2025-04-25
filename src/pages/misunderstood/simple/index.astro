@@ -27,7 +27,6 @@ Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
 
 const chapters = Misunderstood.map((ch) => ch.data);
 
-import { Button } from "@/components/react/ui/button"
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:only="react" />
@@ -39,9 +38,7 @@ import { Button } from "@/components/react/ui/button"
             <h3>
                 <a href="#ch06" style="color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';">Chapter 6: Necessary</a>
             </h3>
-            <div>
-                <Button variant='secondary'>Hello</Button>
-            </div>
+            <div></div>
          </div>
          <p class="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px </p>
     </Article>
