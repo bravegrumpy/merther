@@ -25,6 +25,12 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
     <title>{headTitle}</title>
     <Analytics />
     <SpeedInsights />
+    <script is:inline>
+      function speedInsightsBeforeSend(data) {
+        console.log("Speed Insights before send", data);
+        return data;
+      }
+    </script>
     <slot name="head" />
   </head>
   <body class={bodyClasses} style="visibility: hidden;">
