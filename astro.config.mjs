@@ -35,7 +35,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-import vercel from '@astrojs/vercel';
+// import vercel from '@astrojs/vercel';
 
 const pdfPagesOptions = {
   pages: {
@@ -109,10 +109,10 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  output: 'static',
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true
-    }
-  }),
+  // output: 'static',
+  // adapter: vercel({
+  //   webAnalytics: {
+  //     enabled: true
+  //   }
+  // }),
 });
