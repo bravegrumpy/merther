@@ -31,7 +31,7 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
-import pdf from 'astro-pdf';
+// import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
@@ -100,17 +100,6 @@ export default defineConfig({
     react({
       include: ['**/react/*'],
       experimentalReactChildren: true
-    }), 
-    pdf({
-      pages: {
-        '/misunderstood/print': {
-          throwOnFail: false,
-          pdf: {
-            format: 'LETTER',
-            printBackground: false,
-          }
-        }
-      }
     }),
     svelte(), 
     aiRobotsTxt()
