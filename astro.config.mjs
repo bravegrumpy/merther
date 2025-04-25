@@ -95,7 +95,7 @@ export default defineConfig({
     experimentalReactChildren: true
   }), pdf({
     pages: {
-      "/misunderstood/pdf": {
+      "/misunderstood/print": {
         throwOnFail: true,
         pdf: {
           format: 'letter',
