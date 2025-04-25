@@ -35,8 +35,6 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import pdf from 'astro-pdf';
 
-import { pdfPagesOptions } from './src/scripts/data';
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
