@@ -39,37 +39,10 @@ const post = {
     text: posts[0]?.text
 
 }
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+dayjs.extend(utc);
 ---
 
 <BlogLayout title={post.title}>
-    {
-        posts.map((post) => (<>
-            <div class="w-full max-w-5xl mt-16">
-                <p class="mb-2">
-                    <a href="/blog" class="text-purple-600">
-                        &larr; Back to blog;
-                    </a>
-                </p>
-
-                <h1 class="tet-3xl mb-2">{post.title}</h1>
-                <p class="text-sm mb-4">Current Location: {slug}</p>
-                <p class="text-sm mb-4 text-purple-950 dark:text-purple-200"></p>
-            </div>
-        </>))
-    }
-    <div class="w-full max-w-5xl mt-16">
-        <p class="mb-2">
-            <a href="/blog" class="text-purple-600">
-                &larr; Back to blog;
-            </a>
-        </p>
-
-        <h1 class="text-3xl mb-2">{post?.title}</h1>
-        <p>Current location: {slug}</p>
-        <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
-            {post?.created_at}
-        </p>
-        <p class="text-xl">{post.title}</p>
-        <p>{post.text}</p>
-    </div>
 </BlogLayout>
