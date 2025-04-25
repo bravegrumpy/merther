@@ -30,7 +30,7 @@ const chapters = Misunderstood.map((ch) => ch.data);
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:load />
-    <ChapterNav chapters={chapters} client:load/>
+    <ChapterNav chapters={chapters} client:only="react"/>
     <hr class="section" />
     <Article>
          <div class="chapter-preamble latest-chapter">
