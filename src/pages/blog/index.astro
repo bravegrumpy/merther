@@ -15,7 +15,6 @@ let posts = await xata.db.posts.getAll();
 
 <BlogLayout title="Get started with Xata and Astro">
   <div class="w-full max-w-5xl mt-16">
-    <Button variant='secondary' size="lg" >This is a button</Button>
     {posts.length === 0 && <p>No blog posts found</p>}
     {posts.map((post) => (
       <div class="mb-16">
