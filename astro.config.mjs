@@ -31,13 +31,9 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
-// import pdf from 'astro-pdf';
+import pdf from 'astro-pdf';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
-
-import node from '@astrojs/node';
-
-import auth from 'auth-astro';
 
 const pdfPagesOptions = {
   pages: {
@@ -97,14 +93,19 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), auth()],
+  }), pdf({
+    pages: {
+      "/misunderstood/pdf": {
+        throwOnFail: true,
+        pdf: {
+          format: 'letter',
+          printBackground: false
+        }
+      }
+    }
+  }), svelte(), aiRobotsTxt()],
 
   vite: {
     plugins: [tailwindcss()]
-  },
-
-  output: 'server',
-  adapter: node({
-    mode: 'standalone'
-  })
+  }
 });
