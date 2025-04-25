@@ -2,9 +2,9 @@
 const icon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
-const { headTitle = "Merther", favicon = icon, bodyClasses='' } = Astro.props;
+import img from "@/assets/images/favicon.png";
+const { headTitle = "Merther", favicon = img, bodyClasses='' } = Astro.props;
 
-// import Analytics from "@vercel/analytics/astro";
 ---
 
 <!doctype html>
@@ -22,13 +22,6 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='' } = Astro.props;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
-    <!-- <Analytics /> -->
-    <script is:inline>
-      function speedInsightsBeforeSend(data) {
-        console.log("Speed Insights before send", data);
-        return data;
-      }
-    </script>
     <slot name="head" />
   </head>
   <body class={bodyClasses} style="visibility: hidden;">
