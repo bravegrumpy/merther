@@ -42,7 +42,6 @@
     "astro-ai-robots-txt": "^0.1.2",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
-    "better-auth": "^1.2.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
