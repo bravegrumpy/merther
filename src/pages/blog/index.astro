@@ -1,7 +1,7 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
 
-import { Button } from "@/components/react/ui/button"
+// import { Button } from "@/components/react/ui/button"
 
 import { XataClient } from '@/xata';
 
@@ -25,7 +25,7 @@ let posts = await xata.db.posts.getAll();
           <a href={`/blog/${post.slug}`}>{post.title}</a>
         </h2>
         <p class="text-purple-950 dark:text-purple-200 mb-5">
-          By: {post.author.id}
+          By: {post.author.xata_id}
         </p>
         <a
           href={`blog/${post.slug}`}
