@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model chapter {
+  keyId       String   @id @db.Uuid
+  slug        String   @db.VarChar(255)
+  href        String   @db.VarChar(6)
+  text        String   @db.VarChar(255)
+  chapter     Int      @db.Integer
+  title       String   @db.VarChar()
+  pubDate     DateTime @db.Date
+  updated     DateTime @updatedAt
+  published   Boolean  @db.Boolean
+  description String?  @db.VarChar(255)
+  notes       String?  @db.VarChar(255)
+  endnotes    String?  @db.VarChar(255)
+  body        String   @db.Xml
+}
