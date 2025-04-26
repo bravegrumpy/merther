@@ -30,7 +30,7 @@ export function ChapterPreamble(
                 { previousChapterSrc ? <a className={anchorClass} href={previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p style={{backgroundColor: "transparent", width: "25ch", textAlign: "center", height: "37px", color: 'transparent'}}>{'\u2190'} Previous Chapter</p> }
                 { nextChapterSrc ? <a className={anchorClass} href={nextChapterSrc}>Next Chapter {'\u2192'}</a> : <p style={{backgroundColor: "transparent", width: "15ch", textAlign: "center", height: "37px", color: "transparent"}}>Next Chapter {'\u2192'}</p> }
                 <a className={anchorClass} href="#top">Back to top {'\u2191'}</a>
-                {lastChild}
+                <>{lastChild}</>
             </span>
             {preambleChildren}
         </>
@@ -49,7 +49,8 @@ export function Chapter({
     anchorClass='menu back-to-top chnav',
     chapterDivClass,
     articleClass,
-    preambleChildren
+    preambleChildren,
+    lastChild
 }: {
         articleId: string,
         chapterNameHeading?: string,
@@ -62,12 +63,13 @@ export function Chapter({
         anchorClass?: string,
         chapterDivClass?: string,
         articleClass?: string,
-        preambleChildren?: React.ReactNode
+        preambleChildren?: React.ReactNode,
+        lastChild?: React.ReactNode
     }){
     return(
         <>
             <article id={articleId} className={articleClass}>
-                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren}/>
+                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} lastChild={lastChild}/>
                 <div className={`chapter ${chapterDivClass}`}>
                     {children}
                 </div>
