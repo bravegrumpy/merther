@@ -34,6 +34,8 @@
     "@tailwindcss/vite": "^4.1.4",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@xata.io/cli": "^0.16.12",
+    "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
     "astro": "^5.7.4",
     "astro-ai-robots-txt": "^0.1.2",
     "astro-icon": "^1.1.5",

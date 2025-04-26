@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_61a0042e705fe1",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE _prisma_migrations (id varchar(36) PRIMARY KEY NOT NULL, checksum varchar(64) NOT NULL, finished_at timestamptz, migration_name varchar(255) NOT NULL, logs text, rolled_back_at timestamptz, started_at timestamptz NOT NULL DEFAULT now(), applied_steps_count int NOT NULL DEFAULT 0)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_61a0042e705fe1",
+  "parent": "sql_3cf0609ebf94c3",
+  "schema": "public",
+  "startedAt": "2025-04-26T01:19:57.944117Z"
+}

@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_57e28ab0c9d12b",
+    "operations": [
+      {
+        "sql": {
+          "up": "ALTER TABLE posts ADD CONSTRAINT fk_users FOREIGN KEY (author) REFERENCES users (xata_id)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_57e28ab0c9d12b",
+  "parent": "sql_3a9a04027e35d1",
+  "schema": "public",
+  "startedAt": "2025-04-26T01:10:31.696346Z"
+}

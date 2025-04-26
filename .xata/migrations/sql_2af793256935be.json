@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_2af793256935be",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE UNIQUE INDEX _pgroll_new_chapters_xata_id_key ON chapters USING btree (xata_id)"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_2af793256935be",
+  "parent": "sql_814a49ba2110dc",
+  "schema": "public",
+  "startedAt": "2025-04-26T01:10:30.963919Z"
+}
