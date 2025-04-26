@@ -72,7 +72,7 @@ const latestChapter = chapters.length - 1;
         <Banner />
     </Article>
     <hr class="section" />
-    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
+    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={`/misunderstood/simple/${previous}`} nextChapterSrc={`/misunderstood/simple/${next}`}>
         <div>
             <div class="chi">
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
@@ -85,11 +85,11 @@ const latestChapter = chapters.length - 1;
             <hr class="middle" />
             <div class="chapter-postnav">
                 {
-                    previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={previous} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
+                    previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple/${previous}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
                 }
                 <a href="#top" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
                 { 
-                    next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={next} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
+                    next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple/${next}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
                 }
             </div>
             <hr />
