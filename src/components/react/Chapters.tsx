@@ -9,6 +9,7 @@ export function ChapterPreamble(
         spanClass,
         headingClass,
         anchorClass='menu back-to-top chnav',
+        preambleChildren
      }: {
             chapterNameHeading?: string,
             previousChapterSrc?: string,
@@ -16,7 +17,8 @@ export function ChapterPreamble(
             headerChildren?: React.ReactNode,
             spanClass?:  string,
             headingClass?: string,
-            anchorClass?: string
+            anchorClass?: string,
+            preambleChildren?: React.ReactNode
         }) {
     return(
         <>
@@ -27,6 +29,7 @@ export function ChapterPreamble(
                 { nextChapterSrc ? <a className={anchorClass} href={nextChapterSrc}>Next Chapter {'\u2192'}</a> : <p style={{backgroundColor: "transparent", width: "15ch", textAlign: "center", height: "37px", color: "transparent"}}>Next Chapter {'\u2192'}</p> }
                 <a className={anchorClass} href="#top">Back to top {'\u2191'}</a>
             </span>
+            {preambleChildren}
         </>
     );
 }
