@@ -8,152 +8,51 @@ import type {
 
 const tables = [
   {
-    name: "_prisma_migrations",
-    checkConstraints: {},
-    foreignKeys: {},
-    primaryKey: ["id"],
-    uniqueConstraints: {},
+    name: "posts",
+    checkConstraints: {
+      posts_xata_id_length_xata_id: {
+        name: "posts_xata_id_length_xata_id",
+        columns: ["xata_id"],
+        definition: "CHECK ((length(xata_id) < 256))",
+      },
+    },
+    foreignKeys: {
+      fk_users: {
+        name: "fk_users",
+        columns: ["author"],
+        referencedTable: "users",
+        referencedColumns: ["xata_id"],
+        onDelete: "NO ACTION",
+      },
+    },
+    primaryKey: [],
+    uniqueConstraints: {
+      _pgroll_new_posts_xata_id_key: {
+        name: "_pgroll_new_posts_xata_id_key",
+        columns: ["xata_id"],
+      },
+    },
     columns: [
       {
-        name: "applied_steps_count",
-        type: "int",
-        notNull: true,
-        unique: false,
-        defaultValue: "0",
-        comment: "",
-      },
-      {
-        name: "checksum",
-        type: "string",
+        name: "author",
+        type: "link",
+        link: { table: "users" },
         notNull: true,
         unique: false,
         defaultValue: null,
-        comment: "",
+        comment: '{"xata.link":"users"}',
       },
       {
-        name: "finished_at",
-        type: "datetime",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "id",
-        type: "string",
-        notNull: true,
-        unique: true,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "logs",
-        type: "text",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "migration_name",
-        type: "string",
+        name: "created_at",
+        type: "timestamp without time zone",
         notNull: true,
         unique: false,
         defaultValue: null,
         comment: "",
       },
       {
-        name: "rolled_back_at",
-        type: "datetime",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "started_at",
-        type: "datetime",
-        notNull: true,
-        unique: false,
-        defaultValue: "now()",
-        comment: "",
-      },
-    ],
-  },
-  {
-    name: "chapter",
-    checkConstraints: {},
-    foreignKeys: {},
-    primaryKey: ["keyId"],
-    uniqueConstraints: {},
-    columns: [
-      {
-        name: "body",
-        type: "xml",
-        notNull: true,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "chapter",
-        type: "int",
-        notNull: true,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "description",
-        type: "string",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "endnotes",
-        type: "string",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "href",
-        type: "string",
-        notNull: true,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "keyId",
-        type: "uuid",
-        notNull: true,
-        unique: true,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "notes",
-        type: "string",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "pubDate",
-        type: "date",
-        notNull: true,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "published",
-        type: "bool",
+        name: "labels",
+        type: "multiple",
         notNull: true,
         unique: false,
         defaultValue: null,
@@ -161,7 +60,7 @@ const tables = [
       },
       {
         name: "slug",
-        type: "string",
+        type: "text",
         notNull: true,
         unique: false,
         defaultValue: null,
@@ -169,7 +68,7 @@ const tables = [
       },
       {
         name: "text",
-        type: "string",
+        type: "text",
         notNull: true,
         unique: false,
         defaultValue: null,
@@ -184,11 +83,119 @@ const tables = [
         comment: "",
       },
       {
-        name: "updated",
-        type: "timestamp(3) without time zone",
+        name: "views",
+        type: "int",
         notNull: true,
         unique: false,
         defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "xata_createdat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_id",
+        type: "text",
+        notNull: true,
+        unique: true,
+        defaultValue: "('rec_'::text || (xata_private.xid())::text)",
+        comment: "",
+      },
+      {
+        name: "xata_updatedat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_version",
+        type: "int",
+        notNull: true,
+        unique: false,
+        defaultValue: "0",
+        comment: "",
+      },
+    ],
+  },
+  {
+    name: "users",
+    checkConstraints: {
+      users_xata_id_length_xata_id: {
+        name: "users_xata_id_length_xata_id",
+        columns: ["xata_id"],
+        definition: "CHECK ((length(xata_id) < 256))",
+      },
+    },
+    foreignKeys: {},
+    primaryKey: [],
+    uniqueConstraints: {
+      _pgroll_new_users_xata_id_key: {
+        name: "_pgroll_new_users_xata_id_key",
+        columns: ["xata_id"],
+      },
+    },
+    columns: [
+      {
+        name: "bio",
+        type: "text",
+        notNull: true,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "email",
+        type: "text",
+        notNull: true,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "name",
+        type: "text",
+        notNull: true,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "xata_createdat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_id",
+        type: "text",
+        notNull: true,
+        unique: true,
+        defaultValue: "('rec_'::text || (xata_private.xid())::text)",
+        comment: "",
+      },
+      {
+        name: "xata_updatedat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_version",
+        type: "int",
+        notNull: true,
+        unique: false,
+        defaultValue: "0",
         comment: "",
       },
     ],
@@ -198,15 +205,15 @@ const tables = [
 export type SchemaTables = typeof tables;
 export type InferredTypes = SchemaInference<SchemaTables>;
 
-export type PrismaMigrations = InferredTypes["_prisma_migrations"];
-export type PrismaMigrationsRecord = PrismaMigrations & XataRecord;
+export type Posts = InferredTypes["posts"];
+export type PostsRecord = Posts & XataRecord;
 
-export type Chapter = InferredTypes["chapter"];
-export type ChapterRecord = Chapter & XataRecord;
+export type Users = InferredTypes["users"];
+export type UsersRecord = Users & XataRecord;
 
 export type DatabaseSchema = {
-  _prisma_migrations: PrismaMigrationsRecord;
-  chapter: ChapterRecord;
+  posts: PostsRecord;
+  users: UsersRecord;
 };
 
 const DatabaseClient = buildClient();

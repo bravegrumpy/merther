@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_814a49ba2110dc",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE users (name text NOT NULL, email text NOT NULL, bio text NOT NULL, xata_createdat timestamptz(6) NOT NULL DEFAULT current_timestamp, xata_updatedat timestamptz(6) NOT NULL DEFAULT current_timestamp, xata_id text NOT NULL DEFAULT 'rec_'::text || xata_private.xid()::text, xata_version int NOT NULL DEFAULT 0, surname text DEFAULT 'null')"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_814a49ba2110dc",
+  "parent": "sql_56023975d54858",
+  "schema": "public",
+  "startedAt": "2025-04-26T01:10:30.742589Z"
+}

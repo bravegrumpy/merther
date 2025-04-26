@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "sql_56023975d54858",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE TABLE posts (title text NOT NULL, labels text[], slug text NOT NULL, text text NOT NULL, author text NOT NULL, created_at timestamp(6) NOT NULL, views int NOT NULL, xata_id text NOT NULL DEFAULT 'rec_'::text || xata_private.xid()::text, xata_version int NOT NULL DEFAULT 0, xata_createdat timestamptz(6) NOT NULL DEFAULT current_timestamp, xata_updatedat timestamptz(6) NOT NULL DEFAULT current_timestamp, description text NOT NULL DEFAULT 'false')"
+        }
+      }
+    ]
+  },
+  "migrationType": "inferred",
+  "name": "sql_56023975d54858",
+  "parent": "sql_0597421a109c8c",
+  "schema": "public",
+  "startedAt": "2025-04-26T01:10:30.500677Z"
+}
