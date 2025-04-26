@@ -51,6 +51,7 @@ const chapters = Misunderstood.map((ch) => ch.data);
             return (<>
                 <hr class="section" />
                 <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
+                    <a href={`/misunderstood/simple/${chapter.id}`} slot="lastChild">Single Chapter</a>
                     <div>
                         <p><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('hh:mm a')}</p>
                         <p><span class="notes">Reading Time:</span> {readingTime}</p>

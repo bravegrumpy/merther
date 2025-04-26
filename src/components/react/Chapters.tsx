@@ -9,7 +9,8 @@ export function ChapterPreamble(
         spanClass,
         headingClass,
         anchorClass='menu back-to-top chnav',
-        preambleChildren
+        preambleChildren,
+        lastChild,
      }: {
             chapterNameHeading?: string,
             previousChapterSrc?: string,
@@ -18,7 +19,8 @@ export function ChapterPreamble(
             spanClass?:  string,
             headingClass?: string,
             anchorClass?: string,
-            preambleChildren?: React.ReactNode
+            preambleChildren?: React.ReactNode,
+            lastChild?: React.ReactNode
         }) {
     return(
         <>
@@ -28,6 +30,7 @@ export function ChapterPreamble(
                 { previousChapterSrc ? <a className={anchorClass} href={previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p style={{backgroundColor: "transparent", width: "25ch", textAlign: "center", height: "37px", color: 'transparent'}}>{'\u2190'} Previous Chapter</p> }
                 { nextChapterSrc ? <a className={anchorClass} href={nextChapterSrc}>Next Chapter {'\u2192'}</a> : <p style={{backgroundColor: "transparent", width: "15ch", textAlign: "center", height: "37px", color: "transparent"}}>Next Chapter {'\u2192'}</p> }
                 <a className={anchorClass} href="#top">Back to top {'\u2191'}</a>
+                {lastChild}
             </span>
             {preambleChildren}
         </>
@@ -45,7 +48,8 @@ export function Chapter({
     headingClass,
     anchorClass='menu back-to-top chnav',
     chapterDivClass,
-    articleClass
+    articleClass,
+    preambleChildren
 }: {
         articleId: string,
         chapterNameHeading?: string,
@@ -57,12 +61,13 @@ export function Chapter({
         headingClass?: string,
         anchorClass?: string,
         chapterDivClass?: string,
-        articleClass?: string
+        articleClass?: string,
+        preambleChildren?: React.ReactNode
     }){
     return(
         <>
             <article id={articleId} className={articleClass}>
-                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass}/>
+                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren}/>
                 <div className={`chapter ${chapterDivClass}`}>
                     {children}
                 </div>
