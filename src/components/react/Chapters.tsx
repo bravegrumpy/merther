@@ -10,6 +10,7 @@ export function ChapterPreamble(
         headingClass,
         anchorClass='menu back-to-top chnav',
         preambleChildren,
+        firstChild,
         lastChild,
      }: {
             chapterNameHeading?: string,
@@ -20,14 +21,16 @@ export function ChapterPreamble(
             headingClass?: string,
             anchorClass?: string,
             preambleChildren?: React.ReactNode,
+            firstChild?: React.ReactNode,
             lastChild?: React.ReactNode
         }) {
     return(
         <>
             <span className={`chapter-preamble ${spanClass}`}>
-                { chapterNameHeading ? <h2 className={`text-gradient chapter-title ${headingClass}`}>{chapterNameHeading}</h2> : ''}
+                {firstChild}
+                {chapterNameHeading ? <h2 className={`text-gradient chapter-title ${headingClass}`}>{chapterNameHeading}</h2> : <></> }
                 {headerChildren}
-                { previousChapterSrc ? <a className={anchorClass} href={previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p style={{backgroundColor: "transparent", width: "25ch", textAlign: "center", height: "37px", color: 'transparent'}}>{'\u2190'} Previous Chapter</p> }
+                { previousChapterSrc ? <a className={anchorClass} href={previousChapterSrc}>{'\u2190'} Previous Chapter</a> : <p style={{backgroundColor: "transparent", width: "25ch", textAlign: "center", height: "37px", color: 'transparent'}}>{'\u2190'} Previous Chapter</p>}
                 { nextChapterSrc ? <a className={anchorClass} href={nextChapterSrc}>Next Chapter {'\u2192'}</a> : <p style={{backgroundColor: "transparent", width: "15ch", textAlign: "center", height: "37px", color: "transparent"}}>Next Chapter {'\u2192'}</p> }
                 <a className={anchorClass} href="#top">Back to top {'\u2191'}</a>
                 <>{lastChild}</>
@@ -38,10 +41,11 @@ export function ChapterPreamble(
 }
 
 export function Chapter({ 
-    articleId, 
+    articleId,
+    beforePreamble,
     chapterNameHeading, 
-    previousChapterSrc, 
-    nextChapterSrc, 
+    previousChapterSrc,
+    nextChapterSrc,
     children, 
     headerChildren,
     spanClass,
@@ -50,9 +54,11 @@ export function Chapter({
     chapterDivClass,
     articleClass,
     preambleChildren,
+    firstChild,
     lastChild
 }: {
         articleId: string,
+        beforePreamble?: React.ReactNode,
         chapterNameHeading?: string,
         previousChapterSrc?: string,
         nextChapterSrc?: string,
@@ -64,12 +70,14 @@ export function Chapter({
         chapterDivClass?: string,
         articleClass?: string,
         preambleChildren?: React.ReactNode,
+        firstChild?: React.ReactNode,
         lastChild?: React.ReactNode
     }){
     return(
         <>
             <article id={articleId} className={articleClass}>
-                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} lastChild={lastChild}/>
+                {beforePreamble}
+                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>
                 <div className={`chapter ${chapterDivClass}`}>
                     {children}
                 </div>
@@ -78,8 +86,22 @@ export function Chapter({
     );
 }
 
+export type ChaptersNav = {
+    id: string;
+    href: string;
+    text: string;
+    title?: string,
+    chapter?: number,
+    pubDate?: Date,
+    published?: boolean,
+    description?: string
+    notes?: string
+    endnotes?: string
+
+}
+
 export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnClass='', chapterClass='', chId='top' }: {
-    chapters: any[],
+    chapters: ChaptersNav[],
     navClass?: string,
     reloadClass?: string,
     contentsBtnClass?: string,

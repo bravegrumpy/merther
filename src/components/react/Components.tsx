@@ -1,4 +1,11 @@
 import dayjs from 'dayjs';
+
+export function Banner() {
+    return(<>
+        <p className="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px</p>
+    </>)
+}
+
 export function Footer({ footerClass, copyrightClass, disclaimerClass }: { footerClass?: string, copyrightClass?: string, disclaimerClass?: string }) {
     const today = dayjs();
     return (<>

@@ -126,7 +126,9 @@ import { Footer } from "@/components/react/Components";
         <p />
       )
     }
-    <h1 class="text-gradient text-center">{pageTitle}</h1>
+    <slot name="pageTitle">
+      <h1 class="text-gradient text-center">{pageTitle}</h1>
+    </slot>
     <div
       style={{
         display: "flex",

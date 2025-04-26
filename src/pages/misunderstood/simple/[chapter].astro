@@ -1,32 +1,131 @@
 ---
 import { Debug } from "astro/components";
-
 const bravegrumpyLink = "https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy"
 import { mainLinks, secondaryLinks } from "@/scripts/data";
-
 const pageTitle = "Misunderstood";
-const headTitle = "Misunderstood | Merther"
-
+const headTitle = "Misunderstood | Merther";
 import Layout from "@/layouts/Layout.astro"
-
 import { getCollection, render } from "astro:content";
+import Article from "@/components/Article.astro"
+import { Chapter as Container, ChapterNav } from "@/components/react/Chapters";
+import { StyleToggle } from "@/components/react/Navigation";
+
+import { Banner } from "@/components/react/Components"
+
+import { Icon } from "astro-icon/components"
+
+import dayjs from "dayjs"
+import utc from "dayjs/plugin/utc"
+dayjs.extend(utc);
 
 export async function getStaticPaths() {
     const Chapters = await getCollection('misunderstood');
     return Chapters.map((ch) => ({
-        params: { chapter: ch.id }
+        params: { chapter: ch.id },
+        props: {
+            misunderstood: ch
+        }
     }));
 
 }
 
 const { chapter } = Astro.params;
+const { misunderstood }: { misunderstood: any } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await render(misunderstood);
 
 const Misunderstood = await getCollection('misunderstood');
-const { Content, remarkPluginFrontmatter } = await render(Misunderstood[0]);
+Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
+const chapters = Misunderstood.map((ch) => {
+    return {
+        text: ch.data.text,
+        href: ch.id,
+        id: ch.data.id,
+        title: ch.data.title,
+        chapter: ch.data.chapter
 
+    }
+});
+
+const previous = chapters[misunderstood.data.chapter - 2] ? chapters[misunderstood.data.chapter -2].href : '';
+const next = chapters[misunderstood.data.chapter] ? chapters[misunderstood.data.chapter].href :  '';
+const lastModified = dayjs(remarkPluginFrontmatter.lastModified);
+const readingTime = remarkPluginFrontmatter.minutesRead;
+const latestChapter = chapters.length - 1;
 ---
 
-<Layout>
-    <p>{chapter}</p>
-    <Content /> 
+<Layout headTitle={headTitle} pageTitle={pageTitle} mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink}>
+    <StyleToggle slot="header" client:only="react" />
+    <ChapterNav chapters={chapters} client:only="react" />
+    <hr class="section" />
+    <Article>
+        <div class="chapter-preamble latest-chapter">
+            <h2 class="text-gradient" style="padding-left: 20px">Latest Chapter: </h2>
+            <h3>
+                <a href={chapters[latestChapter].href} style={"color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';"}>{chapters[latestChapter].title}</a>
+            </h3>
+            <div></div>
+        </div>
+        <Banner />
+        <hr class="section" />
+        <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
+            <div>
+                <hr />
+                <div class="chapter-info">
+                    <a class="menu chnav back-to-top entire-work" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
+                    <p><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('hh:mm a')}</p>
+                    <p><span class="notes">Reading Time:</span> {readingTime}</p>
+                </div>
+                <hr />
+            </div>
+            <Content />
+            <a slot="headerChildren" class="menu chnav back-to-top entire-work" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
+        </Container>
+    </Article>
 </Layout>
+
+<style>
+    .chapter-info {
+        width: 60ch;
+        margin: 60px 0px;
+        background-color: #ffeebb10;
+        border-radius: 30px 200px 75px 150px;
+        padding: 40px 0px;
+    }
+    .entire-work {
+        text-align: center;
+        margin: 0px auto;
+    }
+    .chapterStats {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 80ch;
+    }
+    .text {
+        width: fit-content;
+        font-family: "Delius", "Recursive";
+    }
+    .notes {
+        font-family: "Delius";
+        font-size: 1.2rem;
+    }
+    .end-nav {
+        /* position: sticky; */
+        /* bottom: 30px; */
+
+    }
+    @media print {
+        .chapterStats, .text, .notes {
+            display: none;
+        }
+    }
+</style>
+<style is:global>
+    @media print {
+        .byline {
+            display: none;
+        }
+    }
+</style>
