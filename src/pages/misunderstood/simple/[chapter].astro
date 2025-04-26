@@ -68,32 +68,15 @@ const latestChapter = chapters.length - 1;
         <Banner />
         <hr class="section" />
         <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
-            <div>
-                <hr />
-                <div class="chapter-info">
-                    <a class="menu chnav back-to-top entire-work" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
-                    <p><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('hh:mm a')}</p>
-                    <p><span class="notes">Reading Time:</span> {readingTime}</p>
-                </div>
-                <hr />
-            </div>
             <Content />
-            <a slot="headerChildren" class="menu chnav back-to-top entire-work" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
         </Container>
     </Article>
 </Layout>
 
 <style>
-    .chapter-info {
-        width: 60ch;
-        margin: 60px 0px;
-        background-color: #ffeebb10;
-        border-radius: 30px 200px 75px 150px;
-        padding: 40px 0px;
-    }
     .entire-work {
         text-align: center;
-        margin: 0px auto;
+        /* margin: 0px auto; */
     }
     .chapterStats {
         display: flex;
@@ -110,11 +93,6 @@ const latestChapter = chapters.length - 1;
     .notes {
         font-family: "Delius";
         font-size: 1.2rem;
-    }
-    .end-nav {
-        /* position: sticky; */
-        /* bottom: 30px; */
-
     }
     @media print {
         .chapterStats, .text, .notes {
