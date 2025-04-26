@@ -58,6 +58,7 @@ header .bottom-nav {
   font-size: 1rem;
   text-decoration: none;
   z-index: 40;
+  text-indent: 0px;
 }
 .menu:hover {
   background-color: hsla(44, 81%, 25%, 0.11);
