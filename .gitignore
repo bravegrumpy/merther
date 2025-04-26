@@ -2,6 +2,7 @@
 dist/
 .amplify-hosting/
 .vercel
+.xata
 
 # generated types
 .astro/
