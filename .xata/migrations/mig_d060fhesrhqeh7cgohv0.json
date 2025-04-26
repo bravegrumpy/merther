@@ -1,0 +1,111 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d060fhesrhqeh7cgohv0",
+    "operations": [
+      {
+        "create_table": {
+          "name": "chapters",
+          "columns": [
+            {
+              "name": "author",
+              "type": "text",
+              "comment": "{\"xata.link\":\"users\"}",
+              "nullable": true,
+              "references": {
+                "name": "author_link",
+                "table": "users",
+                "column": "xata_id",
+                "on_delete": "SET NULL"
+              }
+            },
+            {
+              "name": "title",
+              "type": "text",
+              "check": {
+                "name": "chapters_xata_text_length_title",
+                "constraint": "OCTET_LENGTH(\"title\") <= 204800"
+              },
+              "comment": "{\"xata.type\":\"text\"}",
+              "default": "'null'",
+              "nullable": true
+            },
+            {
+              "name": "xata_id",
+              "type": "text",
+              "check": {
+                "name": "chapters_xata_id_length_xata_id",
+                "constraint": "length(\"xata_id\") < 256"
+              },
+              "unique": true,
+              "default": "'rec_' || xata_private.xid()"
+            },
+            {
+              "name": "xata_version",
+              "type": "integer",
+              "default": "0"
+            },
+            {
+              "name": "xata_createdat",
+              "type": "timestamptz",
+              "default": "now()"
+            },
+            {
+              "name": "xata_updatedat",
+              "type": "timestamptz",
+              "default": "now()"
+            }
+          ]
+        }
+      },
+      {
+        "add_column": {
+          "table": "users",
+          "column": {
+            "name": "surname",
+            "type": "text",
+            "check": {
+              "name": "users_xata_string_length_surname",
+              "constraint": "LENGTH(\"surname\") <= 2048"
+            },
+            "comment": "{\"xata.type\":\"string\"}",
+            "default": "'null'",
+            "nullable": true
+          }
+        }
+      },
+      {
+        "add_column": {
+          "table": "posts",
+          "column": {
+            "name": "description",
+            "type": "text",
+            "check": {
+              "name": "posts_xata_text_length_description",
+              "constraint": "OCTET_LENGTH(\"description\") <= 204800"
+            },
+            "comment": "{\"xata.type\":\"text\"}",
+            "default": "'false'"
+          }
+        }
+      },
+      {
+        "sql": {
+          "up": "ALTER TABLE \"chapters\" REPLICA IDENTITY FULL",
+          "onComplete": true
+        }
+      },
+      {
+        "sql": {
+          "up": "CREATE TRIGGER xata_maintain_metadata_trigger_pgroll\n  BEFORE INSERT OR UPDATE\n  ON \"chapters\"\n  FOR EACH ROW\n  EXECUTE FUNCTION xata_private.maintain_metadata_trigger_pgroll()",
+          "onComplete": true
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d060fhesrhqeh7cgohv0",
+  "parent": "mig_csn4pfocllq89mv7sb90",
+  "schema": "public",
+  "startedAt": "2025-04-25T22:08:06.211382Z"
+}
