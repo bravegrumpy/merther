@@ -62,10 +62,15 @@ const latestChapter = chapters.length - 1;
                     </div>
                     <Content />
                     <div class="end">
+                        <hr class="middle" />
                         <div class="chapter-postnav">
-                            <a href={previous} class="menu chnav"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
-                            <a href="#top" class="menu chnav"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
-                            <a href={next} class="menu chnav"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
+                            { 
+                                previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={previous} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
+                            }
+                            <a href="#top" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
+                            {
+                                next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={next} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
+                            }
                         </div>
                         <div class="single-chapter">
                             <a href={`/misunderstood/simple/${chapter.id}`} class="menu chnav">Single Chapter</a>
@@ -103,7 +108,7 @@ const latestChapter = chapters.length - 1;
         text-decoration-thickness: 3px;
         text-decoration-color: #677040;
     }
-    a.chb:hover, a.chb:focus, a.chb:active {
+    a.chb:hover, a.chb:focus {
         scale: 110%;
         color: #00f;
         text-decoration-line: underline;
@@ -126,6 +131,7 @@ const latestChapter = chapters.length - 1;
     }
     .button {
         text-indent: 0;
+        height: max-content;
     }
     .single-chapter {
         width: 100%;

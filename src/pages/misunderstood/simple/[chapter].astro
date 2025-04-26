@@ -53,7 +53,11 @@ const readingTime = remarkPluginFrontmatter.minutesRead;
 const latestChapter = chapters.length - 1;
 ---
 
-<Layout headTitle={headTitle} pageTitle={pageTitle} mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink}>
+<Layout headTitle={headTitle} mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink}>
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">{pageTitle}</h1>
+        <h2 class="text-center">{misunderstood.data.title}</h2>
+    </div>
     <StyleToggle slot="header" client:only="react" />
     <ChapterNav chapters={chapters} client:only="react" />
     <hr class="section" />
@@ -77,15 +81,20 @@ const latestChapter = chapters.length - 1;
             </div>
         </div>
         <Content />
-        <hr />
         <div class="end">
+            <hr class="middle" />
             <div class="chapter-postnav">
-                <a href={previous} class="menu chnav"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
-                <a href="#top" class="menu chnav"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
-                <a href={next} class="menu chnav"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
+                {
+                    previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={previous} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
+                }
+                <a href="#top" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
+                { 
+                    next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={next} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
+                }
             </div>
+            <hr />
             <div class="entire-work">
-                <a href={`/misunderstood/simple${misunderstood.data.href}`} class="menu chnav">Entire Work</a>
+                <a href={`/misunderstood/simple${misunderstood.data.href}`} class="menu chnav button back-to-top">Entire Work</a>
             </div>
         </div>
     </Container>
@@ -117,7 +126,7 @@ const latestChapter = chapters.length - 1;
         text-decoration-thickness: 3px;
         text-decoration-color: #677040;
     }
-    a.chb:hover, a.chb:focus, a.chb:active {
+    a.chb:hover, a.chb:focus {
         scale: 110%;
         color: #00f;
         text-decoration-line: underline;
@@ -140,6 +149,7 @@ const latestChapter = chapters.length - 1;
     }
     .button {
         text-indent: 0;
+        height: max-content;
     }
     .entire-work {
         width: 100%;
