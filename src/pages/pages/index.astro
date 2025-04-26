@@ -11,10 +11,12 @@ import Article from "@/components/Article.astro"
 import WorkList from "@/pages/pages/content/introduction.mdx"
 
 import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
-
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
+    <Article>
+        <h2 style={{ fontSize: "3rem", width: "fit-content", margin: "0px auto"}} class="text-center text-gradient"><a href="/pages/content/mirrors">Site Mirrors</a></h2>
+    </Article>
     <Article>
         <WorkList />
     </Article>

@@ -1,4 +1,5 @@
 import dayjs from 'dayjs';
+import styles from "@/components/react/Components.module.css"
 
 export function Banner() {
     return(<>
@@ -20,4 +21,61 @@ export function Footer({ footerClass, copyrightClass, disclaimerClass }: { foote
         <p>All Rights Reserved</p>
     </footer>
     </>);
+}
+
+export function UL({ children }: { children?: React.ReactNode }){
+    return(<>
+        <ul className={styles.unorderedList}>
+            {children}
+        </ul>
+    </>);
+}
+export function LI({children}: {children?: React.ReactNode}) {
+    return(<>
+        <li className={styles.listItem}>{children}</li>
+    </>);
+}
+export function DL({children}:{children?: React.ReactNode}){
+    return (<>
+        <dl className={styles.dictList}>
+            {children}
+        </dl>
+    </>)
+}
+export function DT({children}:{children?: React.ReactNode}) {
+    return(<>
+        <dt className={styles.dictTerm}>
+            {children}
+        </dt>
+    </>);
+}
+export function DD({children}:{children?: React.ReactNode}) {
+    return (<>
+        <dd className={styles.dictDef}>{children}</dd>
+    </>);
+}
+export function A({children, ...props}: {children?: React.ReactNode}) {
+    return (<>
+        <a className={styles.anchor} {...props}>{children}</a>
+    </>);
+}
+export function H1({children}: {children?: React.ReactNode}){
+    return(<>
+        <h1></h1>
+    </>);
+}
+export function H2({children}: {children?: React.ReactNode}){
+    return(<></>);
+}
+export function H3({children}: {children?: React.ReactNode}){
+    return(<></>);
+}
+export function H4({children}: {children?: React.ReactNode}){
+    return(<></>);
+}
+export function H5({children}: {children?: React.ReactNode}){
+    return(<></>);
+}
+export function H6({children}: {children?: React.ReactNode}){
+    return(<></>);
 }
