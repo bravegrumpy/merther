@@ -16,12 +16,11 @@ export async function getStaticPaths() {
 const { chapter } = Astro.params;
 
 const Misunderstood = await getCollection('misunderstood');
-const { Content } = await render(Misunderstood[0]);
+const { Content, remarkPluginFrontmatter } = await render(Misunderstood[0]);
 
 ---
 
 <Layout>
-    <Debug Misunderstood={Misunderstood} />
     <p>{chapter}</p>
     <Content /> 
 </Layout>
