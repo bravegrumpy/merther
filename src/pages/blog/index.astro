@@ -28,7 +28,7 @@ let posts = await xata.db.posts.getAll();
           By: {post.author.xata_id}
         </p>
         <a
-          href={`blog/${post.slug}`}
+          href={`/blog/${post.slug}`}
           class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
         >
           Read more &rarr;
