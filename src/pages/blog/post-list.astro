@@ -17,6 +17,7 @@ const { records } = await xata.db.posts.getPaginated({
     <head>
         <meta charset="utf-8" />
     </head>
+    <button onclick="history.back()">Go Back</button>
     <ul>
         {records.map((post) => (
             <li>{post.title}</li>

@@ -32,14 +32,26 @@ export async function getStaticPaths() {
   return routes;
 }
 
-const { slug } = Astro.params;
-const { post }: { post: any } = Astro.props;
+const xata = new XataClient({
+  apiKey: import.meta.env.XATA_API_KEY,
+  branch: import.meta.env.XATA_BRANCH
+});
+
+const { slug } = await Astro.params;
+
+const posts = await xata.db.posts.filter({
+  slug: slug
+}).getAll();
+
+const { post=posts[0] } = Astro.props;
+
+
 ---
 
 <BlogLayout title={post.title}>
   <div class="w-full max-w-5xl mt-16">
     <p class="mb-2">
-      <a href="/blog" class="text-purple-600 hover:scale-105">
+      <a href="/blog" class="text-purple-600 ring-4 ring-slate-800/80 rounded-md hover:ring-lime-500 px-3 py-4 m-2">
         <Icon
           name="hugeicons:circle-arrow-left-01"
           width="28"
@@ -49,7 +61,7 @@ const { post }: { post: any } = Astro.props;
       </a>
     </p>
 
-    <h1 class="text-3xl mb-2">{post.title}</h1>
+    <h1 class="text-3xl mt-5 mb-2">{post.title}</h1>
     <div class="w-4xl flex flex-col gap-3 justify-between">
         <div class="flex w-full flex-row justify-between">
             <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
