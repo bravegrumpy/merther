@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Icon } from "@iconify/react"
 
 export function ChapterPreamble(
     { 
@@ -75,6 +76,7 @@ export function Chapter({
     }){
     return(
         <>
+            <hr className="section" />
             <article id={articleId} className={articleClass}>
                 {beforePreamble}
                 <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>
@@ -96,20 +98,23 @@ export type ChaptersNav = {
     published?: boolean,
     description?: string
     notes?: string
-    endnotes?: string
-
+    endnotes?: string,
 }
 
-export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnClass='', chapterClass='', chId='top' }: {
+export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnClass='', chapterClass='', chId='top', icons=false, iconSize='24px' }: {
     chapters: ChaptersNav[],
     navClass?: string,
     reloadClass?: string,
     contentsBtnClass?: string,
     chapterClass?: string,
-    chId?: string
+    chId?: string,
+    icons?: boolean,
+    iconSize?: string | number | undefined
+
 }) {
     reloadClass = reloadClass === '' ? chapterClass : reloadClass;
     contentsBtnClass = contentsBtnClass === '' ? chapterClass : contentsBtnClass;
+    const reloadSymbol = icons ? <Icon icon="hugeicons:refresh" flip='horizontal' width={iconSize} height={iconSize} /> : '⟳';
     function reloadPage() {
         location.reload();
     }
@@ -124,7 +129,7 @@ export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnC
     }
     return(<>
         <nav className={`menu-container chnav-container ${navClass}`} id={chId}>
-            <button className={`chnav menu chnav-start ${reloadClass}`} onClick={reloadPage}>⟳</button>
+            <button className={`chnav menu chnav-start ${reloadClass}`} onClick={reloadPage}>{reloadSymbol}</button>
             <button onClick={toggleContents} className={`chnav menu chnav-start ${contentsBtnClass}`}>Contents: </button>
             {
                 chapters.map((chapter) => (<>

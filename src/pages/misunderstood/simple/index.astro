@@ -13,6 +13,7 @@ const headTitle = "Misunderstood | Merther"
 import Article from "@/components/Article.astro";
 
 import { Chapter, ChapterNav } from "@/components/react/Chapters"
+import ChapterPostnav from "@/components/ChapterPostnav.astro"
 import { Banner } from "@/components/react/Components"
 import { StyleToggle } from "@/components/react/Navigation"
 
@@ -31,7 +32,7 @@ const latestChapter = chapters.length - 1;
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:only="react" />
-    <ChapterNav chapters={chapters} client:only="react"/>
+    <ChapterNav chapters={chapters} icons={true} client:load/>
     <hr class="section" />
     <Article>
          <div class="chapter-preamble latest-chapter">
@@ -43,16 +44,15 @@ const latestChapter = chapters.length - 1;
          </div>
          <Banner />
     </Article>
-    <hr class="section" />
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);
-            const previous = Misunderstood[chapter.data.chapter - 2] ? Misunderstood[chapter.data.chapter - 2].data.href : '';
-            const next = Misunderstood[chapter.data.chapter] ? Misunderstood[chapter.data.chapter].data.href : '';
+            const previous = Misunderstood[chapter.data.chapter - 2] ? `/misunderstood/simple${Misunderstood[chapter.data.chapter - 2].data.href}` : '';
+            const next = Misunderstood[chapter.data.chapter] ? `/misunderstood/simple${Misunderstood[chapter.data.chapter].data.href}` : '';
             const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
             return (<>
-                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={`/misunderstood/simple${previous}`} nextChapterSrc={`/misunderstood/simple${next}`}>
+                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
                     <div>
                         <div class="chi">
                             <a class="chb" href={`/misunderstood/simple/${chapter.id}`}>Single Chapter</a>
@@ -61,34 +61,14 @@ const latestChapter = chapters.length - 1;
                         </div>
                     </div>
                     <Content />
-                    <div class="end">
-                        <hr class="middle" />
-                        <div class="chapter-postnav">
-                            { 
-                                previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple${previous}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
-                            }
-                            <a href="#top" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
-                            {
-                                next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple${next}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
-                            }
-                        </div>
-                        <hr />
-                        <div class="single-chapter">
-                            <a href={`/misunderstood/simple/${chapter.id}`} class="menu chnav button">Single Chapter</a>
-                        </div>
-                    </div>
+                    <ChapterPostnav previous={previous} next={next} other="single" chapterId={chapter.id} />
                 </Chapter>
-                <hr class="section" />
             </>);
         })
     }
 </Layout>
 
 <style>
-    .middle {
-        position: sticky;
-        bottom: 75px;
-    }
     .chi {
         width: calc(100% + 60px);
         margin-left: -40px;
@@ -116,32 +96,6 @@ const latestChapter = chapters.length - 1;
         text-decoration-line: underline;
         text-decoration-style: wavy;
         text-decoration-thickness: 3px;
-    }
-    .end {
-        /* background-color: #ff03; */
-        position: sticky;
-        bottom: -53px;
-        background-color: rgba(162, 143, 124, 98%);
-    }
-    .chapter-postnav {
-        /* background-color: #f0f2; */
-        width: calc(100% + 60px);
-        margin-left: -40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .button {
-        text-indent: 0;
-        height: max-content;
-    }
-    .single-chapter {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: start;
-        margin: 40px auto;
     }
     .chapterStats {
         display: flex;

@@ -1,0 +1,67 @@
+---
+import { Icon } from "astro-icon/components"
+const { previous='', next='', size='24', other, chapterId } = Astro.props;
+---
+
+<div class="end">
+    <hr class="middle" />
+    <div class="chapter-postnav">
+        {
+            previous === '' ? (<a href="" class="menu chnav fake-btn">
+                <Icon name="hugeicons:arrow-left-04" width={size} height={size} />
+            </a>) : (<>
+                <a href={previous} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width={size} height={size} /></a>
+            </>)
+        }
+        <a href="" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width={size} height={size} /></a>
+        {
+            next === '' 
+                ? (<>
+                    <a href="" class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width={size} height={size} /></a>
+                </>) 
+                : (<>
+                    <a href={next} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width={size} height={size} /></a>
+                </>)
+        }
+    </div>
+    <hr />
+    <div class="other">
+        {
+            other === 'single' ?  <a class="menu chnav button" href={`/misunderstood/simple/${chapterId}`}>Single Chapter</a> : <a class="menu chnav button"href={`/misunderstood/simple${chapterId}`}>Entire Work</a>
+        }
+    </div>
+</div>
+
+
+<style>
+.middle {
+    position: sticky;
+    bottom: 75px;
+}
+.end {
+    /* background-color: #ff03; */
+    position: sticky;
+    bottom: -53px;
+    background-color: rgba(162, 143, 124, 98%);
+}
+.chapter-postnav {
+    /* background-color: #f0f2; */
+    width: calc(100% + 60px);
+    margin-left: -40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button {
+    text-indent: 0;
+    height: max-content;
+}
+.other {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 40px auto;
+}
+</style>

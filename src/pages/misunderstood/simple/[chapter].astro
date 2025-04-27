@@ -11,6 +11,7 @@ import Layout from "@/layouts/Layout.astro"
 import { getCollection, render } from "astro:content";
 import Article from "@/components/Article.astro"
 import { Chapter as Container, ChapterNav } from "@/components/react/Chapters";
+import ChapterPostnav from "@/components/ChapterPostnav.astro";
 import { StyleToggle } from "@/components/react/Navigation";
 
 import { Banner } from "@/components/react/Components"
@@ -50,8 +51,8 @@ const chapters = Misunderstood.map((ch) => {
     }
 });
 
-const previous = chapters[misunderstood.data.chapter - 2] ? chapters[misunderstood.data.chapter -2].href : '';
-const next = chapters[misunderstood.data.chapter] ? chapters[misunderstood.data.chapter].href :  '';
+const previous = chapters[misunderstood.data.chapter - 2] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter -2].href}` : '';
+const next = chapters[misunderstood.data.chapter] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter].href}` :  '';
 const lastModified = dayjs(remarkPluginFrontmatter.lastModified);
 const readingTime = remarkPluginFrontmatter.minutesRead;
 const latestChapter = chapters.length - 1;
@@ -75,8 +76,7 @@ const latestChapter = chapters.length - 1;
         </div>
         <Banner />
     </Article>
-    <hr class="section" />
-    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={`/misunderstood/simple/${previous}`} nextChapterSrc={`/misunderstood/simple/${next}`}>
+    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
         <div>
             <div class="chi">
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
@@ -85,22 +85,7 @@ const latestChapter = chapters.length - 1;
             </div>
         </div>
         <Content />
-        <div class="end">
-            <hr class="middle" />
-            <div class="chapter-postnav">
-                {
-                    previous === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple/${previous}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width="24" height="24" /></a>
-                }
-                <a href="#top" class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-up-04" width="24" height="24" /></a>
-                { 
-                    next === '' ? <a class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a> : <a href={`/misunderstood/simple/${next}`} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width="24" height="24" /></a>
-                }
-            </div>
-            <hr />
-            <div class="entire-work">
-                <a href={`/misunderstood/simple${misunderstood.data.href}`} class="menu chnav button">Entire Work</a>
-            </div>
-        </div>
+        <ChapterPostnav previous={previous} next={next} other="all" shapterId={misunderstood.data.href} />
     </Container>
 </Layout>
 
