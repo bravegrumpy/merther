@@ -45,7 +45,7 @@ const posts = await xata.db.posts.filter({
 
 const p = posts[0];
 
-const { post=p } = Astro.props;
+const post = p;
 
 
 ---
