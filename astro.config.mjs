@@ -35,6 +35,8 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import node from '@astrojs/node';
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -74,7 +76,5 @@ export default defineConfig({
   },
 
   output: 'server',
-  adapter: node({
-    mode: 'standalone',
-  }),
+  adapter: vercel()
 });
