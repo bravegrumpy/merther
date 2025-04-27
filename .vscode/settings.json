@@ -1,0 +1,13 @@
+{
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "misunderstood",
+            "path": "[[workspace]]/src/misunderstood"
+        }
+    ],
+    "frontMatter.content.publicFolder": {
+        "path": "src/assets",
+        "relative": true
+    },
+    "frontMatter.git.enabled": true
+}
