@@ -30,5 +30,58 @@
         "editor.lineNumbers": "off",
         "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
-    }
+    },
+    "frontMatter.taxonomy.contentTypes": [
+        {
+            "name": "default",
+            "pageBundle": false,
+            "fields": [
+                {
+                    "title": "id",
+                    "name": "id",
+                    "type": "string"
+                },
+                {
+                    "title": "href",
+                    "name": "href",
+                    "type": "string"
+                },
+                {
+                    "title": "text",
+                    "name": "text",
+                    "type": "string"
+                },
+                {
+                    "title": "chapter",
+                    "name": "chapter",
+                    "type": "number"
+                },
+                {
+                    "title": "title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "published",
+                    "name": "published",
+                    "type": "boolean"
+                },
+                {
+                    "title": "description",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "title": "notes",
+                    "name": "notes",
+                    "type": "string"
+                },
+                {
+                    "title": "endnotes",
+                    "name": "endnotes",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
 }
