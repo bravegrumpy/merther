@@ -33,10 +33,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-import node from '@astrojs/node';
-
-import vercel from '@astrojs/vercel';
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
