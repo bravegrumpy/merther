@@ -1,4 +1,5 @@
 ---
+export const  prerender = true;
 import { Debug } from "astro/components";
 import "@fontsource/mr-bedfort"; import "@fontsource/caudex";
 import "@fontsource/gloria-hallelujah"; import "@fontsource/cedarville-cursive";
@@ -33,6 +34,7 @@ export async function getStaticPaths() {
 
 const { chapter } = Astro.params;
 const { misunderstood }: { misunderstood: any } = Astro.props;
+
 const { Content, remarkPluginFrontmatter } = await render(misunderstood);
 
 const Misunderstood = await getCollection('misunderstood');

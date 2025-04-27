@@ -13,21 +13,8 @@ dayjs.extend(isToday);
 dayjs.extend(isYesterday);
 dayjs.extend(advancedFormat);
 
-export async function getStaticPaths() {
-  const posts = await xata.db.posts.getAll();
 
-  const routes: any = posts.map((post: any) => {
-    return {
-      params: { slug: post.slug },
-      props: {
-        post: { ...post },
-      },
-    };
-  });
-  return routes;
-}
-
-const { slug } = await Astro.params;
+const { slug } = Astro.params;
 
 const posts = await xata.db.posts.filter({
   slug: slug
