@@ -3,12 +3,7 @@ import BlogLayout from '@/layouts/BlogLayout.astro';
 
 // import { Button } from "@/components/react/ui/button"
 
-import { XataClient } from '@/xata';
-
-const xata = new XataClient({
-  apiKey: import.meta.env.XATA_API_KEY,
-  branch: import.meta.env.XATA_BRANCH
-});
+import { xata } from "@/lib/xata";
 
 let posts = await xata.db.posts.getAll();
 ---
