@@ -1,0 +1,40 @@
+---
+import { contentfulClient } from "@/lib/contentful";
+import { documentToHtmlString } from "@contentful/rich-text-html-renderer"
+import type { EntryFieldTypes } from "contentful"
+
+import UnstyledLayout from "@/layouts/UnstyledLayout.astro";
+import { Debug } from "astro:components";
+
+interface contentChapter {
+    contentTypeId: "chapter",
+    fields: {
+        chapter: EntryFieldTypes.Integer,
+        id: EntryFieldTypes.Text,
+        href: EntryFieldTypes.Text,
+        text: EntryFieldTypes.Text,
+        title: EntryFieldTypes.Text,
+        pubDate: EntryFieldTypes.Date,
+        published: EntryFieldTypes.Boolean,
+        description: EntryFieldTypes.RichText,
+        notes: EntryFieldTypes.RichText,
+        endnotes: EntryFieldTypes.RichText,
+        body: EntryFieldTypes.RichText
+    }
+}
+
+const chapters = await contentfulClient.getEntries<contentChapter>({
+    content_type: "chapter"
+});
+---
+
+<UnstyledLayout>
+    {
+        chapters.items.map((item) => (<>
+            <section>
+                <h2>{item.fields.title}</h2>
+                <article set:html={documentToHtmlString(item.fields.body)}></article>
+            </section>
+        </>))
+    }
+</UnstyledLayout>
