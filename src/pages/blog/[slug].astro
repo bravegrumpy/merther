@@ -20,9 +20,7 @@ const posts = await xata.db.posts.filter({
   slug: slug
 }).getAll();
 
-const p = await posts[0];
-
-const { post=p } = Astro.props;
+const post = posts[0];
 
 
 ---
@@ -44,7 +42,7 @@ const { post=p } = Astro.props;
     <div class="w-4xl flex flex-col gap-3 justify-between">
         <div class="flex w-full flex-row justify-between">
             <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
-                {dayjs(post.created_at).isToday() ? "Today" : dayjs(post.created_at).isYesterday() ? "Yesterday" : dayjs(post.created_At).format("dddd, MMMM Do YYYY")} at {dayjs(post.created_at).format("hh:mm a")}
+                {dayjs(post.created_at).isToday() ? "Today" : dayjs(post.created_at).isYesterday() ? "Yesterday" : dayjs(post.created_at).format("dddd, MMMM Do YYYY")} at {dayjs(post.created_at).format("hh:mm a")}
             </p>
             <p class="text-sm mb-4 text-purple-950 dark:text-purple-200">Written by: {post.author.xata_id}</p>
       </div>
