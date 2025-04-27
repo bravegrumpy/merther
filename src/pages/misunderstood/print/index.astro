@@ -1,0 +1,42 @@
+---
+import "@/styles/print.css"
+import UnstyledLayout from "@/layouts/UnstyledLayout.astro"
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+const headTitle = "Misunderstood | Merther";
+const pageTitle = "Misunderstood";
+
+import { Icon } from "astro-icon/components";
+
+const Misunderstood = await getCollection('misunderstood');
+Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
+
+---
+<UnstyledLayout headTitle={headTitle}>
+    <h1><a href="/misunderstood">{pageTitle}</a></h1>
+    {
+        Misunderstood.map(async (chapter) => {
+            const { Content, remarkPluginFrontmatter } = await render(chapter);
+            return(<>
+                <select onchange="window.location.href=this.value">
+                    <option value={`/misunderstood/print`}>-- Select Chapter --</option>
+                    {
+                        Misunderstood.map((ch) => {
+                            return(<option value={`/misunderstood/print${ch.data.href}`}>{ch.data.title}</option>)
+                        })
+                    }
+                </select>
+                <h2 id={chapter.data.id}><a href={`/misunderstood/print/${chapter.id}`}>{chapter.data.title}</a><button onclick="window.location.href='/misunderstood/print'"><Icon name="hugeicons:arrow-up-04" width="20" height="20" /></button></h2>
+                <Content />
+            </>);
+        })
+    }
+</UnstyledLayout>
+
+<style>
+    h2 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+</style>

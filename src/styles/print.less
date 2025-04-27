@@ -2,7 +2,7 @@ body {
     width: 90ch;
     margin: 0px auto;
 
-    h1 {
+    h1, h2 {
         a {
             color: currentColor;
             text-decoration: none;
@@ -13,5 +13,11 @@ body {
                 text-decoration-color: $color;
             }
         }
+    }   
+}
+
+@media print {
+    select, button {
+        display: none;
     }
 }
