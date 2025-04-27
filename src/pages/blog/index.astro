@@ -9,7 +9,6 @@ let posts = await xata.db.posts.getAll();
 ---
 
 <BlogLayout title="Get started with Xata and Astro">
-  <h2><a class="rounded-lg bg-purple-700 text-purple-50 px-5 py-3 font-bold hover:bg-purple-500 hover:text-white hover:ring-4 hover:ring-sky-500" href="/blog/post-list">Posts List</a></h2>
   <div class="w-full max-w-5xl mt-16">
     {posts.length === 0 && <p>No blog posts found</p>}
     {posts.map((post) => (
