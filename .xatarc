@@ -1,6 +1,0 @@
-{
-  "databaseURL": "https://Robin-Zollner-s-workspace-difdle.us-east-1.xata.sh/db/bravegrumpy",
-  "codegen": {
-    "output": "src/xata.ts"
-  }
-}
