@@ -12,6 +12,10 @@ export const auth = betterAuth({
         github: {
             clientId: import.meta.env.GITHUB_CLIENT_ID as string,
             clientSecret: import.meta.env.GITHUB_CLIENT_SECRET as string
+        },
+        discord: {
+            clientId: import.meta.env.DISCORD_CLIENT_ID as string,
+            clientSecret: import.meta.env.DISCORD_CLIENT_SECRET as string
         }
     }
 });

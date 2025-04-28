@@ -15,11 +15,11 @@ const session = await auth.api.getSession({
     </div>
     <hr />
     <div class="chapter">
-        <script is:inline>
+        <script>
             const { signIn, signOut } = await import("../lib/auth-client");
             document.querySelector("#login").onclick = () => signIn.social({
-                provider: 'github',
-                callbackURL: "/misunderstood"
+                provider: 'discord',
+                callbackURL: "/pages"
             })
             document.querySelector("#logout").onclick = () => signOut()
         </script>
@@ -32,7 +32,5 @@ const session = await auth.api.getSession({
                 </>) 
                 : (<></>)
         }
-        <p>Adding hcaptcha</p>
-        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     </div>
 </Layout>
