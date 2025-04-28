@@ -42,12 +42,14 @@
     "astro-ai-robots-txt": "^0.1.2",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
+    "better-auth": "^1.2.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "lucide-react": "^0.503.0",
     "markdown-it": "^14.1.0",
     "mdast-util-to-string": "^4.0.0",
+    "prisma": "^6.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "reading-time": "^1.5.0",
@@ -69,7 +71,6 @@
     "@iconify-json/hugeicons": "^1.2.4",
     "@iconify-json/svg-spinners": "^1.2.2",
     "@tailwindcss/typography": "^0.5.16",
-    "prisma": "^6.6.0",
     "tw-animate-css": "^1.2.8"
   }
 }
