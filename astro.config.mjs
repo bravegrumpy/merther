@@ -77,8 +77,4 @@ export default defineConfig({
   
   adapter: awsAmplify(),
   output: 'server',
-
-  build: {
-    serverEntry: 'index.mjs'
-  }
 });
