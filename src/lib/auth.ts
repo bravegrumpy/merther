@@ -3,10 +3,15 @@ import { Pool } from 'pg'
 
 export const auth = betterAuth({
     database: new Pool({
-        user: import.meta.env.PGUSER,
-        password: import.meta.env.PGPASSWORD,
-        host: import.meta.env.PGHOST,
-        port: import.meta.env.PGPORT,
-        database:  import.meta.env.PGDATABASE,
-    })
+        connectionString: import.meta.env.DATABASE_URL
+    }),
+    emailAndPassword: {
+        enabled: true
+    },
+    socialProviders: {
+        github: {
+            clientId: import.meta.env.GITHUB_CLIENT_ID as string,
+            clientSecret: import.meta.env.GITHUB_CLIENT_SECRET as string
+        }
+    }
 });
