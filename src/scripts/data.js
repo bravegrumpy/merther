@@ -24,11 +24,11 @@ export const mainLinks = [
     //     href: "/auth",
     //     text: "Auth"
     // },
-    {
-        key: "ZZ_Blog",
-        href:"/blog",
-        text: "Blog"
-    }
+    // {
+    //     key: "ZZ_Blog",
+    //     href:"/blog",
+    //     text: "Blog"
+    // }
 ];
 
 export const secondaryLinks = [
