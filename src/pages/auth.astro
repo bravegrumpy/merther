@@ -15,7 +15,7 @@ const session = await auth.api.getSession({
     </div>
     <hr />
     <div class="chapter">
-        <script>
+        <script is:inline>
             const { signIn, signOut } = await import("../lib/auth-client");
             document.querySelector("#login").onclick = () => signIn.social({
                 provider: 'github',
