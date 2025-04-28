@@ -1,4 +1,5 @@
 ---
+import Analytics from "@vercel/analytics/astro"
 const icon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
@@ -22,6 +23,7 @@ const { headTitle = "Merther", favicon = img, bodyClasses='' } = Astro.props;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
+    <Analytics />
     <slot name="head" />
   </head>
   <body class={bodyClasses} style="visibility: hidden;">
