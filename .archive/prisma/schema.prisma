@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model user {
+  id                      String        @id @db.Uuid
+  name                    String        @db.VarChar(255)
+  email                   String        @db.VarChar(255)
+  emailVerified           Boolean       @db.Boolean
+  image                   String?
+  createdAt               DateTime      @db.Date
+  updatedAt               DateTime      @updatedAt
+  session                 session[]
+  account                 account[]
+}
+
+model session {
+  id                      String        @id @db.Uuid
+  userId                  String        @db.Uuid
+  user                    user          @relation(fields: [userId], references: [id])
+  token                   String        @unique
+  expiresAt               DateTime      @db.Date
+  ipAddress               String?       
+  userAgent               String?
+  createdAt               DateTime      @db.Timestamp()
+  updatedAt               DateTime      @updatedAt
+}
+
+model account {
+  id                      String         @id @db.Uuid
+  userId                  String         @db.Uuid
+  user                    user           @relation(fields: [userId], references: [id])
+  accountId               String         
+  providerId              String
+  accessToken             String?
+  refreshToken            String?
+  accessTokenExpiresAt    DateTime?        @db.Date
+  refreshTokenExpiresAt   DateTime?        @db.Date
+  scope                   String?
+  idToken                 String?
+  password                String?
+  createdAt               DateTime         @db.Timestamp()
+  updatedAt               DateTime         @updatedAt
+}
+
+model verification {
+  id                      String           @id @db.Uuid
+  identifier              String
+  value                   String
+  expiresAt               DateTime         @db.Date
+  createdAt               DateTime         @db.Timestamp()
+  updatedAt               DateTime         @updatedAt
+}
