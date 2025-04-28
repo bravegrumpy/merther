@@ -27,6 +27,7 @@ let {
   bottomLine = true,
   topInitialDisplay = "flex",
   bottomInitialDisplay = "none",
+  stopFlash=true
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
@@ -63,7 +64,7 @@ import "@fontsource/style-script";
 import { Footer } from "@/components/react/Components";
 ---
 
-<UnstyledLayout headTitle={headTitle} favicon={favicon}>
+<UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
   <Fragment slot="head">
     <style is:global>
       *,

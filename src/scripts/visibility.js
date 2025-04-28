@@ -6,4 +6,5 @@ let domReady = (cb) => {
 
 domReady(() => {
     document.body.style.visibility = 'visible';
+    console.log("separate visibility script is run");
 })

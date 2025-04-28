@@ -76,7 +76,6 @@ export function Chapter({
     }){
     return(
         <>
-            <hr className="section" />
             <article id={articleId} className={articleClass}>
                 {beforePreamble}
                 <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>

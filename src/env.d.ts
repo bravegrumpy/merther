@@ -9,8 +9,6 @@ interface ImportMetaEnv {
   readonly GITHUB_CLIENT_ID: string;
   readonly GITHUB_CLIENT_SECRET: string
   readonly DATABASE_URL: string;
-  readonly DISCORD_APPLICATION_ID: string;
-  readonly DISCORD_PUBLIC_KEY: string;
   readonly DISCORD_CLIENT_ID: string
   readonly DISCORD_CLIENT_SECRET: string;
 }

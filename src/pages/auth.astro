@@ -1,36 +1,40 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import { auth } from "@/lib/auth"
+import { Debug } from "astro:components"
+
+const titleStyle = {
+    fontSize: "3rem",
+
+}
 
 const session = await auth.api.getSession({
     headers: Astro.request.headers
 })
 ---
 
-<Layout>
+<Layout stopFlash={false}>
     <div class="chapter-preamble">
-        <h2>Buttons</h2>
-        <button class="menu chnav-start" id="login">Login</button>
-        <button class="menu chnav-start" id="logout">Logout</button>
-    </div>
-    <hr />
-    <div class="chapter">
-        <script>
-            const { signIn, signOut } = await import("../lib/auth-client");
-            document.querySelector("#login").onclick = () => signIn.social({
-                provider: 'discord',
-                callbackURL: "/pages"
-            })
-            document.querySelector("#logout").onclick = () => signOut()
-        </script>
-        <h2>{session ? session.user?.name : "No User is Logged In"}</h2>
-        {
-            session 
+        {session ? <h2 class="text-gradient chapter-title" style={titleStyle}>{session.user.name}</h2> : <h2 class="text-gradient chapter-title" style={titleStyle}>Nobody</h2>}
+        <div class="menu-container chnav-container">
+            {
+                session 
                 ? (<>
-                    <h3>{session.user.name}</h3>
-                    <p>Email: {session.user.email}</p>
+                    <button class="menu chnav chnav-start" id="logout1">Log Out</button>
                 </>) 
-                : (<></>)
-        }
+                : (<>
+                    <button class="menu chnav chnav-start" id="login1">Login</button>
+                    <button class="menu chnav chnav-start" id="signup1">Sign Up</button>
+                </>)
+            }
+            
+        </div>
+    </div>
+    <div class="chapter">
+        <div class="menu-container chnav-container">
+            <button class="menu chnav chnav-start" id="logout">Log Out</button>
+            <button class="menu chnav chnav-start" id="login">Login</button>
+            <button class="menu chnav chnav-start" id="signup">Sign Up</button>
+        </div>
     </div>
 </Layout>
