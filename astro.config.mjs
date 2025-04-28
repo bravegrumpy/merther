@@ -79,4 +79,7 @@ export default defineConfig({
   adapter: node({
     mode: 'standalone',
   }),
+  build: {
+    serverEntry: 'entry.mjs'
+  }
 });
