@@ -5,15 +5,14 @@ frontend:
       commands:
         - 'echo "installing dependancies..."'
         - 'npm ci --cache .npm --prefer-offline'
+        - 'npm install'
         - 'npm list'
+        - 'env >> .env'
     build:
       commands:
-        - 'env >> .env'
         - 'npm run build'
-        - mv node_modules ./.amplify-hosting/compute/default
-        - mv .env ./.amplify-hosting/compute/default/.env
   artifacts: 
-    baseDirectory: .amplify-hosting
+    baseDirectory: dist
     files:
       - '**/*'
   cache:
