@@ -9,8 +9,6 @@ frontend:
     build:
       commands:
         - 'npm run build'
-        - 'cd dist/'
-        - 'npm i --production'
   artifacts: 
     baseDirectory: dist
     files:
