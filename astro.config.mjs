@@ -35,8 +35,6 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import vercel from '@astrojs/vercel';
 
-import auth from 'auth-astro';
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mertherfanfic.neocities.org',
@@ -69,7 +67,7 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), auth()],
+  }), svelte(), aiRobotsTxt()],
 
   vite: {
     plugins: [tailwindcss()],
