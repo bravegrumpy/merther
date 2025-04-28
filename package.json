@@ -38,6 +38,7 @@
     "@types/react-dom": "^19.1.2",
     "astro": "^5.7.4",
     "astro-ai-robots-txt": "^0.1.2",
+    "astro-aws-amplify": "^0.1.0",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
     "class-variance-authority": "^0.7.1",

@@ -33,7 +33,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-import node from '@astrojs/node';
+import awsAmplify from 'astro-aws-amplify';
 
 // https://astro.build/config
 export default defineConfig({
@@ -74,7 +74,6 @@ export default defineConfig({
   },
 
   output: 'server',
-  adapter: node({
-    mode: 'standalone'
-  })
+  adapter: awsAmplify()
+
 });
