@@ -33,7 +33,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-import awsAmplify from "astro-aws-amplify";
+import awsAmplify from 'astro-aws-amplify'
 
 // https://astro.build/config
 export default defineConfig({
@@ -70,11 +70,14 @@ export default defineConfig({
   }), svelte(), aiRobotsTxt()],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    ssr: {
+      noExternal: ['sharp']
+    }
   },
 
   trailingSlash: 'always',
   
   adapter: awsAmplify(),
-  output: 'server',
+  output: 'static',
 });
