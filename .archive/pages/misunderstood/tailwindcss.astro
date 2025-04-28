@@ -38,7 +38,7 @@ const chapters = Chapters.map((chapter) => chapter.data);
             <div class="mx-auto w-fit">
                 <StyleToggle buttonText="▶" showText="▶" hideText="▽" client:load className="mx-auto text-xl hover:text-2xl bg-slate-400 px-10 py-2 font-[Delius] font-bold border-8 border-solid border-slate-500 text-slate-600" />
             </div>
-            <div class="flex flex-row flex-wrap gap-5 py-5 pl-13 h-fit" id="top-nav" style="display: none">
+            <div class="flex flex-row flex-wrap gap-5 py-5 pl-13 h-fit" id="top-nav" style={{display: "none"}}>
                 {
                     secondaryLinks.map((link) => (<>
                         <Anchor href={link.href} className="w-[15ch] even:bg-emerald-300 odd:bg-green-300 py-1 text-center px-5 text-neutral-800 text-xl font-[Delius] align-middle border-2 border-solid hover:bg-green-200 border-neutral-800" text={link.text} keyId={link.key} />

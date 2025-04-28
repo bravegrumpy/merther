@@ -26,7 +26,7 @@ const { headTitle = "Merther", favicon = img, bodyClasses='' } = Astro.props;
     <Analytics />
     <slot name="head" />
   </head>
-  <body class={bodyClasses} style="visibility: hidden;">
+  <body class={bodyClasses} style={{visibility: "hidden"}}>
     <script is:inline>0</script>
     <slot />
     <script is:inline>
