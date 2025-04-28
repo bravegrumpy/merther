@@ -19,11 +19,11 @@ export const mainLinks = [
         href: "/external/iron",
         text: "Kinks",
     },
-    // {
-    //     key: "ZY_Auth",
-    //     href: "/auth",
-    //     text: "Auth"
-    // },
+    {
+        key: "ZY_Auth",
+        href: "/auth",
+        text: "Auth"
+    },
     // {
     //     key: "ZZ_Blog",
     //     href:"/blog",
