@@ -37,7 +37,7 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mertherfanfic.neocities.org',
+  site: 'https://mertherfanfic.bravegrumpy.com',
 
   prefetch: {
     defaultStrategy: 'viewport'
