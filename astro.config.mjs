@@ -72,7 +72,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     ssr: {
-      noExternal: ['sharp']
+      external: ['sharp']
     }
   },
 
