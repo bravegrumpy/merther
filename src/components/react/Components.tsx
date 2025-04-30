@@ -61,21 +61,31 @@ export function A({children, ...props}: {children?: React.ReactNode}) {
 }
 export function H1({children}: {children?: React.ReactNode}){
     return(<>
-        <h1></h1>
+        <h1>{children}</h1>
     </>);
 }
 export function H2({children}: {children?: React.ReactNode}){
-    return(<></>);
+    return(<>
+        <h2>{children}</h2>
+    </>);
 }
 export function H3({children}: {children?: React.ReactNode}){
-    return(<></>);
+    return(<>
+        <h3>{children}</h3>
+    </>);
 }
 export function H4({children}: {children?: React.ReactNode}){
-    return(<></>);
+    return(<>
+        <h4>{children}</h4>
+    </>);
 }
 export function H5({children}: {children?: React.ReactNode}){
-    return(<></>);
+    return(<>
+        <h5>{children}</h5>
+    </>);
 }
 export function H6({children}: {children?: React.ReactNode}){
-    return(<></>);
+    return(<>
+        <h6>{children}</h6>
+    </>);
 }
