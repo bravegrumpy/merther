@@ -1,40 +1,11 @@
 ---
 import Layout from "@/layouts/Layout.astro"
-import { auth } from "@/lib/auth"
 import { Debug } from "astro:components"
 
 const titleStyle = {
     fontSize: "3rem",
 
 }
-
-const session = await auth.api.getSession({
-    headers: Astro.request.headers
-})
 ---
 
-<Layout stopFlash={false}>
-    <div class="chapter-preamble">
-        {session ? <h2 class="text-gradient chapter-title" style={titleStyle}>{session.user.name}</h2> : <h2 class="text-gradient chapter-title" style={titleStyle}>Nobody</h2>}
-        <div class="menu-container chnav-container">
-            {
-                session 
-                ? (<>
-                    <button class="menu chnav chnav-start" id="logout1">Log Out</button>
-                </>) 
-                : (<>
-                    <button class="menu chnav chnav-start" id="login1">Login</button>
-                    <button class="menu chnav chnav-start" id="signup1">Sign Up</button>
-                </>)
-            }
-            
-        </div>
-    </div>
-    <div class="chapter">
-        <div class="menu-container chnav-container">
-            <button class="menu chnav chnav-start" id="logout">Log Out</button>
-            <button class="menu chnav chnav-start" id="login">Login</button>
-            <button class="menu chnav chnav-start" id="signup">Sign Up</button>
-        </div>
-    </div>
-</Layout>
+<Layout stopFlash={false}></Layout>
