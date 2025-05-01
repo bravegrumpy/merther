@@ -56,7 +56,7 @@ const latestChapter = chapters.length - 1;
             const readingTime = remarkPluginFrontmatter.minutesRead;
             const pubDate = dayjs(chapter.data.pubDate).utc()
             return (<>
-                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
+                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" >
                     <div>
                         <div class="chi">
                             <a class="chb" href={`/misunderstood/simple/${chapter.id}`}>Single Chapter</a>

@@ -1,6 +1,31 @@
 import * as React from 'react';
 import { Icon } from "@iconify/react"
 
+function HorizontalRule({lineType}:{lineType?: 'section' | 'default' | 'start' | 'end' | false | undefined}) {
+    const styleSet = { marginBottom:"-50px" }
+    switch(lineType) {
+        case 'section':
+            return(<>
+                <hr className='section' style={styleSet} />
+            </>);
+            break;
+        case 'default':
+            return(<>
+                <hr style={styleSet} />
+            </>);
+            break;
+        case 'start':
+            return(<><hr style={styleSet} className='section start' /></>);
+        case 'end':
+            return(<>
+                <hr style={styleSet} className='section end' />
+            </>);
+        case false:
+        default:
+            break;
+    }
+}
+
 export function ChapterPreamble(
     { 
         chapterNameHeading, 
@@ -13,6 +38,7 @@ export function ChapterPreamble(
         preambleChildren,
         firstChild,
         lastChild,
+        topLine,
      }: {
             chapterNameHeading?: string,
             previousChapterSrc?: string,
@@ -23,10 +49,12 @@ export function ChapterPreamble(
             anchorClass?: string,
             preambleChildren?: React.ReactNode,
             firstChild?: React.ReactNode,
-            lastChild?: React.ReactNode
+            lastChild?: React.ReactNode,
+            topLine?: 'section' | 'default' | 'start' | 'end' | false | undefined
         }) {
     return(
         <>
+            <HorizontalRule lineType={topLine} />
             <span className={`chapter-preamble ${spanClass}`}>
                 {firstChild}
                 {chapterNameHeading ? <h2 className={`text-gradient chapter-title ${headingClass}`}>{chapterNameHeading}</h2> : <></> }
@@ -56,7 +84,8 @@ export function Chapter({
     articleClass,
     preambleChildren,
     firstChild,
-    lastChild
+    lastChild,
+    preambleTopLine,
 }: {
         articleId: string,
         beforePreamble?: React.ReactNode,
@@ -72,13 +101,14 @@ export function Chapter({
         articleClass?: string,
         preambleChildren?: React.ReactNode,
         firstChild?: React.ReactNode,
-        lastChild?: React.ReactNode
+        lastChild?: React.ReactNode,
+        preambleTopLine?: 'section' | 'default' | false | undefined | 'start' | 'end'
     }){
     return(
         <>
             <article id={articleId} className={articleClass}>
                 {beforePreamble}
-                <ChapterPreamble chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>
+                <ChapterPreamble topLine={preambleTopLine} chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>
                 <div className={`chapter ${chapterDivClass}`}>
                     {children}
                 </div>
