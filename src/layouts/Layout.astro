@@ -65,6 +65,7 @@ import { Footer } from "@/components/react/Components";
 ---
 
 <UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
+  <slot name="head" />
   <Fragment slot="head">
     <style is:global>
       *,
