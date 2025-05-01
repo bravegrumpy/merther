@@ -39,9 +39,10 @@ const { previous='', next='', size='24', other, chapterId } = Astro.props;
     bottom: 75px;
 }
 .end {
-    /* background-color: #ff03; */
+    background-color: #ff03;
     position: sticky;
     bottom: -53px;
+    /* top: 50px; */
     background-color: rgba(162, 143, 124, 98%);
 }
 .chapter-postnav {
@@ -63,5 +64,11 @@ const { previous='', next='', size='24', other, chapterId } = Astro.props;
     justify-content: center;
     align-items: start;
     margin: 40px auto;
+}
+
+@media screen and (max-height: 900px) {
+    .end {
+        display: none;
+    }
 }
 </style>
