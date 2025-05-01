@@ -87,8 +87,8 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
             <div class="chi">
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
                 <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
-                <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p>
-		<p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
+                <!-- <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> -->
+		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
             </div>
         </div>
         <Content />

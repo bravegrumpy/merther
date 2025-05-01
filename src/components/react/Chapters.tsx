@@ -162,7 +162,7 @@ export function ChapterNav({ chapters, navClass='', reloadClass='', contentsBtnC
             <button onClick={toggleContents} className={`chnav menu chnav-start ${contentsBtnClass}`}>Contents: </button>
             {
                 chapters.map((chapter) => (<>
-                    <a key={`link-${chapter.id}`} className={`chnav menu chlst hide hidden ${chapterClass}`} href={chapter.href}>{chapter.text}</a>
+                    <a key={`link-${chapter.id}`} className={`chnav menu chlst hide hidden ${chapterClass}`} href={chapter.href ?? null}>{chapter.text}</a>
                 </>))
             }
         </nav>

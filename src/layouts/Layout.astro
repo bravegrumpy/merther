@@ -5,6 +5,8 @@ const favicon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
 
+import { ClientRouter } from "astro:transitions";
+
 import UnstyledLayout from "./UnstyledLayout.astro";
 
 import { Icon } from "astro-icon/components";
@@ -27,7 +29,7 @@ let {
   bottomLine = true,
   topInitialDisplay = "flex",
   bottomInitialDisplay = "none",
-  stopFlash=true
+  stopFlash=false
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
@@ -67,6 +69,7 @@ import { Footer } from "@/components/react/Components";
 <UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
   <slot name="head" />
   <Fragment slot="head">
+    <ClientRouter />
     <style is:global>
       *,
       body {
