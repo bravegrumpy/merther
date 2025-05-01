@@ -19,7 +19,9 @@ import { StyleToggle } from "@/components/react/Navigation"
 
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc"
+import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(utc)
+dayjs.extend(advancedFormat);
 
 import { getCollection, render } from "astro:content"
 
