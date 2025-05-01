@@ -1,0 +1,367 @@
+---
+
+import { Picture } from "astro:assets"
+
+const base = "https://cdn.bravegrumpy.com"
+
+let j = Math.random()
+
+let i = 0;
+
+const links = [
+    {
+        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+        type: `dir`,
+        href: `${base}/AO3Styles/`,
+        children: [
+            {
+                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                type: `dir`,
+                href: `${base}/AO3Styles/images/`,
+                children: [
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/candid.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/candid.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/chromolithograph.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/chromolithograph.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `dir`,
+                        href: `${base}/AO3Styles/images/endless-clouds/`,
+                        children: [
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds_square_purple.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-16x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-1x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-4x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-8x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-1x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-2x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-heropatterns-url.txt`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds.svg`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-1x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-32x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-64x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-1x.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds-purple.png`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds.afdesign`,
+                            }, 
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/endless-clouds/endless-clouds.png`,
+                            }
+                        ]
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/favicon.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        
+                        href: `${base}/AO3Styles/images/hand-painted-colorized-heliograph.png`, 
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/hand-painted-colorized-heliograph.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/illustration.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/illustration.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/lithograph.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/lithograph.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/mixture.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/mixture.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/oil-painting.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/oil-painting.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/render.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/render.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/royal-reds.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/royal-reds.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/stained-glass.png`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `file`,
+                        href: `${base}/AO3Styles/images/stained-glass.webp`,
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `dir`,
+                        href: `${base}/AO3Styles/images/textures/`,
+                        children: [
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_Cardboard_WavyLayer_512_albedo.png`,
+                        
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/`,
+                        
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_Cardboard_WavyLayer_header.jpg`,                 
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_S.png`,
+                        
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL_cropped.png`, 
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL_seamless-y.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `file`,
+                                href: `${base}/AO3Styles/images/textures/TCom_PaperPage0083_3_S.jpg`, 
+                            }
+                        ]
+                    },
+                    {
+                        id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                        type: `dir`,
+                        href: `${base}/AO3Styles/images/topography/`,
+                        children: [
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `dir`,
+                                href: `${base}/AO3Styles/images/topography/topography_brown.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `dir`,
+                                href: `${base}/AO3Styles/images/topography/topography_currentColor.svg`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `dir`,
+                                href: `${base}/AO3Styles/images/topography/topography_green.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `dir`,
+                                href: `${base}/AO3Styles/images/topography/topography_purple.png`,
+                            },
+                            {
+                                id: `${((i++) + (Number(j.toPrecision(5)) * 100000))}_cdnLink`,
+                                type: `dir`,
+                                href: `${base}/AO3Styles/images/topography/topography.svg`,
+                            },
+                        ]
+                    },
+                ]
+            }
+        ]
+    }
+]
+
+
+let k = 3
+---
+<details open>
+    <summary>
+        {links.filter((link) => link.type === 'dir')[0].href.split('/')[2]}
+    </summary>
+    <ul>
+        {
+            links.map((link) => (<li id={link.id}>
+                <a href={link.href}>{link.href}</a>
+                {
+                    link.children ? (<>
+                        <details open>
+                            <summary>
+                                {link.children.filter((l1) => l1.type === 'dir')[links.indexOf(link)].href.split('/')[3]}
+                            </summary>
+                            <ul>
+                                {
+                                    link.children.map((l1) => (<li>
+                                        <a href={l1.href}>{l1.href}</a>
+                                        {
+                                            l1.children ? (<>
+                                                <details open>
+                                                    <summary>
+                                                        {l1.children.filter((l2) => l2.type === 'dir')[link.children.indexOf(l1)].href.split('/')[4]}
+                                                    </summary>
+                                                    <ul>
+                                                        {
+                                                            l1.children.map((l2) => (<li>
+                                                                <a href={l2.href}>{l2.href}</a>
+                                                                {
+                                                                    l2.children ? (<>
+                                                                        <details open>
+                                                                            <summary>
+                                                                                {l2.href.split('/')[5]}
+                                                                            </summary>
+                                                                            <ul>
+                                                                                {
+                                                                                    l2.children.map((l3) => (<li>
+                                                                                        <a href={l3.href}>{l3.href}</a>
+                                                                                    </li>))
+                                                                                }
+                                                                            </ul>
+                                                                        </details>
+                                                                    </>) : (<></>)
+                                                                }
+                                                            </li>))
+                                                        }
+                                                    </ul>
+                                                </details>
+                                            </>) : (<></>)
+                                        }
+                                    </li>))
+                                }
+                            </ul>
+                        </details>
+                    </>) : (<></>)
+                }
+            </li>))
+        }
+    </ul>
+</details>
+
+<Picture src="https://cdn.bravegrumpy.com/AO3Styles/images/oil-painting.png" alt="This is an example ai generated photo" inferSize={true} formats={['jpg']} />
