@@ -37,7 +37,7 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://merther.bravegrumpy.org',
+  site: 'https://merther.bravegrumpy.com',
 
   prefetch: {
     defaultStrategy: 'viewport',
