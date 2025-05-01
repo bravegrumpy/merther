@@ -40,6 +40,11 @@ export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
   // site: 'https://mertherfanfic.neocities.org',
 
+  image: {
+    domains: ["bravegrumpy.com"],
+    remotePatterns: [{ protocol: "https"}]
+  },
+
   prefetch: {
     defaultStrategy: 'viewport',
     prefetchAll: true
