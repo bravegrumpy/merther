@@ -19,16 +19,16 @@ export const mainLinks = [
         href: "/external/iron",
         text: "Kinks",
     },
-    {
-        key: "ZY_Auth",
-        href: "/auth",
-        text: "Auth"
-    },
-    {
-        key: "ZZ_Blog",
-        href:"/blog",
-        text: "Blog"
-    }
+    // {
+    //     key: "ZY_Auth",
+    //     href: "/auth",
+    //     text: "Auth"
+    // },
+    // {
+    //     key: "ZZ_Blog",
+    //     href:"/blog",
+    //     text: "Blog"
+    // }
 ];
 
 export const secondaryLinks = [
