@@ -1,8 +1,8 @@
-// export function getStaticPaths() {
-//     return [
-//         { params: { directory: "topography", image: "topography_brown"} }
-//     ]
-// }
+export function getStaticPaths() {
+    return [
+        { params: { directory: "topography", image: "topography_brown"} }
+    ]
+}
 
 export async function GET ({ params, request }: {params: any, request: any}) {
     const response = await fetch(
