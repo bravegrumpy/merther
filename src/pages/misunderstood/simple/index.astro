@@ -54,7 +54,7 @@ const latestChapter = chapters.length - 1;
             const next = Misunderstood[chapter.data.chapter] ? `/misunderstood/simple${Misunderstood[chapter.data.chapter].data.href}` : '';
             const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
-            const pubDate = dayjs(chapter.pubDate).utc()
+            const pubDate = dayjs(chapter.data.pubDate).utc()
             return (<>
                 <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
                     <div>

@@ -21,6 +21,8 @@ import { Icon } from "astro-icon/components"
 import dayjs from "dayjs"
 import utc from "dayjs/plugin/utc"
 dayjs.extend(utc);
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(advancedFormat);
 
 // export async function getStaticPaths() {
 //     const Chapters = await getCollection('misunderstood');
@@ -50,8 +52,7 @@ const chapters = Misunderstood.map((ch) => {
         href: ch.id,
         id: ch.data.id,
         title: ch.data.title,
-        chapter: ch.data.chapter
-
+        chapter: ch.data.chapter,
     }
 });
 
@@ -60,6 +61,7 @@ const next = chapters[misunderstood.data.chapter] ? `/misunderstood/simple/${cha
 const lastModified = dayjs(remarkPluginFrontmatter.lastModified);
 const readingTime = remarkPluginFrontmatter.minutesRead;
 const latestChapter = chapters.length - 1;
+const pubDate = dayjs(misunderstood.data.pubDate).utc();
 ---
 
 <Layout headTitle={headTitle} mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink}>
@@ -68,7 +70,7 @@ const latestChapter = chapters.length - 1;
         <h2 class="text-center">{misunderstood.data.title}</h2>
     </div>
     <StyleToggle slot="header" client:only="react" />
-    <ChapterNav chapters={chapters} client:only="react" />
+    <ChapterNav chapters={chapters} client:only="react" icons={true} />
     <hr class="section" />
     <Article>
         <div class="chapter-preamble latest-chapter">
@@ -86,6 +88,7 @@ const latestChapter = chapters.length - 1;
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
                 <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
                 <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p>
+		<p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
             </div>
         </div>
         <Content />
