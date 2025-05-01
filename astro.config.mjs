@@ -44,7 +44,6 @@ export default defineConfig({
     defaultStrategy: 'viewport',
     prefetchAll: true
   },
-
   markdown: {
     shikiConfig: {
       themes: {
