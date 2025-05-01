@@ -52,6 +52,7 @@ const latestChapter = chapters.length - 1;
             const next = Misunderstood[chapter.data.chapter] ? `/misunderstood/simple${Misunderstood[chapter.data.chapter].data.href}` : '';
             const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
+            const pubDate = dayjs(chapter.pubDate).utc()
             return (<>
                 <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next}>
                     <div>
@@ -59,6 +60,7 @@ const latestChapter = chapters.length - 1;
                             <a class="chb" href={`/misunderstood/simple/${chapter.id}`}>Single Chapter</a>
                             <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
                             <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p>
+                            <p class="chb"><span class="notes">Published On: {pubDate.format('MMMM Do, YYYY')}</span>{}</p>
                         </div>
                     </div>
                     <Content />
