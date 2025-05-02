@@ -86,6 +86,7 @@ export function Chapter({
     firstChild,
     lastChild,
     preambleTopLine,
+    beforeChapter
 }: {
         articleId: string,
         beforePreamble?: React.ReactNode,
@@ -102,7 +103,8 @@ export function Chapter({
         preambleChildren?: React.ReactNode,
         firstChild?: React.ReactNode,
         lastChild?: React.ReactNode,
-        preambleTopLine?: 'section' | 'default' | false | undefined | 'start' | 'end'
+        preambleTopLine?: 'section' | 'default' | false | undefined | 'start' | 'end',
+        beforeChapter?: React.ReactNode
     }){
     return(
         <>
@@ -110,6 +112,7 @@ export function Chapter({
                 {beforePreamble}
                 <ChapterPreamble topLine={preambleTopLine} chapterNameHeading={chapterNameHeading} previousChapterSrc={previousChapterSrc} nextChapterSrc={nextChapterSrc} headerChildren={headerChildren} spanClass={spanClass} headingClass={headingClass} anchorClass={anchorClass} preambleChildren={preambleChildren} firstChild={firstChild} lastChild={lastChild}/>
                 <div className={`chapter ${chapterDivClass}`}>
+                    {beforeChapter}
                     {children}
                 </div>
             </article>

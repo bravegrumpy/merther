@@ -10,7 +10,6 @@ import { Icon } from "astro-icon/components";
 
 const Misunderstood = await getCollection('misunderstood');
 Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
-
 ---
 <UnstyledLayout headTitle={headTitle}>
     <h1><a href="/misunderstood">{pageTitle}</a></h1>
@@ -26,7 +25,18 @@ Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
                         })
                     }
                 </select>
-                <h2 id={chapter.data.id}><a href={`/misunderstood/print/${chapter.id}`}>{chapter.data.title}</a><button onclick="window.location.href='/misunderstood/print'"><Icon name="hugeicons:arrow-up-04" width="20" height="20" /></button></h2>
+                <h2 id={chapter.data.id}>
+                    <a href={`/misunderstood/print/${chapter.id}`}>
+                        {chapter.data.title}
+                    </a>
+
+                    <button onclick="window.location.href='/misunderstood/print'">
+                        <Icon name="hugeicons:arrow-up-04" width="20" height="20" />
+                    </button>
+                    <a class="home" href={`/misunderstood/simple${chapter.data.href}`}>
+                        <Icon name="game-icons:blood" width="20" height="20" />
+                    </a>
+                </h2>
                 <Content />
             </>);
         })

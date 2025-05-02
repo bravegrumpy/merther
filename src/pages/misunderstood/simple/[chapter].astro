@@ -92,12 +92,24 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
 		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
             </div>
         </div>
+        <div class="spacer"></div>
+            <a href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
+                <Icon name="hugeicons:printer" width="24" height="24" />
+            </a>
         <Content />
         <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} />
+
     </Container>
 </Layout>
 
 <style>
+    #printLink {
+        padding-top: 20px;
+    }
+    .spacer {
+        width: 500px;
+        height: 20px;
+    }
     .middle {
         position: sticky;
         bottom: 75px;

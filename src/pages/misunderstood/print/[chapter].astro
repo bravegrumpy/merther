@@ -26,6 +26,8 @@ const misunderstood = Chapters.filter((ch) => ch.id === chapter)[0]
 
 const { Content } = await render(misunderstood);
 
+import { Icon } from "astro-icon/components"
+
 const pageTitle =  'Misunderstood';
 const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
 ---
@@ -40,7 +42,12 @@ const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
             })
         }
     </select>
-    <h2><a href={`/misunderstood/print${misunderstood.data.href}`}>{misunderstood.data.title}</a></h2>
+    <h2>
+        <a href={`/misunderstood/print${misunderstood.data.href}`}>{misunderstood.data.title}</a>
+        <a class="home" href={`/misunderstood/simple/${chapter}`}>
+            <Icon name="game-icons:blood" width="20" height="20" />
+        </a>
+    </h2>
     <Content />
 </UnstyledLayout>
 
