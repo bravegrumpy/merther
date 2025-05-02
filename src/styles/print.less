@@ -1,5 +1,5 @@
 body {
-    width: 90ch;
+    width: 80%;
     margin: 0px auto;
 
     h1, h2 {
@@ -13,10 +13,18 @@ body {
                 text-decoration-color: $color;
             }
         }
-    }   
+    }
+    
+    hr {
+        height: 0.4px;
+        background-color: #333;
+    }
 }
 
 @media print {
+    body {
+        width: 80ch;
+    }
     select, button {
         display: none;
     }

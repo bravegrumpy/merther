@@ -6,7 +6,6 @@ import "@fontsource/gloria-hallelujah"; import "@fontsource/cedarville-cursive";
 const bravegrumpyLink = "https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy"
 import { mainLinks, secondaryLinks } from "@/scripts/data";
 const pageTitle = "Misunderstood";
-const headTitle = "Misunderstood | Merther";
 import Layout from "@/layouts/Layout.astro"
 import { getCollection, render } from "astro:content";
 import Article from "@/components/Article.astro"
@@ -24,23 +23,23 @@ dayjs.extend(utc);
 import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
 
-export async function getStaticPaths() {
-    const Chapters = await getCollection('misunderstood');
-    return Chapters.map((ch) => ({
-        params: { chapter: ch.id },
-        props: {
-            misunderstood: ch
-        }
-    }));
-}
+// export async function getStaticPaths() {
+//     const Chapters = await getCollection('misunderstood');
+//     return Chapters.map((ch) => ({
+//         params: { chapter: ch.id },
+//         props: {
+//             misunderstood: ch
+//         }
+//     }));
+// }
 
 const { chapter } = Astro.params;
-const { misunderstood }: { misunderstood: any } = Astro.props;
+// const { misunderstood }: { misunderstood: any } = Astro.props;
 
 const Misunderstood = await getCollection('misunderstood');
 Misunderstood.sort((a,b) => a.data.chapter - b.data.chapter);
 
-// const misunderstood = Misunderstood.filter((ch) => ch.id === chapter)[0]
+const misunderstood = Misunderstood.filter((ch) => ch.id === chapter)[0]
 
 const { Content, remarkPluginFrontmatter } = await render(misunderstood);
 
@@ -55,6 +54,8 @@ const chapters = Misunderstood.map((ch) => {
         chapter: ch.data.chapter,
     }
 });
+
+const headTitle = `${misunderstood.data.text} | Misunderstood`
 
 const previous = chapters[misunderstood.data.chapter - 2] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter -2].href}` : '';
 const next = chapters[misunderstood.data.chapter] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter].href}` :  '';
