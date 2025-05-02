@@ -22,8 +22,8 @@ const { chapter } = Astro.params;
 const  Chapters = await getCollection('misunderstood');
 Chapters.sort((a, b) => a.data.chapter - b.data.chapter);
 
-// const misunderstood = Chapters.filter((ch) => ch.id === chapter)[0]
-const misunderstood = await getEntry("misunderstood", chapter);
+const misunderstood = await getEntry("misunderstood", `${chapter}`) ?? Chapters.filter((ch) => ch.id === chapter)[0];
+
 const { Content } = await render(misunderstood);
 
 import { Icon } from "astro-icon/components"

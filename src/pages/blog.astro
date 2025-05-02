@@ -1,12 +1,5 @@
 ---
 import Layout from "@/layouts/Layout.astro"
-import { getCollection, render, getEntry } from "astro:content"
 
-const TestCollection = await getEntry("misunderstood_summary", "01_again");
-
-const { Content, remarkPluginFrontmatter}  = await render(TestCollection)
 ---
-<Layout>
-    <p>{TestCollection?.data.chapter}</p>
-    <Content />
-</Layout>
+<Layout></Layout>

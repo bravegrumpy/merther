@@ -21,6 +21,7 @@ import dayjs from "dayjs"
 import utc from "dayjs/plugin/utc"
 dayjs.extend(utc);
 import advancedFormat from "dayjs/plugin/advancedFormat";
+import { flip } from "svelte/animate";
 dayjs.extend(advancedFormat);
 
 // export async function getStaticPaths() {
@@ -39,7 +40,8 @@ const { chapter } = Astro.params;
 const Misunderstood = await getCollection('misunderstood');
 Misunderstood.sort((a,b) => a.data.chapter - b.data.chapter);
 
-const misunderstood = await getEntry("misunderstood", chapter);
+const misunderstood = await getEntry('misunderstood', `${chapter}`) ?? Misunderstood.filter((ch) => ch.id === chapter)[0];
+
 const  { Content, remarkPluginFrontmatter } = await render(misunderstood);
 
 const chapters = Misunderstood.map((ch) => {
@@ -80,16 +82,16 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         </div>
         <Banner />
     </Article>
-    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top">
+    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>
         <span slot="previousIcon">
-            <Icon name="hugeicons:arrow-left-04" width={32} height={32} />
+            <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} transform="flip" />
         </span>
         <span slot="nextIcon">
-            <Icon name="hugeicons:arrow-right-04" width={32} height={32} />
+            <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} />
         </span>
-        <span slot="backToTopIcon">
-            <Icon name="hugeicons:transition-top" width={32} height={32} />
-        </span>
+        <!-- <span slot="backToTopIcon"> -->
+            <!-- <Icon name="hugeicons:transition-top" width={32} height={32} /> -->
+        <!-- </span> -->
         <div>
             <div class="chi">
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
@@ -102,7 +104,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
                 <Icon name="hugeicons:printer" width="24" height="24" />
             </a>
         <Content />
-        <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} size={32} />
+        <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} size={32} previousIcon="hugeicons:arrow-turn-backward" backToTopIcon="hugeicons:transition-top" nextIcon="hugeicons:arrow-turn-forward" />
 
     </Container>
 </Layout>

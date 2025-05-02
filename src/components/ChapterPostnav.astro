@@ -1,6 +1,6 @@
 ---
 import { Icon } from "astro-icon/components"
-const { previous='', next='', size='24', other, chapterId } = Astro.props;
+const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04', backToTopIcon = "hugeicons:arrow-up-04", nextIcon="hugeicons:arrow-right-04", other, chapterId } = Astro.props;
 ---
 
 <div class="end">
@@ -8,19 +8,19 @@ const { previous='', next='', size='24', other, chapterId } = Astro.props;
     <div class="chapter-postnav">
         {
             previous === '' ? (<p class="menu chnav fake-btn">
-                <Icon name="hugeicons:arrow-left-04" width={size} height={size} />
+                <Icon name={previousIcon} width={size} height={size} />
             </p>) : (<>
-                <a href={previous} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-left-04" width={size} height={size} /></a>
+                <a href={previous} class="menu chnav button back-to-top"><Icon name={previousIcon} width={size} height={size} /></a>
             </>)
         }
-        <a href="#" class="menu chnav button back-to-top"><Icon name="hugeicons:transition-top" width={size} height={size} /></a>
+        <a href="#" class="menu chnav button back-to-top"><Icon name={backToTopIcon} width={size} height={size} /></a>
         {
             next === '' 
                 ? (<>
-                    <p class="menu chnav fake-btn"><Icon name="hugeicons:arrow-right-04" width={size} height={size} /></p>
+                    <p class="menu chnav fake-btn"><Icon name={nextIcon} width={size} height={size} /></p>
                 </>) 
                 : (<>
-                    <a href={next} class="menu chnav button back-to-top"><Icon name="hugeicons:arrow-right-04" width={size} height={size} /></a>
+                    <a href={next} class="menu chnav button back-to-top"><Icon name={nextIcon} width={size} height={size} /></a>
                 </>)
         }
     </div>

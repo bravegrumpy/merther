@@ -24,6 +24,7 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=false} 
     <title>{headTitle}</title>
     <Analytics />
     <slot name="head" />
+    <!-- <script src="../scripts/scrollPosition.js"></script> -->
   </head>
   <body class={bodyClasses} style={{visibility: stopFlash ? 'hidden' : 'visible'}}>
     <script is:inline>0</script>

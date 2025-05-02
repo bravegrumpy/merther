@@ -56,16 +56,16 @@ const latestChapter = chapters.length - 1;
             const readingTime = remarkPluginFrontmatter.minutesRead;
             const pubDate = dayjs(chapter.data.pubDate).utc()
             return (<>
-                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" anchorClass="menu back-to-top" >
+                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" anchorClass="menu back-to-top" backToTopButton={false}>
                     <span slot="previousIcon">
                         <Icon name="hugeicons:arrow-left-04" width={32} height={32} />
                     </span>
                     <span slot="nextIcon">
                         <Icon name="hugeicons:arrow-right-04" width={32} height={32} />
                     </span>
-                    <span slot="backToTopIcon">
-                        <Icon name="hugeicons:transition-top" width={32} height={32} />
-                    </span>
+                    {/* <span slot="backToTopIcon"> */}
+                        {/* <Icon name="hugeicons:transition-top" width={32} height={32} /> */}
+                    {/* </span> */}
                     <div>
                         <div class="chi">
                             <a class="chb" href={`/misunderstood/simple/${chapter.id}`}>Single Chapter</a>
@@ -78,7 +78,8 @@ const latestChapter = chapters.length - 1;
                         <Icon name="hugeicons:printer" width="24" height="24" />
                     </a>
                     <Content />
-                    <ChapterPostnav previous={previous} next={next} other="single" chapterId={chapter.id} size={32} topIcon="hugeicons:transition-top" />
+                    <ChapterPostnav previous={previous} next={next} other="single" chapterId={chapter.id} size={32} backToTopIcon="hugeicons:transition-top" previousIcon="hugeicons:arrow-turn-backward"
+                    nextIcon="hugeicons:arrow-turn-forward" />
                 </Chapter>
             </>);
         })

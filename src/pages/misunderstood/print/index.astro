@@ -48,5 +48,13 @@ Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
         display: flex;
         flex-direction: row;
         gap: 20px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    @media print {
+        h2 {
+            position: static;
+        }
     }
 </style>

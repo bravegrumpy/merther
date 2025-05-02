@@ -132,6 +132,12 @@ a {
   border-style: double;
   height: fit-content;
 }
+[data-icon="hugeicons:arrow-turn-backward"] {
+  transform: rotateX(180deg);
+}
+[data-icon="hugeicons:arrow-turn-forward"] {
+  transform: rotateX(180deg);
+}
 .fake-btn.menu {
   opacity: 50%;
   font-family: "Delius", "Recursive", "Verdana", monospace;
@@ -180,8 +186,11 @@ dt {
   z-index: 25;
   position: sticky;
   top: 0px;
-  box-shadow: 10px 20px 0px 0px #43271003;
+  box-shadow: 10px 10px 10px 10px #43271080, -5px 0px 10px 10px #43271060;
   page-break-before: auto;
+}
+.chapter-postnav {
+  box-shadow: 0px -20px 40px 10px #43271080;
 }
 .chapter-info {
   width: 50.4ch;

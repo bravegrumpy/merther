@@ -55,6 +55,7 @@ export function ChapterPreamble({
   previousIcon,
   nextIcon,
   backToTopIcon,
+  backToTopButton
 }: {
   chapterNameHeading?: string;
   previousChapterSrc?: string;
@@ -71,6 +72,7 @@ export function ChapterPreamble({
   previousIcon?: React.ReactNode;
   nextIcon?: React.ReactNode;
   backToTopIcon?: React.ReactNode;
+  backToTopButton?: string | boolean | React.ReactNode
 }) {
   return (
     <>
@@ -121,12 +123,17 @@ export function ChapterPreamble({
             Next Chapter {"\u2192"}
           </p>
         )}
-        <a className={anchorClass} href="#top">
-            {
-                backToTopIcon ? (<>{backToTopIcon}</>) : (<>Back to top {"\u2191"}</>)
-            }
-          
-        </a>
+        { 
+          backToTopButton 
+            ? (<>
+              <a className={anchorClass} href="#top">
+                {
+                  backToTopIcon ? (<>{backToTopIcon}</>) : (<>Back to top{"\u2191"}</>)
+                }
+              </a>
+            </>) 
+            : (<></>)
+        }
         <>{lastChild}</>
       </span>
       {preambleChildren}
@@ -156,6 +163,7 @@ export function Chapter({
   previousIcon,
   nextIcon,
   backToTopIcon,
+  backToTopButton
 }: {
   articleId: string;
   beforePreamble?: React.ReactNode;
@@ -178,6 +186,7 @@ export function Chapter({
   previousIcon?: React.ReactNode;
   nextIcon?: React.ReactNode;
   backToTopIcon?: React.ReactNode;
+  backToTopButton?: boolean
 }) {
   return (
     <>
@@ -199,6 +208,7 @@ export function Chapter({
           previousIcon={previousIcon}
           nextIcon={nextIcon}
           backToTopIcon={backToTopIcon}
+          backToTopButton={backToTopButton}
         />
         <div className={`chapter ${chapterDivClass}`}>
           {beforeChapter}
