@@ -1,5 +1,5 @@
 # Merther Fanfic
 
-This is a repo for Merlin.
+This is something [^1]
 
-Yada yada  yada yada
+[^1]: This is a foot note. Have fun with feet
