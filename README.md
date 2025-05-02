@@ -2,6 +2,7 @@
 
 This is something [^1]
 
-Wait, lets see if the other kind of footnote works. I know that^[If I write something in here it is apt to become a footnote.]
+The [^2] foot notes are here.
 
 [^1]: This is a foot note. Have fun with feet
+[^2]: The cool kind of footnote does not work.
