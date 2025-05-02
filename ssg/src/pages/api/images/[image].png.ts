@@ -1,9 +1,10 @@
-// export function getStaticPaths() {
-//     return [
-//         { params: { image: "chromolithograph"} },
-//         { params: { image: "oil-painting"} }
-//     ]
-// }
+// This is the copy in the ssg folder
+export function getStaticPaths() {
+    return [
+        { params: { image: "chromolithograph"} },
+        { params: { image: "oil-painting"} }
+    ]
+}
 
 export async function GET ({ params, request }: {params: any, request: any}) {
     const response = await fetch(

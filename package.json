@@ -6,7 +6,18 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "server:files": "cp ssr/astro.config.mjs . && cp ssr/src/pages/misunderstood/simple/* src/pages/misunderstood/simple && cp ssr/src/pages/misunderstood/print/* src/pages/misunderstood/print && cp -rf ssr/src/pages/api/images/* src/pages/api/images",
+    "server:build": "npm run server:files && npm run build",
+    "server:dev": "npm run server:files && npm run dev",
+    "server:preview": "npm run server:files && npm run preview",
+    "server:update":"cp -rf default/* ssr",
+    "static:files": "cp ssg/astro.config.mjs . && cp ssg/src/pages/misunderstood/simple/* src/pages/misunderstood/simple && cp ssg/src/pages/misunderstood/print/* src/pages/misunderstood/print && cp -rf ssg/src/pages/api/images/* src/pages/api/images",
+    "static:build": "npm run static:files && npm run build",
+    "static:dev": "npm run static:files && npm run dev",
+    "static:preview": "npm run static:files && npm run preview",
+    "static:update": "cp -rf default/* ssg",
+    "default:files": "cp default/astro.config.mjs . && cp default/src/pages/misunderstood/simple/* src/pages/misunderstood/simple && cp default/src/pages/misunderstood/print/* src/pages/misunderstood/print && cp -rf default/src/pages/api/images/* src/pages/api/images"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.6",

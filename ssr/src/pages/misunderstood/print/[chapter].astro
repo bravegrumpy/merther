@@ -1,28 +1,29 @@
 ---
+// This is the copy in the ssr folder
 // export const prerender = true
 import "@/styles/print.css"
 import UnstyledLayout from "@/layouts/UnstyledLayout.astro";
 import { getCollection, render, getEntry } from "astro:content";
 
-export async function getStaticPaths() {
-    const misunderstood = await getCollection('misunderstood');
-    misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
+// export async function getStaticPaths() {
+//     const misunderstood = await getCollection('misunderstood');
+//     misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
 
-    return misunderstood.map((ch) => {
-        return {
-            params: { chapter: ch.id },
-            props: { misunderstood: ch }
-        };
-    });
-}
+//     return misunderstood.map((ch) => {
+//         return {
+//             params: { chapter: ch.id },
+//             props: { misunderstood: ch }
+//         };
+//     });
+// }
 
 const { chapter } = Astro.params;
-const { misunderstood } = Astro.props;
+// const { misunderstood } = Astro.props;
 
 const  Chapters = await getCollection('misunderstood');
 Chapters.sort((a, b) => a.data.chapter - b.data.chapter);
 
-// const misunderstood = await getEntry("misunderstood", `${chapter}`) ?? Chapters.filter((ch) => ch.id === chapter)[0];
+const misunderstood = await getEntry("misunderstood", `${chapter}`) ?? Chapters.filter((ch) => ch.id === chapter)[0];
 
 const { Content } = await render(misunderstood);
 

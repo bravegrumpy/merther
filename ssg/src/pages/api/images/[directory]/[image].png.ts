@@ -1,3 +1,4 @@
+// This is the copy in the ssg folder
 export function getStaticPaths() {
     return [
         { params: { directory: "topography", image: "topography_brown"} }
