@@ -83,7 +83,16 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         </div>
         <Banner />
     </Article>
-    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'}>
+    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top">
+        <span slot="previousIcon">
+            <Icon name="hugeicons:arrow-left-04" width={32} height={32} />
+        </span>
+        <span slot="nextIcon">
+            <Icon name="hugeicons:arrow-right-04" width={32} height={32} />
+        </span>
+        <span slot="backToTopIcon">
+            <Icon name="hugeicons:transition-top" width={32} height={32} />
+        </span>
         <div>
             <div class="chi">
                 <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
@@ -92,12 +101,11 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
 		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
             </div>
         </div>
-        <div class="spacer"></div>
-            <a href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
+            <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
                 <Icon name="hugeicons:printer" width="24" height="24" />
             </a>
         <Content />
-        <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} />
+        <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} size={32} />
 
     </Container>
 </Layout>
