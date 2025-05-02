@@ -31,7 +31,7 @@ import svelte from '@astrojs/svelte';
 
 import tailwindcss from '@tailwindcss/vite';
 
-import aiRobotsTxt from 'astro-ai-robots-txt';
+// import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import vercel from '@astrojs/vercel';
 
@@ -73,7 +73,7 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt()],
+  }), svelte()],
 
   vite: {
     plugins: [tailwindcss()],
