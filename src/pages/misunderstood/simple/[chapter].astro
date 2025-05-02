@@ -7,7 +7,7 @@ const bravegrumpyLink = "https://archiveofourown.org/users/Bravegrumpy/pseuds/Br
 import { mainLinks, secondaryLinks } from "@/scripts/data";
 const pageTitle = "Misunderstood";
 import Layout from "@/layouts/Layout.astro"
-import { getCollection, render } from "astro:content";
+import { getCollection, render, getEntry } from "astro:content";
 import Article from "@/components/Article.astro"
 import { Chapter as Container, ChapterNav } from "@/components/react/Chapters";
 import ChapterPostnav from "@/components/ChapterPostnav.astro";
@@ -39,12 +39,9 @@ const { chapter } = Astro.params;
 const Misunderstood = await getCollection('misunderstood');
 Misunderstood.sort((a,b) => a.data.chapter - b.data.chapter);
 
-const misunderstood = Misunderstood.filter((ch) => ch.id === chapter)[0]
+const misunderstood = await getEntry("misunderstood", chapter);
+const  { Content, remarkPluginFrontmatter } = await render(misunderstood);
 
-const { Content, remarkPluginFrontmatter } = await render(misunderstood);
-
-
-Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
 const chapters = Misunderstood.map((ch) => {
     return {
         text: ch.data.text,
