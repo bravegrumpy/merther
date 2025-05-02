@@ -1,0 +1,14 @@
+Yikes
+ReplacementLineReplacementLine
+
+// This is the ssr file
+//This is the ssr file
+new Line
+## STart of file
+
+This is a file.
+dded text
+
+dded text
+It is in fact a text file.
+dded text

@@ -1,3 +1,4 @@
+// This is the copy in the ssr directory 
 // @ts-check
 import { defineConfig } from 'astro/config';
 
@@ -34,8 +35,6 @@ import tailwindcss from '@tailwindcss/vite';
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import vercel from '@astrojs/vercel';
-
-// This is the copy in the ssr folder
 
 // https://astro.build/config
 export default defineConfig({

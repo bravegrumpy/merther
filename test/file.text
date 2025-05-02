@@ -1,0 +1,3 @@
+]633;E;{ echo -n 'added text'\x3b cat testFile.txt\x3b } > file.text;8aaa9646-4de3-4f81-9ee2-639686ed121a]633;Cadded textThis is a file.
+
+It is in fact a text file.

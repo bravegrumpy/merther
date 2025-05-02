@@ -1,4 +1,4 @@
-// This is the copy in the ssg folder
+// This is the copy in the ssg directory 
 export function getStaticPaths() {
     return [
         { params: { image: "chromolithograph"} },
