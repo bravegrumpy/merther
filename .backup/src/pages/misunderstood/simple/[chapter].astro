@@ -1,0 +1,209 @@
+---
+// export const prerender = true
+import { Debug } from "astro/components";
+import "@fontsource/mr-bedfort"; import "@fontsource/caudex";
+import "@fontsource/gloria-hallelujah"; import "@fontsource/cedarville-cursive";
+const bravegrumpyLink = "https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy"
+import { mainLinks, secondaryLinks } from "@/scripts/data";
+const pageTitle = "Misunderstood";
+import Layout from "@/layouts/Layout.astro"
+import { getCollection, render, getEntry } from "astro:content";
+import Article from "@/components/Article.astro"
+import { Chapter as Container, ChapterNav } from "@/components/react/Chapters";
+import ChapterPostnav from "@/components/ChapterPostnav.astro";
+import { StyleToggle } from "@/components/react/Navigation";
+
+import { Banner } from "@/components/react/Components"
+
+import { Icon } from "astro-icon/components"
+
+import dayjs from "dayjs"
+import utc from "dayjs/plugin/utc"
+dayjs.extend(utc);
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(advancedFormat);
+
+// export async function getStaticPaths() {
+//     const Chapters = await getCollection('misunderstood');
+//     return Chapters.map((ch) => ({
+//         params: { chapter: ch.id },
+//         props: {
+//             misunderstood: ch
+//         }
+//     }));
+// }
+
+const { chapter } = Astro.params;
+// const { misunderstood }: { misunderstood: any } = Astro.props;
+
+const Misunderstood = await getCollection('misunderstood');
+Misunderstood.sort((a,b) => a.data.chapter - b.data.chapter);
+
+const misunderstood = await getEntry('misunderstood', `${chapter}`) ?? Misunderstood.filter((ch) => ch.id === chapter)[0];
+
+const  { Content, remarkPluginFrontmatter } = await render(misunderstood);
+
+const chapters = Misunderstood.map((ch) => {
+    return {
+        text: ch.data.text,
+        href: ch.id,
+        id: ch.data.id,
+        title: ch.data.title,
+        chapter: ch.data.chapter,
+    }
+});
+
+const headTitle = `${misunderstood.data.text} | Misunderstood`
+
+const previous = chapters[misunderstood.data.chapter - 2] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter -2].href}` : '';
+const next = chapters[misunderstood.data.chapter] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter].href}` :  '';
+const lastModified = dayjs(remarkPluginFrontmatter.lastModified);
+const readingTime = remarkPluginFrontmatter.minutesRead;
+const latestChapter = chapters.length - 1;
+const pubDate = dayjs(misunderstood.data.pubDate).utc();
+---
+
+<Layout headTitle={headTitle} mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink}>
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">{pageTitle}</h1>
+        <h2 class="text-center">{misunderstood.data.title}</h2>
+    </div>
+    <StyleToggle slot="header" client:only="react" />
+    <Article>
+        <div class="chapter-preamble latest-chapter">
+            <h2 class="text-gradient" style={{paddingLeft: "20px"}}>Latest Chapter: </h2>
+            <h3>
+                <a href={chapters[latestChapter].href} style={"color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';"}>{chapters[latestChapter].title}</a>
+            </h3>
+            <div></div>
+        </div>
+        <Banner />
+    </Article>
+    <hr class="section" />
+    <ChapterNav chapters={chapters} client:only="react" icons={true} />
+    <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>
+        <span slot="previousIcon">
+            <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} transform="flip" />
+        </span>
+        <span slot="nextIcon">
+            <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} />
+        </span>
+        <!-- <span slot="backToTopIcon"> -->
+            <!-- <Icon name="hugeicons:transition-top" width={32} height={32} /> -->
+        <!-- </span> -->
+        <div>
+            <div class="chi">
+                <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
+                <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
+                <!-- <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> -->
+		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
+            </div>
+        </div>
+            <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
+                <Icon name="hugeicons:printer" width="24" height="24" />
+            </a>
+        <Content />
+        <ChapterPostnav previous={previous} next={next} other="all" chapterId={misunderstood.data.href} size={32} previousIcon="hugeicons:arrow-turn-backward" backToTopIcon="hugeicons:transition-top" nextIcon="hugeicons:arrow-turn-forward" />
+
+    </Container>
+</Layout>
+
+<style>
+    #printLink {
+        padding-top: 20px;
+    }
+    .spacer {
+        width: 500px;
+        height: 20px;
+    }
+    .middle {
+        position: sticky;
+        bottom: 75px;
+    }
+    .chi {
+        width: calc(100% + 60px);
+        margin-left: -40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .chb {
+        vertical-align: middle;
+        font-family: 'Delius';
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: currentColor;
+    }
+    a.chb {
+        text-decoration-line: overline underline;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #677040;
+    }
+    a.chb:hover, a.chb:focus {
+        scale: 110%;
+        color: #00f;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 3px;
+    }
+    .end {
+        /* background-color: #ff03; */
+        position: sticky;
+        bottom: -53px;
+        background-color: rgba(162, 143, 124, 98%);
+    }
+    .chapter-postnav {
+        /* background-color: #f0f2; */
+        width: calc(100% + 60px);
+        margin-left: -40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .button {
+        text-indent: 0;
+        height: max-content;
+    }
+    .entire-work {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        margin: 40px auto;
+    }
+    .chapterStats {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 80ch;
+    }
+    .text {
+        width: fit-content;
+        font-family: "Delius", "Recursive";
+    }
+    .notes {
+        font-family: "Delius";
+        font-size: 1.2rem;
+    }
+    p {
+        font-family: 'Delius';
+        font-size: 1.2rem;
+    }
+    @media print {
+        .byline, .chi, .chb, .chapterStats, .text, .notes {
+            display: none;
+        }
+    }
+</style>
+<style is:global>
+    @media print {
+        .byline {
+            display: none;
+        }
+    }
+</style>

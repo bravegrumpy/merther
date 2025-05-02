@@ -1,0 +1,60 @@
+---
+// export const prerender = true
+import "@/styles/print.css"
+import UnstyledLayout from "@/layouts/UnstyledLayout.astro";
+import { getCollection, render, getEntry } from "astro:content";
+
+// export async function getStaticPaths() {
+//     const misunderstood = await getCollection('misunderstood');
+//     misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
+
+//     return misunderstood.map((ch) => {
+//         return {
+//             params: { chapter: ch.id },
+//             props: { misunderstood: ch }
+//         };
+//     });
+// }
+
+const { chapter } = Astro.params;
+// const { misunderstood } = Astro.props;
+
+const  Chapters = await getCollection('misunderstood');
+Chapters.sort((a, b) => a.data.chapter - b.data.chapter);
+
+const misunderstood = await getEntry("misunderstood", `${chapter}`) ?? Chapters.filter((ch) => ch.id === chapter)[0];
+
+const { Content } = await render(misunderstood);
+
+import { Icon } from "astro-icon/components"
+
+const pageTitle =  'Misunderstood';
+const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
+---
+
+<UnstyledLayout headTitle={headTitle}>
+    <h1><a href='/misunderstood'>{pageTitle}</a></h1>
+    <select onchange="window.location.href=this.value">
+        <option value={`/misunderstood/print/${chapter}`}>-- Select Chapter --</option>
+        {
+            Chapters.map(async (ch) => {
+                return(<option value={`/misunderstood/print/${ch.id}`}>{ch.data.title}</option>)
+            })
+        }
+    </select>
+    <h2>
+        <a href={`/misunderstood/print${misunderstood.data.href}`}>{misunderstood.data.title}</a>
+        <a class="home" href={`/misunderstood/simple/${chapter}`}>
+            <Icon name="game-icons:blood" width="20" height="20" />
+        </a>
+    </h2>
+    <Content />
+</UnstyledLayout>
+
+<style>
+    @media print {
+        h1 {
+            display: none;
+        }
+    }
+</style>
