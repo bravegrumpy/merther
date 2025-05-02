@@ -34,8 +34,6 @@ const latestChapter = chapters.length - 1;
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
     <StyleToggle slot="header" client:only="react" />
-    <ChapterNav chapters={chapters} icons={true} client:load/>
-    <hr class="section" />
     <Article>
          <div class="chapter-preamble latest-chapter">
             <h2 class="text-gradient" style={{paddingLeft:"20px"}}>Latest Chapter: </h2>
@@ -47,6 +45,8 @@ const latestChapter = chapters.length - 1;
          </div>
          <Banner />
     </Article>
+    <hr class="section" />
+    <ChapterNav chapters={chapters} icons={true} client:load/>
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);

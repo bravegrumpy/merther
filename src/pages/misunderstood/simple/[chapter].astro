@@ -21,7 +21,6 @@ import dayjs from "dayjs"
 import utc from "dayjs/plugin/utc"
 dayjs.extend(utc);
 import advancedFormat from "dayjs/plugin/advancedFormat";
-import { flip } from "svelte/animate";
 dayjs.extend(advancedFormat);
 
 // export async function getStaticPaths() {
@@ -70,8 +69,6 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <h2 class="text-center">{misunderstood.data.title}</h2>
     </div>
     <StyleToggle slot="header" client:only="react" />
-    <ChapterNav chapters={chapters} client:only="react" icons={true} />
-    <hr class="section" />
     <Article>
         <div class="chapter-preamble latest-chapter">
             <h2 class="text-gradient" style={{paddingLeft: "20px"}}>Latest Chapter: </h2>
@@ -82,6 +79,8 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         </div>
         <Banner />
     </Article>
+    <hr class="section" />
+    <ChapterNav chapters={chapters} client:only="react" icons={true} />
     <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>
         <span slot="previousIcon">
             <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} transform="flip" />
