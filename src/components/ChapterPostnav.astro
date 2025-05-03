@@ -10,17 +10,17 @@ const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04',
             previous === '' ? (<p class="menu chnav fake-btn">
                 <Icon name={previousIcon} width={size} height={size} />
             </p>) : (<>
-                <a href={previous} class="menu chnav button back-to-top"><Icon name={previousIcon} width={size} height={size} /></a>
+                <a href={previous} class="menu chnav button"><Icon name={previousIcon} width={size} height={size} /></a>
             </>)
         }
-        <a href="#" class="menu chnav button back-to-top"><Icon name={backToTopIcon} width={size} height={size} /></a>
+        <a href="#" class="menu chnav button"><Icon name={backToTopIcon} width={size} height={size} /></a>
         {
             next === '' 
                 ? (<>
                     <p class="menu chnav fake-btn"><Icon name={nextIcon} width={size} height={size} /></p>
                 </>) 
                 : (<>
-                    <a href={next} class="menu chnav button back-to-top"><Icon name={nextIcon} width={size} height={size} /></a>
+                    <a href={next} class="menu chnav button"><Icon name={nextIcon} width={size} height={size} /></a>
                 </>)
         }
     </div>
