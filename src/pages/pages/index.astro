@@ -1,5 +1,6 @@
 ---
 import { Debug } from "astro:components";
+import "@/styles/main.less";
 import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
@@ -14,11 +15,12 @@ import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/conten
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
-    <Article>
-        <WorkList />
-    </Article>
-    <hr class="section">
-    <Article>
-        <Explicit />
-    </Article>
+    <div>
+        <!-- <Article> -->
+            <WorkList />
+        <!-- </Article> -->
+        <hr class="section">
+        <Article>
+            <Explicit />
+        </Article>
 </Layout>

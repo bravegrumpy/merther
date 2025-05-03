@@ -32,9 +32,10 @@
 
 // //Image source options
 @cdn: "https://cdn.bravegrumpy.com/AO3Styles/images/";
+@api: "/api/images/";
 @local: "/images/";
 
-@url: "@{cdn}"; // allowed values: cdn, local;
+@url: "@{api}"; // allowed values: cdn, local;
 
 @bg-pattern-background-image: url("@{url}topography/topography_brown.png"); //change to whatever image
 
@@ -144,6 +145,7 @@ html {
 main {
     font-family: "Recursive";
     background-color: @main-bg-color;
+    max-width: @base-width;
     width: @base-width;
     margin: 0px @base-margin;
     padding: 0px @base-padding;
@@ -794,12 +796,73 @@ footer {
     vertical-align: text-top;
 }
 
+// Dealing with the width
+
+@media (max-width: 1071px) {
+    // @media (min-width: 900px) {
+    //     background-color: cyan;
+    // }
+
+    @base-width: 80vw;
+    html {
+        width: 100vw;
+    }
+    header, footer {
+        width: @base-width;
+        margin-left: 5%;
+    }
+    main {
+        width: @base-width;
+        margin-left: 5%;
+        .banner {
+            width: calc((@base-width) + ((0) * @base-padding))
+        }
+        .chapter {
+            width: calc((@base-width) + ((-1) * @base-padding))
+        }
+        .chapter-preamble {
+            width: calc((@base-width) + ((0) * @base-padding))
+        }
+        hr.section {
+            width: calc((@base-width) + ((2) * (@base-padding)))
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    @base-width: 70vw;
+    html {
+        width: 700px;
+    }
+    header, footer {
+        width: @base-width;
+        margin-left: 10vw;
+    }
+    main {
+        width: @base-width;
+        margin-left: 10vw;
+        .banner {
+            width: calc((@base-width) + ((0) * @base-padding))
+        }
+        .chapter {
+            width: calc((@base-width) + ((-1) * @base-padding));
+        }
+        .chapter-preamble {
+            width: calc((@base-width) + ((0) * @base-padding));
+        }
+        hr.section {
+            width: calc((@base-width) + (2 * @base-padding));
+        }
+    }
+}
+
+
 // Mobile Devices
 
 @media (max-width: 600px) {
     @base-width: 70vw;
     hr.section.end {
-        position: sticky;
+        position: static;
         bottom: 0%;
     }
     html {
