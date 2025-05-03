@@ -16,6 +16,7 @@ import {
   Navigation,
   Anchor,
   defaultLinks,
+  StyleToggle
 } from "@/components/react/Navigation";
 
 let {
@@ -117,6 +118,25 @@ import { Footer } from "@/components/react/Components";
     </style>
   </Fragment>
   <header>
+    <script is:inline>
+      function toggleMainMenu() {
+        const menu = document.querySelector("#main-nav");
+        switch(menu.style.display) {
+          case 'none':
+            menu.style.display = 'flex';
+            menu.style.flexDirection = 'column';
+            break;
+          case 'flex':
+            menu.style.display = 'none';
+            menu.style.flexDirection = 'unset';
+            menu.style.flexWrap = 'unset';
+          default:
+        }
+      }
+    </script>
+    <button onclick="toggleMainMenu()" id="mainMenuToggle" class="menu pages chnav chnav-start" style={{marginLeft: "70px", width: "calc(100% - 80px);"}}>
+      <Icon name="hugeicons:menu-01" />
+    </button>
     {
       mainLinks ? (
         <Navigation

@@ -8,6 +8,8 @@ html {
   background-image: url("/api/images/topography/topography_brown.png");
   background-attachment: fixed;
   color: oklch(30% 0.0708 72.11);
+  width: fit-content;
+  margin: 0px auto;
   cursor: default;
 }
 main {
@@ -26,6 +28,7 @@ header {
   padding: 20px 20px;
   width: 90ch;
   margin: -10px auto;
+  margin-top: 80px;
   z-index: 20;
   border-top: 15px ridge oklch(30% 0.0708 72.11);
   border-left: 15px ridge oklch(30% 0.0708 72.11);
@@ -38,7 +41,6 @@ header .bottom-nav {
   display: none;
 }
 .menu-container {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
@@ -48,6 +50,10 @@ header .bottom-nav {
 .chnav-container {
   height: fit-content;
   margin-bottom: 20px;
+}
+#main-nav {
+  max-width: calc(100% + (-3.5 * 20px));
+  flex-wrap: nowrap;
 }
 .menu {
   font-family: "Delius";
@@ -221,7 +227,6 @@ dt {
 .chapter {
   background-color: rgba(162, 143, 124, 0.87843137);
   color: #2e045e;
-  background-size: 94.5ch;
   width: calc(90ch + (-1 * 20px));
   min-height: 144ch;
   scrollbar-width: 15px;
@@ -495,9 +500,15 @@ footer :nth-child(3n+3) {
 .leon h4 {
   font-family: "Bonheur Royale", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
+#mainMenuToggle {
+  display: none;
+}
 @media print {
   @page {
     margin: 0.25in;
+  }
+  #mainMenuToggle {
+    display: none;
   }
   html {
     background-position-x: center;
@@ -635,6 +646,9 @@ h2.heading {
     width: 80vw;
     margin-left: 5%;
   }
+  footer {
+    flex-wrap: nowrap;
+  }
   main {
     width: 80vw;
     margin-left: 5%;
@@ -683,13 +697,43 @@ h2.heading {
     position: static;
     bottom: 0%;
   }
+  #mainMenuToggle {
+    display: inline-block;
+  }
   html {
     max-width: 600px;
     padding: 0px;
     background-attachment: fixed;
+    width: fit-content;
+    font-size: 1.8rem;
   }
   body {
     width: 50%;
+  }
+  footer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer * {
+    width: fit-content;
+  }
+  footer .arr {
+    text-align: left;
+    width: fit-content;
+  }
+  .menu-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .menu-container * {
+    width: fit-content;
+  }
+  .pages {
+    width: fit-content;
   }
   main,
   header,

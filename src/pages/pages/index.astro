@@ -1,6 +1,5 @@
 ---
 import { Debug } from "astro:components";
-import "@/styles/main.less";
 import Layout from "@/layouts/Layout.astro"
 const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
@@ -9,18 +8,28 @@ import { mainLinks } from "@/scripts/data.js";
 
 import Article from "@/components/Article.astro"
 
-import WorkList from "@/pages/pages/content/introduction.mdx"
+import WorkList from "@/pages/pages/_content/introduction.mdx"
 
-import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
+import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/_content/explicit.mdx"
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
-    <div>
-        <!-- <Article> -->
-            <WorkList />
-        <!-- </Article> -->
+    <div class="chapter">
+        <Article articleId="worksList">
+                <WorkList />
+        </Article>
         <hr class="section">
         <Article>
             <Explicit />
         </Article>
+    </div>
 </Layout>
+
+<style>
+    div.chapter {
+        width: calc(100% - 20px);
+    }
+    .chapter hr.section {
+        width: calc(100% + 60px);
+    }
+</style>

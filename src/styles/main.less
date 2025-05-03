@@ -139,6 +139,8 @@ html {
     background-image: @bg-pattern-background-image;
     background-attachment: fixed;
     color: @bg-pattern-foreground-color;//TODO: revisit
+    width: fit-content;
+    margin: 0px auto;
 
     cursor: default;
 }
@@ -158,6 +160,7 @@ header {
     padding: @base-padding @base-padding;
     width: @base-width;
     margin: (-0.5 * @base-padding) (@base-margin);
+    margin-top: (4 * @base-padding);
     z-index: 20;
     border-top: @sides-border-width @sides-border-style @sides-border-color;
     border-left: @sides-border-width @sides-border-style @sides-border-color;
@@ -172,7 +175,7 @@ header {
     display: none;
 }
 .menu-container {
-    display: flex;
+    // display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
@@ -185,6 +188,10 @@ header {
 .chnav-container {
     height: fit-content;
     margin-bottom: @base-padding;
+}
+#main-nav {
+    max-width: calc(100% + (-3.5 * @base-padding));
+    flex-wrap: nowrap;
 }
 .menu {
     font-family: "Delius";
@@ -380,9 +387,9 @@ dt {
 .chapter {
     background-color: @chapter-bg-color;
     color: @chapter-text-color;
-    background-size: (@base-width * 1.05);
-    width: calc(@base-width + (-1 * @base-padding));
-
+    // background-size: (@base-width * 1.05);
+    // width: calc(@base-width + (-4 * @base-padding));
+    width: calc((@base-width) + (-1 * @base-padding));
     // ensure there will be at least one sheet
     min-height: (1 * @chapter-min-height);
     // overflow-y: scroll;
@@ -437,7 +444,6 @@ dt {
     .cut {
         display: none;
     }
-
     &.error {
         height: fit-content;
         min-height: 0;
@@ -655,10 +661,17 @@ footer {
     #lib.fonts.initialize("Bonheur Royale", "Covered By Your Grace");
 }
 
+#mainMenuToggle {
+    display: none;
+}
+
 @print-width: 8.5in;
 @media print {
     @page {
         margin: 0.25in;
+    }
+    #mainMenuToggle {
+        display: none;
     }
     html {
         background-position-x: center;
@@ -798,7 +811,6 @@ footer {
 }
 
 // Dealing with the width
-
 @media (max-width: 1071px) {
     // @media (min-width: 900px) {
     //     background-color: cyan;
@@ -811,6 +823,9 @@ footer {
     header, footer {
         width: @base-width;
         margin-left: 5%;
+    }
+    footer {
+        flex-wrap: nowrap;
     }
     main {
         width: @base-width;
@@ -857,7 +872,6 @@ footer {
     }
 }
 
-
 // Mobile Devices
 
 @media (max-width: 600px) {
@@ -866,13 +880,54 @@ footer {
         position: static;
         bottom: 0%;
     }
+    #mainMenuToggle {
+        display:  inline-block;
+    }
     html {
         max-width: 600px;
         padding: 0px;
         background-attachment: fixed;
+        width: fit-content;
+        font-size: 1.8rem;
     }
+    // nav#main-nav.menu-container.pages-container {
+    //     display: none;
+    // }
+    // #main-nav {
+    //     display: flex;
+    //     flex-direction: column;
+    //     .menu, .pages {
+    //         width: calc(100% + (-2 * @base-padding));
+    //     }
+    // }
     body {
         width: 50%;
+    }
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        * {
+            width: fit-content;
+        }
+        .arr {
+            text-align: left;
+            width: fit-content;
+        }
+    }
+
+    .menu-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        * {
+            width: fit-content;
+        }
+    }
+    .pages {
+        width: fit-content;
     }
 
     main, header, footer {
