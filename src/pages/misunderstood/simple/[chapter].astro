@@ -97,6 +97,8 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
                 <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
                 <!-- <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> -->
 		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
+                <p class="chb"><a href={previous}>Previous Chapter</a></p>
+                <p class="chb"><a href={next}>Next Chapter</a></p>
             </div>
         </div>
             <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
