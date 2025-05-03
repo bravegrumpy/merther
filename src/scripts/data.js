@@ -1,32 +1,32 @@
 export const mainLinks = [
     {
         key: "00_Home",
-        href: "/pages/",
+        href: "/pages",
         text: "Home",
     },
     {
         key: "01_Misunderstood",
-        href: "/misunderstood/simple/",
+        href: "/misunderstood/simple",
         text: "Misunderstood",
     },
     {
         key: "02_Muses",
-        href: "/muses/",
+        href: "/muses",
         text: "Muses",
     },
     {
         key: "03_Kinks",
-        href: "/external/iron/",
+        href: "/external/iron",
         text: "Kinks",
     },
     // {
     //     key: "ZY_Auth",
-    //     href: "/auth/",
+    //     href: "/auth",
     //     text: "Auth"
     // },
     // {
     //     key: "ZZ_Blog",
-    //     href:"/blog/",
+    //     href:"/blog",
     //     text: "Blog"
     // }
 ];
@@ -34,42 +34,42 @@ export const mainLinks = [
 export const secondaryLinks = [
     {
         key: "01_Misunderstood_00_Home",
-        href: "/pages/",
+        href: "/pages",
         text: "Home"
     },
     {
         key: "01_Misunderstood_01_MH",
-        href: "/misunderstood/",
+        href: "/misunderstood",
         text: "Misunderstood Index"
     },
     // {
     //     key: "01_Misunderstood_02_NoStyling",
-    //     href: "/misunderstood/unstyled/",
+    //     href: "/misunderstood/unstyled",
     //     text: "No Styling"
     // },
     {
         key: "01_Misunderstood_03_Simple",
-        href: "/misunderstood/simple/",
+        href: "/misunderstood/simple",
         text: "Vanilla CSS Styling"
     },
     // {
     //     key: "01_Misunderstood_04_W3C",
-    //     href: "/misunderstood/w3Css/",
+    //     href: "/misunderstood/w3Css",
     //     text: "W3.CSS Bootstrap-type styling"
     // },
     // {
     //     key: "01_Misunderstood_05_Tailwindcss",
-    //     href: "/misunderstood/tailwindcss/",
+    //     href: "/misunderstood/tailwindcss",
     //     text: "Tailwindcss"
     // },
     // {
     //     key: "01_Misunderstood_06_AO3Clone",
-    //     href: "/misunderstood/ao3/",
+    //     href: "/misunderstood/ao3",
     //     text: "AO3 Clone"
     // },
     {
         key: "01_Misunderstood_07Print",
-        href: "/misunderstood/print/",
+        href: "/misunderstood/print",
         text: "Print Friendly Version"
     },
 ];
