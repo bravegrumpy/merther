@@ -1,5 +1,9 @@
 ---
 import Layout from "@/layouts/Layout.astro"
-
+import { DropdownMenuDemo, TestButton } from "@/components/react/dropdown-menu-demo";
 ---
-<Layout></Layout>
+<Layout>
+    <p class="font-[Delius] text-5xl">Haii</p>
+    <DropdownMenuDemo client:only="react"/>
+    <TestButton client:only="react" />
+</Layout>
