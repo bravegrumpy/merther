@@ -1,0 +1,78 @@
+---
+export const prerender = true;
+import { Debug } from "astro:components";
+import Layout from "@/layouts/Layout.astro"
+import { getCollection, render } from "astro:content";
+import { mainLinks, secondaryLinks } from "@/scripts/data";
+import Article from "@/components/Article.astro";
+import { Chapter, ChapterNav, ChapterInfo } from "@/components/react/Chapters"
+import ChapterPostnav from "@/components/ChapterPostnav.astro";
+import { StyleToggle } from "@/components/react/Navigation";
+
+import { Banner } from "@/components/react/Components"
+
+import { Icon } from "astro-icon/components"
+
+import dayjs from "dayjs"
+import utc from "dayjs/plugin/utc"
+dayjs.extend(utc)
+import advancedFormat from "dayjs/plugin/advancedFormat"
+dayjs.extend(advancedFormat)
+
+export async function getStaticPaths({ paginate }: {paginate: any}) {
+    let i = 0;
+    const Misunderstood = await getCollection('misunderstood');
+    Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
+    return paginate( Misunderstood, { pageSize: 1});
+}
+
+const { page } = Astro.props;
+
+const allMisunderstood = await getCollection('misunderstood');
+allMisunderstood.sort((a, b) => a.data.chapter - b.data.chapter);
+
+const chapters = allMisunderstood.map((ch) => {
+    return {
+        text: ch.data.text,
+        href: `/misunderstood/tailwindcss/chapters/${ch.data.chapter}`,
+        id: ch.data.id,
+        title: ch.data.title,
+        chapter: ch.data.chapter
+    }
+})
+
+
+const { Content, remarkPluginFrontmatter } = await render(page);
+
+const pageTitle="Misunderstood";
+---
+
+<Layout headTitle={`${page.data[0].data.text} | Misunderstood`} mainLinks={mainLinks} secondaryLinks={secondaryLinks}>
+    <Debug page={page} />
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">{pageTitle}   </h1>
+        <h2 class="text-center">{page.data[0].data.title}</h2>
+    </div>
+    <StyleToggle slot="header" client:only="react" />
+    <Article>
+        <div class="chapter-preamble latest-chapter">
+            <h2 class="text-gradient" style="padding-left: 20px">Latest Chapter:</h2>
+            <h3>
+                <a href={page.url.last} style="color: #2e045e; font-family: 'Delius', 'Recursive', 'Georgia';">{allMisunderstood[page.total - 1].data.title}</a>
+            </h3>
+            <div></div>
+        </div>
+        <Banner />
+    </Article>
+    <hr class="section" />
+    <ChapterNav chapters={chapters} client:only="react" icons={true}/>
+    <Chapter articleId={page.data[0].data.id} chapterNameHeading={page.data[0].data.title} previousChapterSrc={page.url.prev} nextChapterSrc={page.url.next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>
+        <span slot="previousIcon">
+            <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} />
+        </span>
+        <span slot="nextIcon">
+            <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} />
+        </span>
+        <ChapterInfo client:load/>
+    </Chapter>
+</Layout>

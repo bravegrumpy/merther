@@ -302,3 +302,13 @@ export function ChapterNav({
     </>
   );
 }
+
+export function ChapterInfo() {
+  return (<>
+    <div>
+      <div className="chi">
+        <a className="chb">Reading Time</a>
+      </div>
+    </div>
+  </>);
+}

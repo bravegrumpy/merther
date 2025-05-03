@@ -42,31 +42,31 @@ export const secondaryLinks = [
         href: "/misunderstood",
         text: "Misunderstood Index"
     },
-    {
-        key: "01_Misunderstood_02_NoStyling",
-        href: "/misunderstood/unstyled",
-        text: "No Styling"
-    },
+    // {
+    //     key: "01_Misunderstood_02_NoStyling",
+    //     href: "/misunderstood/unstyled",
+    //     text: "No Styling"
+    // },
     {
         key: "01_Misunderstood_03_Simple",
         href: "/misunderstood/simple",
         text: "Vanilla CSS Styling"
     },
-    {
-        key: "01_Misunderstood_04_W3C",
-        href: "/misunderstood/w3Css",
-        text: "W3.CSS Bootstrap-type styling"
-    },
-    {
-        key: "01_Misunderstood_05_Tailwindcss",
-        href: "/misunderstood/tailwindcss",
-        text: "Tailwindcss"
-    },
-    {
-        key: "01_Misunderstood_06_AO3Clone",
-        href: "/misunderstood/ao3",
-        text: "AO3 Clone"
-    },
+    // {
+    //     key: "01_Misunderstood_04_W3C",
+    //     href: "/misunderstood/w3Css",
+    //     text: "W3.CSS Bootstrap-type styling"
+    // },
+    // {
+    //     key: "01_Misunderstood_05_Tailwindcss",
+    //     href: "/misunderstood/tailwindcss",
+    //     text: "Tailwindcss"
+    // },
+    // {
+    //     key: "01_Misunderstood_06_AO3Clone",
+    //     href: "/misunderstood/ao3",
+    //     text: "AO3 Clone"
+    // },
     {
         key: "01_Misunderstood_07Print",
         href: "/misunderstood/print",
