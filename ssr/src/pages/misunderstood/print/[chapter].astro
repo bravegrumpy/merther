@@ -35,9 +35,9 @@ const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
 ---
 
 <UnstyledLayout headTitle={headTitle}>
-    <h1><a href='/misunderstood/'>{pageTitle}</a></h1>
+    <h1><a href='/misunderstood'>{pageTitle}</a></h1>
     <select onchange="window.location.href=this.value">
-        <option value={`/misunderstood/print/${chapter}/`}>-- Select Chapter --</option>
+        <option value={`/misunderstood/print/${chapter}`}>-- Select Chapter --</option>
         {
             Chapters.map(async (ch) => {
                 return(<option value={`/misunderstood/print/${ch.id}/`}>{ch.data.title}</option>)
@@ -45,8 +45,8 @@ const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
         }
     </select>
     <h2>
-        <a href={`/misunderstood/print${misunderstood.data.href}`}>{misunderstood.data.title}</a>
-        <a class="home" href={`/misunderstood/simple/${chapter}`}>
+        <a href={`misunderstood/print${misunderstood.data.href}`}>{misunderstood.data.title}</a>
+        <a class="home" href={`misunderstood/simple/${chapter}`}>
             <Icon name="game-icons:blood" width="20" height="20" />
         </a>
     </h2>

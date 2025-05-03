@@ -55,8 +55,8 @@ const chapters = Misunderstood.map((ch) => {
 
 const headTitle = `${misunderstood.data.text} | Misunderstood`
 
-const previous = chapters[misunderstood.data.chapter - 2] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter -2].href}` : '';
-const next = chapters[misunderstood.data.chapter] ? `/misunderstood/simple/${chapters[misunderstood.data.chapter].href}` :  '';
+const previous = chapters[misunderstood.data.chapter - 2] ? `misunderstood/simple/${chapters[misunderstood.data.chapter -2].href}/` : '';
+const next = chapters[misunderstood.data.chapter] ? `misunderstood/simple/${chapters[misunderstood.data.chapter].href}/` :  '';
 const lastModified = dayjs(remarkPluginFrontmatter.lastModified);
 const readingTime = remarkPluginFrontmatter.minutesRead;
 const latestChapter = chapters.length - 1;
@@ -93,7 +93,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <!-- </span> -->
         <div>
             <div class="chi">
-                <a class="chb" href={`/misunderstood/simple${misunderstood.data.href}`}>Entire Work</a>
+                <a class="chb" href={`/misunderstood/simple/${misunderstood.data.href}`}>Entire Work</a>
                 <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
                 <!-- <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> -->
 		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
@@ -101,7 +101,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
                 <p class="chb"><a href={next}>Next Chapter</a></p>
             </div>
         </div>
-            <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
+            <a slot="lastChild" href={`/misunderstood/print/${chapter}/`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
                 <Icon name="hugeicons:printer" width="24" height="24" />
             </a>
         <Content />
