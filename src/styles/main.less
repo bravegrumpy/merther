@@ -691,12 +691,14 @@ footer {
     // }
     header, footer, main, article, .chapter .chapter-preamble {
         &, & * {
-            max-width: @print-width;
+            max-width: (@print-width * (1.5));
         }
     }
     .chapter {
-        width: (@print-width - 0.7in);
-        margin: 0px auto;
+        // width: (@print-width - 0.7in);
+        width: (@print-width * 1.1);
+        // margin: 0px auto;
+        margin: 0px;
     }
     main, header .title {
         margin-top: -2in;
@@ -718,9 +720,14 @@ footer {
     .chapter {
         color: black;
         min-height: unset;
+        margin-left: (-5 * @base-padding);
+        width: ((@print-width) + (100 * @base-padding));
     }
     footer, nav, .menu, .latest-chapter, .banner, .fake-btn, .dnp, .byline {
         display: none;
+    }
+    .chapter-preamble {
+        box-shadow: none;
     }
     // hr.section {
     //     width: @print-width;

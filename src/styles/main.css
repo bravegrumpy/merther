@@ -525,11 +525,11 @@ footer :nth-child(3n+3) {
   main *,
   article *,
   .chapter .chapter-preamble * {
-    max-width: 8.5in;
+    max-width: 12.75in;
   }
   .chapter {
-    width: 7.8in;
-    margin: 0px auto;
+    width: 9.35in;
+    margin: 0px;
   }
   main,
   header .title {
@@ -554,6 +554,8 @@ footer :nth-child(3n+3) {
   .chapter {
     color: black;
     min-height: unset;
+    margin-left: -100px;
+    width: 29.33333333in;
   }
   footer,
   nav,
@@ -564,6 +566,9 @@ footer :nth-child(3n+3) {
   .dnp,
   .byline {
     display: none;
+  }
+  .chapter-preamble {
+    box-shadow: none;
   }
   .menu-container,
   .pages-container {
