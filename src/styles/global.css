@@ -54,7 +54,7 @@
 :root {
     --radius: 0.625rem;
     /* --background: #ffff3300; */
-    /* --background: oklch(52.58% 0.0708 118.04); */
+    --background: oklch(52.58% 0.0708 118.04);
     /* --background: url('https://merther.bravegrumpy.com/api/images/topography/topography_brown.png'); */
     --foreground: oklch(30% 0.0708 72.11);
     --card: oklch(1 0 0);

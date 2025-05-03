@@ -35,7 +35,7 @@
 @api: "/api/images/";
 @local: "/images/";
 
-@url: "@{api}"; // allowed values: cdn, local;
+@url: "@{api}"; // allowed values: cdn, local, api;
 
 @bg-pattern-background-image: url("@{url}topography/topography_brown.png"); //change to whatever image
 
@@ -179,9 +179,9 @@ header {
     padding: (2 * @base-padding ) @base-padding;
     z-index: 30;
 }
-.pages-container {
-    height: @base-padding;
-}
+// .pages-container {
+//     height: @base-padding;
+// }
 .chnav-container {
     height: fit-content;
     margin-bottom: @base-padding;
@@ -207,7 +207,8 @@ header {
     &.pages {
         padding: (@px * @base-padding) (@py * @base-padding) (@px * @base-padding) (@py * @base-padding);
         width: 15ch;
-        height: 2ch;
+        // height: 2ch;
+        // height: (2.2 * @base-padding); // This canc be obnoxious and interacts with tailwind
         text-wrap: nowrap;
         text-align: center;
         vertical-align: middle;

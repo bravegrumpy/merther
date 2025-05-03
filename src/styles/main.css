@@ -45,9 +45,6 @@ header .bottom-nav {
   padding: 40px 20px;
   z-index: 30;
 }
-.pages-container {
-  height: 20px;
-}
 .chnav-container {
   height: fit-content;
   margin-bottom: 20px;
@@ -71,7 +68,6 @@ header .bottom-nav {
 .menu.pages {
   padding: 10px 16px 10px 16px;
   width: 15ch;
-  height: 2ch;
   text-wrap: nowrap;
   text-align: center;
   vertical-align: middle;
