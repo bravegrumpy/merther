@@ -79,7 +79,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  trailingSlash: 'always',
+  // trailingSlash: 'always',
   // output: 'static',
   output: 'server',
   adapter: vercel({

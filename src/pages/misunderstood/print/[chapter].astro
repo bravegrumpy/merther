@@ -33,9 +33,9 @@ const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
 ---
 
 <UnstyledLayout headTitle={headTitle}>
-    <h1><a href='/misunderstood/'>{pageTitle}</a></h1>
+    <h1><a href='/misunderstood'>{pageTitle}</a></h1>
     <select onchange="window.location.href=this.value">
-        <option value={`/misunderstood/print/${chapter}/`}>-- Select Chapter --</option>
+        <option value={`/misunderstood/print/${chapter}`}>-- Select Chapter --</option>
         {
             Chapters.map(async (ch) => {
                 return(<option value={`/misunderstood/print/${ch.id}/`}>{ch.data.title}</option>)
