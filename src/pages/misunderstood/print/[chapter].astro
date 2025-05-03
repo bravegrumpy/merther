@@ -38,7 +38,7 @@ const headTitle = `${misunderstood.data.text} | ${pageTitle}`;
         <option value={`/misunderstood/print/${chapter}`}>-- Select Chapter --</option>
         {
             Chapters.map(async (ch) => {
-                return(<option value={`/misunderstood/print/${ch.id}/`}>{ch.data.title}</option>)
+                return(<option value={`/misunderstood/print/${ch.id}`}>{ch.data.title}</option>)
             })
         }
     </select>

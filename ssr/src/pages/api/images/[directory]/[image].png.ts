@@ -1,4 +1,4 @@
-// This is the copy in the ssr folder
+// This is the copy in the ssr directory 
 // export function getStaticPaths() {
 //     return [
 //         { params: { directory: "topography", image: "topography_brown"} }
