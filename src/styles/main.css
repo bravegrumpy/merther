@@ -646,6 +646,8 @@ h2.heading {
 @media (max-width: 1071px) {
   html {
     width: 100vw;
+    max-width: 1071px;
+    overflow-x: hidden;
   }
   header,
   footer {
@@ -674,7 +676,9 @@ h2.heading {
 }
 @media (max-width: 900px) {
   html {
-    width: 700px;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
   header,
   footer {

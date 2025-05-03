@@ -826,6 +826,8 @@ footer {
     @base-width: 80vw;
     html {
         width: 100vw;
+        max-width: 1071px;
+        overflow-x: hidden;
     }
     header, footer {
         width: @base-width;
@@ -855,7 +857,9 @@ footer {
 @media (max-width: 900px) {
     @base-width: 70vw;
     html {
-        width: 700px;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
     }
     header, footer {
         width: @base-width;
