@@ -46,7 +46,8 @@
 @img-mult-margin: 2;
 @base-img-margin: ((@img-mult-margin * @default-width) - 5px);
 @base-width-img: (@img-mult-wide * @default-width) - (2 * @base-padding);
-@base-width: 90ch;//45vw; //change me;
+// @base-width: 90ch;//45vw; //change me;
+@base-width: 80vw;
 @default-margin: auto;
 @base-margin: @default-margin;//change me;
 
@@ -154,6 +155,8 @@ main {
     z-index: 20;
     border-left: @sides-border-width @sides-border-style @sides-border-color;
     border-right: @sides-border-width @sides-border-style @sides-border-color;
+    position: relative;
+    left: ((0) * @base-padding);
 }
 header {
     background-color: @header-bg-color;
@@ -818,156 +821,160 @@ footer {
 }
 
 // Dealing with the width
-@media (max-width: 1071px) {
-    // @media (min-width: 900px) {
-    //     background-color: cyan;
-    // }
+// @media (max-width: 1071px) {
+//     // @media (min-width: 900px) {
+//     //     background-color: cyan;
+//     // }
 
-    @base-width: 80vw;
-    html {
-        width: 100vw;
-        max-width: 1071px;
-        overflow-x: hidden;
-    }
-    header, footer {
-        width: @base-width;
-        margin-left: 5%;
-    }
-    footer {
-        flex-wrap: nowrap;
-    }
-    main {
-        width: @base-width;
-        margin-left: 5%;
-        .banner {
-            width: calc((@base-width) + ((0) * @base-padding))
-        }
-        .chapter {
-            width: calc((@base-width) + ((-1) * @base-padding))
-        }
-        .chapter-preamble {
-            width: calc((@base-width) + ((0) * @base-padding))
-        }
-        hr.section {
-            width: calc((@base-width) + ((2) * (@base-padding)))
-        }
-    }
-}
+//     @base-width: 80vw;
+//     html {
+//         width: 100vw;
+//         max-width: 1071px;
+//         // overflow-x: hidden;
+//     }
+//     header, footer {
+//         width: @base-width;
+//         margin-left: 5%;
+//     }
+//     footer {
+//         flex-wrap: nowrap;
+//     }
+//     main {
+//         width: @base-width;
+//         margin-left: 5%;
+//         .banner {
+//             width: calc((@base-width) + ((0) * @base-padding))
+//         }
+//         .chapter {
+//             width: calc((@base-width) + ((-1) * @base-padding))
+//         }
+//         .chapter-preamble {
+//             width: calc((@base-width) + ((0) * @base-padding))
+//         }
+//         hr.section {
+//             width: calc((@base-width) + ((2) * (@base-padding)))
+//         }
+//     }
+// }
 
-@media (max-width: 900px) {
-    @base-width: 70vw;
-    html {
-        width: 100%;
-        max-width: 100vw;
-        overflow-x: hidden;
-    }
-    header, footer {
-        width: @base-width;
-        margin-left: 10vw;
-    }
-    main {
-        width: @base-width;
-        margin-left: 10vw;
-        .banner {
-            width: calc((@base-width) + ((0) * @base-padding))
-        }
-        .chapter {
-            width: calc((@base-width) + ((-1) * @base-padding));
-        }
-        .chapter-preamble {
-            width: calc((@base-width) + ((0) * @base-padding));
-        }
-        hr.section {
-            width: calc((@base-width) + (2 * @base-padding));
-        }
-    }
-}
+// @media (max-width: 900px) {
+//     @base-width: 700px;
+//     html {
+//         width: 700px;
+//         margin-left: 80px;
+//         overflow-wrap: break-word;
+//         // max-width: 850px;
+//         // overflow-x: hidden;
+//     }
+//     header, footer {
+//         width: @base-width;
+//         margin-left: 10vw;
+//     }
+//     main {
+//         width: @base-width;
+//         position: relative;
+//         left: (0 * @base-padding);
+//         margin-left: 10vw;
+//         .banner {
+//             width: calc((@base-width) + ((0) * @base-padding))
+//         }
+//         .chapter {
+//             width: calc((@base-width) + ((-1) * @base-padding));
+//         }
+//         .chapter-preamble {
+//             width: calc((@base-width) + ((0) * @base-padding));
+//         }
+//         hr.section {
+//             width: calc((@base-width) + (2 * @base-padding));
+//         }
+//     }
+// }
 
 // Mobile Devices
 
-@media (max-width: 600px) {
-    @base-width: 70vw;
-    hr.section.end {
-        position: static;
-        bottom: 0%;
-    }
-    #mainMenuToggle {
-        display:  inline-block;
-    }
-    html {
-        max-width: 600px;
-        padding: 0px;
-        background-attachment: fixed;
-        width: fit-content;
-        font-size: 1.8rem;
-    }
-    // nav#main-nav.menu-container.pages-container {
-    //     display: none;
-    // }
-    // #main-nav {
-    //     display: flex;
-    //     flex-direction: column;
-    //     .menu, .pages {
-    //         width: calc(100% + (-2 * @base-padding));
-    //     }
-    // }
-    body {
-        width: 50%;
-    }
-    footer {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        * {
-            width: fit-content;
-        }
-        .arr {
-            text-align: left;
-            width: fit-content;
-        }
-    }
+// @media (max-width: 600px) {
+//     @base-width: 70vw;
+//     hr.section.end {
+//         position: static;
+//         bottom: 0%;
+//     }
+//     #mainMenuToggle {
+//         display:  inline-block;
+//     }
+//     html {
+//         max-width: 600px;
+//         padding: 0px;
+//         background-attachment: fixed;
+//         width: fit-content;
+//         font-size: 1.8rem;
+//     }
+//     // nav#main-nav.menu-container.pages-container {
+//     //     display: none;
+//     // }
+//     // #main-nav {
+//     //     display: flex;
+//     //     flex-direction: column;
+//     //     .menu, .pages {
+//     //         width: calc(100% + (-2 * @base-padding));
+//     //     }
+//     // }
+//     body {
+//         width: 50%;
+//     }
+//     footer {
+//         flex-direction: column;
+//         flex-wrap: nowrap;
+//         justify-content: space-around;
+//         align-items: center;
+//         * {
+//             width: fit-content;
+//         }
+//         .arr {
+//             text-align: left;
+//             width: fit-content;
+//         }
+//     }
 
-    .menu-container {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        * {
-            width: fit-content;
-        }
-    }
-    .pages {
-        width: fit-content;
-    }
+//     .menu-container {
+//         flex-wrap: nowrap;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: flex-start;
+//         * {
+//             width: fit-content;
+//         }
+//     }
+//     .pages {
+//         width: fit-content;
+//     }
 
-    main, header, footer {
-        max-width: 500px;
-        width: @base-width;
-        margin: 0px 20%;
-    }
-    .chapter, #preface, #chapters, #chapters hr {
-        width: calc(70vw - (1 * @base-padding));
-    }
-    .chapter-preamble {
-        width: @base-width;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        position: relative;
-    }
-    .banner {
-        width: @base-width;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .menu {
-        width: 100%;
-    }
-    .dnp {
-        display: none;
-    }
-}
+//     main, header, footer {
+//         max-width: 500px;
+//         width: @base-width;
+//         margin: 0px 20%;
+//     }
+//     .chapter, #preface, #chapters, #chapters hr {
+//         width: calc(70vw - (1 * @base-padding));
+//     }
+//     .chapter-preamble {
+//         width: @base-width;
+//         display: flex;
+//         flex-direction: column;
+//         gap: 10px;
+//         position: relative;
+//     }
+//     .banner {
+//         width: @base-width;
+//     }
+//     nav {
+//         display: flex;
+//         flex-direction: column;
+//         width: 100%;
+//     }
+//     .menu {
+//         width: 100%;
+//     }
+//     .dnp {
+//         display: none;
+//     }
+// }
