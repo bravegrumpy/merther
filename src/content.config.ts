@@ -20,9 +20,9 @@ const misunderstood = defineCollection({
 });
 
 const misunderstood_summary = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: ""}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: "./src/misunderstood/summaries"}),
     schema: z.object({
-        chapter: z.union([z.string(), z.number()])
+        chapter: z.number()
     })
 });
 
