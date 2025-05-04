@@ -55,12 +55,12 @@
 @bg-color: bisque;
 
 // @bg-pattern-background-color: #d2c8ff;
-// @bg-pattern-background-color: #677040; //
-@bg-pattern-background-color: oklch(52.58% 0.0708 118.04);
+@bg-pattern-background-color: #677040; //
+// @bg-pattern-background-color: oklch(52.58% 0.0708 118.04);
 
 // @bg-pattern-foreground-color: #65d86;
-// @bg-pattern-foreground-color: #432700; 
-@bg-pattern-foreground-color: oklch(30% 0.0708 72.11);
+@bg-pattern-foreground-color: #432700; 
+// @bg-pattern-foreground-color: oklch(30% 0.0708 72.11);
 
 @default-text-color: #2e045e;
 @main-bg-color: fadein(@chapter-bg-color, 14%, relative); //#a58468;
@@ -327,7 +327,7 @@ dt {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: @chapter-preamble-bg-color;
     margin-top: 50px;
@@ -357,7 +357,10 @@ dt {
     position: sticky;
     top: 0px;
     // box-shadow: ((1/2) * @base-padding) ((1) * @base-padding) 0px 0px #43271003;
-    box-shadow: 10px 10px 10px 10px #43271080, -5px 0px 10px 10px  #43271060;
+    box-shadow: 
+        10px 10px 20px 10px #43271040, 
+        -5px 0px 20px 10px  #43271040,
+        -5px 10px 15px 10px #b6915133 inset;
     //print
     page-break-before: auto;
 }
@@ -536,6 +539,7 @@ hr.section {
     margin-bottom: 0px;
     filter: none;
     z-index: 100;
+    box-shadow: 0px 10px 100px fadeout(@bg-pattern-background-color, 50%);
 
     &.start {
         position: sticky;

@@ -69,7 +69,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <h2 class="text-center">{misunderstood.data.title}</h2>
     </div>
     <StyleToggle slot="header" client:only="react" />
-    <Article>
+    <!-- <Article>
         <div class="chapter-preamble latest-chapter">
             <h2 class="text-gradient" style={{paddingLeft: "20px"}}>Latest Chapter: </h2>
             <h3>
@@ -78,7 +78,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
             <div></div>
         </div>
         <Banner />
-    </Article>
+    </Article> -->
     <hr class="section" />
     <ChapterNav chapters={chapters} client:only="react" icons={true} />
     <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>

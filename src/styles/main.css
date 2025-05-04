@@ -3,11 +3,11 @@ html {
   font-size: 1rem;
   font-family: "Recursive", "Helvetica", "Courier New", "monospace";
   font-variation-settings: "slnt" 0, "CASL" 0.2, "CRSV" 0, "MONO" 0.3, "wght" 400;
-  background-color: oklch(52.58% 0.0708 118.04);
+  background-color: #677040;
   background-repeat: repeat;
   background-image: url("/api/images/topography/topography_brown.png");
   background-attachment: fixed;
-  color: oklch(30% 0.0708 72.11);
+  color: #432700;
   width: fit-content;
   margin: 0px auto;
   cursor: default;
@@ -20,8 +20,8 @@ main {
   margin: 0px auto;
   padding: 0px 20px;
   z-index: 20;
-  border-left: 15px ridge oklch(30% 0.0708 72.11);
-  border-right: 15px ridge oklch(30% 0.0708 72.11);
+  border-left: 15px ridge #432700;
+  border-right: 15px ridge #432700;
   position: relative;
   left: 0px;
 }
@@ -33,9 +33,9 @@ header {
   margin: -10px auto;
   margin-top: 80px;
   z-index: 20;
-  border-top: 15px ridge oklch(30% 0.0708 72.11);
-  border-left: 15px ridge oklch(30% 0.0708 72.11);
-  border-right: 15px ridge oklch(30% 0.0708 72.11);
+  border-top: 15px ridge #432700;
+  border-left: 15px ridge #432700;
+  border-right: 15px ridge #432700;
 }
 header .bottom-nav {
   margin-bottom: 60px;
@@ -189,7 +189,7 @@ dt {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(180, 152, 128, 0.212);
   margin-top: 50px;
@@ -202,7 +202,7 @@ dt {
   z-index: 25;
   position: sticky;
   top: 0px;
-  box-shadow: 10px 10px 10px 10px #43271080, -5px 0px 10px 10px #43271060;
+  box-shadow: 10px 10px 20px 10px #43271040, -5px 0px 20px 10px #43271040, -5px 10px 15px 10px #b6915133 inset;
   page-break-before: auto;
 }
 .chapter-postnav {
@@ -236,7 +236,7 @@ dt {
   width: calc(80vw + (-1 * 20px));
   min-height: 128vw;
   scrollbar-width: 15px;
-  scrollbar-color: oklch(52.58% 0.0708 118.04) oklch(30% 0.0708 72.11);
+  scrollbar-color: #677040 #432700;
   overscroll-behavior-block: none;
   overscroll-behavior-inline: none;
   margin-left: -20px;
@@ -357,6 +357,7 @@ hr.section {
   margin-bottom: 0px;
   filter: none;
   z-index: 100;
+  box-shadow: 0px 10px 100px rgba(103, 112, 64, 0.5);
 }
 hr.section.start {
   position: sticky;
@@ -394,9 +395,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  border-left: 15px ridge oklch(30% 0.0708 72.11);
-  border-right: 15px ridge oklch(30% 0.0708 72.11);
-  border-bottom: 15px ridge oklch(30% 0.0708 72.11);
+  border-left: 15px ridge #432700;
+  border-right: 15px ridge #432700;
+  border-bottom: 15px ridge #432700;
 }
 footer * {
   width: calc(100% * (1 / 3) - 20px);
@@ -609,7 +610,7 @@ footer :nth-child(3n+3) {
   padding-left: 20px;
   padding-right: 20px;
   font-family: "Recursive", sans;
-  scrollbar-color: oklch(52.58% 0.0708 118.04) oklch(30% 0.0708 72.11);
+  scrollbar-color: #677040 #432700;
 }
 #preface,
 #preface .userstuff {
