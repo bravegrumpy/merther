@@ -31,7 +31,7 @@ When the barmaid handed her refilled tankard, Veronica took a sip. Brandy.
 
 &ldquo;Drink, then tell me what&rsquo;s wrong.&rdquo; The barmaid emphatically pushed the liquor into Veronica&rsquo;s hand. Her lips curled. Her kind hazel eyes seemed like they could see through Veronica&rsquo;s soul.
 
-Veronica tried her best not to stare at the barmaid as she glided from behind the counter, with trays of food and drinks, dancing to the rhythm of the city&rsquo;s personell. Her green-plaid skirt fell to her ankles, but managed to drift around the barmaid, never once getting in the way, and always covered by the grey apron. Veronica wondered if the barmaid managed to keep at it by magic. A few minutes later, the barmaid caught her eye, and Veronica felt herself blush despite herself.
+Veronica tried her best not to stare at the barmaid as she glided from behind the counter, with trays of food and drinks, dancing to the rhythm of the city&rsquo;s personnel. Her green-plaid skirt fell to her ankles, but managed to drift around the barmaid, never once getting in the way, and always covered by the grey apron. Veronica wondered if the barmaid managed to keep at it by magic. A few minutes later, the barmaid caught her eye, and Veronica felt herself blush despite herself.
 
 Every few minutes the barmaid came over, and laced her hand through Veronica&rsquo;s fingers, squeezing her hand as if she already knew what was wrong. It was like she knew what Veronica needed in the moment. Miraculously, during the entire time, Veronica never once needed to worry about the gruff man bothering her.
 
@@ -43,7 +43,7 @@ As the evening grew older, the bustle came to a momentary dull. Veronica, feelin
 
 &ldquo;I&rsquo;m sure I can think of a few ways&rdquo; Tess responded with a smirk. Somehow coming from her, it didn&rsquo;t sound as creepy as it typically did from nobles attempting to grope her during a feast. Veronica&rsquo;s breath hitched.
 
-Veronica then took a deep breath, and took another swig of the brandy in her tankard. She was half expecting it to be empty, but Tess had been dutifuly ensuring that her tankard remained full. &ldquo;I don&rsquo;t want to go home, and deal with my siblings right now.&rdquo; She could see the empathy in Tess&rsquo;s caring brown eyes, with smile lines, and long lashes, that fluttered with a kind smile.
+Veronica then took a deep breath, and took another swig of the brandy in her tankard. She was half expecting it to be empty, but Tess had been dutifully ensuring that her tankard remained full. &ldquo;I don&rsquo;t want to go home, and deal with my siblings right now.&rdquo; She could see the empathy in Tess&rsquo;s caring brown eyes, with smile lines, and long lashes, that fluttered with a kind smile.
 
 Rubbing the scar along the left side of her face, Veronica remembered that this morning&rsquo;s encounter should not hurt. It shouldn&rsquo;t feel worse than the encounter with hot kitchen knife. But somehow it was. She did not want to think about this morning. Before she could even stop herself, she felt her hand in the back of the barmaid&rsquo;s head, and brought her lips closer to her own. The feeling of soft lips, and a round cheek felt like bliss. Veronica did not know what amount of her boldness was due to the brandy. Veronica&rsquo;s mind went blank.  Tess tasted like brandy and happiness.
 
@@ -51,15 +51,15 @@ When the kiss broke apart, Veronica felt herself shaking &ldquo;Sorry... I uh—
 
 In response, Tess leaned back to behind the bar, and bit her lip, smirking as if nothing unusual had happened. Veronica thought that Tess&rsquo;s confident demeanor would be positively infuriating if she weren&rsquo;t so alluring.
 
-The bar started to finally calm down a bit, and Tess was starting to clear tables. Veronia felt  a tug on her hair, immediatly folloed by a tickle of long, soft hair on the back of her neck. She let out a hopefully discrete gasp.
+The bar started to finally calm down a bit, and Tess was starting to clear tables. Veronica felt  a tug on her hair, immediately followed by a tickle of long, soft hair on the back of her neck. She let out a hopefully discrete gasp.
 
-&ldquo;You can stay here tonight -- free of charge -- if you don&rsquo;t mind sharing&rdquo;, Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responeded by casually throwing her arm across Tess&rsquo;s shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
+&ldquo;You can stay here tonight -- free of charge -- if you don&rsquo;t mind sharing&rdquo;, Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responded by casually throwing her arm across Tess&rsquo;s shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
 
-The idea of sharing a room in a tavern terrified Veronia, but sounded better than the alternative. Arriving home intoxicated would entice questions. Questions she did *not* want to answer.  It wasn&rsquo;t unusual for Veronica to sleep at the castle when King Arthur had noble guests.
+The idea of sharing a room in a tavern terrified Veronica, but sounded better than the alternative. Arriving home intoxicated would entice questions. Questions she did *not* want to answer.  It wasn&rsquo;t unusual for Veronica to sleep at the castle when King Arthur had noble guests.
 
 Veronica decided that Tess was less dangerous than the greedy king. Veronica gulped, as she could still almost feel the king&rsquo;s caustic shaft in her throat. Besides, at that moment Tess was the most beautiful woman Veronia had ever laid eyes on.
 
-Suddenly, there was a loud clatter followed by an immense cheer from the entire taver.  Veronica jumped, as Tess quickly sqweezed her side, then untangled herself to go resolve the issue. Tess remained chipper and congradulatory as she helped the party clean up their mess.
+Suddenly, there was a loud clatter followed by an immense cheer from the entire taver.  Veronica jumped, as Tess quickly squeezed her side, then untangled herself to go resolve the issue. Tess remained chipper and congratulatory as she helped the party clean up their mess.
 
 A gruff &ldquo;You okay there miss?&rdquo; shocked Veronica out of her reverie.
 
@@ -67,11 +67,11 @@ A gruff &ldquo;You okay there miss?&rdquo; shocked Veronica out of her reverie.
 
 &ldquo;Tess is good people,&rdquo; he continued, sliding a chair away from her, and sitting in it, seemingly oblivious to Veronica&rsquo;s attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
 
-&ldquo;Relax, there. I&rsquo;m not going to hurt you,&rdquo; the man continued, leaning away from her slightly, &ldquo;Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixure served with honey&hellip;&rdquo;
+&ldquo;Relax, there. I&rsquo;m not going to hurt you,&rdquo; the man continued, leaning away from her slightly, &ldquo;Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixture served with honey&hellip;&rdquo;
 
 Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches for serving royalty.
 
-&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckeled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo;
+&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo;
 
 &ldquo;Only if you get Kathy for me,&rdquo; Brian responded with a chuckle.
 
@@ -81,11 +81,11 @@ Tess grabbed Veronica's hand and gently guided her up into a room.  Tess had cla
 
 The room was large enough to fit the two beds, two tables, and not much else. There were scant impersonal decorations, but next to the window, painting of an iris caught Veronica's eye. 
 
-She then noticed that sitting in the occupied bed was a woman surrounded by parchement, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess's waist.  Tess responed in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
+She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess's waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
 
 After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.
 
-Once the excitement wore off, Tess gendtly placed the woman back on her bed, casually carressed the woman's jaw and said, "This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?"
+Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman's jaw and said, "This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?"
 
 "Yeah sure!" she responded, biting a lip, and gazing at Veronica with an intensity that made her blush.
 
@@ -109,7 +109,7 @@ Tess then gracefully stepped out of her skirts, and  walked over to the door, la
 
 As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail. It somehow then  felt good again, and  Veronica was then floating in the blissful throws of pleasure.
 
-Each crescenco melded with the previous one, until finally all Veronica could do was sit down and ride the waves.
+Each crescendo melded with the previous one, until finally all Veronica could do was sit down and ride the waves.
 
 ---
 
