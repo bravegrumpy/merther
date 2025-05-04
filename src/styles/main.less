@@ -989,6 +989,18 @@ footer {
 //     }
 // }
 
+@media (max-width: 600px) {
+    #mainMenuToggle {
+        display: inline-block;
+    }
+    #main-menu {
+        display: none;
+        flex-direction: column;
+        .menu {
+            width: 100%;
+        }
+    }
+}
 
 @media (min-width: 100ch) {
     @base-width: 80ch;
@@ -1031,4 +1043,30 @@ footer {
             }
         }
     }
+
+    //Support for AO3 Type Content
+    #preface {
+        max-width: 100ch;
+        width: @base-width;
+        & .meta {
+            width: calc((@base-width) + (2 * @base-padding));
+            & .tags {
+                width: calc((100%) - @sides-border-width);
+            }
+        } 
+    }
+    #chapters {
+        width: calc(@base-width + (2 * @base-padding));
+        & .meta.group {
+            width: calc(@base-width + (2 * @base-padding));
+        }
+        & .userstuff {
+            width: 500px;
+            & hr {
+                width: calc((@base-width) + (2 * @base-padding));
+                margin-left: (-7.7 * @base-padding);
+            }
+        }
+    }
+
 }

@@ -649,6 +649,18 @@ h2.heading {
   font-size: 3rem;
   vertical-align: text-top;
 }
+@media (max-width: 600px) {
+  #mainMenuToggle {
+    display: inline-block;
+  }
+  #main-menu {
+    display: none;
+    flex-direction: column;
+  }
+  #main-menu .menu {
+    width: 100%;
+  }
+}
 @media (min-width: 100ch) {
   header,
   main,
@@ -688,5 +700,28 @@ h2.heading {
   }
   footer :nth-child(3n+3) {
     text-align: right;
+  }
+  #preface {
+    max-width: 100ch;
+    width: 80ch;
+  }
+  #preface .meta {
+    width: calc(80ch + (2 * 20px));
+  }
+  #preface .meta .tags {
+    width: calc(100% - 15px);
+  }
+  #chapters {
+    width: calc(80ch + (2 * 20px));
+  }
+  #chapters .meta.group {
+    width: calc(80ch + (2 * 20px));
+  }
+  #chapters .userstuff {
+    width: 500px;
+  }
+  #chapters .userstuff hr {
+    width: calc(80ch + (2 * 20px));
+    margin-left: -154px;
   }
 }

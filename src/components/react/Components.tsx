@@ -23,6 +23,22 @@ export function Footer({ footerClass, copyrightClass, disclaimerClass }: { foote
     </>);
 }
 
+export function FallbackContent({heading, message, children }:{heading?: string | React.ReactNode; message?: string | React.ReactNode; children?: React.ReactNode}) {
+    return (<>
+    {heading 
+        ? <>{ 
+            typeof(heading) === 'string' 
+            ? <h2>{heading}</h2> 
+            : <>{heading}</>
+            }</> 
+        : <></>}
+    <br />
+    {message ?? <></>}
+    <br />
+    {children}
+    </>);
+}
+
 export function UL({ children }: { children?: React.ReactNode }){
     return(<>
         <ul className={styles.unorderedList}>

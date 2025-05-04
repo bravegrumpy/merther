@@ -1,3 +1,7 @@
+---
+title: muses
+role: summary
+---
 **One Shot:**
 Merlin walks enters Arthur's room, doing his standard servant-duties.
 He ends up walking in on Arthur pleasuring himself with Merlin's name on his lips.

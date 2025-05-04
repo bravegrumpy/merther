@@ -1,3 +1,7 @@
+---
+title: muses
+role: content
+---
 Merlin, laden with clean bed-sheets and clothing for Arthur stumbled into Arthur’s chambers, without knocking as usual. Clumsily, Merlin tripped over a belt that was on the floor.
 
 *“I swear that wasn’t here when I left last night. What a prat, I swear”,* Merlin thought uncharitably.

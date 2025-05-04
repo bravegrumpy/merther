@@ -20,23 +20,18 @@ const misunderstood = defineCollection({
 });
 
 const misunderstood_summary = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: "./src/misunderstood/summaries"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: ""}),
     schema: z.object({
         chapter: z.union([z.string(), z.number()])
     })
 });
 
-const misunderstood_notes = defineCollection({
-    loader: glob({ pattern: ["*.{md,mdx}", "!index**"], base: "./src/misunderstood/notes" }),
+const muses = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/muses"}),
     schema: z.object({
-        chapter: z.union([z.string(), z.number(), z.null(), z.undefined()])
+        title: z.string(),
+        role: z.string()
     })
-})
+});
 
-const misunderstood_endnotes = defineCollection({
-    loader: glob({ pattern: ["*.{md,mdx}", "!index**"], base: "./src/misunderstood/endnotes"}),
-    schema: z.object({
-        chapter: z.union([z.string(), z.number(), z.null(), z.undefined()])
-    })
-})
-export const collections = { misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes }
+export const collections = { misunderstood, misunderstood_summary, muses }
