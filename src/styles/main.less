@@ -46,7 +46,7 @@
 @img-mult-margin: 2;
 @base-img-margin: ((@img-mult-margin * @default-width) - 5px);
 @base-width-img: (@img-mult-wide * @default-width) - (2 * @base-padding);
-@base-width: 80ch;//45vw; //change me;
+@base-width: 80vw;//45vw; //change me;
 @default-margin: auto;
 @base-margin: @default-margin;//change me;
 
@@ -990,40 +990,45 @@ footer {
 // }
 
 
-// @media (min-width: 900px) {
-//     @base-width: 90ch;
-//     header, main, footer {
-//         width: @base-width;
-//         margin: 0px auto;
-//     }
-//     .chapter {
-//         width: calc((@base-width) + (-1 * @base-padding));
-//         z-index: 10;
-//         background-size: calc(@base-width + (5 * @base-padding));
-//         background-position-x: 40%;
-//         background-repeat: repeat-y;
-//         text-indent: (2 * @base-padding);
-//         background-origin: border-box;
-//     }
-//     footer {
-//         flex-wrap: nowrap;
-//         flex-direction: row;
-//         gap: @base-padding;
-//         & * {
-//             // width: calc(100% * (1 / 3) - (@base-padding));
-//             width: fit-content;
-//         }
-//         & {
-//             :nth-child(3n+1) {
-//                 text-align: left;
-//             }
-//             :nth-child(3n+2) {
-//                 flex-grow: 2;
-//                 text-align: center;
-//             }
-//             :nth-child(3n+3) {
-//                 text-align: right;
-//             }
-//         }
-//     }
-// }
+@media (min-width: 100ch) {
+    @base-width: 80ch;
+    header, main, footer, .banner {
+        width: @base-width;
+    }
+    .chapter {
+        width: calc((@base-width) + (-1 * @base-padding));
+        z-index: 10;
+        background-size: calc(@base-width + (5 * @base-padding));
+        background-position-x: 40%;
+        background-repeat: repeat-y;
+        text-indent: (2 * @base-padding);
+        background-origin: border-box;
+    }
+    hr.section {
+        width: calc(@base-width + (2 * @base-padding));
+    }
+    .chapter-preamble {
+        width: @base-width;
+    }
+    footer {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: @base-padding;
+        & * {
+            // width: calc(100% * (1 / 3) - (@base-padding));
+            width: fit-content;
+        }
+        & {
+            :nth-child(3n+1) {
+                text-align: left;
+            }
+            :nth-child(3n+2) {
+                flex-grow: 2;
+                text-align: center;
+            }
+            :nth-child(3n+3) {
+                text-align: right;
+            }
+        }
+    }
+}
