@@ -390,7 +390,7 @@ dt {
 .chapter {
     background-color: @chapter-bg-color;
     color: @chapter-text-color;
-    // background-size: (@base-width * 1.05);
+    background-size: (@base-width * 1.05);
     // width: calc(@base-width + (-4 * @base-padding));
     width: calc((@base-width) + (-1 * @base-padding));
     // ensure there will be at least one sheet
@@ -985,3 +985,20 @@ footer {
 //         display: none;
 //     }
 // }
+
+
+@media (min-width: 900px) {
+    @base-width: 80ch;
+    header, main, footer {
+        width: @base-width;
+    }
+    .chapter {
+        width: calc((@base-width) + (-1 * @base-padding));
+        z-index: 10;
+        background-size: calc(@base-width + (5 * @base-padding));
+        background-position-x: 40%;
+        background-repeat: repeat-y;
+        text-indent: (2 * @base-padding);
+        background-origin: border-box;
+    }
+}
