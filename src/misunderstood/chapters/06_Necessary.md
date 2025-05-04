@@ -93,7 +93,7 @@ The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into 
 
 #### Veronica
 
-"Tess -- You -- Agh ... " Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
+&ldquo;Tess -- You -- Agh ... &rdquo; Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
 
 As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail.
 

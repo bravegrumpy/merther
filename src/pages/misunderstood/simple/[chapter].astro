@@ -46,7 +46,7 @@ const  { Content, remarkPluginFrontmatter } = await render(misunderstood);
 const chapters = Misunderstood.map((ch) => {
     return {
         text: ch.data.text,
-        href: ch.id,
+        href: `/misunderstood/simple/${ch.id}/`,
         id: ch.data.id,
         title: ch.data.title,
         chapter: ch.data.chapter,
