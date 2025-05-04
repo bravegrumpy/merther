@@ -31,7 +31,7 @@ header {
   width: 80vw;
   max-width: 90ch;
   margin: -10px auto;
-  margin-top: 20px;
+  margin-top: 0px;
   z-index: 20;
   border-top: 15px ridge #432700;
   border-left: 15px ridge #432700;
@@ -508,6 +508,20 @@ footer :nth-child(3n+3) {
 }
 .leon h4 {
   font-family: "Bonheur Royale", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
+}
+.veronica p {
+  font-family: "Recursive", "Kurale", "Georgia", serif;
+  font-variation-settings: "slnt" 0, "CASL" 0.6, "CRSV" 0, "MONO" 0, "wght" 390;
+}
+.veronica em {
+  font-family: "Recursive", "Kurale", "Georgia", serif;
+  font-variation-settings: "CASL" 0.75, "CRSV" 0.5, "wght" 400, "slnt" -8, "MONO" 0;
+}
+.veronica strong {
+  font-variation-settings: "CASL" 1, "CRSV" 1, "MONO" 1, "wght" 600, "slnt" 0;
+}
+.veronica h4 {
+  font-family: "Bad Script", 'Delius', 'Brush Script MT', 'Kurale', 'Garamond', serif;
 }
 #mainMenuToggle {
   display: none;

@@ -53,7 +53,7 @@ In response, Tess leaned back to behind the bar, and bit her lip, smirking as if
 
 The bar started to finally calm down a bit, and Tess was starting to clear tables. Veronia felt  a tug on her hair, immediatly folloed by a tickle of long, soft hair on the back of her neck. She let out a hopefully discrete gasp.
 
-"You can stay here tonight -- free of charge -- if you don&rsquo;t mind sharing", Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responeded by casually throwing her arm across Tess&rsquo;s shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
+&ldquo;You can stay here tonight -- free of charge -- if you don&rsquo;t mind sharing&rdquo;, Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responeded by casually throwing her arm across Tess&rsquo;s shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
 
 The idea of sharing a room in a tavern terrified Veronia, but sounded better than the alternative. Arriving home intoxicated would entice questions. Questions she did *not* want to answer.  It wasn&rsquo;t unusual for Veronica to sleep at the castle when King Arthur had noble guests.
 
@@ -61,44 +61,44 @@ Veronica decided that Tess was less dangerous than the greedy king. Veronica gul
 
 Suddenly, there was a loud clatter followed by an immense cheer from the entire taver.  Veronica jumped, as Tess quickly sqweezed her side, then untangled herself to go resolve the issue. Tess remained chipper and congradulatory as she helped the party clean up their mess.
 
-A gruff "You okay there miss?" shocked Veronica out of her reverie.
+A gruff &ldquo;You okay there miss?&rdquo; shocked Veronica out of her reverie.
 
-"Erm-- fine," Veronica tensed, leaning away from the intruder.
+&ldquo;Erm&mdash; fine,&rdquo; Veronica tensed, leaning away from the intruder.
 
-"Tess is good people," he continued, sliding a chair away from her, and sitting in it,  seemingly oblivious to Veronica&rsquo;s attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
+&ldquo;Tess is good people,&rdquo; he continued, sliding a chair away from her, and sitting in it, seemingly oblivious to Veronica&rsquo;s attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
 
-"Relax, there. I&rsquo;m not going to hurt you," the man continued, leaning away from her slightly, "Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixure served with honey..."
+&ldquo;Relax, there. I&rsquo;m not going to hurt you,&rdquo; the man continued, leaning away from her slightly, &ldquo;Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixure served with honey&hellip;&rdquo;
 
 Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches for serving royalty.
 
-"So, you&rsquo;ve met Brian," Tess chuckeled, approaching the table.  She pulled up a chair between her and the man, "Brian, mind if I steal her away?"
+&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckeled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo;
 
-"Only if you get Kathy for me," Brian responded with a chuckle.
-
-</section>
+&ldquo;Only if you get Kathy for me,&rdquo; Brian responded with a chuckle.
 
 ---
 
-<section class="freya">
+Tess grabbed Veronica's hand and gently guided her up into a room.  Tess had clarified that her shift was over, having been there since early in the morning.  
 
-#### Freya
+The room was large enough to fit the two beds, two tables, and not much else. There were scant impersonal decorations, but next to the window, painting of an iris caught Veronica's eye. 
 
-The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into her shoes, and imediatly started "fixing" up the room, obfuscating Merlin from the view in front of the room. The scratch of George's quill sent shivers down her spine.
+She then noticed that sitting in the occupied bed was a woman surrounded by parchement, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess's waist.  Tess responed in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
 
-Flicking her eyes away from Merlin for a moment, she caught Leon's  eye. While lacking the verbal authority Lance typically had in these situations, Leon indicated for her to continue with his head.
+After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.
 
-"_Should we trust him?_" Freya telepathically questioned Merlin, still unsure. Merlin nodded at her, assuring that for now, Leon was trustworthy. The knocking on the door continued, as Freya drew the curtains around the bed and wrangled Merlin into a hiding place underneath the bed.  Freya made note that Goerge only opened the door once Merlin was suitably hidden. Leon busied himself at his desk, convienentky placed blocking the line of sight to the door. 
+Once the excitement wore off, Tess gendtly placed the woman back on her bed, casually carressed the woman's jaw and said, "This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?"
 
-</section>
+"Yeah sure!" she responded, biting a lip, and gazing at Veronica with an intensity that made her blush.
 
----
+She extended a hand, "I'm Kathy, nice to meet you!".
 
-<section class="veronica">
+Part of Veronica wanted to kiss the hand, rather than take it, but instead she just looked from Tess to Kathy and back.
 
-#### Veronica
+Tess pulled on Kathy's hair, and remarked, "She's been going through a rough day."
 
-&ldquo;Tess -- You -- Agh ... &rdquo; Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
+By this time, Tess had also seemed  to have, as if by magic, unlaced her dress, such that she was still wearing her skirts, but left her nude from the waist up. 
 
-As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail.
+"Have fun you two," Kathy winked at Veronica.
+
+Then, after biting down on one of Tess's exposed nipples, as if in greeting, then got up, shuffled her parchment together, strapped her lute to her back, and left the room. 
 
 </section>
