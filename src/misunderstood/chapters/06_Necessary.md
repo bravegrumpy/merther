@@ -101,4 +101,20 @@ By this time, Tess had also seemed  to have, as if by magic, unlaced her dress, 
 
 Then, after biting down on one of Tess's exposed nipples, as if in greeting, then got up, shuffled her parchment together, strapped her lute to her back, and left the room. 
 
+Tess then gracefully stepped out of her skirts, and  walked over to the door, latching it from the inside.
+
+---
+
+&ldquo;Tess&mdash;You&mdash; Agh&hellip;&rdquo; Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
+
+As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail. It somehow then  felt good again, and  Veronica was then floating in the blissful throws of pleasure.
+
+Each crescenco melded with the previous one, until finally all Veronica could do was sit down and ride the waves.
+
+---
+
+"Do you want to talk about it?" Tess started. At some point she had left to get a platter of bread cheese, and some water.  
+
+Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of drugg, but even that didn't matter now.  The bread was the best bread she had ever tasted.
+
 </section>
