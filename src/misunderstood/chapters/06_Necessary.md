@@ -83,7 +83,11 @@ Veronica started to relax, as she realized that this man seemed to not care whet
 
 #### Freya
 
-The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into her shoes, and imediatly started "fixing" up the room, obfuscating Merlin from the view in front of the room.
+The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into her shoes, and imediatly started "fixing" up the room, obfuscating Merlin from the view in front of the room. The scratch of George's quill sent shivers down her spine.
+
+Flicking her eyes away from Merlin for a moment, she caught Leon's  eye. While lacking the verbal authority Lance typically had in these situations, Leon indicated for her to continue with his head.
+
+"_Should we trust him?_" Freya telepathically questioned Merlin, still unsure. Merlin nodded at her, assuring that for now, Leon was trustworthy.  Freya only hoped that 
 
 </section>
 
