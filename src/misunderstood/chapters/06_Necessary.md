@@ -9,56 +9,55 @@ description: Veronica recupperates.
 notes: ""
 endnotes: ""
 ---
-
 <section class="veronica">
 
 #### Veronica
 
-The end to a long day found Veronica sitting alone at a table in the Rising Sun. She had enough coin for ale, but wished she had enough for something stronger. The jig on stage was lively, and the tavern crowded—knights, townspeople, merchants, sailors all trying to out-drink or out-gamble one another—but none of it would lighten her foul mood. Still, this was better than answering her siblings' endless questions. Her position at the palace meant she could provide for them. It meant they wouldn’t need to take the hardest jobs. She could protect them—especially from the palace. Veronica was happy to serve food. She delighted in it, but she did not sign up to be a whore to the king. After ensuring that nobody was paying her any mind, she looked deeply into her tankard, and allowed a tear to escape down her cheek for the first time that day, while she fidgeted with the sleeve of her dress.
+The end to a long day found Veronica sitting alone at a table in the Rising Sun. She had enough coin for ale, but wished she had enough for something stronger. The jig on stage was lively, and the tavern crowded—knights, townspeople, merchants, sailors all trying to out-drink or out-gamble one another—but none of it would lighten her foul mood. Still, this was better than answering her siblings&rsquo; endless questions. Her position at the palace meant she could provide for them. It meant they wouldn’t need to take the hardest jobs. She could protect them—especially from the palace. Veronica was happy to serve food. She delighted in it, but she did not sign up to be a whore to the king. After ensuring that nobody was paying her any mind, she looked deeply into her tankard, and allowed a tear to escape down her cheek for the first time that day, while she fidgeted with the sleeve of her dress.
 
-“Would you like me to cheer you up, lovely lass?” It was just her luck that a gruff voice would notice her only when she let her guard down.
+&ldquo;Would you like me to cheer you up, lovely lass?&rdquo; It was just her luck that a gruff voice would notice her only when she let her guard down.
 
-“I'm not interested,” Veronica mumbled, her right hand curling into a fist. Most days she could handle herself. Today was not that day. She thought she was prepping for her usual assignment in the bakery. By mid morning she thought she was getting to do a task she had always wanted. Normally the king's usual servant served all his meals—Veronica didn't know how— but today she was the one chosen to deliver the king's lunch. She had served Uther, the prior king, a few times, and had served in royal feasts. But she was not prepared for the depravity of what this king wanted. She wished someone had warned her about being on the menu. She might have stashed a weapon in her skirts.
+&ldquo;I&rsquo;m not interested,&rdquo; Veronica mumbled, her right hand curling into a fist. Most days she could handle herself. Today was not that day. She thought she was prepping for her usual assignment in the bakery. By mid morning she thought she was getting to do a task she had always wanted. Normally the king&rsquo;s usual servant served all his meals—Veronica didn&rsquo;t know how— but today she was the one chosen to deliver the king&rsquo;s lunch. She had served Uther, the prior king, a few times, and had served in royal feasts. But she was not prepared for the depravity of what this king wanted. She wished someone had warned her about being on the menu. She might have stashed a weapon in her skirts.
 
-Then a softer, more welcome voice grabbed her attention, “Another tankard?” Veronica looked in her coin purse. She couldn't have another and still feed her siblings for the week. “I—”
+Then a softer, more welcome voice grabbed her attention, &ldquo;Another tankard?&rdquo; Veronica looked in her coin purse. She couldn&rsquo;t have another and still feed her siblings for the week. &ldquo;I—&rdquo;
 
-“It's on the house,” the barmaid interrupted, “Looks like you could use it.”
+&ldquo;It&rsquo;s on the house,&rdquo; the barmaid interrupted, &ldquo;Looks like you could use it.&rdquo;
 
 Veronica swallowed, and tried to smile at her. The best she could manage was a grimace.
 
 When the barmaid handed her refilled tankard, Veronica took a sip. Brandy.
 
-“I can't afford—”
+&ldquo;I can&rsquo;t afford—&rdquo;
 
-“Drink, then tell me what's wrong.” The barmaid emphatically pushed the liquor into Veronica's hand. Her lips curled. Her kind hazel eyes seemed like they could see through Veronica's soul.
+&ldquo;Drink, then tell me what&rsquo;s wrong.&rdquo; The barmaid emphatically pushed the liquor into Veronica&rsquo;s hand. Her lips curled. Her kind hazel eyes seemed like they could see through Veronica&rsquo;s soul.
 
-Veronica tried her best not to stare at the barmaid as she glided from behind the counter, with trays of food and drinks, dancing to the rhythm of the city's personell. Her green-plaid skirt fell to her ankles, but managed to drift around the barmaid, never once getting in the way, and always covered by the grey apron. Veronica wondered if the barmaid managed to keep at it by magic. A few minutes later, the barmaid caught her eye, and Veronica felt herself blush despite herself.
+Veronica tried her best not to stare at the barmaid as she glided from behind the counter, with trays of food and drinks, dancing to the rhythm of the city&rsquo;s personell. Her green-plaid skirt fell to her ankles, but managed to drift around the barmaid, never once getting in the way, and always covered by the grey apron. Veronica wondered if the barmaid managed to keep at it by magic. A few minutes later, the barmaid caught her eye, and Veronica felt herself blush despite herself.
 
-Every few minutes the barmaid came over, and laced her hand through Veronica's fingers, squeezing her hand as if she already knew what was wrong. It was like she knew what Veronica needed in the moment. Miraculously, during the entire time, Veronica never once needed to worry about the gruff man bothering her.
+Every few minutes the barmaid came over, and laced her hand through Veronica&rsquo;s fingers, squeezing her hand as if she already knew what was wrong. It was like she knew what Veronica needed in the moment. Miraculously, during the entire time, Veronica never once needed to worry about the gruff man bothering her.
 
 As the evening grew older, the bustle came to a momentary dull. Veronica, feeling the familiar burn of brandy in her system felt a strange warmth, like maybe she was going to be okay. She wanted to hold onto this feeling, not knowing if she would ever feel it again.
 
-“The name's Tess” Veronica heard the barmaid speaking. It took Veronica a moment to register that the doting barmaid was talking to her.
+&ldquo;The name&rsquo;s Tess&rdquo; Veronica heard the barmaid speaking. It took Veronica a moment to register that the doting barmaid was talking to her.
 
-“How can I repay you for your kindness?” Veronica stumbled over her words, squeezing the fingers she found were laced within hers. Tess's fingers were long and body, but her skin was surprisingly soft.
+&ldquo;How can I repay you for your kindness?&rdquo; Veronica stumbled over her words, squeezing the fingers she found were laced within hers. Tess&rsquo;s fingers were long and body, but her skin was surprisingly soft.
 
-“I'm sure I can think of a few ways” Tess responded with a smirk. Somehow coming from her, it didn't sound as creepy as it typically did from nobles attempting to grope her during a feast. Veronica's breath hitched.
+&ldquo;I&rsquo;m sure I can think of a few ways&rdquo; Tess responded with a smirk. Somehow coming from her, it didn&rsquo;t sound as creepy as it typically did from nobles attempting to grope her during a feast. Veronica&rsquo;s breath hitched.
 
-Veronica then took a deep breath, and took another swig of the brandy in her tankard. She was half expecting it to be empty, but Tess had been dutifuly ensuring that her tankard remained full. “I don't want to go home, and deal with my siblings right now.” She could see the empathy in Tess's caring brown eyes, with smile lines, and long lashes, that fluttered with a kind smile.
+Veronica then took a deep breath, and took another swig of the brandy in her tankard. She was half expecting it to be empty, but Tess had been dutifuly ensuring that her tankard remained full. &ldquo;I don&rsquo;t want to go home, and deal with my siblings right now.&rdquo; She could see the empathy in Tess&rsquo;s caring brown eyes, with smile lines, and long lashes, that fluttered with a kind smile.
 
-Rubbing the scar along the left side of her face, Veronica remembered that this morning's encounter should not hurt. It shouldn't feel worse than the encounter with hot kitchen knife. But somehow it was. She did not want to think about this morning. Before she could even stop herself, she felt her hand in the back of the barmaid's head, and brought her lips closer to her own. The feeling of soft lips, and a round cheek felt like bliss. Veronica did not know what amount of her boldness was due to the brandy. Veronica's mind went blank.  Tess tasted like brandy and happiness.
+Rubbing the scar along the left side of her face, Veronica remembered that this morning&rsquo;s encounter should not hurt. It shouldn&rsquo;t feel worse than the encounter with hot kitchen knife. But somehow it was. She did not want to think about this morning. Before she could even stop herself, she felt her hand in the back of the barmaid&rsquo;s head, and brought her lips closer to her own. The feeling of soft lips, and a round cheek felt like bliss. Veronica did not know what amount of her boldness was due to the brandy. Veronica&rsquo;s mind went blank.  Tess tasted like brandy and happiness.
 
-When the kiss broke apart, Veronica felt herself shaking “Sorry... I uh—don't know what got into me.”
+When the kiss broke apart, Veronica felt herself shaking &ldquo;Sorry... I uh—don&rsquo;t know what got into me.&rdquo;
 
-In response, Tess leaned back to behind the bar, and bit her lip, smirking as if nothing unusual had happened. Veronica thought that Tess's confident demeanor would be positively infuriating if she weren't so alluring.
+In response, Tess leaned back to behind the bar, and bit her lip, smirking as if nothing unusual had happened. Veronica thought that Tess&rsquo;s confident demeanor would be positively infuriating if she weren&rsquo;t so alluring.
 
 The bar started to finally calm down a bit, and Tess was starting to clear tables. Veronia felt  a tug on her hair, immediatly folloed by a tickle of long, soft hair on the back of her neck. She let out a hopefully discrete gasp.
 
-"You can stay here tonight -- free of charge -- if you don't mind sharing", Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responeded by casually throwing her arm across Tess's shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
+"You can stay here tonight -- free of charge -- if you don&rsquo;t mind sharing", Veronica felt the hot whisper in her ear, and a firm palm across the small of her back. She responeded by casually throwing her arm across Tess&rsquo;s shoulders, to avoid the impulse to nuzzle into the bosom that was now awkwardly close to her chin. Veronica felt warmth between her legs that she was fairly certain was not from the tavern itself.
 
-The idea of sharing a room in a tavern terrified Veronia, but sounded better than the alternative. Arriving home intoxicated would entice questions. Questions she did *not* want to answer.  It wasn't unusual for Veronica to sleep at the castle when King Arthur had noble guests.
+The idea of sharing a room in a tavern terrified Veronia, but sounded better than the alternative. Arriving home intoxicated would entice questions. Questions she did *not* want to answer.  It wasn&rsquo;t unusual for Veronica to sleep at the castle when King Arthur had noble guests.
 
-Veronica decided that Tess was less dangerous than the greedy king. Veronica gulped, as she could still almost feel the king's caustic shaft in her throat. Besides, at that moment Tess was the most beautiful woman Veronia had ever laid eyes on.
+Veronica decided that Tess was less dangerous than the greedy king. Veronica gulped, as she could still almost feel the king&rsquo;s caustic shaft in her throat. Besides, at that moment Tess was the most beautiful woman Veronia had ever laid eyes on.
 
 Suddenly, there was a loud clatter followed by an immense cheer from the entire taver.  Veronica jumped, as Tess quickly sqweezed her side, then untangled herself to go resolve the issue. Tess remained chipper and congradulatory as she helped the party clean up their mess.
 
@@ -66,13 +65,13 @@ A gruff "You okay there miss?" shocked Veronica out of her reverie.
 
 "Erm-- fine," Veronica tensed, leaning away from the intruder.
 
-"Tess is good people," he continued, sliding a chair away from her, and sitting in it,  seemingly oblivious to Veronica's attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
+"Tess is good people," he continued, sliding a chair away from her, and sitting in it,  seemingly oblivious to Veronica&rsquo;s attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
 
-"Relax, there. I'm not going to hurt you," the man continued, leaning away from her slightly, "Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixure served with honey..."
+"Relax, there. I&rsquo;m not going to hurt you," the man continued, leaning away from her slightly, "Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixure served with honey..."
 
 Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches for serving royalty.
 
-"So, you've met Brian," Tess chuckeled, approaching the table.  She pulled up a chair between her and the man, "Brian, mind if I steal her away?"
+"So, you&rsquo;ve met Brian," Tess chuckeled, approaching the table.  She pulled up a chair between her and the man, "Brian, mind if I steal her away?"
 
 "Only if you get Kathy for me," Brian responded with a chuckle.
 
@@ -84,7 +83,7 @@ Veronica started to relax, as she realized that this man seemed to not care whet
 
 #### Freya
 
-The knock on Leon's door freightened Freya. She pounced off the bed, into her shoes, and imediatly started "fixing" up the room, obfuscating Merlin from the view in front of the room.
+The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into her shoes, and imediatly started "fixing" up the room, obfuscating Merlin from the view in front of the room.
 
 </section>
 
@@ -94,8 +93,8 @@ The knock on Leon's door freightened Freya. She pounced off the bed, into her sh
 
 #### Veronica
 
-"Tess -- You -- Agh ... " Veronica moaned, clamping her thighs around Tess's face, grinding into the expertly swirling tongue. She threaded her fingers through Tess's hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn't even try to temper her moans.
+"Tess -- You -- Agh ... " Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
 
-As Veronica rode through her first orgasm, she tried to move away from Tess's stimulation, to no avail.
+As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail.
 
 </section>

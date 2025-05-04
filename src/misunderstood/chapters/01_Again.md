@@ -1,0 +1,127 @@
+---
+id: "ch01"
+href: "#ch01"
+text: "Again"
+chapter: 1
+title: "Chapter 1: Again"
+pubDate: 2025-01-01
+published: true
+description: "Years ago, Arthur brutally assaulted raped Merlin. While most of the sexual abuse has died down, Arthur is still abusive."
+notes: ""
+endnotes: ""
+---
+<section class="arthur">
+
+#### Arthur
+
+&ldquo;It&rsquo;s time to wake up, clot-pole&rdquo;, Merlin cheerily exclaimed, while yanking Arthur&rsquo;s covers off. Arthur hadn&rsquo;t been exactly asleep, but wanted Merlin to think it.
+
+Until the moment Merlin had barged into his chambers, Arthur had been in the throws of one of the most marvelous dreams. Unfortunately, the stiffness in his cock only worsened when Merlin walked in.
+
+&ldquo;You&rsquo;ve got to give a speech about armor polishing, and then you have to listen to a speech about bricklaying. And then in the afternoon, you have training, followed by a dinner with Guinevere&rdquo;. Merlin&rsquo;s tone was annoying as ever.
+
+&ldquo;Oh, and here&rsquo;s you&rsquo;re breakfast&rdquo;, Merlin added, shoving a scone into Arthur&rsquo;s mouth.
+
+It took all of Arthur&rsquo;s effort to not buck his hips at the sensation of being gagged. *This is new.* An unbidden image of the scone being replaced by Merlin, rose to his brain. In order to hide his erection, Arthur grumbled something mildly unrecognizable, and turned over.
+
+Rather than giving him solace, Merlin simply climbed on top of him, momentarily caging him with his body, and then pulled Arthur&rsquo;s blankets off, exposing him completely. Arthur did not want to think about how this made him feel. *I&rsquo;m king, and he&rsquo;s a servant. This is just my body. There is nothing else there.* Arthur took a deep breath. He was not ready to process what he felt when seeing his miserable servant&rsquo;s smirk.
+
+Of course, Merlin noticed Arthur&rsquo;s predicament as soon as covers came off. However, the raven haired man did not have any mercy.
+
+&ldquo;Guess somebody is having a hard morning,&rdquo; Merlin teased with a hollow chuckle, &ldquo;But I already know your prick. Oops, I mean, that your a prick&rdquo;.
+
+Arthur would never get a break. Arthur grabbed the closest object, which happened to be a pillow, and chucked it at Merlin. Hopefully that would distract him for the moment.
+
+&ldquo;Looks like you want an even harder sick up your ass,&rdquo; Merlin responded, easily dodging the pillow, &ldquo;I wonder whose will be there next.&rdquo; Arthur tried to assume he was imagining the sultry tone in Merlin&rsquo;s voice. He was not going to give Merlin the satisfaction of knowing he was getting to him. Arthur did not want to think about the memories, or what he wanted from them.
+
+With something between mocking, pity, and urgency, Merlin commanded &ldquo;Get out of bed. I need to make sure you are dressed.&rdquo; Merlin punctuated his command with a slight bite to his bottom lip, somehow making Arthur even more aroused. Hoping that he came off as angry, Arthur completely got out of bed, ran towards Merlin, grabbing one of his hands, twisting it around Merlin&rsquo;s back, in hopes of at least restraining the idiot of a servant. Forgetting his predicament, this motion meant that Arthur was now pressed against Merlin&rsquo;s but, and was holding Merlin close.
+
+Merlin was not going to waste this opportunity, &ldquo;Oh, being a tease now, are we,&rdquo; Merlin, then wriggled his but into the Arthur&rsquo;s unmistakable situation, &ldquo;Just know that turnabout is fair play.&rdquo; Arthur did not realized that he had pressed Merlin&rsquo;s hips into him, at the flirtatious gesture. *He is just teasing me like he always does. He means none of this.*
+
+In order to maintain some semblance of control, Arthur then moved his left hand to reach across Merlin&rsquo;s waist, and used his right to make Merlin bend at the waist, but sticking out. &ldquo;I don&rsquo;t need a weapon to hurt you, *Merlin*&rdquo;, he says softly, and then he smacks Merlin&rsquo;s right butt cheek with a smack, hard enough to leave a mark, even above clothing. Arthur knew that the most sadistic part of this routine, was to only it Merlin once. Arthur then gruffly pushed Merlin away, after almost too gently grazing his hands down Merlin&rsquo;s body. *There is nothing else there. This isn&rsquo;t the first time I&rsquo;ve smacked Merlin. Hell, Merlin isn&rsquo;t even naked.*
+
+Merlin is grinning far more widely than Arthur would have liked. *Is the grin even genuine?* He goes into Arthur&rsquo;s wardrobe with what looks like a spring in his step, and starts to dress Arthur.
+
+&ldquo;Hmm, Arthur,&rdquo; Merlin, called, using an almost singsong voice, &ldquo;You haven&rsquo;t worn these pants in a while, and I think I now why. Maybe you&rsquo;ll be a humbled wearing something that even I would recognize as vaguely pretty. If I&rsquo;m willing to admit this much to you, imagine what it will do to those who want to touch you.&rdquo;
+
+That last taunt earned Merlin a punch in the gut, followed by grabbing and pulling Merlin&rsquo;s hair, with the intent to whisper a threat into Merlin&rsquo;s ear. But instead of a threat Arthur grazed Merlin&rsquo;s ear with his teeth and tongue, far more softly than he had intended. Arthur did not dare think too hard about what *that* meant.
+
+The next thing Arthur notices is Merlin leaving the his room, carrying a laundry basket, with the door quietly closing behind the servant. Arthur was about to call out that Merlin still had chores to do within his chambers. Arthur then looks around and notices that his bed is made, his armor is polished, and set out on an armor stand, and his sword belt laid on his table, next to his now neatly stack papers. Upon further inspection of his chambers, there is nothing Merlin could possibly have left to do inside his chambers. The candles are lit, and next to each candle holder, there are two or three replacement candles. The hearth lit enough to provide heat, but with a warm low flame, appropriate for the day time. Next to the hearth, the wood pile has been refilled. On the mantle, there are even flowers, replaced with fresh ones, and one of his bedside tables has a bowl of fresh fruit, and a covered plate. Underneath the cover, Arthur sees that there is a helping of his customary bread meats and cheeses. *I just woke up. How the hell did this happen? What even happened?*
+
+Deciding that he could not find a single work-related reason to recall his servant, Arthur went to the table, to finish his speech, and then see what the day had in store for him. After arriving at his table, Arthur noticed that the scroll placed neatly on the top of the pile of papers, was in fact a well written speech about armor polishing. Beneath that was a scroll that seemed have the title &ldquo;Bricklaying&rdquo;, and had a bunch of notes, with questions, and neat lines for him to fill in an answer. Upon further inspection, the first few paragraphs even had a neat summary of the current laws, the proposed laws, and the places that the bricklaying guild wanted something different. *Huh, I don&rsquo;t remember doing this. I don&rsquo;t know the first thing about polishing, or bricklaying.*
+
+Merlin must be a miracle worker, as Arthur was sure he did not do all of this research. Arthur made a mental note to silently give his servant a raise, and question him more thoroughly about his &ldquo;night in the tavern&rdquo;, as Guias claimed Merlin was doing yesterday, when asked. Unbidden memories of Merlin&rsquo;s soft flesh haunted Arthur, as he walked over to his council meeting about polishing.
+
+---
+
+Arthur tried his best not to doze off during the speech about bricklaying. The delicate curl of Merlin&rsquo;s penmanship kept him occupied as he filled in the blanks, trying really hard not to create doodles in the margins. Arthur respected Merlin too much to destroy his handy work with doodles.
+
+Arthur cleared his throat, making the hand-signal for servant to refill his goblet. To his surprise, it was George, and not Merlin refilling goblet, with an ever-present scowl, paired with a professional bow. Because of the meeting, Arthur could only think, *Where the ever-present fuck is Merlin. Bricklaying is far more boring than I could even imagine. At least Merlin would have the decency to smirk at him.*
+
+</section>
+
+---
+
+<section class="merlin">
+
+#### Merlin
+
+Merlin raced barely remembered what happened this morning. He did not remember the familiar walk home. He barely remembered when he unlocked his door with silent incantation. There were no thoughts, only rage.
+
+</section>
+
+---
+
+<section class="freya">
+
+#### Freya
+
+It was around noon when Merlin stormed in. Freya recognized the anger in her husband, and knew that something big happened. She also knew that only Arthur could cause this. She had seen glimpses of this before, when remembering what happened. Freya knew that she couldn&rsquo;t coax Merlin out of this alone. But she she needed her Merlin to protect her. But she also knew that she will always take care of her Merlin. She will surround him with love and protection, She knew that Merlin would guide her and protect her, and she hoped she would allow Merlin to let her make him pay for his misdeeds. But for now, Merlin needed her, and other friends. He needed to feel safe, and to know that he was not alone.
+
+Once Merlin had crossed the threshold she extinguished the flame in the hearth, knowing that under-cooked dinner an acceptable risk for now. She walked up to him, and grasped his hands in hers, feeling his stone cold fingers. Freya was *not* going to press, but she needed him to know that he was safe, and that she was not leaving him. *Not that I have anywhere to go, but I also would not have it any other way.* Merlin had a way of making her feel loved, to the bottom of her soul. And as much as Freya knew that it was reciprocated, Freya had done this enough times to know that she would not be able to coax Merlin out of his trance. However, she did need to know something.
+
+&ldquo;Hit me…. on me... stopped time... used magic,&rdquo; Merlin croaked, in an empty voice, his eyes seeming to stare straight through her, or past her.
+
+Freya grabs a cloak from a hook by the door. This cloak was special for when Merlin needed to get around with less recognition. Freya was known for being a florist in the town, but they had both agreed that they would both be safer if their marriage was not common enough knowledge for it to get to the *king.* Most of the knights knew who she was to Merlin, but Merlin was not particularly keen on Arthur using her against him.
+
+&ldquo;Put this on, Emrys,&rdquo; Freya coos, pulling the cloak around Merlin&rsquo;s shoulders, attempting to get the hood to cover his face. She used his druid name, to relax him, and to impress upon him the degree of her trust in him. &ldquo;Let&rsquo;s get you out of here&rdquo;.
+
+Freya turned Merlin around and coaxed him out the door with her. Freya smiled tightly as she noticed Merlin&rsquo;s eyes glow, wordlessly locking, and warding their home. Even in this state, Merlin seemed to have enough wherewithal to protect the incriminating contents of the house.
+
+With Freya&rsquo;s firm grip on Merlin&rsquo;s hand, she expertly guided him through the familiar streets to Gwen&rsquo;s house. Freya wished that Gwen or Lance were druids so that she could call out to them. Her own house was much safer. But somehow the comfort and familiarity of Gwen&rsquo;s house, with Lancelot&rsquo;s murmurs were the only thing that seemed to work to coax Merlin out of this trance before. Freya was not so possessive to reject help from the only two who knew Merlin more intimately that she did. *Or at least the only two who had permission to know him so well. The king was an enigma, as he seems to know Merlin well, but not well enough to know when to back off.*
+
+After two sharp raps on the door Gwen answered, opening the door just a crack with nust her head peaking out. A single glance at Merlin and her caused her to close the door, and then open it again, wearing a silk robe, tied neatly around her waste, but not tied tightly enough to completely cover her cleavage. At the moment, Freya ignored the way Gwen&rsquo;s curls draped over her shoulders, framing her face. Or the way her hips swayed when grabbing Merlin from her, guiding him to a bench.
+
+&ldquo;What happened,&rdquo; Gwen asked sweetly.
+
+&ldquo;I&rsquo;m not exactly sure,&rdquo; Freya replied, doing her best to keep her voice even, &ldquo;From what I gather, the king came on to him, and then Merlin used some time magic. I&rsquo;ve never seen him like this.&rdquo;
+
+Gwen hummed gracefully, beckoning Lancelot, who must have been behind a screen until now. Seeing Lancelot wearing so little made Freya instinctively reach to magically lock the door, only remembering that the door was bolted from the inside, and that it was still risky to practice magic without Merlin&rsquo;s wards. Freya then watched as Gwen glided over to the hearth, swaying her hips seductively. As Gwen started to put the kettle onto the hook over the fire, her robe fell off her shoulders, revealing most of her bosom. Freya turned away, hoping Gwen didn&rsquo;t notice her blush.
+
+Gwen handed Freya a teapot, and a tin of tea, and then she grabbed the kettle with a cloth. Lancelot and Merlin were settled on the bench on once side of the table, with Merlin laying down on Lancelot&rsquo;s lap. The latter was shirtless, head protectively dipped down, one hand on Merlin&rsquo;s stomach, and the other curled around Merlin&rsquo;s ear. Merlin&rsquo;s eyes were golden and glowing, but otherwise unfocused. One of his hands had an icy blue orb floating. Freya could finally relax somewhat, knowing that Merlin was safe for now. While instinctively wanting to adjust his hood, to hide the magic in his eyes, Freya refrained, knowing that Lancelot knew what he was doing, and was well appraised of Merlin&rsquo;s magic. It broke her heart to see Merlin like this.
+
+Freya placed the teapot atop a block of wood, shaped for the purpose, like she had done many times before. She automatically scooped some tea from the tin and placed it into the brewing cage, and set the teapot down to brew. Wanting to give Lancelot and Merlin some privacy, Freya turned towards Gwen and the cupboard again, aiming to get come teacups. With the same idea, and a fair amount of practice, Gwen had already turned around, anticipating Freya&rsquo;s move, mug in each hand, handing them to Freya.
+
+The only difference between this time, and other iterations of this routine, is that Gwen hadn&rsquo;t bothered to keep her robes closed as tightly. *This is simply because of the urgency, anxiety, and activities her and Lancelot were clearly engaged in before my interruption.* An unbidden image of Gwen riding on Lancelot, one hand squeezing a nipple, and her other hand rubbing her own clit, bringing herself to orgasm, with Lancelot&rsquo;s hands on her hips. She then blushed resisting the urge to ghost her hand across one of Gwen&rsquo;s nipples while retrieving the offered mugs. She also did not want to think about some of her more intense impulses around Gwen. She will always be there to serve her Merlin, but this was different. Another image of Gwen&rsquo;s perfect face, clamped between her own thighs, with her perfect curls tangled within her own fingers came to Freya&rsquo;s mind, as Gwen touched her fingers to her hand, while releasing the mug.
+
+&ldquo;You are welcome to look, or even to touch if you want,&rdquo; Gwen breathed into Freya&rsquo;s ear.
+
+Freya snapped out of it. *Holy fuck. I want something from Gwen that is not part of what I have with Merlin.* As if feeling caught, Freya mumbled something, but then straightened out, with her two mugs, turning on her heel to walk over to the table. Gwen lazily grabs the other two teacups and follows Freya, running a hand down the druid woman&rsquo;s back before sitting down next to her.
+
+Freya automatically pushes the kettle to the center of the table so that Gwen and Lance have equal access to it. Gwen slides closer to Freya, with her teacup and bats her eyelashes at Freya, not moving the hand on Freya&rsquo;s back. &ldquo;May I?&rdquo; she asks, softly.
+
+As Freya pours some tea, Gwen continues, &ldquo;You are quite beautiful you know&rdquo;. She then leans into Freya, and swiftly gives her a kiss on the cheek. This gesture could be construed as simply reassuring, if it weren&rsquo;t for her now complete nudity, as Gwen&rsquo;s robe was now draped over the bench. The intimacy was only increased when Gwen abruptly stood up, and coaxed Freya out of her own cloak, undoing the front fastening from behind carefully caressing her shoulders, back, and breast. Freya shivered at first, feeling mildly uncomfortable at the removal of her armor, but not altogether uncomfortable, the combination of the tea and hearth and bodies in close quarters had made her rather warm. Freya did not want to think about any other reasons why removing a layer might make her even warmer than before.
+
+&ldquo;Are *you* okay?&rdquo; Gwen asks kindly. Gwen was not unaware of how challenging Merlin&rsquo;s episodes could be on her, especially when she couldn&rsquo;t help him herself.
+
+&ldquo;Yes&rdquo;, Freya responds, still anxious, &ldquo;I&rsquo;m worried for Merlin, especially since, well, it seems there might have been magic involved. I am also scared because I do not like it when people touch my Merlin without consent. But most of all, I am worried, because right now there is somebody whom I very much would like to kiss,&rdquo; Freya looked up at Lancelot and Merlin. Merlin breath has evened out. His right hand still has the ball of magic, but his eyes are locked on Lancelot&rsquo;s eyes. Merlin&rsquo;s other hand is entwined with Lancelot&rsquo;s hand, who seem to be moving his hand back and forth along Merlin, generating feelings of pleasure and protective comfort. Freya was well acquainted with that look from Merlin. She knows that he is happy, and that she can only get him to this place when he is assertively gripping her hair. It is one thing for Merlin to have respite of peace from place of strength. Freya couldn&rsquo;t get him here, from a place of weakness. That is what Lancelot was for. Freya&rsquo;s lips curled, knowing what she wants.
+
+Feeling emboldened from Merlin&rsquo;s safety, Freya reached out, and grabbed Guinevere&rsquo;s hair, right at the base of her neck. Close enough to gain control, but not so far to cause pain. &ldquo;I want you to thank me for trusting you with my husband,&rdquo; Freya states flatly, but leaning into Gwen, placing her other hand on Gwen&rsquo;s shoulder, trailing down, &ldquo;By going down on me&rdquo;.
+
+The tension between the two women was palpable. Gwen&rsquo;s pupils dilated, drinking in the moment, relieved to finally give control to somebody who will take it.
+
+Freya, surprised at herself, but pleased by this reaction, touched her forehead to Gwen&rsquo;s with a lick on her lips. She squeezed Gwen&rsquo;s nipple between two knuckles, moving them even closer together.
+
+The moment was broken with a sharp wrap on the door, &ldquo;Gwenivere, open up. I can&rsquo;t fund my stupid manservant. Have you seen him?&rdquo;
+
+</section>
