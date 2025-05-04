@@ -87,7 +87,7 @@ The knock on Leon&rsquo;s door freightened Freya. She pounced off the bed, into 
 
 Flicking her eyes away from Merlin for a moment, she caught Leon's  eye. While lacking the verbal authority Lance typically had in these situations, Leon indicated for her to continue with his head.
 
-"_Should we trust him?_" Freya telepathically questioned Merlin, still unsure. Merlin nodded at her, assuring that for now, Leon was trustworthy.  Freya only hoped that 
+"_Should we trust him?_" Freya telepathically questioned Merlin, still unsure. Merlin nodded at her, assuring that for now, Leon was trustworthy. The knocking on the door continued, as Freya drew the curtains around the bed and wrangled Merlin into a hiding place underneath the bed.  Freya made note that Goerge only opened the door once Merlin was suitably hidden. Leon busied himself at his desk, convienentky placed blocking the line of sight to the door. 
 
 </section>
 
