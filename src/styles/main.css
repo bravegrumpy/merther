@@ -660,15 +660,26 @@ h2.heading {
   vertical-align: text-top;
 }
 @media (max-width: 600px) {
+  main,
+  header,
+  footer .banner {
+    width: 400px;
+  }
   #mainMenuToggle {
     display: inline-block;
   }
-  #main-menu {
+  #toggle {
     display: none;
-    flex-direction: column;
   }
-  #main-menu .menu {
-    width: 100%;
+  nav.menu-container {
+    width: fit-content;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  nav.menu-container .menu,
+  nav.menu-container .pages {
+    width: calc(100% + (-2 * 20px));
   }
 }
 @media (min-width: 100ch) {

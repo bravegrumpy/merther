@@ -993,14 +993,25 @@ footer {
 // }
 
 @media (max-width: 600px) {
+    @base-width: 400px;
+    main, header, footer .banner {
+        width: @base-width;
+    }
     #mainMenuToggle {
         display: inline-block;
     }
-    #main-menu {
+    #toggle {
         display: none;
-        flex-direction: column;
-        .menu {
-            width: 100%;
+    }
+    nav {
+        &.menu-container {
+            width: fit-content;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            & .menu, & .pages {
+                width: calc((100%) + (-2 * @base-padding));
+            }
         }
     }
 }
