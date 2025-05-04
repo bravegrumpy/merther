@@ -678,7 +678,7 @@ footer {
     display: none;
 }
 
-@print-width: 8.5in;
+@print-width: 8.0in;
 @media print {
     @page {
         margin: 0.25in;
@@ -691,28 +691,31 @@ footer {
         background-repeat: repeat;
         background-attachment: unset;
     }
-    // main {
-    //     max-width: @print-width;
-    //     width: 100%;
-    //     margin: 0px auto;
-    // }
-    // article {
-    //     max-width: @print-width;
-    // }
-    // .chapter {
-    //     max-width: @print-width;
-    // }
+    main {
+        max-width: @print-width;
+        width: 100%;
+        margin: 0px auto;
+    }
+    article {
+        max-width: @print-width;
+    }
+    .chapter {
+        max-width: @print-width;
+        width: calc((@print-width) + (-8 * @base-padding));
+        overflow-wrap: break-word;
+        margin-left: (-2 * @base-padding);
+    }
     header, footer, main, article, .chapter .chapter-preamble {
         &, & * {
             max-width: (@print-width * (1.5));
         }
     }
-    .chapter {
-        // width: (@print-width - 0.7in);
-        width: (@print-width * 1.1);
-        // margin: 0px auto;
-        margin: 0px;
-    }
+    // .chapter {
+    //     // width: (@print-width - 0.7in);
+    //     width: (@print-width * 1.1);
+    //     // margin: 0px auto;
+    //     margin: 0px;
+    // }
     main, header .title {
         margin-top: -2in;
     }

@@ -520,6 +520,20 @@ footer :nth-child(3n+3) {
     background-repeat: repeat;
     background-attachment: unset;
   }
+  main {
+    max-width: 8in;
+    width: 100%;
+    margin: 0px auto;
+  }
+  article {
+    max-width: 8in;
+  }
+  .chapter {
+    max-width: 8in;
+    width: calc(8in + (-8 * 20px));
+    overflow-wrap: break-word;
+    margin-left: -40px;
+  }
   header,
   footer,
   main,
@@ -530,11 +544,7 @@ footer :nth-child(3n+3) {
   main *,
   article *,
   .chapter .chapter-preamble * {
-    max-width: 12.75in;
-  }
-  .chapter {
-    width: 9.35in;
-    margin: 0px;
+    max-width: 12in;
   }
   main,
   header .title {
@@ -560,7 +570,7 @@ footer :nth-child(3n+3) {
     color: black;
     min-height: unset;
     margin-left: -100px;
-    width: 29.33333333in;
+    width: 28.83333333in;
   }
   footer,
   nav,
