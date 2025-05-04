@@ -55,7 +55,8 @@ export function ChapterPreamble({
   previousIcon,
   nextIcon,
   backToTopIcon,
-  backToTopButton
+  backToTopButton,
+  fakeBtnWidth="fit-content"
 }: {
   chapterNameHeading?: string;
   previousChapterSrc?: string;
@@ -72,7 +73,8 @@ export function ChapterPreamble({
   previousIcon?: React.ReactNode;
   nextIcon?: React.ReactNode;
   backToTopIcon?: React.ReactNode;
-  backToTopButton?: string | boolean | React.ReactNode
+  backToTopButton?: string | boolean | React.ReactNode;
+  fakeBtnWidth?: string | number;
 }) {
   return (
     <>
@@ -96,7 +98,7 @@ export function ChapterPreamble({
           <p
             style={{
               backgroundColor: "transparent",
-              width: "25ch",
+              width: fakeBtnWidth,
               textAlign: "center",
               height: "37px",
               color: "transparent",
@@ -163,7 +165,8 @@ export function Chapter({
   previousIcon,
   nextIcon,
   backToTopIcon,
-  backToTopButton
+  backToTopButton,
+  fakeBtnWidth
 }: {
   articleId: string;
   beforePreamble?: React.ReactNode;
@@ -186,7 +189,8 @@ export function Chapter({
   previousIcon?: React.ReactNode;
   nextIcon?: React.ReactNode;
   backToTopIcon?: React.ReactNode;
-  backToTopButton?: boolean
+  backToTopButton?: boolean,
+  fakeBtnWidth?: string | number;
 }) {
   return (
     <>
@@ -209,6 +213,7 @@ export function Chapter({
           nextIcon={nextIcon}
           backToTopIcon={backToTopIcon}
           backToTopButton={backToTopButton}
+          fakeBtnWidth={fakeBtnWidth}
         />
         <div className={`chapter ${chapterDivClass}`}>
           {beforeChapter}

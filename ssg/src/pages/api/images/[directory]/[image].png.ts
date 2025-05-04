@@ -3,8 +3,8 @@ export function getStaticPaths() {
     return [
         { params: { directory: "topography", image: "topography_brown"} },
         { params: { directory: "textures", image: "TCom_PaperPage0016_2_masked_XXL"} },
-        { params: { directory: "textures", image: "TCom_PaperPage0016_2_masked_XXL_cropped.png"}},
-        { params: { directory: "textures", image: "TCom_PaperPage0016_2_masked_XXL_seamless-y"}}
+        { params: { directory: "textures", image: "TCom_PaperPage0016_2_masked_XXL_cropped"}},
+        { params: { directory: "textures", image: "TCom_PaperPage0016_2_masked_XXL_seamless-y"}},
     ]
 }
 
