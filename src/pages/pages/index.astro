@@ -11,6 +11,10 @@ import Article from "@/components/Article.astro"
 import WorkList from "@/pages/pages/content/introduction.mdx"
 
 import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
+
+import Related from "@/pages/pages/content/related.mdx";
+import Community from "@/pages/pages/content/community.mdx";
+
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
@@ -22,6 +26,15 @@ import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/conten
         <Article>
             <Explicit />
         </Article>
+        <hr />
+        <div class="links">
+            <Article>
+                    <Related />
+            </Article>
+            <Article>
+                <Community />
+            </Article>
+        </div>
     </div>
 </Layout>
 
@@ -31,5 +44,16 @@ import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/conten
     }
     .chapter hr.section {
         width: calc(100% + 60px);
+    }
+    .links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+</style>
+<style is:global>
+    .links article {
+        border-inline: 20px outset #6848390f;
     }
 </style>
