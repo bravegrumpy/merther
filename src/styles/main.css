@@ -662,6 +662,9 @@ h2.heading {
   }
 }
 @media (min-width: 100ch) {
+  html {
+    width: fit-content;
+  }
   header,
   main,
   footer,
