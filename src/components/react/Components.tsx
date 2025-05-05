@@ -1,6 +1,9 @@
 import dayjs from 'dayjs';
 import styles from "@/components/react/Components.module.css"
 
+import { Button } from "@/components/react/ui/button";
+import { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel } from "@/components/react/ui/alert-dialog"
+
 export function Banner() {
     return(<>
         <p className="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px</p>
@@ -36,6 +39,31 @@ export function FallbackContent({heading, message, children }:{heading?: string 
     {message ?? <></>}
     <br />
     {children}
+    </>);
+}
+
+export function AdultContentDialog() {
+    return (<>
+        <AlertDialog defaultOpen>
+            <AlertDialogTrigger asChild>
+                <Button variant={'default'} className='bg-[beige]'>Show Dialog</Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent className='bg-[url(/api/images/textures/TCom_PaperPage0016_2_masked_XXL_cropped.png)] bg-center bg-contain bg-origin-border bg-linear-to-br from-merther-header/10 to-violet-200/5'>
+                <AlertDialogHeader>
+                    <AlertDialogTitle className='text-9xl'>Adult Content</AlertDialogTitle>
+                    <AlertDialogDescription className='text-section-100' asChild>
+                        <h3>Do you consent to see adult content?</h3>
+                        <p>By clicking continue, you are agreeing that you are over the age of 18, adn consent to view adult content.</p>
+                    </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                    <AlertDialogCancel asChild>
+                        <Button className='bg-sky-400' onClick={() => {history.back()}}>Go Back</Button>
+                    </AlertDialogCancel>
+                    <AlertDialogAction>Continue</AlertDialogAction>
+                </AlertDialogFooter>
+            </AlertDialogContent>
+        </AlertDialog>
     </>);
 }
 
