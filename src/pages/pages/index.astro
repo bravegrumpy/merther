@@ -5,6 +5,7 @@ const headTitle = "Home | Merther";
 const pageTitle = "Merther Fanfiction";
 const author = null;
 import { mainLinks } from "@/scripts/data.js";
+import { getCollection, render } from "astro:content";
 
 import Article from "@/components/Article.astro"
 
@@ -12,8 +13,7 @@ import WorkList from "@/pages/pages/content/introduction.mdx"
 
 import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
 
-import Related from "@/pages/pages/content/related.mdx";
-import Community from "@/pages/pages/content/community.mdx";
+const Resources = await getCollection('resources')
 
 ---
 
@@ -27,6 +27,19 @@ import Community from "@/pages/pages/content/community.mdx";
             <Explicit />
         </Article>
     </div>
+    <hr />
+    <div class="links">
+        {
+            Resources.map(async (list) => {
+                const { Content } = await render(list);
+                return (<>
+                    <Article>
+                        <Content />
+                    </Article>
+                </>);
+            })
+        }
+    </div>
 </Layout>
 
 <style>
@@ -38,13 +51,24 @@ import Community from "@/pages/pages/content/community.mdx";
     }
     .links {
         width: 100%;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
+        grid-template-rows: masonry;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
         gap: 20px;
+        /* justify-content: space-evenly; */
+        /* align-items: flex-start; */
+        /* height: 80ch; */
     }
 </style>
 <style is:global>
     .links article {
         border-inline: 20px outset #6848390f;
+        border-block: 4px dotted #ed052318  ;
+        /* flex-grow: 2; */
+        /* background-color: #6299dc60; */
+        width: fit-content;
+        height: fit-content;
     }
 </style>

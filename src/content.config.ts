@@ -2,6 +2,14 @@ import { defineCollection, z } from "astro:content";
 
 import { glob } from "astro/loaders"
 
+const resources = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/links"}),
+    schema: z.object({
+        title: z.string(),
+        
+    })
+})
+
 const misunderstood = defineCollection({
     loader: glob({ pattern: ["*.{md,mdx}", "!index**"], base: "./src/misunderstood/chapters" }),
     schema: z.object({
@@ -34,4 +42,4 @@ const muses = defineCollection({
     })
 });
 
-export const collections = { misunderstood, misunderstood_summary, muses }
+export const collections = {resources, misunderstood, misunderstood_summary, muses }
