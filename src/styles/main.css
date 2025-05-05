@@ -677,17 +677,64 @@ h2.heading {
   font-size: 3rem;
   vertical-align: text-top;
 }
+@media (max-width: 300px) {
+  html {
+    overflow-x: hidden;
+  }
+  main,
+  header,
+  footer,
+  .banner,
+  .chapter {
+    width: 100px;
+    max-width: max-content;
+    overflow-x: hidden;
+  }
+  .chapter-preamble {
+    display: none;
+  }
+  * .chnav-start {
+    min-width: 20ch;
+  }
+  .chapter p {
+    font-size: 1.601613rem;
+  }
+  .chapter .chi {
+    display: block;
+    margin-top: 100px;
+  }
+  .chapter .chi .chb:not(a) {
+    display: none;
+  }
+  hr.section {
+    position: static;
+  }
+}
 @media (max-width: 600px) {
   main,
   header,
-  footer .banner {
-    width: 400px;
+  footer,
+  .banner {
+    width: 80vw;
+    max-width: 90vw;
+  }
+  .chapter {
+    width: calc(80vw + (-1 * 20px));
+  }
+  .chapter p {
+    font-size: 1.3689rem;
   }
   #mainMenuToggle {
     display: inline-block;
   }
   #toggle {
     display: none;
+  }
+  .latest-chapter {
+    display: none;
+  }
+  h1 {
+    font-size: 1.87388721rem;
   }
   nav.menu-container {
     width: fit-content;
@@ -698,6 +745,18 @@ h2.heading {
   nav.menu-container .menu,
   nav.menu-container .pages {
     width: calc(100% + (-2 * 20px));
+  }
+  .chapter-preamble {
+    width: 80vw;
+    position: static;
+  }
+  hr.section {
+    width: calc(80vw + (2 * 20px + 1px));
+    position: sticky;
+    bottom: 0px;
+  }
+  hr.section.end {
+    position: static;
   }
 }
 @media (min-width: 100ch) {

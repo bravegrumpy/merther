@@ -69,4 +69,26 @@ p  {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+@media (max-width: 600px) {
+    .end {
+        position: relative;
+        display: none;
+    }
+}
+@media (max-width: 300px) {
+    .end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chapter-postnav {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center; 
+    }
+    .middle {
+        display: none;
+    }
+}
 </style>
