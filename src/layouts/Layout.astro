@@ -69,8 +69,8 @@ import { Footer } from "@/components/react/Components";
 ---
 
 <UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
-  <slot name="head" />
   <Fragment slot="head">
+    <slot name="head" />
     <ClientRouter />
     <style is:global>
       *,
