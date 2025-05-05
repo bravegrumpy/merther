@@ -113,8 +113,10 @@ Each crescendo melded with the previous one, until finally all Veronica could do
 
 ---
 
-"Do you want to talk about it?" Tess started. At some point she had left to get a platter of bread cheese, and some water.  
+"Do you want to talk about it?" Tess asked. At some point she had left to get a platter of bread cheese, and some water.  
 
 Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of drugg, but even that didn't matter now.  The bread was the best bread she had ever tasted.
+
+"I think the king of camelot is  a mad king," Veronica whispered. 
 
 </section>

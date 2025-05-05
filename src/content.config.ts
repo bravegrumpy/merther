@@ -41,6 +41,13 @@ const misunderstood_notes = defineCollection({
     })
 })
 
+const  misunderstood_endnotes = defineCollection({
+    loader: glob({ pattern: ["*md", "*mdx", "*.html", "!index**"], base: './src/misunderstood/endnotes'}),
+    schema: z.object({
+        chapter: z.optional(z.union([z.string(), z.number()]))
+    })
+});
+
 const muses = defineCollection({
     loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/muses"}),
     schema: z.object({
