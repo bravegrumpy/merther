@@ -1,0 +1,56 @@
+.allMessages {
+    background-color: oklch(0.61 0.0525 255.1);
+    width: fit-content;
+    border-radius: 5px;
+    margin: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.1rem;
+}
+
+.msgWrapper {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'recieved sent';
+}
+
+.sent {
+    background-color: oklch(0.61 0.0525 78.84);
+    grid-area: sent;
+}
+
+.received {
+    background-color: oklch(0.61 0.0525 37.18);
+    grid-area: recieved;
+
+}
+
+#top_banner {
+    display: none;
+}
+
+#background {
+    background-color: oklch(0.61 0.0525 156.82);
+    background-size: 500px 500px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.reply {
+    background-color: orange;
+}
+
+#input {
+    background-color: oklch(0.61 0.0525 293.55);
+    border: 2px solid white;
+    font-family: "Delius";
+    font-size: 1.4rem;
+    color: bisque;
+}
+
+#input:empty::before {
+    color: bisque;
+    font-family: "Delius";
+    font-size: 1.1rem;
+}

@@ -1,0 +1,89 @@
+---
+import Layout from "@/layouts/Layout.astro";
+const headTitle = "Images";
+
+import Description from "@/other_stuff/description.md"
+import Candid from "@/other_stuff/candid.mdx";
+import Chromolithograph from "@/other_stuff/chromolithograph.mdx";
+import Heliograph from "@/other_stuff/heliograph.mdx";
+import Illustration from "@/other_stuff/illustration.mdx";
+import Lithograph from "@/other_stuff/lithograph.mdx";
+import Mixture from "@/other_stuff/mixture.mdx";
+import OilPainting from "@/other_stuff/oil-painting.mdx";
+import Render from "@/other_stuff/render.mdx";
+import RoyalReds from "@/other_stuff/royal-reds.mdx";
+import StainedGlass from "@/other_stuff/stained-glass.mdx";
+
+const imgSize = 300;
+
+---
+
+<Layout headTitle={headTitle}>
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">Gallery</h1>
+        <nav class="menu-container">
+            <a class="menu" href="/other">Other</a>
+            <a class="menu chnav chnav-start" href="/other/images">Images</a>
+        </nav>
+    </div>
+    <article class="article chapter">
+        <section class="description">
+            <Description />
+        </section>
+        <section class="image">
+            <Candid />
+        </section>
+        <section class="image">
+            <Chromolithograph />
+        </section>
+        <section class="image">
+            <Heliograph />
+        </section>
+        <section class="image">
+            <Illustration />
+        </section>
+        <section class="image">
+            <Lithograph />
+        </section>
+        <section class="image">
+            <Mixture />
+        </section>
+        <section class="image">
+            <OilPainting />
+        </section>
+        <section class="image">
+            <Render />
+        </section>
+        <section class="image">
+            <RoyalReds />
+        </section>
+        <section class="image">
+            <StainedGlass />
+        </section>
+    </article>
+</Layout>
+
+<style>
+    .article {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: masonry;
+        gap: 60px;
+    }
+    .image {
+        width: 100%;
+        background-color:  #25e9e910;;
+    }
+    .description {
+        grid-column: 1 / -1;
+        background-color: #6593de30;
+    }
+    .description h2 {
+        text-align: center;
+    }
+    .description p {
+        text-indent: 40px;
+        line-height: 2rem;
+    }
+</style>
