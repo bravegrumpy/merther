@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 const BlogPosts = await getCollection("microblog");
-BlogPosts.sort((a, b) => a.data.id - b.data.id)
+BlogPosts.sort((a, b) => b.data.id - a.data.id)
 
 import dayjs from "dayjs"
 import advancedFormat from "dayjs/plugin/advancedFormat";
@@ -18,7 +18,7 @@ dayjs.extend(utc);
             return (<>
             <section class="post">
                 <h2>{post.data.title}</h2>
-                <p>Published on {dayjs(post.data.pubDate).format('MMM Do, YYYY')}</p>
+                <p>Published on {dayjs(post.data.pubDate).utc().format('MMM Do, YYYY')}</p>
                 <Content />
             </section>
             </>)
@@ -32,7 +32,7 @@ dayjs.extend(utc);
         margin: 40px auto;
         padding: 20px 20px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 20px;
         /* height: fit-content; */
         height: 300px;
@@ -40,12 +40,14 @@ dayjs.extend(utc);
         padding: 20px;
         overflow-y: scroll;
         border: 2px solid #2e045e;
+        /* flex-wrap: wrap; */
     }
     .post {
         border: 2px solid #2e045e;
         padding: 20px;
-        height: 200px;
-        overflow-y: scroll;
+        height: fit-content;
+        /* max-height: 400px; */
+        /* overflow-y: scroll; */
         background-color: #6593de20;
     }
 </style>

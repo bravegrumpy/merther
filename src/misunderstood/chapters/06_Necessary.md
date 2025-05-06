@@ -67,11 +67,11 @@ A gruff &ldquo;You okay there miss?&rdquo; shocked Veronica out of her reverie.
 
 &ldquo;Tess is good people,&rdquo; he continued, sliding a chair away from her, and sitting in it, seemingly oblivious to Veronica&rsquo;s attempts to extricate herself from the interaction. She hoped this was not the same guy who had bothered her earlier.
 
-&ldquo;Relax, there. I&rsquo;m not going to hurt you,&rdquo; the man continued, leaning away from her slightly, &ldquo;Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixture served with honey&hellip;&rdquo;
+&ldquo;Relax, there. I&rsquo;m not going to hurt you,&rdquo; the man continued, leaning away from her slightly, &ldquo;Have you ever compared yak cheese to goat cheese? One would think that they are the same ingredient, but my favorite is an even mixture served as a thin spread on sourdough, topped with honey&hellip;&rdquo;
 
-Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches for serving royalty.
+Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches to serving exotic cheeses to royalty.
 
-&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo;
+&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo; Veronica noticed Brian flinch when Tess's elbow brushed his.
 
 &ldquo;Only if you get Kathy for me,&rdquo; Brian responded with a chuckle.
 
@@ -83,7 +83,7 @@ The room was large enough to fit the two beds, two tables, and not much else. Th
 
 She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess's waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
 
-After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.
+After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.   Somehow this made Veronica wonder if she could ellicit similar noises from Tess.
 
 Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman's jaw and said, "This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?"
 
@@ -115,8 +115,40 @@ Each crescendo melded with the previous one, until finally all Veronica could do
 
 "Do you want to talk about it?" Tess asked. At some point she had left to get a platter of bread cheese, and some water.  
 
-Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of drugg, but even that didn't matter now.  The bread was the best bread she had ever tasted.
+Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of dru, but even that didn't matter now.  The bread was the best bread she had ever tasted.
 
-"I think the king of camelot is  a mad king," Veronica whispered. 
+"I think the King of Camelot is  a mad king," Veronica whispered.
+
+"Are you *just now* discovering this?" Tess giggled, squeezing Veronica's hand, interlacing their fingers once more.
+
+"You aren't surpised?"
+
+"I *do* work at a tavern, " Tess joked.
+
+</section>
+
+---
+
+<section class="gwaine">
+
+#### Gwaine
+
+Gwain emptied his pint, and started to swing his hips as Kathy winked at him in the middle of a love song. To be fair, it was likely that everybody thought she was winking directly at them. She could make everybody in the room think that they were the subject of the song.
+
+"Love Love me do. You know I love you! I'll always be true. So pleeeeeeeeease love me too!"
+
+The only thing that could get a room full of Arthur's knights to be this excited are Kathy, gambling, and fighting. 
+
+Her dramatic alto could reach baritones most men could only aspire to.  It was only enhanced by the melodic dancing of her fingers on her lute.
+
+Kathy's performace was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy's flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
+
+During a break in the performance, Gwaine scanned the room looking for Tess, or the woman cowered away from him earlier that evening.  He then felt a tug at his sleeve.
+
+"Boop!" Kathy, flicked Gwaine's nose.  Nobody boops the nose of a Camelot Knight. 
+
+Gwaine indignantly backed up, and bowed saractically deeply, "At your service, Bard Kathy. What can I do you for?"
+
+"You have any gossip?" It was no secret that Kathy wanted to be a Town Crier.  Gwaine didn't want Kathy to stop singing, and all Town Criers are men.
 
 </section>
