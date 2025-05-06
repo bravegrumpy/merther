@@ -8,7 +8,9 @@ const BlogPosts = await getCollection("microblog");
         BlogPosts.map(async (post) => {
             const { Content } = await render(post);
             return (<>
-                <Content />
+                <section class="post">
+                    <Content />
+                </section>
             </>)
         })
     }
@@ -18,7 +20,12 @@ const BlogPosts = await getCollection("microblog");
     .blog {
         width: 80%;
         margin: 40px auto;
-        border: 2px solid #2e045e;
         padding: 20px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .post {
+        border: 2px solid #2e045e;
     }
 </style>
