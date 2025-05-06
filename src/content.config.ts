@@ -56,4 +56,13 @@ const muses = defineCollection({
     })
 });
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, muses }
+const microblog = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/posts"}),
+    schema: z.object({
+        title: z.string(),
+        pubDate: z.date(),
+        tags: z.optional(z.array(z.string()))
+    })
+})
+
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, muses, microblog }

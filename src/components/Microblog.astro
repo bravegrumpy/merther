@@ -1,0 +1,24 @@
+---
+import { getCollection, render } from "astro:content";
+const BlogPosts = await getCollection("microblog");
+---
+
+<article class="blog">
+    {
+        BlogPosts.map(async (post) => {
+            const { Content } = await render(post);
+            return (<>
+                <Content />
+            </>)
+        })
+    }
+</article>
+
+<style>
+    .blog {
+        width: 80%;
+        margin: 40px auto;
+        border: 2px solid #2e045e;
+        padding: 20px 20px;
+    }
+</style>

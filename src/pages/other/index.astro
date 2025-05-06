@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import Chat from "@/components/chat.html";
+import Microblog from "@/components/Microblog.astro"
 import { getCollection, render } from "astro:content";
 
 const lsts = await getCollection('resources');
@@ -32,6 +33,10 @@ const lsts = await getCollection('resources');
       <h2>Chat/Guest Book</h2>
       <Chat />
     </div>
+  </article>
+    <hr class="section" />
+  <article class="microblog chapter">
+    <Microblog />
   </article>
 </Layout>
 
@@ -66,5 +71,11 @@ const lsts = await getCollection('resources');
     border: 2px solid #2e045e;
     padding: 20px 20px;
     background-color: #d0801020;
+  }
+</style>
+
+<style is:global>
+  .chapter {
+    min-height: fit-content;
   }
 </style>
