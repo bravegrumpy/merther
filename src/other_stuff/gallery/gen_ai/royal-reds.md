@@ -1,12 +1,11 @@
-import { Image } from "astro:assets";
+---
+img: 
+    size: 201
+    alt: "Royal Reds"
+    url: "/api/images/royal-reds.png"
 
-export const imgSize = 200;
-export const alt = "Royal Reds";
-export const href = "/api/images/royal-reds.png"
-
-##### Royal Reds
-
-<Image src={href} alt={alt} width={imgSize} height={imgSize} />
+title: "Royal Reds"
+---
 
 I'm pretty sure I used the other GenAI for this image.  I think I used one that "allows" pornographic imagegry, and I tried to give it character descriptions.  This AI clearly doesn't know of Merlin. 
 

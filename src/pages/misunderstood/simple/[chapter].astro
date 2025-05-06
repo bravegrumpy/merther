@@ -1,4 +1,6 @@
----
+--- 
+// This is the copy in the ssg directory 
+
 // export const prerender = true
 import { Debug } from "astro/components";
 import "@fontsource/mr-bedfort"; import "@fontsource/caudex";
@@ -23,23 +25,23 @@ dayjs.extend(utc);
 import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
 
-// export async function getStaticPaths() {
-//     const Chapters = await getCollection('misunderstood');
-//     return Chapters.map((ch) => ({
-//         params: { chapter: ch.id },
-//         props: {
-//             misunderstood: ch
-//         }
-//     }));
-// }
+export async function getStaticPaths() {
+    const Chapters = await getCollection('misunderstood');
+    return Chapters.map((ch) => ({
+        params: { chapter: ch.id },
+        props: {
+            misunderstood: ch
+        }
+    }));
+}
 
 const { chapter } = Astro.params;
-// const { misunderstood }: { misunderstood: any } = Astro.props;
+const { misunderstood }: { misunderstood: any } = Astro.props;
 
 const Misunderstood = await getCollection('misunderstood');
 Misunderstood.sort((a,b) => a.data.chapter - b.data.chapter);
 
-const misunderstood = await getEntry('misunderstood', `${chapter}`) ?? Misunderstood.filter((ch) => ch.id === chapter)[0];
+// const misunderstood = await getEntry('misunderstood', `${chapter}`) ?? Misunderstood.filter((ch) => ch.id === chapter)[0];
 
 const  { Content, remarkPluginFrontmatter } = await render(misunderstood);
 

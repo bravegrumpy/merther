@@ -21,7 +21,7 @@ export const mainLinks = [
     },
     {
       key: "04_OTHER",
-      href: "/other",
+      href: "/other/",
       text: "Other Stuff"
     }
     // {

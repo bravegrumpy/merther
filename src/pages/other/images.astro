@@ -2,17 +2,11 @@
 import Layout from "@/layouts/Layout.astro";
 const headTitle = "Images";
 
-import Description from "@/other_stuff/description.md"
-import Candid from "@/other_stuff/candid.mdx";
-import Chromolithograph from "@/other_stuff/chromolithograph.mdx";
-import Heliograph from "@/other_stuff/heliograph.mdx";
-import Illustration from "@/other_stuff/illustration.mdx";
-import Lithograph from "@/other_stuff/lithograph.mdx";
-import Mixture from "@/other_stuff/mixture.mdx";
-import OilPainting from "@/other_stuff/oil-painting.mdx";
-import Render from "@/other_stuff/render.mdx";
-import RoyalReds from "@/other_stuff/royal-reds.mdx";
-import StainedGlass from "@/other_stuff/stained-glass.mdx";
+import { getCollection, render } from "astro:content"
+
+import { Image } from "astro:assets";
+
+const AiImagaes = await getCollection('gallery_ai');
 
 const imgSize = 300;
 
@@ -27,39 +21,19 @@ const imgSize = 300;
         </nav>
     </div>
     <article class="article chapter">
-        <section class="description">
-            <Description />
-        </section>
-        <section class="image">
-            <Candid />
-        </section>
-        <section class="image">
-            <Chromolithograph />
-        </section>
-        <section class="image">
-            <Heliograph />
-        </section>
-        <section class="image">
-            <Illustration />
-        </section>
-        <section class="image">
-            <Lithograph />
-        </section>
-        <section class="image">
-            <Mixture />
-        </section>
-        <section class="image">
-            <OilPainting />
-        </section>
-        <section class="image">
-            <Render />
-        </section>
-        <section class="image">
-            <RoyalReds />
-        </section>
-        <section class="image">
-            <StainedGlass />
-        </section>
+        {
+            AiImagaes.map(async (img) => {
+                const { Content } = await render(img);
+                return (<>
+                    <section class="image">
+                        <h2>{img.data.title}</h2>
+                        { img.data.subtitle ? <p>{img.data.subtitle}</p> : <></>}
+                        <Image src={img.data.img.url} alt={img.data.img.alt} width={img.data.img.size} height={img.data.img.size} />
+                        <Content />
+                    </section>
+                </>);
+            })
+        }
     </article>
 </Layout>
 

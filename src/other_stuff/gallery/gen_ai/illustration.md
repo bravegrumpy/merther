@@ -1,11 +1,10 @@
-import { Image } from "astro:assets";
+---
+img: 
+    size: 196
+    alt: "illustration"
+    url:  "/api/images/illustration.png"
 
-export const imgSize = 200;
-export const alt = "illustration";
-export const href = "/api/images/illustration.png"
-
-##### Illustration
-
-<Image src={href} alt={alt} width={imgSize} height={imgSize} />
+title: "Illustration"
+---
 
 This is the actual first "illustration". This one *really* feels art-thefty.  I would be completely unsurprised seeing this image on somebody's tumblr blog. Arthur's arm around Merlin's shoulders shows the protective stance he often takes.

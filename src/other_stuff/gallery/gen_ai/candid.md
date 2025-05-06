@@ -1,12 +1,10 @@
-import { Image } from "astro:assets";
-
-export const imgSize = 200;
-export const alt = "candid";
-export const href = "/api/images/candid.png"
-
-##### Candid Illustration
-
-<Image src={href} alt={alt} width={imgSize} height={imgSize} />
+---
+title: "Candid Illustration"
+img: 
+    size: 197
+    url: "/api/images/candidid.png"
+    alt: "candid"
+---
 
 This is an "illustration" style imgae.  This is what would happen if the two were together, taking a candid image in the modern day.
 

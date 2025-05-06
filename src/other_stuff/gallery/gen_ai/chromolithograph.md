@@ -1,11 +1,9 @@
-import { Image } from "astro:assets";
-
-export const imgSize = 200;
-export const alt = "chromolithograph";
-export const href = "/api/images/chromolithograph.png"
-
-##### Chromolithograph
-
-<Image src={href} alt={alt} width={imgSize} height={imgSize} />
+---
+title: "Chromolithograph"
+img:
+    size: 202
+    alt: "chromolithograph"
+    url: "/api/images/chromolithograph.png"
+---
 
 This one looks like it is a comic book style.  The "chromolithograph" is method of colorizing black and white lithograph line-drawings. This one, actually does not particularly emulate the show's dynamic, as they aren't quite this flirtatios.  But somehow, I feel like this does show what Merlin wishes his dynamic with Arthur was, in Misunderstood.

@@ -57,12 +57,25 @@ const muses = defineCollection({
 });
 
 const microblog = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/posts"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/other_stuff/posts"}),
     schema: z.object({
         title: z.string(),
         pubDate: z.date(),
         tags: z.optional(z.array(z.string()))
     })
+});
+
+const gallery_ai = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx","*.html"], base: "./src/other_stuff/gallery/gen_ai"}),
+    schema: z.object({
+        title: z.optional(z.string()),
+        subtitle: z.optional(z.string()),
+        img: z.object({
+            size: z.union([z.string(), z.number()]),
+            url: z.string(),
+            alt: z.string()
+        })
+    })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, muses, microblog }
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, muses, microblog, gallery_ai }
