@@ -143,12 +143,32 @@ Her dramatic alto could reach baritones most men could only aspire to.  It was o
 
 Kathy's performace was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy's flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
 
-During a break in the performance, Gwaine scanned the room looking for Tess, or the woman cowered away from him earlier that evening.  He then felt a tug at his sleeve.
+During a break in the performance, Gwaine scanned the room looking for Tess, or the woman cowered away from him earlier that evening.  He then felt a tug at his sleeve, and a whiff of cinnamon perfume.
 
-"Boop!" Kathy, flicked Gwaine's nose.  Nobody boops the nose of a Camelot Knight. 
+"Boop!" Kathy, flicked Gwaine's nose, and then flitted just out of reach. Nobody boops the nose of a Camelot Knight. 
 
-Gwaine indignantly backed up, and bowed saractically deeply, "At your service, Bard Kathy. What can I do you for?"
+Gwaine indignantly backed up, and bowed saractically deeply, "At your service, Bard Kathy. What can I do you for?" He also used this posture to serrupticiously wipe away any paint that might have been transferred to his face.
 
-"You have any gossip?" It was no secret that Kathy wanted to be a Town Crier.  Gwaine didn't want Kathy to stop singing, and all Town Criers are men.
+"Have you any gossip?" It was no secret that Kathy wanted to be a Town Crier.  Gwaine didn't want Kathy to stop singing, and all Town Criers are men.
+
+Gwaine held the position until Kathy would allow him to kiss her hand. This was reasonable retribution for the payback.
+
+A crowd started to stare, a chant growing "Kiss the hand! Kiss the hand!"
+
+"Well, The Princess has been in an awful mood today.  Some say that his servant didn't show up for work, for most of the day."
+
+"Pfft&mdash; Tell me something *interesting*" The dissappointment was palpable in Kathy's voice was nearly impossible to refuse.  But Gwaine also knew better than to give a *bard* unfounded rumours. 
+
+Kathy finally deigned to let Gwaine kiss her hand, When she withdrew her hand, she then blew a kiss into the crowd with a wink and a toss of her hair.  Gwaine was fairly certian that the half of the room attracted to women swooned.
+
+"That's all I have," Then an idea occured to Gwainne. Brian, the Town Crier desprately wanted to be a bard, but was too nervous to ever actually *talk* to Kathy. 
+
+"Kathy, May I introduce you to Brian, our Town Crier? He knows all of the most exciting craftsmen in the area," Gwaine then reached out at the retreating Brian, grabbed his shoulders, and pushed him towards Kathy. They could entertain each other for weeks.  He knew that Brian hated the physical touch, but would thank him for it later.
+
+Based on today's meeting with Knights, it was now imperative for him to find either Tess or that woman. Lancelot did not divulge much, but corroborating evidence of King Arthur's behavior will help them *avoid* future Rabbit Dance incidents.  By now he hoped that Merlin was talking to Leon.
+
+After scanning the room once more, to no avail, Gwaine turned to refill his ale tankard.  A man with buldging muscles a cropped haircut, and a strong jawline carried a crate from the side enrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
+
+After two more trips, the man settled in, taking a seat in the center of the taver, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.
 
 </section>
