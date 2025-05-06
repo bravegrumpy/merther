@@ -1,18 +1,17 @@
-// This is the copy in the ssg directory 
-export function getStaticPaths() {
-    return [
-        { params: { image: "candid"} },
-        { params: { image: "chromolithograph"} }, 
-        { params: { image: "hand-painted-colorized-heliograph"} }, 
-        { params: { image: "illustration"} }, 
-        { params: { image: "lithogrpah"} }, 
-        { params: { image: "mixture"} }, 
-        { params: { image: "oil-painting"} }, 
-        { params: { image: "render"} }, 
-        { params: { image: "royal-reds"} }, 
-        { params: { image: "stained-glass"} }
-    ]
-}
+// export function getStaticPaths() {
+//     return [
+//         { params: { image: "candid"} },
+//         { params: { image: "chromolithograph"} }, 
+//         { params: { image: "hand-painted-colorized-heliograph"} }, 
+//         { params: { image: "illustration"} }, 
+//         { params: { image: "lithogrpah"} }, 
+//         { params: { image: "mixture"} }, 
+//         { params: { image: "oil-painting"} }, 
+//         { params: { image: "render"} }, 
+//         { params: { image: "royal-reds"} }, 
+//         { params: { image: "stained-glass"} }
+//     ]
+// }
 
 export async function GET ({ params, request }: {params: any, request: any}) {
     const response = await fetch(

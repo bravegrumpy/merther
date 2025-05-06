@@ -1,4 +1,3 @@
-// This is the copy in the ssg directory 
 // @ts-check
 import { defineConfig } from 'astro/config';
 
@@ -34,12 +33,12 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import vercel from '@astrojs/vercel';
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://merther.bravegrumpy.com',
-  site: 'https://mertherfanfic.neocities.org',
+  site: 'https://merther.bravegrumpy.com',
+  // site: 'https://mertherfanfic.neocities.org',
 
   image: {
     domains: ["bravegrumpy.com"],
@@ -81,11 +80,11 @@ export default defineConfig({
   },
 
   // trailingSlash: 'always',
-  output: 'static',
-  // output: 'server',
-  // adapter: vercel({
-  //   webAnalytics: {
-  //     enabled: true
-  //   }
-  // }),
+  // output: 'static',
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true
+    }
+  }),
 });
