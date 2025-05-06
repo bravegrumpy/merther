@@ -1,6 +1,13 @@
 ---
 import { getCollection, render } from "astro:content";
 const BlogPosts = await getCollection("microblog");
+
+import dayjs from "dayjs"
+import advancedFormat from "dayjs/plugin/advancedFormat";
+import utc from "dayjs/plugin/utc"
+
+dayjs.extend(advancedFormat);
+dayjs.extend(utc);
 ---
 
 <article class="blog">
@@ -8,9 +15,11 @@ const BlogPosts = await getCollection("microblog");
         BlogPosts.map(async (post) => {
             const { Content } = await render(post);
             return (<>
-                <section class="post">
-                    <Content />
-                </section>
+            <section class="post">
+                <h2>{post.data.title}</h2>
+                <p>Published on {dayjs(post.data.pubDate).format('MMM Do, YYYY')}</p>
+                <Content />
+            </section>
             </>)
         })
     }
@@ -22,10 +31,19 @@ const BlogPosts = await getCollection("microblog");
         margin: 40px auto;
         padding: 20px 20px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 20px;
+        height: fit-content;
+        /* height: 400px; */
+        background-color: #25e9e910;
+        padding: 20px;
+        /* overflow-y: scroll; */
     }
     .post {
         border: 2px solid #2e045e;
+        padding: 20px;
+        /* height: 150px;
+        overflow-y: scroll;
+        background-color: #6593de20; */
     }
 </style>

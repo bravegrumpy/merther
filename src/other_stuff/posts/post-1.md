@@ -4,13 +4,6 @@ pubDate: 2025-05-06
 tags: ['random thoughts', 'blog']
 ---
 
-import dayjs from 'dayjs';
-
-
-## {frontmatter.title}
-
-*Published: {dayjs(frontmatter.pugDate).format('DD MMM YYYY')}*
-
 I found the following neocities site, [The Wizard Tower](https://thewizardtower.neocities.org/pages/ART.HTML).  They are a phenomenal artist.  I really like the "tapestry" texture vibes. It is interesting to see how much Untertale has influenced internet counter-culture design aesthetics.  This particular example, while likely unintentional, very much evokes the first level of Undertale.
 
 That being said, this website is an example of why web accessibility standards exist.  To be clear, this webste works extremely well for the purpose it was  build for: an artist's personal blog. HOWEVER, the business of the background, without a "frosted" solid color behind the text makes it hard to read.  I am also guilty of this, but I made the phenomenon less, drastic.
