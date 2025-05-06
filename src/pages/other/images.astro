@@ -60,4 +60,16 @@ const imgSize = 300;
         text-indent: 40px;
         line-height: 2rem;
     }
+
+    @media (max-width: 900px) {
+        .article {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .article {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>

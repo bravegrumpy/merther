@@ -72,7 +72,7 @@ const gallery_ai = defineCollection({
         title: z.optional(z.string()),
         subtitle: z.optional(z.string()),
         img: z.object({
-            size: z.union([z.string(), z.number()]),
+            size: z.number(),
             url: z.string(),
             alt: z.string()
         })
