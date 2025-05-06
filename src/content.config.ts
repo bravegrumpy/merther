@@ -59,6 +59,7 @@ const muses = defineCollection({
 const microblog = defineCollection({
     loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/other_stuff/posts"}),
     schema: z.object({
+        id: z.number(),
         title: z.string(),
         pubDate: z.date(),
         tags: z.optional(z.array(z.string()))
@@ -78,4 +79,4 @@ const gallery_ai = defineCollection({
     })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, muses, microblog, gallery_ai }
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai }

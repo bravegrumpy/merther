@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 const BlogPosts = await getCollection("microblog");
+BlogPosts.sort((a, b) => a.data.id - b.data.id)
 
 import dayjs from "dayjs"
 import advancedFormat from "dayjs/plugin/advancedFormat";
@@ -31,19 +32,20 @@ dayjs.extend(utc);
         margin: 40px auto;
         padding: 20px 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 20px;
-        height: fit-content;
-        /* height: 400px; */
+        /* height: fit-content; */
+        height: 300px;
         background-color: #25e9e910;
         padding: 20px;
-        /* overflow-y: scroll; */
+        overflow-y: scroll;
+        border: 2px solid #2e045e;
     }
     .post {
         border: 2px solid #2e045e;
         padding: 20px;
-        /* height: 150px;
+        height: 200px;
         overflow-y: scroll;
-        background-color: #6593de20; */
+        background-color: #6593de20;
     }
 </style>

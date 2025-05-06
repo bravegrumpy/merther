@@ -1,4 +1,5 @@
 ---
+id: 2
 title: "Layouts"
 pubDate: 2025-05-06
 tags: ['random thoughts', 'blog']
