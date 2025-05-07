@@ -4,6 +4,7 @@
 
 @import (css) url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Autour+One&family=Bad+Script&family=Beth+Ellen&family=Bilbo&family=Bilbo+Swash+Caps&family=Birthstone&family=Birthstone+Bounce:wght@400;500&family=Bonbon&family=Bonheur+Royale&family=Bubblegum+Sans&family=Butterfly+Kids&family=Caesar+Dressing&family=Cagliostro&family=Calligraffitti&family=Caramel&family=Carattere&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Charmonman:wght@400;700&family=Chilanka&family=Comforter&family=Coming+Soon&family=Cookie&family=Covered+By+Your+Grace&family=Crafty+Girls&family=Delius&family=Delius+Swash+Caps&family=Devonshire&family=Dr+Sugiyama&family=Eagle+Lake&family=East+Sea+Dokdo&family=Farsan&family=Fasthand&family=Festive&family=Fondamento:ital@0;1&family=Freehand&family=Gloria+Hallelujah&family=Grape+Nuts&family=Handlee&family=Homemade+Apple&family=Indie+Flower&family=Merienda:wght@300..900&family=Moon+Dance&family=Mr+Bedfort&family=Nothing+You+Could+Do&family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Srisakdi:wght@400;700&family=Style+Script&display=swap');
 
+@import (css) url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
 // - Translating original CSS into LESS, and then using VSCode extension to compile to css.
 // - This makes the final CSS simpler.
 // - Might make it load faster?
@@ -35,9 +36,15 @@
 @api: "/api/images/";
 @local: "/images/";
 
-@url: @api; // allowed values: cdn, local, api;
+@url: @cdn; // allowed values: cdn, local, api;
 
 @bg-pattern-background-image: url("@{url}topography/topography_brown.png"); //change to whatever image
+// @bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0065_M.jpg");
+// @bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0118_2_XXL.jpg");
+@bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0070_S.jpg");
+@bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0112_XL.jpg");
+@bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0061_M.jpg");
+// @bg-pattern-background-image: url("@{url}textures/TCom_Parquet_XL.png");
 
 // // Main Background Image size and positioning
 @base-padding: 20px;
@@ -59,7 +66,7 @@
 // @bg-pattern-background-color: oklch(52.58% 0.0708 118.04);
 
 // @bg-pattern-foreground-color: #65d86;
-@bg-pattern-foreground-color: #432700; 
+@bg-pattern-foreground-color: #432700;
 // @bg-pattern-foreground-color: oklch(30% 0.0708 72.11);
 
 @default-text-color: #2e045e;
@@ -107,7 +114,7 @@
     @fo1: 75%;
     @fo2: 80%;
     @fo3: 30%;
-    background-image: 
+    background-image:
     conic-gradient(fadeout(@chapter-bg-color, @fo3), fadeout(@chapter-bg-color, @fo3)),
     repeating-linear-gradient(to right, fadeout(#241a15, @fo1) 2.5%, fadeout(#7a614a, @fo1) 5%, fadeout(#b69171, @fo1) 10%, fadeout(#8f6c4c, @fo1) 15%, fadeout(#baa693, @fo1) 20%, fadeout(#8f6c4c, @fo1) 30%, fadeout(#b69171, @fo1) 35%, fadeout(#7a614a, @fo1) 45%, fadeout(#241a15, @fo1) 50%),
     linear-gradient(to top, fadeout(spin(@main-bg-color, 5), @fo2) 0%, fadeout(@main-bg-color, @fo2) 100%),
@@ -122,7 +129,7 @@
 
 @SLNT: "slnt"; @CASL: "CASL"; @CRSV: "CRSV"; @MONO: "MONO"; @WGHT: "wght";
 @slnt: 0; @casl: 0; @crsv: 0; @mono: 0; @wght: 400;
-@font-variation-settings-default: 
+@font-variation-settings-default:
 @SLNT @slnt,
 @CASL @casl,
 @CRSV @crsv,
@@ -136,12 +143,16 @@ html {
     font-family: "Recursive", "Helvetica", "Courier New", "monospace";
     font-variation-settings: @font-variation-settings-default;
     background-color: @bg-pattern-background-color;
-    background: 
+    background:
     @bg-pattern-background-image,
     linear-gradient(to bottom, @bg-pattern-background-color, darken(@bg-pattern-background-color, 10%));
-    // background-repeat: repeat;
+    background-repeat: repeat;
     // background-image: @bg-pattern-background-image;
     background-attachment: fixed;
+    // background-size: 500px 500px;
+    background-size: 1000px 500px;
+    // background-size: 300px 500px;
+    // background-size: 175px 250px;
     color: @bg-pattern-foreground-color;//TODO: revisit
     width: fit-content;
     margin: 0px auto;
@@ -218,7 +229,7 @@ header {
         background-color: @menu-bg-hover-color;
         scale: 101%;
         color: maroon;
-        box-shadow: 
+        box-shadow:
             5px 5px 10px #85673a5d inset,
             5px 5px 10px #5349405b;
         border: 2px dotted transparent;
@@ -332,7 +343,7 @@ article {
     cursor: pointer;
 }
 .tmp {
-    cursor: pointer; 
+    cursor: pointer;
 }
 dt {
     padding-top: @base-padding;
@@ -353,7 +364,7 @@ dt {
     @fo5: 85%;
     @fo6: 60%;
     @fo7: 30%;
-    background-image: 
+    background-image:
     linear-gradient(to top, fadeout(@chapter-bg-color, @fo7) 0%, fadeout(@chapter-bg-color, @fo7) 100%),
     linear-gradient(-45deg, fadeout(#7a614a, @fo5) 1.5%, transparent 25%, fadeout(#8f6c4c, @fo5) 70%),
     repeating-linear-gradient(45deg, transparent 4%, fadeout(#7a614a, @fo4) 11%, fadeout(#b69171, @fo4) 15%, fadeout(#8f6c4c, @fo4) 20%, fadeout(#baa693, @fo4) 30%, fadeout(#8f6c4c, @fo4) 40%, fadeout(#b69171, @fo4) 45%, fadeout(#7a614a, @fo4) 50%, transparent 60%),
@@ -371,8 +382,8 @@ dt {
     position: sticky;
     top: 0px;
     // box-shadow: ((1/2) * @base-padding) ((1) * @base-padding) 0px 0px #43271003;
-    box-shadow: 
-        10px 10px 20px 10px #43271040, 
+    box-shadow:
+        10px 10px 20px 10px #43271040,
         -5px 0px 20px 10px  #43271040,
         -5px 10px 15px 10px #b6915133 inset;
     //print
@@ -445,7 +456,7 @@ dt {
     // @fo1: 75%;
     // @fo2: 80%;
     // @fo3: 30%;
-    // background-image: 
+    // background-image:
     // conic-gradient(fadeout(@chapter-bg-color, @fo3), fadeout(@chapter-bg-color, @fo3)),
     // repeating-linear-gradient(to right, fadeout(#241a15, @fo1) 2.5%, fadeout(#7a614a, @fo1) 5%, fadeout(#b69171, @fo1) 10%, fadeout(#8f6c4c, @fo1) 15%, fadeout(#baa693, @fo1) 20%, fadeout(#8f6c4c, @fo1) 30%, fadeout(#b69171, @fo1) 35%, fadeout(#7a614a, @fo1) 45%, fadeout(#241a15, @fo1) 50%),
     // linear-gradient(to top, fadeout(spin(@main-bg-color, 5), @fo2) 0%, fadeout(@main-bg-color, @fo2) 100%),
@@ -708,6 +719,10 @@ footer {
 .veronica {
     @character-font-family: "Bubblegum";
     #lib.fonts.initialize("Bad Script", "Brush Script MT");
+}
+.gwaine {
+    @character-font-family: "Combo";
+    #lib.fonts.initialize("Combo");
 }
 
 #mainMenuToggle {
@@ -1060,7 +1075,7 @@ footer {
     hr.section {
         position: static;
     }
-    
+
 }
 
 @media (max-width: 600px) {
@@ -1169,7 +1184,7 @@ footer {
             & .tags {
                 width: calc((100%) - @sides-border-width);
             }
-        } 
+        }
     }
     #chapters {
         width: calc(@base-width + (2 * @base-padding));
