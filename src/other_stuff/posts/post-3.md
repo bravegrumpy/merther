@@ -21,3 +21,6 @@ The interlude might be the right way to let the day roll over, while adding comi
 | --- | --- | --- | --- |
 | Arthur | Outside Leon's Room | Passing a girl he justs fucked over to his knight, Elyan | ??? |
 | Merlin | On Leon's Bed | Talking to Leon and Goerge about the reality of Arthur's abuse | Being calmed from a nightmare by Freya |
+| Lancelot | In Gwen's house | Just completed getting railed | ?? |
+| Leon | In his rooms | Listening to Merlin |  ??|
+| Gwaine | The Rising Sun | At a Kathy Concert | Organizing an alternate council timing, for actual fair decisions |
