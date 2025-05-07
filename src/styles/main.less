@@ -174,8 +174,18 @@ main {
     position: relative;
     left: ((0) * @base-padding);
 }
-header {
+.header-background() {
     background-color: @header-bg-color;
+    background: 
+        linear-gradient(to top, #f5deb35e, #f5deb331),
+        linear-gradient(to right, #f5deb380, #f5deb380),
+        @chapter-bg-image,
+        @header-bg-color;
+    background-size: 1000px @base-width;
+    background-position: center;
+}
+header {
+    .header-background();
     padding: @base-padding @base-padding;
     width: @base-width;
     max-width: @base-max-width;
@@ -655,7 +665,7 @@ hr.section {
     text-align: center;
 }
 footer {
-    background-color: @header-bg-color;
+    .header-background();
     width: @base-width;
     max-width: @base-max-width;
     padding: 0px @base-padding;

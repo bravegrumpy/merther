@@ -30,6 +30,9 @@ main {
 }
 header {
   background-color: #f5dbb3;
+  background: linear-gradient(to top, #f5deb35e, #f5deb331), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
+  background-size: 1000px 80vw;
+  background-position: center;
   padding: 20px 20px;
   width: 80vw;
   max-width: 90ch;
@@ -443,6 +446,9 @@ hr.section.end {
 }
 footer {
   background-color: #f5dbb3;
+  background: linear-gradient(to top, #f5deb35e, #f5deb331), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
+  background-size: 1000px 80vw;
+  background-position: center;
   width: 80vw;
   max-width: 90ch;
   padding: 0px 20px;
