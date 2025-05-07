@@ -5,7 +5,7 @@ html {
   font-family: "Recursive", "Helvetica", "Courier New", "monospace";
   font-variation-settings: "slnt" 0, "CASL" 0.2, "CRSV" 0, "MONO" 0.3, "wght" 400;
   background-color: #677040;
-  background: url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_FabricPatterns0061_M.jpg"), linear-gradient(to bottom, #677040, #49502d);
+  background: url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_Parquet_XL.png"), linear-gradient(to bottom, #677040, #49502d);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 1000px 500px;
@@ -58,27 +58,71 @@ header .bottom-nav {
   margin-bottom: 20px;
 }
 #main-nav {
-  max-width: calc(100% + (-3.5 * 20px));
-  flex-wrap: nowrap;
+  max-width: calc(100% + (-5 * 20px));
+  flex-wrap: wrap;
+}
+#main-nav .menu {
+  font-size: 1.601613rem;
+  color: #2e045e;
+  font-family: "Style Script", "Recursive";
+  padding: 10px 20px;
+  width: fit-content;
+}
+.chi {
+  width: calc(100% + 60px);
+  margin-left: -40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chb {
+  vertical-align: middle;
+  font-family: 'Delius';
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: currentColor;
+}
+a.chb {
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #677040;
+}
+a.chb:hover,
+a.chb:focus {
+  scale: 110%;
+  color: #00f;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+.chi-notes {
+  font-family: "Delius";
+  font-size: 1.2rem;
 }
 .menu {
-  font-family: "Delius";
-  color: sienna;
+  font-family: "Style Script", "Delius", "Recursive";
+  color: #2e045e;
   background-color: #ebd3af;
+  background: linear-gradient(to right, rgba(235, 211, 175, 0.1), rgba(235, 211, 175, 0.3)), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  background-size: 400px 300px;
+  background-position-x: 25%;
+  background-position-y: 50%;
   padding: 10px 30px;
-  border: 2px dotted transparent;
-  font-size: 1rem;
+  border: 2px solid transparent;
+  font-size: 1.601613rem;
   text-decoration: none;
   z-index: 40;
   text-indent: 0px;
-  box-shadow: 10px 10px 10px #5349409c;
+  box-shadow: 10px 10px 30px #5349409c;
 }
 .menu:hover {
   background-color: hsla(44, 81%, 25%, 0.11);
   scale: 101%;
   color: maroon;
-  box-shadow: 5px 5px 10px #85673a5d inset, 5px 5px 10px #5349405b;
-  border: 2px dotted transparent;
+  box-shadow: 5px 5px 10px #85673a5d inset, 5px 5px 30px #5349405b;
+  border: 2px solid transparent;
 }
 .menu.pages {
   padding: 10px 16px 10px 16px;
@@ -86,7 +130,7 @@ header .bottom-nav {
   text-wrap: nowrap;
   text-align: center;
   vertical-align: middle;
-  font-size: 0.85470085rem;
+  font-size: 1rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -113,13 +157,10 @@ header .bottom-nav {
 }
 .chnav {
   width: fit-content;
-  height: 20px;
   text-align: center;
 }
 .chnav:hover,
 .chnav:focus {
-  font-size: 1.1rem;
-  height: 20px;
   scale: 105%;
 }
 a {
@@ -131,17 +172,13 @@ a {
   height: fit-content;
   border-style: double;
   border-color: transparent;
-  filter: hue-rotate(-45deg) sepia(30%) saturate(300%) brightness(105%) contrast(105%);
   cursor: default;
 }
 .chnav-start:hover,
 .fake-btn:hover,
 .chnav-start:focus:hover {
-  font-size: 1rem;
   scale: 101%;
-  filter: hue-rotate(-30deg) sepia(30%) saturate(200%) brightness(101%) contrast(101%);
   transition: cubic-bezier(0.645, 0.045, 0.355, 1);
-  transform: rotateZ(-2deg);
   background-color: #ebd3af;
   cursor: pointer;
   border-style: double;

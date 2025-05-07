@@ -44,7 +44,7 @@
 @bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0070_S.jpg");
 @bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0112_XL.jpg");
 @bg-pattern-background-image: url("@{url}textures/TCom_FabricPatterns0061_M.jpg");
-// @bg-pattern-background-image: url("@{url}textures/TCom_Parquet_XL.png");
+@bg-pattern-background-image: url("@{url}textures/TCom_Parquet_XL.png");
 
 // // Main Background Image size and positioning
 @base-padding: 20px;
@@ -208,22 +208,73 @@ header {
     margin-bottom: @base-padding;
 }
 #main-nav {
-    max-width: calc(100% + (-3.5 * @base-padding));
-    flex-wrap: nowrap;
+    max-width: calc(100% + (-5 * @base-padding));
+    flex-wrap: wrap;
+
+    & .menu {
+        font-size: @h4-size;
+        color: @default-text-color;
+        font-family: "Style Script", "Recursive";
+        // font-variation-settings: 
+        //     @CRSV 1.0, @SLNT 0, @WGHT 700, @CASL 1, @MONO 0;
+        padding: (0.5 * @base-padding) (@base-padding);
+        width: fit-content;
+    }
+}
+.chi {
+    width: calc(100% + 60px);
+    margin-left: (-2 * @base-padding);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.chb{
+    vertical-align: middle;
+    font-family: 'Delius';
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: currentColor;
+}
+a.chb{
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    text-decoration-color: @bg-pattern-background-color;
+    &:hover, &:focus {
+        scale: 110%;
+        color :#00f;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 3px;
+    }
+}
+.chi-notes {
+    font-family: "Delius";
+    font-size: 1.2rem;
 }
 .menu {
-    font-family: "Delius";
+    // font-family: "Delius";
+    font-family: "Style Script", "Delius", "Recursive";
     @py: 0.8;
     @px: 0.5;
-    color: @menu-fg-color;
+    // color: @menu-fg-color;
+    color: @default-text-color;
     background-color: @menu-bg-color;
+    background:
+        linear-gradient(to right, fadeout(@menu-bg-color, 90%), fadeout(@menu-bg-color, 70%)),
+        @chapter-bg-image;
+    background-size: 400px 300px;
+    background-position-x: 25%;
+    background-position-y: 50%;
     padding: (0.5 * @base-padding) (1.5 * @base-padding);
-    border: 2px dotted transparent;
-    font-size: @p-size;
+    border: 2px solid transparent;
+    // font-size: @p-size;
+    font-size: @h4-size;
     text-decoration: none;
     z-index: 40;
     text-indent: 0px;
-    box-shadow: 10px 10px 10px #5349409c;
+    box-shadow: 10px 10px 30px #5349409c;
 
     &:hover {
         background-color: @menu-bg-hover-color;
@@ -231,8 +282,8 @@ header {
         color: maroon;
         box-shadow:
             5px 5px 10px #85673a5d inset,
-            5px 5px 10px #5349405b;
-        border: 2px dotted transparent;
+            5px 5px 30px #5349405b;
+        border: 2px solid transparent;
     }
     &.pages {
         padding: (@px * @base-padding) (@py * @base-padding) (@px * @base-padding) (@py * @base-padding);
@@ -242,7 +293,7 @@ header {
         text-wrap: nowrap;
         text-align: center;
         vertical-align: middle;
-        font-size: @nav1-size;
+        font-size: @p-size;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -269,12 +320,12 @@ header {
 }
 .chnav {
     width: fit-content;
-    height: 20px;
+    // height: 20px;
     text-align: center;
 
     &:hover, &:focus {
-        font-size: 1.1rem;
-        height: 20px;
+        // font-size: 1.1rem;
+        // height: 20px;
         scale: 105%;
     }
 }
@@ -285,15 +336,15 @@ a {
     height: fit-content;
     border-style: double;
     border-color: transparent;
-    filter: hue-rotate(-45deg) sepia(30%) saturate(300%) brightness(105%) contrast(105%);
+    // filter: hue-rotate(-45deg) sepia(30%) saturate(300%) brightness(105%) contrast(105%);
     // filter: hue-rotate(-45deg) sepia(20%) saturate(400%) brightness(95%) contrast(90%);
     cursor: default;
     &:hover{
-        font-size: @p-size;
+        // font-size: @p-size;
         scale: 101%;
-        filter: hue-rotate(-30deg) sepia(30%) saturate(200%) brightness(101%) contrast(101%);
+        // filter: hue-rotate(-30deg) sepia(30%) saturate(200%) brightness(101%) contrast(101%);
         transition: cubic-bezier(0.645, 0.045, 0.355, 1);
-        transform: rotateZ(-2deg);
+        // transform: rotateZ(-2deg);
         background-color: @menu-bg-color;
         cursor: pointer;
         border-style: double;

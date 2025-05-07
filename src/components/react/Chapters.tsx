@@ -1,5 +1,10 @@
 import * as React from "react";
 import { Icon } from "@iconify/react";
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+import advancedFormat from 'dayjs/plugin/advancedFormat'
+dayjs.extend(utc);
+dayjs.extend(advancedFormat);
 
 function HorizontalRule({
   lineType,
@@ -309,11 +314,22 @@ export function ChapterNav({
   );
 }
 
-export function ChapterInfo() {
+export function ChapterInfo({readingTime, pubDate, href, AnchorText}: {readingTime: any; pubDate: any; href: string; AnchorText: 'all' | 'single'}) {
+  let txt;
+  switch(AnchorText) {
+    case "all":
+      txt = "Entire Work";
+      break;
+    case "single":
+      txt="Single Chapter";
+      break;
+  }
   return (<>
     <div>
       <div className="chi">
-        <a className="chb">Reading Time</a>
+        <a className="chb" href={href}>{txt}</a>
+        <p className="chb"><span className="chi-notes">Reading Time: </span>{readingTime}</p>
+        <p className="chb"><span className="chi-notes">Published On: </span>{dayjs(pubDate).format('MMMM Do, YYYY')}</p>
       </div>
     </div>
   </>);

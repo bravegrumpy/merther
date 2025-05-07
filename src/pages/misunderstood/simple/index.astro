@@ -12,7 +12,7 @@ const headTitle = "Misunderstood | Merther"
 
 import Article from "@/components/Article.astro";
 
-import { Chapter, ChapterNav } from "@/components/react/Chapters"
+import { Chapter, ChapterNav, ChapterInfo } from "@/components/react/Chapters"
 import ChapterPostnav from "@/components/ChapterPostnav.astro"
 import { Banner } from "@/components/react/Components"
 import { StyleToggle } from "@/components/react/Navigation"
@@ -66,14 +66,7 @@ const latestChapter = chapters.length - 1;
                     {/* <span slot="backToTopIcon"> */}
                         {/* <Icon name="hugeicons:transition-top" width={32} height={32} /> */}
                     {/* </span> */}
-                    <div>
-                        <div class="chi">
-                            <a class="chb" href={`/misunderstood/simple/${chapter.id}/`}>Single Chapter</a>
-                            <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
-                            {/* <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> */}
-                            <p class="chb"><span class="notes">Published On: {pubDate.format('MMMM Do, YYYY')}</span>{}</p>
-                        </div>
-                    </div>
+                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${chapter.id}/`} AnchorText="all" />
                     <a slot="lastChild" href={`/misunderstood/print/${chapter.data.href}`} aria-label="print preview" id={`${chapter.id}PrintLink`} class="menu chnav chnav-start">
                         <Icon name="hugeicons:printer" width="24" height="24" />
                     </a>

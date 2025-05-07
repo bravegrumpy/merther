@@ -1,5 +1,5 @@
---- 
-// This is the copy in the ssr directory 
+---
+// This is the copy in the ssr directory
 
 // export const prerender = true
 import { Debug } from "astro/components";
@@ -11,7 +11,7 @@ const pageTitle = "Misunderstood";
 import Layout from "@/layouts/Layout.astro"
 import { getCollection, render, getEntry } from "astro:content";
 import Article from "@/components/Article.astro"
-import { Chapter as Container, ChapterNav } from "@/components/react/Chapters";
+import { Chapter as Container, ChapterNav, ChapterInfo } from "@/components/react/Chapters";
 import ChapterPostnav from "@/components/ChapterPostnav.astro";
 import { StyleToggle } from "@/components/react/Navigation";
 
@@ -93,16 +93,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <!-- <span slot="backToTopIcon"> -->
             <!-- <Icon name="hugeicons:transition-top" width={32} height={32} /> -->
         <!-- </span> -->
-        <div>
-            <div class="chi">
-                <a class="chb" href={`/misunderstood/simple/${misunderstood.data.href}`}>Entire Work</a>
-                <p class="chb"><span class="notes">Reading Time:</span> {readingTime}</p>
-                <!-- <p class="chb"><span class="notes">Last Modified:</span> {lastModified.format('dddd, DD MMMM YYYY')} at {lastModified.format('h:mm a')}</p> -->
-		        <p class="chb"><span class="notes">Published On: </span>{pubDate.format('MMM Do, YYYY')}</p>
-                <!-- <p class="chb"><a href={previous}>Previous Chapter</a></p> -->
-                <!-- <p class="chb"><a href={next}>Next Chapter</a></p> -->
-            </div>
-        </div>
+        <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${misunderstood.data.href}`} AnchorText="single" />
             <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
                 <Icon name="hugeicons:printer" width="24" height="24" />
             </a>
