@@ -47,7 +47,7 @@
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",
     "@astrojs/svelte": "^7.0.13",
-    "@astrojs/vercel": "^8.1.4",
+    "@astrojs/vercel": "^8.0.4",
     "@fontsource-variable/recursive": "^5.2.5",
     "@fontsource/bilbo-swash-caps": "^5.2.5",
     "@fontsource/bonheur-royale": "^5.2.5",
