@@ -13,7 +13,7 @@ endnotes: ""
 
 #### Veronica
 
-The end to a long day found Veronica sitting alone at a table in the Rising Sun. She had enough coin for ale, but wished she had enough for something stronger. The jig on stage was lively, and the tavern crowded—knights, townspeople, merchants, sailors all trying to out-drink or out-gamble one another—but none of it would lighten her foul mood. Still, this was better than answering her siblings&rsquo; endless questions. Her position at the palace meant she could provide for them. It meant they wouldn’t need to take the hardest jobs. She could protect them—especially from the palace. Veronica was happy to serve food. She delighted in it, but she did not sign up to be a whore to the king. After ensuring that nobody was paying her any mind, she looked deeply into her tankard, and allowed a tear to escape down her cheek for the first time that day, while she fidgeted with the sleeve of her dress.
+The end to a long day found Veronica sitting alone at a table in the Rising Sun. She had enough coin for ale, but wished she had enough for something stronger. The jig on stage was lively, and the tavern crowded—knights, townspeople, merchants, sailors all trying to out-drink or out-gamble one another—but none of it would lighten her foul mood. Still, this was better than answering her siblings&rsquo; endless questions. Her position at the palace meant she could provide for them. It meant they wouldn&rsquo;t need to take the hardest jobs. She could protect them—especially from the palace. Veronica was happy to serve food. She delighted in it, but she did not sign up to be a whore to the king. After ensuring that nobody was paying her any mind, she looked deeply into her tankard, and allowed a tear to escape down her cheek for the first time that day, while she fidgeted with the sleeve of her dress.
 
 &ldquo;Would you like me to cheer you up, lovely lass?&rdquo; It was just her luck that a gruff voice would notice her only when she let her guard down.
 
@@ -71,37 +71,39 @@ A gruff &ldquo;You okay there miss?&rdquo; shocked Veronica out of her reverie.
 
 Veronica started to relax, as she realized that this man seemed to not care whether she was listening or not. Veronica surprised herself when she started to chime in with some of her favorite ettiquette approaches to serving exotic cheeses to royalty.
 
-&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo; Veronica noticed Brian flinch when Tess's elbow brushed his.
+&ldquo;So, you&rsquo;ve met Brian,&rdquo; Tess chuckled, approaching the table.  She pulled up a chair between her and the man, &ldquo;Brian, mind if I steal her away?&rdquo; Veronica noticed Brian flinch when Tess&rsquo;s elbow brushed his.
 
 &ldquo;Only if you get Kathy for me,&rdquo; Brian responded with a chuckle.
 
 ---
 
-Tess grabbed Veronica's hand and gently guided her up into a room.  Tess had clarified that her shift was over, having been there since early in the morning.  
+Tess grabbed Veronica&rsquo;s hand and gently guided her up into a room.  Tess had clarified that her shift was over, having been there since early in the morning.  
 
-The room was large enough to fit the two beds, two tables, and not much else. There were scant impersonal decorations, but next to the window, painting of an iris caught Veronica's eye. 
+The room was large enough to fit the two beds, two tables, and not much else. There were scant impersonal decorations, but next to the window, painting of an iris caught Veronica&rsquo;s eye. 
 
-She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess's waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
+She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess&rsquo;s waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
 
 After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.   Somehow this made Veronica wonder if she could ellicit similar noises from Tess.
 
-Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman's jaw and said, "This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?"
+Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman&rsquo;s jaw and said, &ldquo;This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?&rdquo;
 
-"Yeah sure!" she responded, biting a lip, and gazing at Veronica with an intensity that made her blush.
+&ldquo;Yeah sure!&rdquo; she responded, biting a lip, and gazing at Veronica with an intensity that made her blush.
 
-She extended a hand, "I'm Kathy, nice to meet you!".
+She extended a hand, &ldquo;I&rsquo;m Kathy, nice to meet you!&rdquo;.
 
 Part of Veronica wanted to kiss the hand, rather than take it, but instead she just looked from Tess to Kathy and back.
 
-Tess pulled on Kathy's hair, and remarked, "She's been going through a rough day."
+Tess pulled on Kathy&rsquo;s hair, and remarked, &ldquo;She&rsquo;s been going through a rough day.&rdquo;
 
 By this time, Tess had also seemed  to have, as if by magic, unlaced her dress, such that she was still wearing her skirts, but left her nude from the waist up. 
 
-"Have fun you two," Kathy winked at Veronica.
+&ldquo;Have fun you two,&rdquo; Kathy winked at Veronica.
 
-Then, after biting down on one of Tess's exposed nipples, as if in greeting, then got up, shuffled her parchment together, strapped her lute to her back, and left the room. 
+Then, after biting down on one of Tess&rsquo;s exposed nipples, as if in greeting, then got up, shuffled her parchment together, strapped her lute to her back, and left the room. 
 
 Tess then gracefully stepped out of her skirts, and  walked over to the door, latching it from the inside.
+
+Veronica, transfixed by Tess&rsquo;s confident beauty, simply absorbed the moment.
 
 ---
 
@@ -113,17 +115,17 @@ Each crescendo melded with the previous one, until finally all Veronica could do
 
 ---
 
-"Do you want to talk about it?" Tess asked. At some point she had left to get a platter of bread cheese, and some water.  
+&ldquo;Do you want to talk about it?&rdquo; Tess asked. At some point she had left to get a platter of bread cheese, and some water.  
 
-Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of dru, but even that didn't matter now.  The bread was the best bread she had ever tasted.
+Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of dru, but even that didn&rsquo;t matter now.  The bread was the best bread she had ever tasted.
 
-"I think the King of Camelot is  a mad king," Veronica whispered.
+&ldquo;I think the King of Camelot is  a mad king,&rdquo; Veronica whispered.
 
-"Are you *just now* discovering this?" Tess giggled, squeezing Veronica's hand, interlacing their fingers once more.
+&ldquo;Are you *just now* discovering this?&rdquo; Tess giggled, squeezing Veronica&rsquo;s hand, interlacing their fingers once more.
 
-"You aren't surpised?"
+&ldquo;You aren&rsquo;t surpised?&rdquo;
 
-"I *do* work at a tavern, " Tess joked.
+&ldquo;I *do* work at a tavern,&rdquo; Tess joked.
 
 </section>
 
@@ -135,40 +137,40 @@ Veronica was feeling more relaxed than she had ever felt. She wondered if she wa
 
 Gwain emptied his pint, and started to swing his hips as Kathy winked at him in the middle of a love song. To be fair, it was likely that everybody thought she was winking directly at them. She could make everybody in the room think that they were the subject of the song.
 
-"Love Love me do. You know I love you! I'll always be true. So pleeeeeeeeease love me too!"
+&ldquo;Love Love me do. You know I love you! I&rsquo;ll always be true. So pleeeeeeeeease love me too!&rdquo;
 
-The only thing that could get a room full of Arthur's knights to be this excited are Kathy, gambling, and fighting. 
+The only thing that could get a room full of Arthur&rsquo;s knights to be this excited are Kathy, gambling, and fighting. 
 
 Her dramatic alto could reach baritones most men could only aspire to.  It was only enhanced by the melodic dancing of her fingers on her lute.
 
-Kathy's performace was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy's flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
+Kathy&rsquo;s performace was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy&rsquo;s flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
 
 During a break in the performance, Gwaine scanned the room looking for Tess, or the woman cowered away from him earlier that evening.  He then felt a tug at his sleeve, and a whiff of cinnamon perfume.
 
-"Boop!" Kathy, flicked Gwaine's nose, and then flitted just out of reach. Nobody boops the nose of a Camelot Knight. 
+&ldquo;Boop!&rdquo; Kathy, flicked Gwaine&rsquo;s nose, and then flitted just out of reach. Nobody boops the nose of a Camelot Knight. 
 
-Gwaine indignantly backed up, and bowed saractically deeply, "At your service, Bard Kathy. What can I do you for?" He also used this posture to serrupticiously wipe away any paint that might have been transferred to his face.
+Gwaine indignantly backed up, and bowed saractically deeply, &ldquo;At your service, Bard Kathy. What can I do you for?&rdquo; He also used this posture to serrupticiously wipe away any paint that might have been transferred to his face.
 
-"Have you any gossip?" It was no secret that Kathy wanted to be a Town Crier.  Gwaine didn't want Kathy to stop singing, and all Town Criers are men.
+&ldquo;Have you any gossip?&rdquo; It was no secret that Kathy wanted to be a Town Crier.  Gwaine didn&rsquo;t want Kathy to stop singing, and all Town Criers are men.
 
 Gwaine held the position until Kathy would allow him to kiss her hand. This was reasonable retribution for the payback.
 
-A crowd started to stare, a chant growing "Kiss the hand! Kiss the hand!"
+A crowd started to stare, a chant growing &ldquo;Kiss the hand! Kiss the hand!&rdquo;
 
-"Well, The Princess has been in an awful mood today.  Some say that his servant didn't show up for work, for most of the day."
+&ldquo;Well, The Princess has been in an awful mood today.  Some say that his servant didn&rsquo;t show up for work, for most of the day.&rdquo;
 
-"Pfft&mdash; Tell me something *interesting*" The dissappointment was palpable in Kathy's voice was nearly impossible to refuse.  But Gwaine also knew better than to give a *bard* unfounded rumours. 
+&ldquo;Pfft&mdash; Tell me something *interesting*&rdquo; The dissappointment was palpable in Kathy&rsquo;s voice was nearly impossible to refuse.  But Gwaine also knew better than to give a *bard* unfounded rumours. 
 
 Kathy finally deigned to let Gwaine kiss her hand, When she withdrew her hand, she then blew a kiss into the crowd with a wink and a toss of her hair.  Gwaine was fairly certian that the half of the room attracted to women swooned.
 
-"That's all I have," Then an idea occured to Gwainne. Brian, the Town Crier desprately wanted to be a bard, but was too nervous to ever actually *talk* to Kathy. 
+&ldquo;That&rsquo;s all I have,&rdquo; Then an idea occured to Gwainne. Brian, the Town Crier desprately wanted to be a bard, but was too nervous to ever actually *talk* to Kathy. 
 
-"Kathy, May I introduce you to Brian, our Town Crier? He knows all of the most exciting craftsmen in the area," Gwaine then reached out at the retreating Brian, grabbed his shoulders, and pushed him towards Kathy. They could entertain each other for weeks.  He knew that Brian hated the physical touch, but would thank him for it later.
+&ldquo;Kathy, May I introduce you to Brian, our Town Crier? He knows all of the most exciting craftsmen in the area,&rdquo; Gwaine then reached out at the retreating Brian, grabbed his shoulders, and pushed him towards Kathy. They could entertain each other for weeks.  He knew that Brian hated the physical touch, but would thank him for it later.
 
-Based on today's meeting with Knights, it was now imperative for him to find either Tess or that woman. Lancelot did not divulge much, but corroborating evidence of King Arthur's behavior will help them *avoid* future Rabbit Dance incidents.  By now he hoped that Merlin was talking to Leon.
+Based on today&rsquo;s meeting with Knights, it was now imperative for him to find either Tess or that woman. Lancelot did not divulge much, but corroborating evidence of King Arthur&rsquo;s behavior will help them *avoid* future Rabbit Dance incidents.  By now he hoped that Merlin was talking to Leon.
 
-After scanning the room once more, to no avail, Gwaine turned to refill his ale tankard.  A man with buldging muscles a cropped haircut, and a strong jawline carried a crate from the side enrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
+After scanning the room once more, to no avajil, Gwaine turned to refill his ale tankard.  A man with buldging muscles a cropped haircut, and a strong jawline carried a crate from the side enrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
 
-After two more trips, the man settled in, taking a seat in the center of the taver, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.
+Two more trips, passed before the man settled in, taking a seat in the center of the taver, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
 
 </section>
