@@ -64,8 +64,8 @@
 
 @default-text-color: #2e045e;
 @main-bg-color: fadein(@chapter-bg-color, 14%, relative); //#a58468;
-@header-bg-color: wheat;
-@menu-bg-color: blanchedalmond;
+@header-bg-color: #f5dbb3; // wheat;
+@menu-bg-color: #ebd3af; //blanchedalmond;
 @menu-fg-color: sienna;
 @menu-bg-hover-color:hsla(44, 81%, 25%, 0.11);
 @grad-purple: #9900ff;
@@ -136,8 +136,11 @@ html {
     font-family: "Recursive", "Helvetica", "Courier New", "monospace";
     font-variation-settings: @font-variation-settings-default;
     background-color: @bg-pattern-background-color;
-    background-repeat: repeat;
-    background-image: @bg-pattern-background-image;
+    background: 
+    @bg-pattern-background-image,
+    linear-gradient(to bottom, @bg-pattern-background-color, darken(@bg-pattern-background-color, 10%));
+    // background-repeat: repeat;
+    // background-image: @bg-pattern-background-image;
     background-attachment: fixed;
     color: @bg-pattern-foreground-color;//TODO: revisit
     width: fit-content;
@@ -204,16 +207,21 @@ header {
     color: @menu-fg-color;
     background-color: @menu-bg-color;
     padding: (0.5 * @base-padding) (1.5 * @base-padding);
-    border: 2px dotted $color;
+    border: 2px dotted transparent;
     font-size: @p-size;
     text-decoration: none;
     z-index: 40;
     text-indent: 0px;
+    box-shadow: 10px 10px 10px #5349409c;
 
     &:hover {
         background-color: @menu-bg-hover-color;
         scale: 101%;
         color: maroon;
+        box-shadow: 
+            5px 5px 10px #85673a5d inset,
+            5px 5px 10px #5349405b;
+        border: 2px dotted transparent;
     }
     &.pages {
         padding: (@px * @base-padding) (@py * @base-padding) (@px * @base-padding) (@py * @base-padding);
@@ -264,11 +272,15 @@ a {
 }
 .chnav-start, .fake-btn, .chnav-start:focus {
     height: fit-content;
-    filter: hue-rotate(-45deg) sepia(20%) saturate(400%) brightness(95%) contrast(90%);
+    border-style: double;
+    border-color: transparent;
+    filter: hue-rotate(-45deg) sepia(30%) saturate(300%) brightness(105%) contrast(105%);
+    // filter: hue-rotate(-45deg) sepia(20%) saturate(400%) brightness(95%) contrast(90%);
     cursor: default;
     &:hover{
         font-size: @p-size;
         scale: 101%;
+        filter: hue-rotate(-30deg) sepia(30%) saturate(200%) brightness(101%) contrast(101%);
         transition: cubic-bezier(0.645, 0.045, 0.355, 1);
         transform: rotateZ(-2deg);
         background-color: @menu-bg-color;
@@ -290,12 +302,14 @@ a {
     font-weight: bold;
     color: @menu-fg-color;
     font-size: @button-text-size;
+    box-shadow: none;
     &:hover {
         color: @menu-fg-color;
         scale: unset;
         transform: unset;
         cursor: default;
         border-style: dotted;
+        box-shadow: none;
     }
 }
 .back-to-top {

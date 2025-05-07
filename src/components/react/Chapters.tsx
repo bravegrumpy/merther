@@ -122,7 +122,8 @@ export function ChapterPreamble({
               height: "37px",
               color: "transparent",
             }}>
-            Next Chapter {"\u2192"}
+            {/* Next Chapter {"\u2192"} */}
+            {nextIcon}
           </p>
         )}
         { 

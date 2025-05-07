@@ -4,8 +4,7 @@ html {
   font-family: "Recursive", "Helvetica", "Courier New", "monospace";
   font-variation-settings: "slnt" 0, "CASL" 0.2, "CRSV" 0, "MONO" 0.3, "wght" 400;
   background-color: #677040;
-  background-repeat: repeat;
-  background-image: url("/api/images/topography/topography_brown.png");
+  background: url("/api/images/topography/topography_brown.png"), linear-gradient(to bottom, #677040, #49502d);
   background-attachment: fixed;
   color: #432700;
   width: fit-content;
@@ -26,7 +25,7 @@ main {
   left: 0px;
 }
 header {
-  background-color: wheat;
+  background-color: #f5dbb3;
   padding: 20px 20px;
   width: 80vw;
   max-width: 90ch;
@@ -62,18 +61,21 @@ header .bottom-nav {
 .menu {
   font-family: "Delius";
   color: sienna;
-  background-color: blanchedalmond;
+  background-color: #ebd3af;
   padding: 10px 30px;
-  border: 2px dotted sienna;
+  border: 2px dotted transparent;
   font-size: 1rem;
   text-decoration: none;
   z-index: 40;
   text-indent: 0px;
+  box-shadow: 10px 10px 10px #5349409c;
 }
 .menu:hover {
   background-color: hsla(44, 81%, 25%, 0.11);
   scale: 101%;
   color: maroon;
+  box-shadow: 5px 5px 10px #85673a5d inset, 5px 5px 10px #5349405b;
+  border: 2px dotted transparent;
 }
 .menu.pages {
   padding: 10px 16px 10px 16px;
@@ -104,7 +106,7 @@ header .bottom-nav {
 .menu.back-to-top:hover {
   scale: 105%;
   opacity: 100%;
-  background-color: blanchedalmond;
+  background-color: #ebd3af;
 }
 .chnav {
   width: fit-content;
@@ -124,7 +126,9 @@ a {
 .fake-btn,
 .chnav-start:focus {
   height: fit-content;
-  filter: hue-rotate(-45deg) sepia(20%) saturate(400%) brightness(95%) contrast(90%);
+  border-style: double;
+  border-color: transparent;
+  filter: hue-rotate(-45deg) sepia(30%) saturate(300%) brightness(105%) contrast(105%);
   cursor: default;
 }
 .chnav-start:hover,
@@ -132,9 +136,10 @@ a {
 .chnav-start:focus:hover {
   font-size: 1rem;
   scale: 101%;
+  filter: hue-rotate(-30deg) sepia(30%) saturate(200%) brightness(101%) contrast(101%);
   transition: cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: rotateZ(-2deg);
-  background-color: blanchedalmond;
+  background-color: #ebd3af;
   cursor: pointer;
   border-style: double;
   height: fit-content;
@@ -152,6 +157,7 @@ a {
   font-weight: bold;
   color: sienna;
   font-size: 0.9rem;
+  box-shadow: none;
 }
 .fake-btn.menu:hover {
   color: sienna;
@@ -159,6 +165,7 @@ a {
   transform: unset;
   cursor: default;
   border-style: dotted;
+  box-shadow: none;
 }
 .back-to-top {
   width: fit-content;
@@ -386,7 +393,7 @@ hr.section.end {
   font-family: "Delius";
 }
 .banner {
-  background-color: wheat;
+  background-color: #f5dbb3;
   height: 1.5rem;
   width: 80vw;
   padding: 20px;
@@ -394,7 +401,7 @@ hr.section.end {
   text-align: center;
 }
 footer {
-  background-color: wheat;
+  background-color: #f5dbb3;
   width: 80vw;
   max-width: 90ch;
   padding: 0px 20px;
