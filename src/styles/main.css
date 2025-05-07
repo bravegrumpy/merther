@@ -5,7 +5,7 @@ html {
   font-family: "Recursive", "Helvetica", "Courier New", "monospace";
   font-variation-settings: "slnt" 0, "CASL" 0.2, "CRSV" 0, "MONO" 0.3, "wght" 400;
   background-color: #677040;
-  background: url("/api/images/textures/TCom_Parquet_XL.png"), linear-gradient(to bottom, #677040, #49502d);
+  background: url("/api/images/textures/TCom_FabricPatterns0061_M.jpg"), linear-gradient(to bottom, #677040, #49502d);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 1000px 500px;
