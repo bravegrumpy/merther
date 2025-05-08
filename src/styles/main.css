@@ -170,6 +170,16 @@ a.chb:focus {
 a {
   cursor: pointer;
 }
+[data-active="true"] {
+  background: #96aee77e;
+  border-style: double;
+  border-color: currentColor;
+}
+[data-active="true"]:hover {
+  background: #eb8f4e3e;
+  border-color: #2e045e;
+  filter: hue-rotate(-45deg);
+}
 .chnav-start,
 .fake-btn,
 .chnav-start:focus {

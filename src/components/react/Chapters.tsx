@@ -286,6 +286,9 @@ export function ChapterNav({
       // link.style.display === "inline" ? link.style.display = "none" : link.style.display = "inline"
     });
   }
+  let i = 1;
+  let j = Math.round(Math.random() - 0.5) * 10;
+  let k = i + j;
   return (
     <>
       <nav className={`menu-container chnav-container ${navClass}`} id={chId}>
@@ -302,7 +305,7 @@ export function ChapterNav({
         {chapters.map((chapter) => (
           <>
             <a
-              key={`link-${chapter.id}`}
+              key={`link-${chapter.id}-${k}`}
               className={`chnav menu chlst hide hidden ${chapterClass}`}
               href={chapter.href ?? null}>
               {chapter.text}

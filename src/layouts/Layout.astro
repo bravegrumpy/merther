@@ -33,7 +33,8 @@ let {
   bottomLine = true,
   topInitialDisplay = "flex",
   bottomInitialDisplay = "none",
-  stopFlash=false
+  stopFlash=false,
+  slug=Astro.url.pathname
 } = Astro.props;
 
 headTitle = frontmatter ? frontmatter.headTitle : headTitle;
@@ -147,7 +148,7 @@ import { Footer } from "@/components/react/Components";
           displayStyle={topInitialDisplay}
         >
           {mainLinks.map((link: any) => (
-            <Anchor keyId={link.key} href={link.href} text={link.text} />
+            <Anchor keyId={link.key} href={link.href} text={link.text} isActive={slug === link.href} />
           ))}
         </Navigation>
       ) : (

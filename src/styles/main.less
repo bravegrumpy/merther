@@ -349,6 +349,18 @@ a {
     // cursor: pointer;
     cursor: @cursor-hand-pointer;
 }
+[data-active="true"] {
+    background:
+        #96aee77e;
+    border-style: double;
+    border-color: currentColor;
+    &:hover {
+        background:
+            #eb8f4e3e;
+        border-color: @default-text-color;
+        filter: hue-rotate(-45deg);
+    }
+}
 .chnav-start, .fake-btn, .chnav-start:focus {
     height: fit-content;
     border-style: double;

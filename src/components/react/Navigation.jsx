@@ -13,9 +13,9 @@ export function Navigation ({ className="menu-container pages-container", id, li
     );
 }
 
-export function Anchor({ href, className="menu pages", text, keyId }) {
+export function Anchor({ href, className="menu pages", text, keyId, isActive=false }) {
     return (
-        <a key={`anchor_key-${keyId}`} href={href} className={className}>{text}</a>
+        <a key={`anchor_key-${keyId}`} href={href} className={className} data-active={isActive}>{text}</a>
     );
 }
 
