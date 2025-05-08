@@ -37,7 +37,7 @@ header {
   width: 80vw;
   max-width: 90ch;
   margin: -10px auto;
-  margin-top: 0px;
+  margin-top: 40px;
   z-index: 20;
   border-top: 15px ridge #7a6a24;
   border-left: 15px ridge #7a6a24;
@@ -452,7 +452,7 @@ footer {
   width: 80vw;
   max-width: 90ch;
   padding: 0px 20px;
-  margin: 0px auto -40px auto;
+  margin: 0px auto 40px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
