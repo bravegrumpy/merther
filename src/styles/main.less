@@ -351,14 +351,22 @@ a {
 }
 [data-active="true"] {
     background:
-        #96aee77e;
+        linear-gradient(to right, #96aee71d, #96aee75c),
+        @chapter-bg-image;
     border-style: double;
     border-color: currentColor;
+    box-shadow: 
+        -10px -10px 10px #fec8 inset
+        10px 10px 10px #fec3;
     &:hover {
         background:
-            #eb8f4e3e;
+            // #eb8f4e3e;
+            linear-gradient(to top, #eb9f4e3e, #eb8f4e3e),
+            @chapter-bg-image;
         border-color: @default-text-color;
         filter: hue-rotate(-45deg);
+        box-shadow:
+            -10px -10px 10px #fec8 inset;
     }
 }
 .chnav-start, .fake-btn, .chnav-start:focus {

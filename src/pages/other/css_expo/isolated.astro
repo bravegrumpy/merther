@@ -22,7 +22,7 @@ const mainLinks = [
     },
     {
         key: "04_Link_Active",
-        href: "#",
+        href: "#thisPage",
         text: "This Link"
     },
     {
@@ -57,7 +57,7 @@ const chapters = CssExpo.map((ch) => ch.data);
 const latestChapter = chapters.length - 1;
 ---
 
-<Layout headTitle={headTitle} bottomLine={true} link={bravegrumpyLink} mainLinks={mainLinks} secondaryLinks={null}>
+<Layout slug="#thisPage" headTitle={headTitle} bottomLine={true} link={bravegrumpyLink} mainLinks={mainLinks} secondaryLinks={null}>
     <Article>
         <div class="chapter-preamble latest-chapter">
             <h2 class="text-gradient" style={{paddingLeft: "20px"}}>

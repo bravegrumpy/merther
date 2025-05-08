@@ -171,14 +171,16 @@ a {
   cursor: pointer;
 }
 [data-active="true"] {
-  background: #96aee77e;
+  background: linear-gradient(to right, #96aee71d, #96aee75c), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
   border-style: double;
   border-color: currentColor;
+  box-shadow: -10px -10px 10px #fec8 inset 10px 10px 10px #fec3;
 }
 [data-active="true"]:hover {
-  background: #eb8f4e3e;
+  background: linear-gradient(to top, #eb9f4e3e, #eb8f4e3e), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
   border-color: #2e045e;
   filter: hue-rotate(-45deg);
+  box-shadow: -10px -10px 10px #fec8 inset;
 }
 .chnav-start,
 .fake-btn,
