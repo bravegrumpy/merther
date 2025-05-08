@@ -218,11 +218,13 @@ a {
 }
 .fake-btn.menu:hover {
   color: sienna;
-  scale: unset;
+  scale: 100%;
   transform: unset;
-  cursor: default, default;
-  border-style: dotted;
+  cursor: default;
+  border-style: double;
+  border-color: #7a44a1;
   box-shadow: none;
+  background-color: unset;
 }
 .back-to-top {
   width: fit-content;

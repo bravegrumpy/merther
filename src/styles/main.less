@@ -406,12 +406,15 @@ a {
     box-shadow: none;
     &:hover {
         color: @menu-fg-color;
-        scale: unset;
+        scale: 100%;
         transform: unset;
-        // cursor: default;
-        cursor: @cursor-default;
-        border-style: dotted;
+        // filter: hue-rotate(-45deg) sepia(30%) saturate(70%);
+        cursor: default;
+        // cursor: @cursor-default;
+        border-style: double;
+        border-color: #7a44a1;  
         box-shadow: none;
+        background-color: unset;
     }
 }
 .back-to-top {
