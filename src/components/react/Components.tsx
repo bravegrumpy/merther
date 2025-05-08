@@ -4,13 +4,26 @@ import styles from "@/components/react/Components.module.css"
 import { Button } from "@/components/react/ui/button";
 import { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel } from "@/components/react/ui/alert-dialog"
 
+import { Icon } from "@iconify/react";
+
 export function Banner() {
     return(<>
         <p className="banner">For best results, view this content on a screen with resolution at least 1440px x 1080px</p>
     </>)
 }
 
-export function Footer({ footerClass, copyrightClass, disclaimerClass }: { footerClass?: string, copyrightClass?: string, disclaimerClass?: string }) {
+export function Footer({ 
+    footerClass, 
+    copyrightClass, 
+    disclaimerClass,
+    socialLinks
+    
+}: { 
+    footerClass?: string, 
+    copyrightClass?: string, 
+    disclaimerClass?: string,
+    socialLinks?: React.ReactNode | string | any
+}) {
     const today = dayjs();
     return (<>
     <footer className={footerClass}>
@@ -22,6 +35,7 @@ export function Footer({ footerClass, copyrightClass, disclaimerClass }: { foote
             This is an unofficial fan site and is not affiliated with <em>BBC Merlin</em> or <abbr title='Organization for Transformative Works'><a href="https://transformativeworks.org" target='_blank'>OTW</a></abbr>
         </p>
         <p>All Rights Reserved</p>
+        {socialLinks}
     </footer>
     </>);
 }
@@ -64,6 +78,28 @@ export function AdultContentDialog() {
                 </AlertDialogFooter>
             </AlertDialogContent>
         </AlertDialog>
+    </>);
+}
+
+export function Social({
+    subdomain="www",
+    platform,
+    tld = "com",
+    username,
+    style = "hugeicons",
+    iconSize = "1.5rem"
+}: {
+    subdomain?: string;
+    platform: string;
+    tld?: string;
+    username: string;
+    style?: string;
+    iconSize?: string;
+}) {
+    return (<>
+        <a href={`https://${subdomain}.${platform}.${tld}/${username}`}>
+            <Icon icon={`${style}:${platform}`} /> {platform}
+        </a>
     </>);
 }
 

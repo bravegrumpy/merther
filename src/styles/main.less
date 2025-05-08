@@ -681,18 +681,20 @@ footer {
     max-width: @base-max-width;
     padding: 0px @base-padding;
     margin: (0 * @base-padding ) @base-margin (2 * @base-padding) (@base-margin);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    // justify-content: space-between;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: @base-padding;
     border-left: @sides-border-width @sides-border-style @sides-border-color;
     border-right: @sides-border-width @sides-border-style @sides-border-color;
     border-bottom: @sides-border-width @sides-border-style @sides-border-color;
     & * {
-        width: calc(100% * (1 / 3) - (@base-padding));
-        // width: 100%;
+        // width: calc(100% * (1 / 3) - (@base-padding));
+        width: 100%;
     }
     & {
         :nth-child(3n+1) {

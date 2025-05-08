@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon/components"
+const {
+    subdomain = "www",
+    platform,
+    tld = "com",
+    username='',
+    style = "hugeicons",
+    iconSize = "1.5rem",
+    linkWidth = "fit-content",
+    linkHeight = "fit-content",
+    text = true,
+    class:className = '',
+    domain=platform,
+    url= `https://${subdomain}.${domain}.${tld}/${username}`,
+    icon = `${style}:${platform}`,
+    color="#fff",
+    backgroundColor="#4c1d95"
+} = Astro.props;
+---
+
+<a class={className} href={url}>
+    <Icon name={icon} /> {text ? platform : ''}
+</a>
+<style define:vars={{ iconSize, linkWidth, linkHeight, color, backgroundColor }}>
+    a {
+      padding: 0.5rem 1rem;
+      color: var(--color);
+      background-color: var(--backgroundColor);
+      text-decoration: none;
+      width: var(--linkWidth);
+      height: var(--linkHeight);
+    }
+  
+    [data-icon] {
+      width: var(--iconSize);
+      height: var(--iconSize);
+      vertical-align: middle;
+      font-weight: bolder;
+    }
+  </style>
+  

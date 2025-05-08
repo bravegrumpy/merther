@@ -12,6 +12,8 @@ import UnstyledLayout from "./UnstyledLayout.astro";
 
 import { Icon } from "astro-icon/components";
 
+import AllSocial from "@/components/AllSocial.astro";
+
 import {
   Navigation,
   Anchor,
@@ -240,5 +242,21 @@ import { Footer } from "@/components/react/Components";
     </slot>
     <hr class="section end" />
   </main>
-  <Footer />
+  <Footer client:load>
+    <div class="social" slot="socialLinks">
+      <!-- <AllSocial /> -->
+    </div>
+  </Footer>
 </UnstyledLayout>
+
+<style is:global>
+  .social {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+  }
+</style>
