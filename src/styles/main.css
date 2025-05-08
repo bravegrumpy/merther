@@ -23,14 +23,14 @@ main {
   margin: 0px auto;
   padding: 0px 20px;
   z-index: 20;
-  border-left: 15px ridge #432700;
-  border-right: 15px ridge #432700;
+  border-left: 15px ridge #7a6a24;
+  border-right: 15px ridge #7a6a24;
   position: relative;
   left: 0px;
 }
 header {
   background-color: #f5dbb3;
-  background: linear-gradient(to top, #f5deb35e, #f5deb331), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
+  background: linear-gradient(to top, #f5deb300, #f5deb300), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
   background-size: 1000px 80vw;
   background-position: center;
   padding: 20px 20px;
@@ -39,9 +39,9 @@ header {
   margin: -10px auto;
   margin-top: 0px;
   z-index: 20;
-  border-top: 15px ridge #432700;
-  border-left: 15px ridge #432700;
-  border-right: 15px ridge #432700;
+  border-top: 15px ridge #7a6a24;
+  border-left: 15px ridge #7a6a24;
+  border-right: 15px ridge #7a6a24;
 }
 header .bottom-nav {
   margin-bottom: 60px;
@@ -409,7 +409,7 @@ hr {
   filter: hue-rotate(90deg) sepia(0.8);
 }
 hr.section {
-  background: linear-gradient(to top, oklch(30% 0.0708 72.11) 0%, oklch(47.92% 0.0708 118.04) 30%, oklch(52.58% 0.0708 118.04) 50%, oklch(78.54% 0.0708 118.04) 100%);
+  background: linear-gradient(to top, #4a3132, #9c6c45 70%, #b68761), linear-gradient(to top, oklch(30% 0.0708 72.11) 0%, oklch(47.92% 0.0708 118.04) 30%, oklch(52.58% 0.0708 118.04) 50%, oklch(78.54% 0.0708 118.04) 100%);
   height: 30px;
   border: none;
   width: calc(100% + (2 * 20px));
@@ -446,7 +446,7 @@ hr.section.end {
 }
 footer {
   background-color: #f5dbb3;
-  background: linear-gradient(to top, #f5deb35e, #f5deb331), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
+  background: linear-gradient(to top, #f5deb300, #f5deb300), linear-gradient(to right, #f5deb380, #f5deb380), url("/api/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
   background-size: 1000px 80vw;
   background-position: center;
   width: 80vw;
@@ -459,9 +459,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  border-left: 15px ridge #432700;
-  border-right: 15px ridge #432700;
-  border-bottom: 15px ridge #432700;
+  border-left: 15px ridge #7a6a24;
+  border-right: 15px ridge #7a6a24;
+  border-bottom: 15px ridge #7a6a24;
 }
 footer * {
   width: calc(100% * (1 / 3) - 20px);
