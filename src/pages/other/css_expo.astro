@@ -1,0 +1,83 @@
+---
+import { Debug } from "astro:components";
+import Layout from "@/layouts/Layout.astro";
+const headTitle = "CSS Expo";
+const bravegrumpyLink = "https://www.bravegrumpy.com"
+
+import { Icon } from "astro-icon/components";
+
+import Article from "@/components/Article.astro";
+
+import { Chapter, ChapterNav, ChapterInfo } from "@/components/react/Chapters"
+import ChapterPostnav from "@/components/ChapterPostnav.astro"
+
+import { Banner } from "@/components/react/Components"
+
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(utc);
+dayjs.extend(advancedFormat);
+
+import { getCollection, render } from "astro:content";
+
+const CssExpo = await getCollection('llorem_ipsum');
+CssExpo.sort((a, b) => a.data.chapter);
+
+const chapters = CssExpo.map((ch) => ch.data);
+const latestChapter = chapters.length - 1;
+---
+
+<Layout headTitle={headTitle} bottomLine={true} link={bravegrumpyLink}>
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">CSS Expo</h1>
+        <nav class="menu-container">
+            <a class="menu" href="/other">Other</a>
+            <a class="menu" href="/other/images">Images</a>
+            <a class="menu chnav chnav-start" href="/other/css_expo">CSS Expo</a>
+        </nav>
+    </div>
+    <Article>
+        <div class="chapter-preamble latest-chapter">
+            <h2 class="text-gradient" style={{paddingLeft: "20px"}}>
+                Latest Chapter:
+            </h2>
+            <h3>
+                <a href={chapters[latestChapter].href} style={{ color: "#2e045e", fontFamily: "'Delius', 'Recursive', 'Georgia'"}}>
+                    {chapters[latestChapter].title}
+                </a>
+            </h3>
+            <div></div>
+        </div>
+        <Banner />
+    </Article>
+    <hr class="section" />
+    <ChapterNav chapters={chapters} icons={true} client:load />
+    {
+        CssExpo.map(async (chapter) => {
+            const { Content, remarkPluginFrontmatter } = await render(chapter)
+            const previous = CssExpo[chapter.data.chapter - 2] ? `/other/css_expo/${CssExpo[chapter.data.chapter - 2].data.href}` : '';
+            const next = CssExpo[chapter.data.chapter] ? `/other/css_expo/${CssExpo[chapter.data.chapter].data.href}` : '';
+            const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
+            const readingTime = remarkPluginFrontmatter.minutesRead;
+            const pubDate = dayjs(chapter.data.pubDate);
+
+            return (<>
+                <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" anchorClass="menu back-to-top" backToTopButton={true}>
+                    <span slot="previousIcon">
+                        <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} />
+                    </span>
+                    <span slot="nextIcon">
+                        <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} />
+                    </span>
+                    <span slot="backToTopIcon">
+                        <Icon name="hugeicons:transition-top" width={32} height={32} />
+                    </span>
+                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/other/css_expo/${chapter.data.href}`} AnchorText="all" />
+                    <Content />
+                    <ChapterPostnav previous={previous} next={next} other="all" chapterId={chapter.id} size={32} backToTopButton="hugeicons:transition-top" previousIcon="hugeicons:arrow-turn-backward" nextIcon="hugeicons:arrow-turn-forward" otherButton={false} />
+                </Chapter>
+            </>)
+        })
+    }
+</Layout>

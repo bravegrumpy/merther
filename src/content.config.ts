@@ -11,7 +11,7 @@ const resources = defineCollection({
 })
 
 const misunderstood = defineCollection({
-    loader: glob({ pattern: ["*.{md,mdx}", "!index**"], base: "./src/misunderstood/chapters" }),
+    loader: glob({ pattern: ["*.md","*.mdx", "!index**"], base: "./src/misunderstood/chapters" }),
     schema: z.object({
         id: z.string(),
         href: z.string(),
@@ -24,6 +24,19 @@ const misunderstood = defineCollection({
         description: z.optional(z.string()),
         notes: z.optional(z.string()),
         endnotes: z.optional(z.string()),
+    })
+});
+
+const llorem_ipsum = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/llorem_ipsum"}),
+    schema: z.object({
+        id: z.string(),
+        href: z.string(),
+        chapter: z.number(),
+        text: z.string(),
+        title: z.string(),
+        pubDate: z.string(),
+        published: z.boolean()
     })
 });
 
@@ -79,4 +92,4 @@ const gallery_ai = defineCollection({
     })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai }
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum }

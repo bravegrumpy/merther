@@ -1,6 +1,6 @@
 ---
 import { Icon } from "astro-icon/components"
-const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04', backToTopIcon = "hugeicons:arrow-up-04", nextIcon="hugeicons:arrow-right-04", other, chapterId } = Astro.props;
+const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04', backToTopIcon = "hugeicons:arrow-up-04", nextIcon="hugeicons:arrow-right-04", other, chapterId, otherButton=true } = Astro.props;
 ---
 
 <div class="end">
@@ -27,7 +27,7 @@ const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04',
     <hr />
     <div class="other">
         {
-            other === 'single' ?  <a class="menu chnav button" href={`/misunderstood/simple/${chapterId}`}>Single Chapter</a> : <a class="menu chnav button"href={`/misunderstood/simple${chapterId}`}>Entire Work</a>
+            otherButton ? other === 'single' ?  <a class="menu chnav button" href={`/misunderstood/simple/${chapterId}`}>Single Chapter</a> : <a class="menu chnav button"href={`/misunderstood/simple${chapterId}`}>Entire Work</a> : <></>
         }
     </div>
 </div>
