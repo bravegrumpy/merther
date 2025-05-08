@@ -1,4 +1,4 @@
-// This is the copy in the ssr directory
+// This is the copy in the ssr directory 
 // export function getStaticPaths() {
 //     return [
 //         { params: { image: "candid", ext: "png"} },

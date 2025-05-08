@@ -1,7 +1,8 @@
-// This is the copy in the ssr directory
+// This is the copy in the ssr directory 
 // export function getStaticPaths() {
 //     return [
 //         { params: { directory: "topography", image: "topography_brown", ext: "png"} },
+//         { params: { directory: "textures", images: "TCom_PaperPage0016_2_XXL", ext: "png"}},
 //         { params: { directory: "textures", image: "TCom_FabricPatterns0070_S", ext: "jpg"} },
 //         { params: { directory: "textures", image: "TCom_FabricPatterns0112_XL", ext: "jpg"} },
 //         { params: { directory: "textures", image: "TCom_FabricPatterns0061_M", ext: "jpg"} },
