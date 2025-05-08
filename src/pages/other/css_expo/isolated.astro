@@ -4,7 +4,33 @@ import Layout from "@/layouts/Layout.astro";
 const headTitle = "CSS Expo";
 const bravegrumpyLink = "https://www.bravegrumpy.com"
 
-const mainLinks = null;
+const mainLinks = [
+    {
+        key: "00_Link",
+        href: "#",
+        text: "Home"
+    },
+    {
+        key: "01_Link",
+        href: "#",
+        text: "About"
+    },
+    {
+        key: "02_Link",
+        href: "#",
+        text: "Link 1"
+    },
+    {
+        key: "04_Link_Active",
+        href: "#",
+        text: "This Link"
+    },
+    {
+        key: "03_Link2",
+        href: "#",
+        text: "Link2"
+    },
+];
 const secondaryLinks = null;
 
 import { Icon } from "astro-icon/components";
@@ -51,8 +77,8 @@ const latestChapter = chapters.length - 1;
     {
         CssExpo.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter)
-            const previous = CssExpo[chapter.data.chapter - 2] ? `/other/css_expo/${CssExpo[chapter.data.chapter - 2].data.href}` : '';
-            const next = CssExpo[chapter.data.chapter] ? `/other/css_expo/${CssExpo[chapter.data.chapter].data.href}` : '';
+            const previous = CssExpo[chapter.data.chapter - 2] ? `/other/css_expo/isolated/${CssExpo[chapter.data.chapter - 2].data.href}` : '';
+            const next = CssExpo[chapter.data.chapter] ? `/other/css_expo/isolated/${CssExpo[chapter.data.chapter].data.href}` : '';
             const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
             const readingTime = remarkPluginFrontmatter.minutesRead;
             const pubDate = dayjs(chapter.data.pubDate);
@@ -68,7 +94,7 @@ const latestChapter = chapters.length - 1;
                     <span slot="backToTopIcon">
                         <Icon name="hugeicons:transition-top" width={32} height={32} />
                     </span>
-                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/other/css_expo/${chapter.data.href}`} AnchorText="all" />
+                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/other/css_expo/isolated/${chapter.data.href}`} AnchorText="all" />
                     <Content />
                     <ChapterPostnav previous={previous} next={next} other="all" chapterId={chapter.id} size={32} backToTopButton="hugeicons:transition-top" previousIcon="hugeicons:arrow-turn-backward" nextIcon="hugeicons:arrow-turn-forward" otherButton={false} />
                 </Chapter>

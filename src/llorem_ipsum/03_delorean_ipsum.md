@@ -8,6 +8,10 @@ pubDate: "2025-05-08"
 published: true
 ---
 
+<section>
+
+#### Heading
+
 What did you say? He's your brother, Mom. Flux capacitor. Now, of course not, Biff, now, I wouldn't want that to happen. It works, ha ha ha ha, it works. I finally invent something that works.
 
 Hello. Alright, okay. Alright, there she is, George. Just go in there and invite her. What did she say? It's your mom, she's tracked you down. Quick, let's cover the time machine. Hot, Jesus Christ, Doc. Jesus Christ, Doc, you disintegrated Einstein. Doc, you gotta help-
@@ -33,3 +37,33 @@ Marty, are you alright? George. George. Don't pay any attention to him, he's in 
 Hey McFly, what do you think you're doing. Right check, Doc. How's your head? Yeah, you got my homework finished, McFly? That's right, twenty five years into the future. I've always dreamed on seeing the future, looking beyond my years, seeing the progress of mankind. I'll also be able to see who wins the next twenty-five world series.
 
 Mr. McFly, Mr. McFly, this just arrived, oh hi Marty. I think it's your new book. Yeah I know, If you put your mind to it you could accomplish anything. Right. McFly. Who?
+
+</section>
+
+---
+
+<section>
+
+#### Heading
+
+Good evening, I'm Doctor Emmett Brown. I'm standing on the parking lot of Twin Pines Mall. It's Saturday morning, October 26, 1985, 1:18 a.m. and this is temporal experiment number one. C'mon, Einy, hey hey boy, get in there, that a boy, in you go, get down, that's it. I've gotta go. I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here. Oh, I've been so worried about you ever since you ran off the other night. Are you okay? I'm sorry I have to go. Isn't he a dream boat? Well, they're your parents, you must know them. What are their common interests, what do they like to do together?
+
+Ah well, sort of. Roads? Where we're going we don't need roads. Weight has nothing to do with it. Oh, oh a rematch, why, were you cheating? Cause, George, she wants to go to the dance with you, she just doesn't know it yet. That's why we got to show her that you, George McFly, are a fighter. You're somebody who's gonna stand up for yourself, someone who's gonna protect her.
+
+Take care. Are those my clocks I hear? No. Can I go now, Mr. Strickland? Hey, not too early I sleep in on Saturday. Oh, McFly, your shoe's untied. Don't be so gullible, McFly. You got the place fixed up nice, McFly. I have you're car towed all the way to your house and all you've got for me is light beer. What are you looking at, butthead. Say hi to your mom for me.
+
+Right, okay, so right around 9:00 she's gonna get very angry with me. Well, ma, we talked about this, we're not gonna go to the lake, the car's wrecked. Hey McFly, what do you think you're doing. Aw yeah, everything is great. Precisely.
+
+It's a board with wheels. Doc, you gotta help- Hey, don't I know you from somewhere? Wait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Your, your right.
+
+You'll find out in thirty years. Yoo. Pa, what is it? What is it, Pa? Hey, George, buddy, you weren't at school, what have you been doing all day? Excuse me.
+
+After I fell off my toilet, I drew this. What? Doc, you gotta help- I don't wanna know your name. I don't wanna know anything anything about you. Thank god I still got my hair. What on Earth is that thing I'm wearing?
+
+Shut your filthy mouth, I'm not that kind of girl. God dammit, I'm late. Precisely. C'mon. Well just gimme something without any sugar in it, okay?
+
+oh yeah, all you gotta do is go over there and ask her. I do understand. If I know too much about my own future I could endanger my own existence, just as you endangered yours. Yeah. When could weathermen predict the weather, let alone the future. Thank you, don't forget to take a flyer.
+
+Yeah well, I saw it on a rerun. My god, it's my mother. Put your pants back on. Where does he come from? Why thank you, Marty. George. Good morning, sleepyhead, Good morning, Dave, Lynda Hey I'm talking to you, McFly, you Irish bug.
+
+</section>
