@@ -1,4 +1,4 @@
-// This is the copy in the ssg directory
+// This is the copy in the ssg directory 
 export function getStaticPaths() {
     return [
         { params: { image: "candid", ext: "webp"} },
@@ -16,7 +16,7 @@ export function getStaticPaths() {
 
 export async function GET ({ params, request }: {params: any, request: any}) {
     const response = await fetch(
-        `https://cdn.bravegrumpy.com/AO3Styles/images/${params.image}.png`
+        `https://cdn.bravegrumpy.com/AO3Styles/images/${params.image}.${params.ext}`
     );
     const buffer = Buffer.from(await response.arrayBuffer());
 

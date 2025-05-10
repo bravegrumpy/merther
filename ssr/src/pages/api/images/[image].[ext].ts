@@ -1,22 +1,22 @@
 // This is the copy in the ssr directory 
 // export function getStaticPaths() {
 //     return [
-//         { params: { image: "candid", ext: "png"} },
-//         { params: { image: "chromolithograph", ext: "png"} }, 
-//         { params: { image: "hand-painted-colorized-heliograph", ext: "png"} }, 
-//         { params: { image: "illustration", ext: "png"} }, 
-//         { params: { image: "lithogrpah", ext: "png"} }, 
-//         { params: { image: "mixture", ext: "png"} }, 
-//         { params: { image: "oil-painting", ext: "png"} }, 
-//         { params: { image: "render", ext: "png"} }, 
-//         { params: { image: "royal-reds", ext: "png"} }, 
-//         { params: { image: "stained-glass", ext: "png"} }
+//         { params: { image: "candid", ext: "webp"} },
+//         { params: { image: "chromolithograph", ext: "webp"} }, 
+//         { params: { image: "hand-painted-colorized-heliograph", ext: "webp"} }, 
+//         { params: { image: "illustration", ext: "webp"} }, 
+//         { params: { image: "lithogrpah", ext: "webp"} }, 
+//         { params: { image: "mixture", ext: "webp"} }, 
+//         { params: { image: "oil-painting", ext: "webp"} }, 
+//         { params: { image: "render", ext: "webp"} }, 
+//         { params: { image: "royal-reds", ext: "webp"} }, 
+//         { params: { image: "stained-glass", ext: "webp"} }
 //     ]
 // }
 
 export async function GET ({ params, request }: {params: any, request: any}) {
     const response = await fetch(
-        `https://cdn.bravegrumpy.com/AO3Styles/images/${params.image}.png`
+        `https://cdn.bravegrumpy.com/AO3Styles/images/${params.image}.${params.ext}`
     );
     const buffer = Buffer.from(await response.arrayBuffer());
 
