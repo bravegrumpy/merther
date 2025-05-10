@@ -181,11 +181,12 @@ main {
 .header-background() {
     background-color: @header-bg-color;
     background: 
-        linear-gradient(to top, #f5deb300, #f5deb300),
+        linear-gradient(to bottom, #ebb86c50, #814b1e54),
+        linear-gradient(to top, #f5deb340, #f5deb340),
         linear-gradient(to right, #f5deb380, #f5deb380),
         @chapter-bg-image,
         @header-bg-color;
-    background-size: 1000px @base-width;
+    background-size: calc((@base-width) + (-2 * @base-padding)) 585px;
     background-position: center;
 }
 header {
@@ -290,7 +291,11 @@ a.chb{
     text-decoration: none;
     z-index: 40;
     text-indent: 0px;
+    // filter: drop-shadow(10px 10px 30px #5349409c);
     box-shadow: 10px 10px 30px #5349409c;
+    // clip-path: polygon(0% 23%, 9% 6%, 17% 4%, 25% 10%, 32% 6%, 41% 13%, 52% 7%, 58% 9%, 64% 3%, 68% 5%, 74% 3%, 77% 5%, 82% 2%, 83% 6%, 91% 1%, 94% 4%, 97% 9%, 100% 16%, 99% 28%, 99% 36%, 98% 47%, 100% 58%, 98% 67%, 100% 81%, 100% 81%, 99% 92%, 97% 99%, 93% 97%, 89% 99%, 87% 96%, 84% 100%, 80% 99%, 77% 100%, 73% 95%, 69% 99%, 64% 100%, 58% 95%, 54% 100%, 49% 95%, 39% 98%, 31% 100%, 27% 93%, 24% 97%, 17% 98%, 8% 89%, 3% 92%, 0% 88%, 0% 61%);
+
+
 
     &:hover {
         background-color: @menu-bg-hover-color;
@@ -484,6 +489,11 @@ dt {
         10px 10px 20px 10px #43271040,
         -5px 0px 20px 10px  #43271040,
         -5px 10px 15px 10px #b6915133 inset;
+    
+    
+    // clip-path: polygon(4% 3%, 13% 10%, 18% 2%, 27% 8%, 30% 0%, 36% 2%, 39% 8%, 45% 3%, 48% 10%, 57% 5%, 60% 4%, 66% 6%, 72% 0%, 78% 9%, 82% 7%, 87% 0%, 92% 3%, 94% 7%, 98% 10%, 100% 19%, 99% 29%, 99% 45%, 100% 54%, 99% 72%, 100% 84%, 97% 97%, 94% 97%, 91% 100%, 87% 95%, 84% 100%, 81% 100%, 76% 97%, 72% 94%, 68% 91%, 65% 97%, 62% 99%, 59% 100%, 55% 91%, 52% 98%, 50% 96%, 47% 97%, 44% 88%, 42% 97%, 38% 93%, 36% 100%, 33% 100%, 30% 98%, 29% 100%, 26% 91%, 24% 100%, 21% 98%, 19% 91%, 17% 96%, 15% 97%, 12% 94%, 11% 90%, 9% 92%, 7% 97%, 4% 97%, 3% 94%, 1% 90%, 0% 80%, 0% 70%, 1% 60%, 0% 48%, 1% 40%, 0% 29%, 1% 17%);
+
+    
     //print
     page-break-before: auto;
 }
