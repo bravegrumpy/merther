@@ -86,6 +86,8 @@ She then noticed that sitting in the occupied bed was a woman surrounded by parc
 
 After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.   Somehow this made Veronica wonder if she could ellicit similar noises from Tess.
 
+Veronica peeked again after a particularly salacious moan. Tess's face was obscured by hair as the mystery woman back arched with pleasure.
+
 Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman&rsquo;s jaw and said, &ldquo;This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?&rdquo;
 
 &ldquo;Yeah sure!&rdquo; she responded, biting a lip, and gazing at Veronica with an intensity that made her blush.
@@ -176,6 +178,10 @@ After scanning the room once more, to no avail, Gwaine turned to refill his ale 
 
 Two more trips, passed before the man settled in, taking a seat in the center of the tavern, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
 
-After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, before 
+After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, sloshing a bit onto his shirt, and then slammed it back onto the table before projecting &ldquo;And who is my next victim&mdash; I mean contestant&rdquo; with a broad smile. When the man's eyes briefly landed on Gwaine's before flitting away, Gwaine could feel his face heat up, as he quickly turned to order another drink, and avoid eye contact. 
+
+Once the next opponent sat down, the man noticed the stain to his shirt, so he promptly pulled his tunic over his head, threw it aside, flexing his muscles to a wooing crowd.
+
+Some time later, a plate of food appeared in front of the man, and he managed to cmpletely miss his mouth, and smeared a bit of cabbage onto a corner of his mouth. Seeing this, Gwaine smiled to himself, taken in by this small gesture of imperfection. This time the man caught Gwiane staring, so somehow while his face was flushed red, he wiped his face with the back of his hand, completed the gesture by sending Gwaine a rude hand gesture. 
 
 </section>
