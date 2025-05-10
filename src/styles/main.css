@@ -848,7 +848,7 @@ h2.heading {
     position: static;
   }
 }
-@media (min-width: 110ch) {
+@media (min-width: 100ch) {
   html {
     max-width: 100vw;
     width: fit-content;
@@ -863,7 +863,7 @@ h2.heading {
   .chapter {
     width: calc(90ch + (-1 * 20px));
     z-index: 10;
-    background-size: calc(90ch + (5 * 20px));
+    background-size: calc(90ch + (1 * 20px));
     background-position-x: 40%;
     background-repeat: repeat-y;
     text-indent: 40px;

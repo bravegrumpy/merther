@@ -8,7 +8,7 @@ const favicon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
 
-import { ClientRouter } from "astro:transitions";
+// import { ClientRouter } from "astro:transitions";
 
 import UnstyledLayout from "./UnstyledLayout.astro";
 
@@ -76,7 +76,8 @@ import { Footer } from "@/components/react/Components";
   <Fragment slot="head">
     <slot name="head" />
     {/* I like ClientRouter better than StopFlash. */}
-    <ClientRouter />
+    <!-- <ClientRouter /> -->
+     {/* Temporarily putting ClientRouter into Unstyled */}
     <style is:global>
       *,
       body {
