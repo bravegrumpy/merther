@@ -90,6 +90,13 @@ community ? { Content: Community } = await render(community) : Community = Fallb
     padding: 20px 20px;
     background-color: #d0801020;
   }
+
+  @media (min-width: 100ch) {
+    .article {
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
 </style>
 
 <style is:global>
