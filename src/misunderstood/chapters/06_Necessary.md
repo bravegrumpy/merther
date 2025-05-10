@@ -128,6 +128,8 @@ Veronica was feeling more relaxed than she had ever felt. She wondered if she wa
 
 &ldquo;I *do* work at a tavern,&rdquo; Tess joked.
 
+Veronica responded by leaning into Tess, and lazily kissing her neck, eliciting a delictable giggle and blush. 
+
 </section>
 
 ---
@@ -170,8 +172,10 @@ Kathy finally deigned to let Gwaine kiss her hand, When she withdrew her hand, s
 
 Based on today&rsquo;s meeting with Knights, it was now imperative for him to find either Tess or that woman. Lancelot did not divulge much, but corroborating evidence of King Arthur&rsquo;s behavior will help them *avoid* future Rabbit Dance incidents.  By now he hoped that Merlin was talking to Leon.
 
-After scanning the room once more, to no avajil, Gwaine turned to refill his ale tankard.  A man with buldging muscles a cropped haircut, and a strong jawline carried a crate from the side enrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
+After scanning the room once more, to no avail, Gwaine turned to refill his ale tankard.  A man with buldging muscles a cropped haircut, and a strong jawline carried a crate from the side enrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
 
-Two more trips, passed before the man settled in, taking a seat in the center of the taver, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
+Two more trips, passed before the man settled in, taking a seat in the center of the tavern, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
+
+After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, before 
 
 </section>
