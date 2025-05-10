@@ -2,7 +2,7 @@
 img:
     size: 200
     alt: "lithograph"
-    url: "/api/images/lithograph.webp"
+    url: "/api/images/lithograph.png"
 
 title: "Lithiograph"
 ---

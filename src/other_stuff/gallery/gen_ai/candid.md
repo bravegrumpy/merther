@@ -2,7 +2,7 @@
 title: "Candid Illustration"
 img: 
     size: 197
-    url: "/api/images/candid.webp"
+    url: "/api/images/candid.png"
     alt: "candid"
 ---
 

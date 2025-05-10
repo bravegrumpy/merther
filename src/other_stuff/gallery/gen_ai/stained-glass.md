@@ -2,7 +2,7 @@
 title: "Stained Glass"
 img:
     size: 195
-    url: "/api/images/stained-glass.webp"
+    url: "/api/images/stained-glass.png"
     alt: "stained glass"
 ---
 

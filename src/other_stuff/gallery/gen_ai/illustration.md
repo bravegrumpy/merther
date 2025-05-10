@@ -2,7 +2,7 @@
 img: 
     size: 196
     alt: "illustration"
-    url:  "/api/images/illustration.webp"
+    url:  "/api/images/illustration.png"
 
 title: "Illustration"
 ---

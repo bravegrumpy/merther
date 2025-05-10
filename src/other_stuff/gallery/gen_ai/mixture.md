@@ -2,7 +2,7 @@
 img:
     size: 197
     alt: "mixture"
-    url: "/api/images/mixture.webp"
+    url: "/api/images/mixture.png"
 title: "Combination"
 subtitle: "What happens when I ask the AI to be truly creative?"
 ---

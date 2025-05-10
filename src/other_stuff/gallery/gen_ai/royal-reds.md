@@ -2,8 +2,7 @@
 img: 
     size: 201
     alt: "Royal Reds"
-    url: "/api/images/royal-reds.webp"
-
+    url: "/api/images/royal-reds.png"
 title: "Royal Reds"
 ---
 
