@@ -2,7 +2,7 @@
 img:
     size: 203
     alt: "render"
-    url: "/api/images/render.png"
+    url: "/api/images/render.webp"
 title: "Render"
 subtitle: "No thanks I hate it."
 ---

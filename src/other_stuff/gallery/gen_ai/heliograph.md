@@ -2,7 +2,7 @@
 title: "Heliograph Style Image" 
 img: 
     size: 199
-    url: "/api/images/hand-painted-colorized-heliograph.png"
+    url: "/api/images/hand-painted-colorized-heliograph.webp"
     alt: "heliograph"
 ---
 
