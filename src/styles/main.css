@@ -32,7 +32,7 @@ main {
 header {
   background-color: #f5dbb3;
   background: linear-gradient(to bottom, #ebb86c50, #814b1e54), linear-gradient(to top, #f5deb340, #f5deb340), linear-gradient(to right, #f5deb380, #f5deb380), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
-  background-size: calc(80vw + (-2 * 20px)) 650px;
+  background-size: calc(80vw + (0 * 20px)) 650px;
   background-position-x: center;
   background-position-y: -15px;
   padding: 20px 20px;
@@ -475,7 +475,7 @@ hr.section.end {
 footer {
   background-color: #f5dbb3;
   background: linear-gradient(to bottom, #ebb86c50, #814b1e54), linear-gradient(to top, #f5deb340, #f5deb340), linear-gradient(to right, #f5deb380, #f5deb380), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
-  background-size: calc(80vw + (-2 * 20px)) 650px;
+  background-size: calc(80vw + (0 * 20px)) 650px;
   background-position-x: center;
   background-position-y: -15px;
   width: 80vw;
