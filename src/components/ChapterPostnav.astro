@@ -7,39 +7,56 @@ const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04',
     <hr class="middle" />
     <div class="chapter-postnav">
         {
-            previous === '' ? (<p class="menu chnav fake-btn">
-                <Icon name={previousIcon} width={size} height={size} />
-            </p>) : (<>
-                <span class="menu-shadow">
+            previous === '' 
+                ? (<>
+                    <p class="menu chnav fake-btn">
+                        <Icon name={previousIcon} width={size} height={size} />
+                    </p>
+           </>) : (<>
                     <a href={previous} class="menu chnav button">
                         <Icon name={previousIcon} width={size} height={size} />
                     </a>
-                </span>
             </>)
         }
-            <span class="menu-shadow">
-                <a href="#" class="menu chnav button">
-                    <Icon name={backToTopIcon} width={size} height={size} />
-                </a>
-            </span>
+            <a href="#" class="menu chnav button">
+                <Icon name={backToTopIcon} width={size} height={size} />
+            </a>
         {
             next === '' 
                 ? (<>
-                    <p class="menu chnav fake-btn"><Icon name={nextIcon} width={size} height={size} /></p>
+                    <p class="menu chnav fake-btn">
+                        <Icon name={nextIcon} width={size} height={size} />
+                    </p>
                 </>) 
                 : (<>
-                    <span class="menu-shadow">
-                        <a href={next} class="menu chnav button">
-                            <Icon name={nextIcon} width={size} height={size} />
-                        </a>
-                    </span>
+                    <a href={next} class="menu chnav button">
+                        <Icon name={nextIcon} width={size} height={size} />
+                    </a>
                 </>)
         }
     </div>
     <hr />
     <div class="other">
         {
-            otherButton ? other === 'single' ?  <a class="menu chnav button" href={`/misunderstood/simple/${chapterId}`}>Single Chapter</a> : <a class="menu chnav button"href={`/misunderstood/simple${chapterId}`}>Entire Work</a> : <></>
+            otherButton ? 
+                other === 'single' ?
+                    <p class="menu-shadow">
+                        <a 
+                            class="menu chnav button" 
+                            href={`/misunderstood/simple/${chapterId}`}
+                        > 
+                            Single Chapter
+                        </a>
+                    </p> : 
+                        <p class="menu-shadow">
+                            <a
+                                class="menu chnav button" 
+                                href={`/misunderstood/simple${chapterId}`}
+                            >
+                                Entire Work
+                            </a>
+                        </p> : 
+                (<></>)
         }
     </div>
 </div>

@@ -14,6 +14,7 @@ html {
   width: fit-content;
   margin: 0px auto;
   cursor: default, default;
+  overflow-x: hidden;
 }
 main {
   font-family: "Recursive";
@@ -31,8 +32,9 @@ main {
 header {
   background-color: #f5dbb3;
   background: linear-gradient(to bottom, #ebb86c50, #814b1e54), linear-gradient(to top, #f5deb340, #f5deb340), linear-gradient(to right, #f5deb380, #f5deb380), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
-  background-size: calc(80vw + (-2 * 20px)) 585px;
-  background-position: center;
+  background-size: calc(80vw + (-2 * 20px)) 650px;
+  background-position-x: center;
+  background-position-y: -15px;
   padding: 20px 20px;
   width: 80vw;
   max-width: 90ch;
@@ -107,6 +109,9 @@ a.chb:focus {
 }
 .menu-shadow {
   filter: drop-shadow(10px 10px 30px #5349409c);
+  display: inline-block;
+  line-height: 0;
+  height: auto;
 }
 .menu {
   font-family: "Style Script", "Delius", "Recursive";
@@ -470,8 +475,9 @@ hr.section.end {
 footer {
   background-color: #f5dbb3;
   background: linear-gradient(to bottom, #ebb86c50, #814b1e54), linear-gradient(to top, #f5deb340, #f5deb340), linear-gradient(to right, #f5deb380, #f5deb380), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
-  background-size: calc(80vw + (-2 * 20px)) 585px;
-  background-position: center;
+  background-size: calc(80vw + (-2 * 20px)) 650px;
+  background-position-x: center;
+  background-position-y: -15px;
   width: 80vw;
   max-width: 90ch;
   padding: 0px 20px;

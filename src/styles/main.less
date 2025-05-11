@@ -164,6 +164,7 @@ html {
     margin: 0px auto;
 
     cursor: @cursor-default;
+    overflow-x: hidden;
 }
 main {
     font-family: "Recursive";
@@ -186,8 +187,9 @@ main {
         linear-gradient(to right, #f5deb380, #f5deb380),
         @chapter-bg-image,
         @header-bg-color;
-    background-size: calc((@base-width) + (-2 * @base-padding)) 585px;
-    background-position: center;
+    background-size: calc((@base-width) + (-2 * @base-padding)) 650px;
+    background-position-x: center;
+    background-position-y: -15px;
 }
 header {
     .header-background();
@@ -272,6 +274,9 @@ a.chb{
 }
 .menu-shadow {
     filter: drop-shadow(10px 10px 30px #5349409c);
+    display: inline-block;
+    line-height: 0;
+    height: auto;
 }
 .menu {
     // font-family: "Delius";

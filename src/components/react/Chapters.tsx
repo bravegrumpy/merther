@@ -96,14 +96,14 @@ export function ChapterPreamble({
         )}
         {headerChildren}
         {previousChapterSrc ? (
-              <a 
-                  className={anchorClass} 
-                  href={previousChapterSrc} 
-                  aria-label="previous chapter"
-                >
-                  { previousIcon ? (<>{previousIcon}</>) : (<>{"\u2190"} Previous Chapter</>)}
-                  {/* {"\u2190"} Previous Chapter */}
-                </a>
+          <a
+            className={anchorClass} 
+            href={previousChapterSrc} 
+            aria-label="previous chapter"
+          >
+            { previousIcon ? (<>{previousIcon}</>) : (<>{"\u2190"} Previous Chapter</>)}
+            {/* {"\u2190"} Previous Chapter */}
+          </a>
         ) : (
           <p
             style={{
