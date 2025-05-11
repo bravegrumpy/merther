@@ -84,6 +84,7 @@ export function ChapterPreamble({
   return (
     <>
       <HorizontalRule lineType={topLine} />
+      <div className="chapter-preamble-shadow">
       <span className={`chapter-preamble ${spanClass}`}>
         {firstChild}
         {chapterNameHeading ? (
@@ -95,10 +96,14 @@ export function ChapterPreamble({
         )}
         {headerChildren}
         {previousChapterSrc ? (
-          <a className={anchorClass} href={previousChapterSrc} aria-label="previous chapter">
-            { previousIcon ? (<>{previousIcon}</>) : (<>{"\u2190"} Previous Chapter</>)}
-            {/* {"\u2190"} Previous Chapter */}
-          </a>
+              <a 
+                  className={anchorClass} 
+                  href={previousChapterSrc} 
+                  aria-label="previous chapter"
+                >
+                  { previousIcon ? (<>{previousIcon}</>) : (<>{"\u2190"} Previous Chapter</>)}
+                  {/* {"\u2190"} Previous Chapter */}
+                </a>
         ) : (
           <p
             style={{
@@ -113,11 +118,11 @@ export function ChapterPreamble({
           </p>
         )}
         {nextChapterSrc ? (
-          <a className={anchorClass} href={nextChapterSrc}>
-            {
+            <a className={anchorClass} href={nextChapterSrc}>
+              {
                 nextIcon ? (<>{nextIcon}</>) : (<>Next Chapter {"\u2192"}</>)
-            }
-          </a>
+              }
+            </a>
         ) : (
           <p
             style={{
@@ -144,6 +149,7 @@ export function ChapterPreamble({
         }
         <>{lastChild}</>
       </span>
+      </div>
       {preambleChildren}
     </>
   );
@@ -292,24 +298,30 @@ export function ChapterNav({
   return (
     <>
       <nav className={`menu-container chnav-container ${navClass}`} id={chId}>
-        <button
-          className={`chnav menu chnav-start ${reloadClass}`}
-          onClick={reloadPage}>
-          {reloadSymbol}
-        </button>
-        <button
-          onClick={toggleContents}
-          className={`chnav menu chnav-start ${contentsBtnClass}`}>
-          Contents:{" "}
-        </button>
+        <p className="menu-shadow">
+          <button
+            className={`chnav menu chnav-start ${reloadClass}`}
+            onClick={reloadPage}>
+            {reloadSymbol}
+          </button>
+        </p>
+        <p className="menu-shadow">
+          <button
+            onClick={toggleContents}
+            className={`chnav menu chnav-start ${contentsBtnClass}`}>
+            Contents:{" "}
+          </button>
+        </p>
         {chapters.map((chapter) => (
           <>
-            <a
-              key={`link-${chapter.id}-${k}`}
-              className={`chnav menu chlst hide hidden ${chapterClass}`}
-              href={chapter.href ?? null}>
-              {chapter.text}
-            </a>
+            <p className="menu-shadow">
+              <a
+                key={`link-${chapter.id}-${k}`}
+                className={`chnav menu chlst hide hidden ${chapterClass}`}
+                href={chapter.href ?? null}>
+                {chapter.text}
+              </a>
+            </p>
           </>
         ))}
       </nav>

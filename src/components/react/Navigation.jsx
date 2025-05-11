@@ -15,7 +15,11 @@ export function Navigation ({ className="menu-container pages-container", id, li
 
 export function Anchor({ href, className="menu pages", text, keyId, isActive=false }) {
     return (
-        <a key={`anchor_key-${keyId}`} href={href} className={className} data-active={isActive}>{text}</a>
+        <p className="menu-shadow">
+            <a key={`anchor_key-${keyId}`} href={href} className={className} data-active={isActive}>
+                {text}
+            </a>
+        </p>
     );
 }
 
@@ -53,7 +57,11 @@ export function StyleToggle({ buttonText="Toggle Styling Options", showText="Sho
     }
     return (<>
         {/* <div className="chnav-container menu-container" style={{justifyContent: "between", alignContent: "center"}}> */}
-            <button onClick={toggleStyle} id={btnId} className={`chnav chnav-start chlist menu ${className}`}>{buttonText}</button>
+            <p className="menu-shadow">
+                <button onClick={toggleStyle} id={btnId} className={`chnav chnav-start chlist menu ${className}`}>
+                    {buttonText}
+                </button>
+            </p>
         {/* </div> */}
     </>);
 }
