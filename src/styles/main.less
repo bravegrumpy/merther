@@ -274,9 +274,9 @@ a.chb{
 }
 .menu-shadow {
     filter: drop-shadow(10px 10px 30px #5349409c);
-    display: inline-block;
-    line-height: 0;
-    height: auto;
+    // display: inline-block;
+    // line-height: 0;
+    // height: auto;
 }
 .menu {
     // font-family: "Delius";
@@ -365,8 +365,9 @@ a {
 }
 [data-active="true"] {
     background:
-        linear-gradient(to right, #96aee71d, #96aee75c),
+        linear-gradient(to right, #96aee71d, #96aee72c),
         @chapter-bg-image;
+    clip-path: none;
     border-style: double;
     border-color: currentColor;
     box-shadow: 
@@ -375,12 +376,12 @@ a {
     &:hover {
         background:
             // #eb8f4e3e;
-            linear-gradient(to top, #eb9f4e3e, #eb8f4e0e),
+            linear-gradient(to top, #eb9f4e1e, #eb8f4e3e),
             @chapter-bg-image;
         border-color: @default-text-color;
         filter: hue-rotate(-45deg);
         box-shadow:
-            -10px -10px 10px #fec8 inset;
+            -10px -10px 10px #8080c028 inset;
     }
 }
 .chnav-start, .fake-btn, .chnav-start:focus {

@@ -109,9 +109,6 @@ a.chb:focus {
 }
 .menu-shadow {
   filter: drop-shadow(10px 10px 30px #5349409c);
-  display: inline-block;
-  line-height: 0;
-  height: auto;
 }
 .menu {
   font-family: "Style Script", "Delius", "Recursive";
@@ -179,16 +176,17 @@ a {
   cursor: pointer;
 }
 [data-active="true"] {
-  background: linear-gradient(to right, #96aee71d, #96aee75c), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  background: linear-gradient(to right, #96aee71d, #96aee72c), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  clip-path: none;
   border-style: double;
   border-color: currentColor;
   box-shadow: -10px -10px 10px #fec8 inset 10px 10px 10px #fec3;
 }
 [data-active="true"]:hover {
-  background: linear-gradient(to top, #eb9f4e3e, #eb8f4e0e), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  background: linear-gradient(to top, #eb9f4e1e, #eb8f4e3e), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
   border-color: #2e045e;
   filter: hue-rotate(-45deg);
-  box-shadow: -10px -10px 10px #fec8 inset;
+  box-shadow: -10px -10px 10px #8080c028 inset;
 }
 .chnav-start,
 .fake-btn,
