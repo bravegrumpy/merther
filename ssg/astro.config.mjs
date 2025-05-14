@@ -47,7 +47,7 @@ export default defineConfig({
   },
 
   prefetch: {
-    defaultStrategy: 'viewport',
+    defaultStrategy: 'load',
     prefetchAll: true
   },
   markdown: {
