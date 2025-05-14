@@ -48,16 +48,18 @@ const latestChapter = chapters.length - 1;
     </Article>
     <hr />
     <Article>
-        <div class="chapter-preamble latest-chapter">
-            <h2 class="text-gradient" style={{paddingLeft: "20px"}}>
-                Latest Chapter:
-            </h2>
-            <h3>
-                <a href={chapters[latestChapter].href} style={{ color: "#2e045e", fontFamily: "'Delius', 'Recursive', 'Georgia'"}}>
-                    {chapters[latestChapter].title}
-                </a>
-            </h3>
-            <div></div>
+        <div class="chapter-preamble-shadow">
+            <div class="chapter-preamble latest-chapter">
+                <h2 class="text-gradient" style={{paddingLeft: "20px"}}>
+                    Latest Chapter:
+                </h2>
+                <h3>
+                    <a href={chapters[latestChapter].href} style={{ color: "#2e045e", fontFamily: "'Delius', 'Recursive', 'Georgia'"}}>
+                        {chapters[latestChapter].title}
+                    </a>
+                </h3>
+                <div></div>
+            </div>
         </div>
         <Banner />
     </Article>
