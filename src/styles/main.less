@@ -1177,10 +1177,13 @@ footer {
 // }
 
 @media (max-width: 300px) {
-    @base-width: 100px;
+    @base-width: 85px;
     @max-width: 60vw;
     html {
-        overflow-x: hidden;
+        // overflow-x: hidden;
+        width: 100%;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: center;
     }
     main, header, footer, .banner, .chapter {
         width: @base-width;
@@ -1214,6 +1217,10 @@ footer {
 @media (max-width: 600px) {
     @base-width: 80vw;
     @base-max-width: 90vw;
+    html {
+        background-repeat: repeat;
+        // width: 300px;
+    }
     main, header, footer, .banner {
         width: @base-width;
         max-width: @base-max-width;
@@ -1223,6 +1230,18 @@ footer {
         & p {
             font-size: @h5-size;
         }
+    }
+    footer {
+        display:none;
+    }
+    #top {
+        flex-direction: row;
+        .menu {
+            width: 100%;
+        }
+    }
+    #main-nav {
+        display: none;
     }
     #mainMenuToggle {
         display: inline-block;

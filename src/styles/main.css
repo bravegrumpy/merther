@@ -781,14 +781,16 @@ h2.heading {
 }
 @media (max-width: 300px) {
   html {
-    overflow-x: hidden;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
   }
   main,
   header,
   footer,
   .banner,
   .chapter {
-    width: 100px;
+    width: 85px;
     max-width: max-content;
     overflow-x: hidden;
   }
@@ -813,6 +815,9 @@ h2.heading {
   }
 }
 @media (max-width: 600px) {
+  html {
+    background-repeat: repeat;
+  }
   main,
   header,
   footer,
@@ -825,6 +830,18 @@ h2.heading {
   }
   .chapter p {
     font-size: 1.3689rem;
+  }
+  footer {
+    display: none;
+  }
+  #top {
+    flex-direction: row;
+  }
+  #top .menu {
+    width: 100%;
+  }
+  #main-nav {
+    display: none;
   }
   #mainMenuToggle {
     display: inline-block;
