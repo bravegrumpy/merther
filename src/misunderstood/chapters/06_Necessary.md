@@ -208,4 +208,8 @@ Merlin didn't really need the help. He could just stop time, and get out of what
 
 Merlin could help stop this, but he knew he couldn't stop anything without using his magic.  Hiding his magic felt like holding his breath, somthing he was used to, but remained unfomfortable.
 
+Merlin idly stroked Freya's hair, hoping that she was starting relax, now that he was for the most part, safe. Or as safe as he could ever get within the walls of Camelot. 
+
+Ever since he had learned how to create a potion to help Freya control her Bastet form, she has been able to pass of as being mostly human.  It was amazing how many skill most would just accept as a skill, and not even think to suspect magical intervention.  Freya's skill plants was one of those skills.  Merlin's finger strayed to Freya's cheek, as he longed for the serene stillness of her garden, within his wards, where their secret could be free&mdash; magically guardered, to be unseen by any passerby.
+
 </section>
