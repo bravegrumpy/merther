@@ -86,7 +86,7 @@ She then noticed that sitting in the occupied bed was a woman surrounded by parc
 
 After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.   Somehow this made Veronica wonder if she could elicit similar noises from Tess.
 
-Veronica peeked again after a particularly salacious moan. Tess's face was obscured by hair as the mystery woman back arched with pleasure.
+Veronica peeked again after a particularly salacious moan. Tess&rsquo;s face was obscured by hair as the mystery woman back arched with pleasure.
 
 Once the excitement wore off, Tess gently placed the woman back on her bed, casually caressed the woman&rsquo;s jaw and said, &ldquo;This lovely lady is going to spend the night. I also want to sleep with her. Can you go downstairs for a bit?&rdquo;
 
@@ -140,7 +140,7 @@ Veronica responded by leaning into Tess, and lazily kissing her neck, eliciting 
 
 #### Gwaine
 
-Gwain emptied his pint, and started to swing his hips as Kathy winked at him in the middle of a love song. To be fair, it was likely that everybody thought she was winking directly at them. She could make everybody in the room think that they were the subject of the song.
+Gwaine emptied his pint, and started to swing his hips as Kathy winked at him in the middle of a love song. To be fair, it was likely that everybody thought she was winking directly at them. She could make everybody in the room think that they were the subject of the song.
 
 &ldquo;Love Love me do. You know I love you! I&rsquo;ll always be true. So pleeeeeeeeease love me too!&rdquo;
 
@@ -178,7 +178,7 @@ After scanning the room once more, to no avail, Gwaine turned to refill his ale 
 
 Two more trips, passed before the man settled in, taking a seat in the center of the tavern, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
 
-After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, sloshing a bit onto his shirt, and then slammed it back onto the table before projecting &ldquo;And who is my next victim&mdash; I mean contestant&rdquo; with a broad smile. When the man's eyes briefly landed on Gwaine's before flitting away, Gwaine could feel his face heat up, as he quickly turned to order another drink, and avoid eye contact. 
+After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, sloshing a bit onto his shirt, and then slammed it back onto the table before projecting &ldquo;And who is my next victim&mdash; I mean contestant&rdquo; with a broad smile. When the man&rsquo;s eyes briefly landed on Gwaine&rsquo;s before flitting away, Gwaine could feel his face heat up, as he quickly turned to order another drink, and avoid eye contact. 
 
 Once the next opponent sat down, the man noticed the stain to his shirt, so he promptly pulled his tunic over his head, threw it aside, flexing his muscles to a wooing crowd.
 
@@ -194,28 +194,28 @@ Gwaine needed to learn more about this man.
 
 #### Merlin
 
-Freya was curled up on Leon&rsquo;s bed, next to Merlin, as they continued their discussion about various quirks about King Arthur's behavior.  He was okay with this conversation, in part because he knew that Leon meant well. But he could not shake some feeling of *wrongness* from his mind.  Despite the close-call from this morning, Merlin&rsquo;s place was by Arthur&rsquo;s side. Merlin needed to ensure that the age of Albion came to pass. Maybe one day Merlin would even come to love Arthur. Giaus had always told him that his destiny was entwined with Arthur's. 
+Freya was curled up on Leon&rsquo;s bed, next to Merlin, as they continued their discussion about various quirks about King Arthur&rsquo;s behavior.  He was okay with this conversation, in part because he knew that Leon meant well. But he could not shake some feeling of *wrongness* from his mind.  Despite the close-call from this morning, Merlin&rsquo;s place was by Arthur&rsquo;s side. Merlin needed to ensure that the age of Albion came to pass. Maybe one day Merlin would even come to love Arthur. Giaus had always told him that his destiny was entwined with Arthur&rsquo;s. 
 
-His thoughts about Albion reminded him that there was another matter to be discussed. Lancelot and Gwen new, but that was *different*.  Merlin was still not allowed to exist, and stay alive within Camelot. Leon still upheld Camelot's laws.
+His thoughts about Albion reminded him that there was another matter to be discussed. Lancelot and Gwen new, but that was *different*.  Merlin was still not allowed to exist, and stay alive within Camelot. Leon still upheld Camelot&rsquo;s laws.
 
-Merlin didn't really need the help. He could just stop time, and get out of whatever situation was harming him, and continue his duty to his king. His duty to his nation, to fulfil his destiny. Having magic had its perks. 
+Merlin didn&rsquo;t really need the help. He could just stop time, and get out of whatever situation was harming him, and continue his duty to his king. His duty to his nation, to fulfil his destiny. Having magic had its perks. 
 
-"We have heard reports that you are not the only victim of Arthur's behavior," Leon's question jarred Merlin out of his reverie.
+&ldquo;We have heard reports that you are not the only victim of Arthur&rsquo;s behavior,&rdquo; Leon&rsquo;s question jarred Merlin out of his reverie.
 
-"Who?" Merlin asked, unexpectedly feeling betrayal at Arthur's attentions being elsewhere. Its not that Merlin wanted them, but he could endure them.
+&ldquo;Who?&rdquo; Merlin asked, unexpectedly feeling betrayal at Arthur&rsquo;s attentions being elsewhere. Its not that Merlin wanted them, but he could endure them.
 
-*How dare Arthur try to make love to others? Merlin could take it, and had Freya to go home to. Who else could survive Arthur's manipulations? Why didn't Arthur trust him enough to stay loyal? Was Merlin not enough for him? Would Arthur have remained loyal had he just complied this morning?*
+*How dare Arthur try to make love to others? Merlin could take it, and had Freya to go home to. Who else could survive Arthur&rsquo;s manipulations? Why didn&rsquo;t Arthur trust him enough to stay loyal? Was Merlin not enough for him? Would Arthur have remained loyal had he just complied this morning?*
 
-Merlin could help stop this, but he knew he couldn't stop anything without using his magic.  Hiding his magic felt like holding his breath, somthing he was used to, but remained unfomfortable.
+Merlin could help stop this, but he knew he couldn&rsquo;t stop anything without using his magic.  Hiding his magic felt like holding his breath, something he was used to, but remained uncomfortable.
 
-Merlin idly stroked Freya's hair, hoping that she was starting relax, now that he was for the most part, safe. Or as safe as he could ever get within the walls of Camelot. 
+Merlin idly stroked Freya&rsquo;s hair, hoping that she was starting relax, now that he was for the most part, safe. Or as safe as he could ever get within the walls of Camelot. 
 
-Ever since he had learned how to create a potion to help Freya control her Bastet form, she has been able to pass of as being mostly human.  It was amazing how many skill most would just accept as a skill, and not even think to suspect magical intervention.  Freya's skill plants was one of those skills.  Merlin's finger strayed to Freya's cheek, as he longed for the serene stillness of her garden, within his wards, where their secret could be free&mdash; magically guardered, to be unseen by any passerby.
+Ever since he had learned how to create a potion to help Freya control her Bastet form, she has been able to pass of as being mostly human.  It was amazing how many skill most would just accept as a skill, and not even think to suspect magical intervention.  Freya&rsquo;s skill plants was one of those skills.  Merlin&rsquo;s finger strayed to Freya&rsquo;s cheek, as he longed for the serene stillness of her garden, within his wards, where their secret could be free&mdash; magically guarded, to be unseen by any passerby.
 
-Until now, Merlin had  genuinely believed that Arthur's treatment of him had been a secret. Or at least ignored as "Merlin being Merlin again". He thrived on invisibly shielding others from the pain.  Keeping Arthur's sins a secret felt no different than keeping his *other* secret. The one that would mean his own death. Arthur kill him gleefully upon finding out that Merlin had magic. Arthur was  the king after all.  There was no reason why Merlin's actual opinion on the king's "affections" should be any less of a secret.
+Until now, Merlin had  genuinely believed that Arthur&rsquo;s treatment of him had been a secret. Or at least ignored as &ldquo;Merlin being Merlin again&rdquo;. He thrived on invisibly shielding others from the pain.  Keeping Arthur&rsquo;s sins a secret felt no different than keeping his *other* secret. The one that would mean his own death. Arthur kill him gleefully upon finding out that Merlin had magic. Arthur was  the king after all.  There was no reason why Merlin&rsquo;s actual opinion on the king&rsquo;s &ldquo;affections&rdquo; should be any less of a secret.
 
 The important people in his life knew, and that was all that mattered.
 
-
+The scratch of George&rsquo;s quill sent a shiver down Merlin&rsquo;s spine, bringing him back into the room.
 
 </section>
