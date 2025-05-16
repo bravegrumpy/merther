@@ -60,10 +60,10 @@ const latestChapter = chapters.length - 1;
             return (<>
                 <Chapter articleId={chapter.data.id} chapterNameHeading={chapter.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" anchorClass="menu back-to-top" backToTopButton={false}>
                     <span slot="previousIcon">
-                        <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} />
+                        <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} aria-labelledby="Previous Chapter" />
                     </span>
                     <span slot="nextIcon">
-                        <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} />
+                        <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} aria-labelledby="Next Chapter" />
                     </span>
                     {/* <span slot="backToTopIcon"> */}
                         {/* <Icon name="hugeicons:transition-top" width={32} height={32} /> */}

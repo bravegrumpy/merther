@@ -13,12 +13,12 @@ const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04',
                         <Icon name={previousIcon} width={size} height={size} />
                     </p>
            </>) : (<>
-                    <a href={previous} class="menu chnav button">
+                    <a href={previous} class="menu chnav button" aria-labelledby="Previous Chapter">
                         <Icon name={previousIcon} width={size} height={size} />
                     </a>
             </>)
         }
-            <a href="#" class="menu chnav button">
+            <a href="#top" class="menu chnav button" aria-label="button" aria-labelledby="Back to top">
                 <Icon name={backToTopIcon} width={size} height={size} />
             </a>
         {
@@ -29,7 +29,7 @@ const { previous='', next='', size='24', previousIcon='hugeicons:arrow-left-04',
                     </p>
                 </>) 
                 : (<>
-                    <a href={next} class="menu chnav button">
+                    <a href={next} class="menu chnav button" aria-labelledby="Next Chapter">
                         <Icon name={nextIcon} width={size} height={size} />
                     </a>
                 </>)
