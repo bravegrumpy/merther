@@ -1,0 +1,324 @@
+#workskin {
+  background-color: #677040;
+  background-image: url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_FabricPatterns0061_M.jpg"), linear-gradient(to bottom, #677040, #49502d);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 500px 350px;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 0px;
+  scrollbar-color: #677040 #432700;
+}
+#workskin p,
+#workskin li,
+#workskin ul {
+  font-size: 1rem;
+  font-family: "Recursive", "Verdana", sans-serif;
+}
+#workskin h1 {
+  font-size: 3.81469727rem;
+}
+#workskin h2 {
+  font-size: 3.05175781rem;
+}
+#workskin h3 {
+  font-size: 2.44140625rem;
+}
+#workskin h4 {
+  font-size: 1.953125rem;
+  font-family: "Recursive", "Trebuchet MS", sans-serif;
+}
+#workskin h5 {
+  font-size: 1.5625rem;
+}
+#workskin h6 {
+  font-size: 1.25rem;
+}
+#workskin > .preface.group {
+  background-color: wheat;
+  border-inline: 15px ridge #432700;
+}
+#workskin > .preface.group:not(.afterword) {
+  border-top: 15px ridge #432700;
+  padding-bottom: 50px;
+}
+#workskin > .preface.group.afterword {
+  margin: 0px auto 0px auto;
+}
+#workskin > .preface.group .title.heading {
+  background: linear-gradient(to right, #9900ff 0%, #006600 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 20px;
+  filter: hue-rotate(90deg) sepia(0.8);
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 3.81469727rem;
+}
+#workskin > .preface.group .summary.module,
+#workskin > .preface.group .notes.module {
+  background-color: #a28f7c;
+  text-indent: 20px;
+}
+#workskin > .preface.group .notes.module {
+  margin-top: -25px;
+  margin-bottom: -11px;
+}
+#workskin > .preface.group hr {
+  margin-left: -10px;
+}
+#workskin .preface.group {
+  width: 80ch;
+  max-width: 95vw;
+  margin: 0px auto;
+  color: #280352;
+  padding: 10px 0px;
+  border-inline: 15px ridge #432700;
+}
+#workskin .preface.group .nostyle {
+  background-color: wheat;
+  width: 60.4ch;
+  padding: 20px;
+  margin-left: -10px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+#workskin .preface.group .warnings {
+  background-color: #897662;
+  background-image: linear-gradient(to left, rgba(162, 143, 124, 0.5) 0%, rgba(162, 143, 124, 0.5) 100%), linear-gradient(to bottom, rgba(162, 143, 124, 0.47843137) 0%, rgba(162, 143, 124, 0.47843137) 100%), repeating-linear-gradient(to right, rgba(36, 26, 21, 0.15) 2.5%, rgba(122, 97, 74, 0.15) 5%, rgba(182, 145, 113, 0.15) 10%, rgba(143, 108, 76, 0.15) 15%, rgba(186, 166, 147, 0.15) 20%, rgba(143, 108, 76, 0.15) 30%, rgba(182, 145, 113, 0.15) 35%, rgba(122, 97, 74, 0.15) 45%, rgba(36, 26, 21, 0.15) 50%), linear-gradient(to top, rgba(162, 146, 124, 0.1) 0%, rgba(162, 143, 124, 0.1) 100%), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL_cropped.png");
+  background-position-x: center;
+  background-position-y: 10%;
+  background-size: 700px 500px;
+  width: fit-content;
+  color: #2a0553;
+  padding: 20px;
+  border-image-source: linear-gradient(to top, #432700 0%, #586131 30%, #677040 50%, #b5c08c 100%);
+  border-width: 50px;
+  border-style: solid;
+  border-image-width: 1 7 0 6;
+  font-size: 1rem;
+  margin: 15px auto;
+}
+#workskin .preface.group details[open] summary::before {
+  content: "Hide ";
+}
+#workskin .preface.group details:not([open]) summary::before {
+  content: "Show ";
+}
+#workskin .preface.group summary.cw-btn {
+  list-style-type: none;
+  font-family: "Delius", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: sienna;
+  background-color: blanchedalmond;
+  padding: 30px 16px;
+  width: fit-content;
+  border: 2px dotted sienna;
+  font-size: 1rem;
+  text-decoration: none;
+  height: fit-content;
+  filter: hue-rotate(-45deg) sepia(20%) saturate(400%) brightness(95%) contrast(90%);
+  cursor: default;
+  margin: 0px auto;
+  clip-path: polygon(0% 23%, 5% 10%, 9% 6%, 17% 4%, 25% 10%, 32% 6%, 41% 13%, 52% 7%, 58% 9%, 64% 3%, 68% 5%, 74% 3%, 77% 5%, 82% 2%, 83% 6%, 91% 1%, 94% 4%, 97% 9%, 100% 16%, 99% 28%, 99% 36%, 98% 47%, 100% 58%, 98% 67%, 100% 81%, 100% 81%, 99% 92%, 97% 99%, 93% 97%, 89% 99%, 87% 96%, 84% 100%, 80% 99%, 77% 100%, 73% 95%, 69% 99%, 64% 100%, 58% 95%, 54% 100%, 49% 95%, 39% 98%, 31% 100%, 27% 93%, 24% 97%, 17% 98%, 8% 89%, 3% 92%, 0% 88%, 0% 61%);
+}
+#workskin .preface.group summary.cw-btn:hover,
+#workskin .preface.group summary.cw-btn:active {
+  background-color: blanchedalmond;
+  font-size: 1.05rem;
+  color: maroon;
+  border-style: double;
+  cursor: pointer;
+}
+#workskin .preface.group .heading.byline {
+  font-family: "Delius", "Courier New", "Trebuchet MS";
+  font-weight: bold;
+  font-size: 1.5625rem;
+  background: linear-gradient(to right, #9900ff 0%, #006600 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 20px;
+  filter: hue-rotate(90deg) sepia(0.8);
+}
+#workskin .preface.group .heading.byline::before {
+  content: "BBC Merlin Fanwork created by:";
+}
+#workskin .preface.group .heading.byline:hover {
+  border: 2px solid #9dffef;
+  width: fit-content;
+  margin: auto;
+}
+#workskin .preface.group .module hr {
+  margin-left: -10px;
+}
+#workskin .preface.group .module.summary .heading {
+  color: #9900ff;
+  background-color: rgba(0, 153, 0, 0.6);
+}
+#workskin .preface.group .module.notes .work.navigation.actions a {
+  color: #888;
+  margin-left: 15px;
+}
+#workskin .preface.group .module.notes .work.navigation.actions.btn {
+  width: fit-content;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+#workskin .preface.group .module.notes .heading {
+  color: #006600;
+  background-color: rgba(173, 51, 255, 0.4);
+}
+#workskin .preface.group .module.summary .heading,
+#workskin .preface.group .module.notes .heading {
+  font-family: "Delius", "Courier New", "Garamond", monospace;
+  font-weight: bold;
+  filter: hue-rotate(90deg) sepia(0.8);
+  font-size: 1.953125rem;
+}
+#workskin .preface.group .heading,
+#workskin .preface.group .title,
+#workskin .preface.group:has(a) {
+  color: #2e045e;
+}
+#workskin .preface.group .heading a,
+#workskin .preface.group .title a,
+#workskin .preface.group:has(a) a {
+  color: #2e045e;
+}
+#workskin .preface.group.afterword {
+  border-inline: 15px ridge #432700;
+  border-bottom: 15px ridge #432700;
+}
+#workskin .preface.group.afterword .end.notes.module {
+  background-color: wheat;
+}
+#workskin .preface.group .title.heading,
+#workskin .chapter .landmark.heading {
+  font-family: "Style Script", "Trebuchet MS", "Recursive", "Brush Script MT", serif;
+}
+#workskin #chapters {
+  color: #2e045e;
+  width: 80ch;
+  margin: 0px auto;
+}
+#workskin #chapters .chapter.preface.group {
+  background-color: #a28f7c;
+  background-image: linear-gradient(to bottom, rgba(162, 143, 124, 0.57843137) 0%, rgba(162, 143, 124, 0.57843137) 100%), repeating-linear-gradient(to right, rgba(36, 26, 21, 0.25) 2.5%, rgba(122, 97, 74, 0.25) 5%, rgba(182, 145, 113, 0.25) 10%, rgba(143, 108, 76, 0.25) 15%, rgba(186, 166, 147, 0.25) 20%, rgba(143, 108, 76, 0.25) 30%, rgba(182, 145, 113, 0.25) 35%, rgba(122, 97, 74, 0.25) 45%, rgba(36, 26, 21, 0.25) 50%), linear-gradient(to top, rgba(162, 146, 124, 0.2) 0%, rgba(162, 143, 124, 0.2) 100%), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  background-size: 80ch 1000px;
+  background-position-x: center;
+  background-repeat: repeat-y;
+  margin-top: -45px;
+  margin-left: -14px;
+  scrollbar-color: #2e045e #a28f7c;
+}
+#workskin #chapters .chapter.preface.group .end {
+  border-width: 35px 15px 35px 15px;
+  border-style: solid;
+  border-image-width: 1 35 1 35;
+  border-image-source: linear-gradient(to top, #432700 0%, #586131 30%, #677040 50%, #b5c08c 100%);
+  margin-top: 25px;
+  margin-bottom: -15px;
+}
+#workskin #chapters .chapter.preface.group .title {
+  background-color: rgba(180, 152, 128, 0.212);
+  background-image: url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL_cropped.png");
+  background-size: 320px 180px;
+  background-position-x: center;
+  background-position-y: center;
+  text-shadow: 1px 1px rgba(46, 4, 94, 0.1);
+  font-weight: bold;
+  color: #2e045e;
+  padding: 10px 10px;
+  font-family: "Style Script", "Trebuchet MS", "Recursive", "Brush Script MT", serif;
+  position: sticky;
+  top: 0;
+  filter: drop-shadow(10px 10px 20px #43271090) drop-shadow(-5px 0px 20px #43271040);
+  border: 30px solid;
+  border-image-width: 1 25.5 0 0;
+  border-image-source: linear-gradient(to top, #432700 0%, #586131 30%, #677040 50%, #b5c08c 100%);
+  max-width: 35.2vw;
+  width: 33.61344538ch;
+  margin: 0px auto;
+}
+#workskin #chapters .chapter.preface.group .title a {
+  background: linear-gradient(to right, #9900ff 0%, #006600 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 20px;
+  filter: hue-rotate(90deg) sepia(0.8);
+  height: 3rem;
+  font-family: "Style Script", "Trebuchet MS", "Recursive", "Brush Script MT", serif;
+}
+#workskin #chapters .chapter.preface.group .title a:hover,
+#workskin #chapters .chapter.preface.group .title a:focus {
+  background: unset;
+  filter: none;
+  color: blue;
+  border: 1px double blue;
+  height: 0.8rem;
+  padding: 0px 20px;
+}
+#workskin #chapters .userstuff.module {
+  border-inline: 15px ridge #432700;
+  background-color: #a28f7c;
+  background-image: linear-gradient(to bottom, rgba(162, 143, 124, 0.57843137) 0%, rgba(162, 143, 124, 0.57843137) 100%), repeating-linear-gradient(to right, rgba(36, 26, 21, 0.25) 2.5%, rgba(122, 97, 74, 0.25) 5%, rgba(182, 145, 113, 0.25) 10%, rgba(143, 108, 76, 0.25) 15%, rgba(186, 166, 147, 0.25) 20%, rgba(143, 108, 76, 0.25) 30%, rgba(182, 145, 113, 0.25) 35%, rgba(122, 97, 74, 0.25) 45%, rgba(36, 26, 21, 0.25) 50%), linear-gradient(to top, rgba(162, 146, 124, 0.2) 0%, rgba(162, 143, 124, 0.2) 100%), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png");
+  background-size: 80ch 1000px;
+  background-position-x: center;
+  background-position-y: -10px;
+  min-height: 1500px;
+  background-repeat: repeat-y;
+  width: 75.8ch;
+  max-width: 87.4vw;
+  padding: 0px 20px;
+  color: #280352;
+  margin-top: -20px;
+  margin-left: -14px;
+}
+#workskin #chapters .userstuff.module hr {
+  margin-left: -20px;
+}
+#workskin #chapters .userstuff.module hr.section {
+  margin-left: -20px;
+  width: 80ch;
+  max-width: 90vw;
+}
+#workskin #chapters .userstuff.module a {
+  color: #46068f !important;
+}
+#workskin #chapters .userstuff.module a:hover {
+  color: #4f8f06;
+}
+#workskin hr {
+  background: linear-gradient(to right, #9900ff 0%, #006600 100%);
+  height: 15px;
+  border: none;
+  filter: hue-rotate(90deg) sepia(0.8);
+  width: 80ch;
+}
+#workskin hr.section {
+  background: linear-gradient(to top, #432700 0%, #586131 30%, #677040 50%, #b5c08c 100%);
+  height: 30px;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  filter: none;
+  z-index: 100;
+  margin-left: -20px;
+  width: 80ch;
+  max-width: 90vw;
+}
+#workskin hr.section.start {
+  position: sticky;
+  top: 500px;
+}
+#workskin hr.section.end {
+  position: sticky;
+  bottom: 0%;
+}

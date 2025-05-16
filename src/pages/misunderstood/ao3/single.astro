@@ -1,0 +1,96 @@
+---
+import { Debug } from "astro:components"
+import SingleLayout from "@/components/ao3/SingleLayout.astro"
+import Workskin from "@/components/ao3/workskin.astro"
+
+import { getCollection, render } from "astro:content"
+
+const chapters = await getCollection('misunderstood');
+chapters.sort((a, b) => a.data.chapter - b.data.chapter);
+const summary = await getCollection('misunderstood_summary');
+summary.sort((a, b) => a.data.chapter - b.data.chapter);
+const notes = await getCollection('misunderstood_notes');
+notes.sort((a, b) => a.data.chapter - b.data.chapter);
+const endnotes = await getCollection('misunderstood_endnotes');
+endnotes.sort((a, b) => a.data.chapter - b.data.chapter);
+
+let ch = chapters.length;
+
+const { Content: MainSummary } = await render(summary[0]);
+
+const { Content: MainNotes } = await render(notes[0]);
+
+const { Content: Summary} = await render(summary[ch]);
+const { Content: Notes} = await render(notes[ch]);
+const { Content: Endnotes} = await render(endnotes[ch]);
+const { Content: Chapter } = await render(chapters[ch-1]);
+---
+<SingleLayout>
+    <Workskin>
+        <div slot="work" id="workskin">
+            <div class="preface group">
+                <h2 class="title heading">
+                    Misunderstood
+                </h2>
+                <h3 class="byline heading">
+                    <a rel="author" href="https://archiveofourown/users/BraveGrumpy/pseuds/BraveGrumpy">BraveGrumpy</a>
+                </h3>
+                <div class="summary module">
+                    <h3 class="heading">Summary:</h3>
+                    <blockquote class="userstuff">
+                        <MainSummary />
+                    </blockquote>
+                </div>
+                <div class="notes module">
+                    <h3 class="heading">Notes:</h3>
+                    <blockquote class="userstuff">
+                        <MainNotes />
+                    </blockquote>
+                </div>
+            </div>
+        
+            <div id="chapters">
+                <div class="chapter" id={`chapter-${ch}`}>
+                    <div class="chapter preface group">
+                        <h3 class="title">
+                            <a href="/works/61885045/chapters/158237080">Chapter {ch}:</a> {chapters[ch - 1].data.text}
+                        </h3>
+                        <div id="summary" class="summary module">
+                            <h3 class="heading">Summary:</h3>
+                            <blockquote class="userstuff">
+                                <!--Summary -->
+                                <Summary />
+                            </blockquote>
+                        </div>
+                        <div id="notes" class="notes module">
+                            <h3 class="heading">Notes:</h3>
+                            <blockquote class="userstuff">
+
+                            </blockquote>
+                            <p>
+                                (See the end of the chapter for <a href={`#chapter_${ch}_endnotes`}>more notes</a>.)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="userstuff module" role="article">
+                        <h3 class="landmark heading" id="work">Chapter Text</h3>
+                        <Chapter />
+                    </div>
+
+                    <div class="chapter preface group">
+                        <div class="end notes module" id={`chapter_${ch}_endnotes`}>
+                            <h3 class="heading">Notes:</h3>
+                            <blockquote class="userstuff">
+                                <Endnotes />
+                            </blockquote>
+                        </div>
+                    </div>
+
+
+
+            </div>
+        
+        </div>
+    </Workskin>
+</SingleLayout>
