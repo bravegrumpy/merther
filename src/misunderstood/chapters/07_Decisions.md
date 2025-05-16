@@ -9,8 +9,11 @@ published: false
 description: ""
 ---
 
-<section>
+<section class="leon">
 
-Content TBD
+#### Leon
 
+It may have been unfair to expect Merlin to do anything about the recent reports from various maidens working as servants within the castle, but Leon hoped that the information would tell Merlin that he wasn't alone. Leon knew from experience that feeling alone was worse than whatever problems were happening.
+
+He gave a sidelong glance to George, who, give Leon a private smile.
 </section>
