@@ -4,11 +4,11 @@ href: "#ch06"
 text: Necessary
 chapter: 6
 title: "Chapter 6: Necessary"
-published: false
+published: true
 description: Veronica recupperates.
 notes: ""
 endnotes: ""
-pubDate: 2000-01-01
+pubDate: 2025-05-16
 ---
 <section class="veronica">
 
