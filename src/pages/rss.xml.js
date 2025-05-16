@@ -23,7 +23,7 @@ export async function GET(context) {
             text: chapter.data.text,
             link: `/misunderstood/simple/${chapter.id}/`,
             content: sanitizeHtml(parser.render(chapter.body), {
-                allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'div'])
+                allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'div', 'section'])
             }),
         })),
         customData: `<language>en-us</language>`,

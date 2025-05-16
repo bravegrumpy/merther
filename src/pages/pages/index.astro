@@ -12,6 +12,7 @@ import Article from "@/components/Article.astro"
 import WorkList from "@/pages/pages/content/introduction.mdx"
 
 import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/content/explicit.mdx"
+import { Content as Mature, frontmatter as matfm } from "@/pages/pages/content/mature.mdx";
 
 const Resources = await getCollection('resources')
 
@@ -25,6 +26,8 @@ const Resources = await getCollection('resources')
         <hr class="section">
         <Article>
             <Explicit />
+            <hr />
+            <Mature />
         </Article>
     </div>
     <!-- <hr /> -->

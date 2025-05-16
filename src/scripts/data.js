@@ -67,11 +67,11 @@ export const secondaryLinks = [
     //     href: "/misunderstood/tailwindcss",
     //     text: "Tailwindcss"
     // },
-    {
-        key: "01_Misunderstood_06_AO3Clone",
-        href: "/misunderstood/ao3",
-        text: "AO3 Clone"
-    },
+    // {
+    //     key: "01_Misunderstood_06_AO3Clone",
+    //     href: "/misunderstood/ao3",
+    //     text: "AO3 Clone"
+    // },
     {
         key: "01_Misunderstood_07Print",
         href: "/misunderstood/print",
