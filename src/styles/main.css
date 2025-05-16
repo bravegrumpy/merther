@@ -699,7 +699,9 @@ footer :nth-child(3n+3) {
   .banner,
   .fake-btn,
   .dnp,
-  .byline {
+  .byline,
+  .chapter-preamble-shadow,
+  .chi {
     display: none;
   }
   .chapter-preamble,
