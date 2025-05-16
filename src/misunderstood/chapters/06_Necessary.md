@@ -212,6 +212,10 @@ Merlin idly stroked Freya's hair, hoping that she was starting relax, now that h
 
 Ever since he had learned how to create a potion to help Freya control her Bastet form, she has been able to pass of as being mostly human.  It was amazing how many skill most would just accept as a skill, and not even think to suspect magical intervention.  Freya's skill plants was one of those skills.  Merlin's finger strayed to Freya's cheek, as he longed for the serene stillness of her garden, within his wards, where their secret could be free&mdash; magically guardered, to be unseen by any passerby.
 
-Until now, Merlin had  genuinely believed that Arthur's treatment of him had been a secret. Or at least ignored as "Merlin being Merlin again". He thrived on invisibly shielding others from the pain.  Keeping Arthur's sins a secret felt no different than keeping his *other* secret. The one that would mean his own death. And Arthur's would do it gleefully. Arthur was  the king after all. Furthermore
+Until now, Merlin had  genuinely believed that Arthur's treatment of him had been a secret. Or at least ignored as "Merlin being Merlin again". He thrived on invisibly shielding others from the pain.  Keeping Arthur's sins a secret felt no different than keeping his *other* secret. The one that would mean his own death. Arthur kill him gleefully upon finding out that Merlin had magic. Arthur was  the king after all.  There was no reason why Merlin's actual opinion on the king's "affections" should be any less of a secret.
+
+The important people in his life knew, and that was all that mattered.
+
+
 
 </section>
