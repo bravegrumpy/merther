@@ -5,6 +5,8 @@
 @import (css) url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Autour+One&family=Bad+Script&family=Beth+Ellen&family=Bilbo&family=Bilbo+Swash+Caps&family=Birthstone&family=Birthstone+Bounce:wght@400;500&family=Bonbon&family=Bonheur+Royale&family=Bubblegum+Sans&family=Butterfly+Kids&family=Caesar+Dressing&family=Cagliostro&family=Calligraffitti&family=Caramel&family=Carattere&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Charmonman:wght@400;700&family=Chilanka&family=Comforter&family=Coming+Soon&family=Cookie&family=Covered+By+Your+Grace&family=Crafty+Girls&family=Delius&family=Delius+Swash+Caps&family=Devonshire&family=Dr+Sugiyama&family=Eagle+Lake&family=East+Sea+Dokdo&family=Farsan&family=Fasthand&family=Festive&family=Fondamento:ital@0;1&family=Freehand&family=Gloria+Hallelujah&family=Grape+Nuts&family=Handlee&family=Homemade+Apple&family=Indie+Flower&family=Merienda:wght@300..900&family=Moon+Dance&family=Mr+Bedfort&family=Nothing+You+Could+Do&family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Srisakdi:wght@400;700&family=Style+Script&display=swap');
 
 @import (css) url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import (css) url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
 // - Translating original CSS into LESS, and then using VSCode extension to compile to css.
 // - This makes the final CSS simpler.
 // - Might make it load faster?
@@ -812,52 +814,25 @@ footer {
                 font-family: @character-font-family, @common-fonts;
             }
         }
+        .character(@name, @font1, @font2: @font1, @font3: @font2) {
+            &.@{name} {
+                @character-font-family: @font1;
+                #lib.fonts.initialize(@font2, @font3);
+            }
+        }
     }
 }
 
-.character(@name, @font1, @font2, @font3) {
-    &.@{name} {
-        @character-font-family: @font1;
-        #lib.fonts.initialize(@font2, @font3);
-    }
-}
-
-.arthur {
-    @character-font-family: "Nothing You Could Do";
-    #lib.fonts.initialize("Mr Bedfort", "Caudex");
-}
-.merlin {
-    @character-font-family: "Homemade Apple";
-    #lib.fonts.initialize("Gloria Hallelujah", "Cedarville Cursive");
-}
-.freya {
-    @character-font-family: "Moon Dance";
-    #lib.fonts.initialize("Comforter", "Covered By Your Grace");
-}
-.lancelot {
-    @character-font-family: "Handlee";
-    #lib.fonts.initialize("Merienda", "Delius Swash Caps");
-}
-.george {
-    @character-font-family: "Mr Bedfort";
-    #lib.fonts.initialize("Shadows Into Light", "Shadows Into Light Two");
-}
-.gwenivere {
-    @character-font-family: "Srisakdi";
-    #lib.fonts.initialize("Bilbo Swash Caps", "Calligraffitti");
-}
-.leon {
-    @character-font-family: "Charmonman";
-    #lib.fonts.initialize("Bonheur Royale", "Covered By Your Grace");
-}
-.veronica {
-    @character-font-family: "Bubblegum";
-    #lib.fonts.initialize("Bad Script", "Brush Script MT");
-}
-.gwaine {
-    @character-font-family: "Combo";
-    #lib.fonts.initialize("Combo");
-}
+#lib.fonts.character(arthur, "Nothing You Could Do", "Mr Bedfort", "Caudex");
+#lib.fonts.character(merlin, "Homemade Apple Pie", "Gloria Hallelujah", "Cedarville Cursive");
+#lib.fonts.character(freya, "Moon Dance", "Comforter", "Covered By Your Grace");
+#lib.fonts.character(lancelot, "Handlee", "Merienda", "Delius Swash Caps");
+#lib.fonts.character(george, "Mr Bedfort", "Shadows Into Light", "Shadows Into Light Two");
+#lib.fonts.character(gwenivere, "Srisakdi", "Bilbo Swash Caps", "Calligraffitti");
+#lib.fonts.character(leon, "Charmonman", "Bonheur Royale", "Covered By Your Grace");
+#lib.fonts.character(veronica, "Bubblegum", "Bad Script", "Brush Script MT");
+#lib.fonts.character(gwaine, "Combo");
+#lib.fonts.character(brian, "Henny Penny");
 
 #mainMenuToggle {
     display: none;
