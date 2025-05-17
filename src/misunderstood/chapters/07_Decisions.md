@@ -15,7 +15,8 @@ description: ""
 
 It may have been unfair to expect Merlin to do anything about the recent reports from various maidens working as servants within the castle, but Leon hoped that the information would tell Merlin that he wasn't alone. Leon knew from experience that feeling alone was worse than whatever problems were happening.
 
-He gave a sidelong glance to George, who, give Leon a private smile.
+He gave a sidelong glance to George, who, give Leon a private smile.  Hopefully George would be able to get Merlin to feel the same.
+
 </section>
 
 <section class="brian">
