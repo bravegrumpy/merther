@@ -1,0 +1,52 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { mainLinks } from "@/scripts/data";
+
+const secondaryLinks = [
+    {
+        id: '04-04-00_Editor',
+        href: '/admin/editor',
+        text: "Editor"
+    },
+    {
+        id: '04-04-01_MarkdownEditor',
+        href: '/admin/markdown-editor',
+        text: 'Markdown Editor'
+    },
+    {
+        id: '04-04-02_EnhancedMarkdownEditor',
+        href: '/admin/enhanced-editor',
+        text: "Enhanced Markdown Editor"
+    }
+];
+---
+<Layout mainLinks={mainLinks} secondaryLinks={secondaryLinks} bottomInitialDisplay={true}>
+    <div slot="pageTitle">
+        <h1 class="text-gradient text-center">Admin</h1>
+        <nav class="menu-container">
+            <span class="menu-shadow">
+                <a class="menu" href="/other">Other</a>
+            </span>
+            <span class="menu-shadow">
+                <a class="menu" href="/other/images">Images</a>
+            </span>
+            <span class="menu-shadow">
+                <a class="menu" href="/other/css_expo">CSS Expo</a>
+            </span>
+            <span class="menu-shadow">
+                <a data-active="true" class="menu chnav chnav-start" href="/admin">Admin</a>
+            </span>
+        </nav>
+    </div>
+    <nav class="menu-container">
+        <span class="menu-shadow">
+            <a class="menu" href="/admin/editor">Editor</a>
+        </span>
+        <span class="menu-shadow">
+            <a class="menu" href="/admin/markdown-editor">Markdown Editor</a>
+        </span>
+        <span class="menu-shadow">
+            <a class="menu" href="/admin/enhanced-editor">Enhanced Editor</a>
+        </span>
+    </nav>
+</Layout>

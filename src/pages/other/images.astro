@@ -7,10 +7,13 @@ import { getCollection, render } from "astro:content"
 import { Image } from "astro:assets";
 // Add direct CDN image imports
 const cdnBase = "https://cdn.bravegrumpy.com/AO3Styles/images/";
+const apiBase = `${Astro.site}/api/images/`;
+
+const urlBase = [cdnBase, apiBase];
 
 const AiImagaes = await getCollection('gallery_ai');
 
-const imgSize = 300;
+// const imgSize = 300;
 
 ---
 
@@ -18,15 +21,18 @@ const imgSize = 300;
     <div slot="pageTitle">
         <h1 class="text-gradient text-center">Gallery</h1>
         <nav class="menu-container">
-            <p class="menu-shadow">
+            <span class="menu-shadow">
                 <a class="menu" href="/other">Other</a>
-            </p>
-            <p class="menu-shadow">
+            </span>
+            <span class="menu-shadow">
                 <a data-active="true" class="menu chnav chnav-start" href="/other/images">Images</a>
-            </p>
-            <p class="menu-shadow">
+            </n>
+            <span class="menu-shadow">
                 <a class="menu" href="/other/css_expo">CSS Expo</a>
-            </p>
+            </span>
+            <span class="menu-shadow">
+                <a class="menu" href="/admin">Admin</a>
+            </span>
         </nav>
     </div>
     <article class="article chapter">
@@ -37,7 +43,7 @@ const imgSize = 300;
                     <section class="image">
                         <h2>{img.data.title}</h2>
                         { img.data.subtitle ? <p>{img.data.subtitle}</p> : <></>}
-                        <Image src={`${cdnBase}${img.data.img.url}`} alt={img.data.img.alt} width={img.data.img.size} height={img.data.img.size} />
+                        <Image src={`${urlBase[1]}${img.data.img.url}`} alt={img.data.img.alt} width={img.data.img.size} height={img.data.img.size} />
                         <Content />
                     </section>
                 </>);
