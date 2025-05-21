@@ -127,7 +127,7 @@ Gwenivere sighed, as she often forgot that Merlin, especially given his magic, w
 
 Lancelot giggled, putting the only remaining pillow over his face, &ldquo;The Arthur situation. I don&rsquo;t wish Merlin dead.&rdquo;
 
-Lancelot continued, &ldquo;Arthur has been temperamental lately. Leon has needed to placate several nobles in the past week alone. Gawaine and I have started court real court sessions that occur after the farce that Arthur runs. I figured that both men would suffer less if they learned they were not suffering alone.&rdquo;
+Lancelot continued, &ldquo;Arthur has been temperamental lately. Leon has needed to placate several nobles in the past week alone. Gwaine and I have started court real court sessions that occur after the farce that Arthur runs. I figured that both men would suffer less if they learned they were not suffering alone.&rdquo;
 
 Gwenivere could relate to wanting people to just talk to each other. She had the sneaking suspicion that her former employer, Morgana, would benefit from a conversation with Freya. However, Gwenivere knew better than to try and cause drama, and she could think of no reason why the Lady Morgana would need to speak with some random castle staff-woman—no matter how stunning or married to Merlin she was.
 
@@ -177,7 +177,7 @@ Merlin had never questioned Leon&rsquo;s loyalty to the crown, but had seemed sl
 
 *&ldquo;Stop being such a girl&rsquo;s petticoat, Merlin&rdquo;*
 
-*Arthur had Merlin in a headlock, and was rubbing his knuckles in Merlin&rsquo;s hair. It took nearly all of Merlin&rsquo;s concentration to not let his magic out to create distance between himself and his master. The knights were with them, and would absolutely notice an overt display. Merlin&rsquo;s hands were starting to go numb, as held them into fists to try and generate some warmth. This time, Merlin was trying to set *up his own bedroll near Lancelot&rsquo;s, pointedly on the opposite side of the fire to Arthur. Merlin focused on Leon&rsquo;s visible breath as he fought down his urge to retch.*
+*Arthur had Merlin in a headlock, and was rubbing his knuckles in Merlin&rsquo;s hair. It took nearly all of Merlin&rsquo;s concentration to not let his magic out to create distance between himself and his master. The knights were with them, and would absolutely notice an overt display. Merlin&rsquo;s hands were starting to go numb, as held them into fists to try and generate some warmth. This time, Merlin was trying to set up his own bedroll near Lancelot&rsquo;s, pointedly on the opposite side of the fire to Arthur. Merlin focused on Leon&rsquo;s visible breath as he fought down his urge to retch.*
 
 *After Arthur was done, he shoved Merlin aside, having removed Merlin&rsquo;s jacket with a leering &ldquo;It isn&rsquo;t that cold, and I you are too hot for layers.&rdquo; That last quip got a forced roar of laughter from the knights. Merlin&rsquo;s eyes briefly met Lancelot&rsquo;s in a silent plea for help. Of course Arthur was guarded from the cold. He had multiple layers of fur-lined leathers. Merlin&rsquo;s thin tunic was invisible to sharp knives the wind threw.*
 
