@@ -5,6 +5,8 @@ const headTitle = "Images";
 import { getCollection, render } from "astro:content"
 
 import { Image } from "astro:assets";
+// Add direct CDN image imports
+const cdnBase = "https://cdn.bravegrumpy.com/AO3Styles/images/";
 
 const AiImagaes = await getCollection('gallery_ai');
 
@@ -35,7 +37,7 @@ const imgSize = 300;
                     <section class="image">
                         <h2>{img.data.title}</h2>
                         { img.data.subtitle ? <p>{img.data.subtitle}</p> : <></>}
-                        <Image src={img.data.img.url} alt={img.data.img.alt} width={img.data.img.size} height={img.data.img.size} />
+                        <Image src={`${cdnBase}${img.data.img.url}`} alt={img.data.img.alt} width={img.data.img.size} height={img.data.img.size} />
                         <Content />
                     </section>
                 </>);
