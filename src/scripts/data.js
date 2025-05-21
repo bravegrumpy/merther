@@ -15,11 +15,6 @@ export const mainLinks = [
         text: "Muses",
     },
     {
-        key: "03_Kinks",
-        href: "/external/iron",
-        text: "Kinks",
-    },
-    {
       key: "04_OTHER",
       href: "/other/",
       text: "Other Stuff"
