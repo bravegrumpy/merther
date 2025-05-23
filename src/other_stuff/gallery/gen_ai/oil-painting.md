@@ -2,7 +2,7 @@
 img: 
     size: 202
     alt: "oil-painting"
-    url: "/api/images/oil-painting.png"
+    url: "oil-painting.png"
 title: "Oil Painting"
 subtitle: "This is the biggest depature from the attitudes from cannon."
 ---

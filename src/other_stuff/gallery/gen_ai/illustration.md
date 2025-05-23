@@ -2,7 +2,7 @@
 img: 
     size: 196
     alt: "illustration"
-    url:  "/api/images/illustration.png"
+    url:  "illustration.png"
 
 title: "Illustration"
 ---

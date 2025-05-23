@@ -2,7 +2,7 @@
 img:
     size: 200
     alt: "lithograph"
-    url: "/api/images/lithograph.png"
+    url: "lithograph.png"
 
 title: "Lithiograph"
 ---
