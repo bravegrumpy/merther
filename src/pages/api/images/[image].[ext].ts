@@ -4,7 +4,7 @@
 //         { params: { image: "chromolithograph", ext: "png"} }, 
 //         { params: { image: "hand-painted-colorized-heliograph", ext: "png"} }, 
 //         { params: { image: "illustration", ext: "png"} }, 
-//         { params: { image: "lithogrpah", ext: "png"} }, 
+//         { params: { image: "lithograph", ext: "png"} }, 
 //         { params: { image: "mixture", ext: "png"} }, 
 //         { params: { image: "oil-painting", ext: "png"} }, 
 //         { params: { image: "render", ext: "png"} }, 
