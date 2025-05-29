@@ -27,8 +27,18 @@ Suddenly, Freya pushed up from her curled position, and sat up.
 
 Leon looked back and forth between Freya, Merlin, and George. The slight cock to George's head was the only thing that betrayed that something happened that Leon whas not privy to. 
 
+An unbidden image of a frail and pathetic Merlin, shivering, with eyes wide, entire body rigid and clenched, hair dripping, while slowly freezing, came to Leon's mind. He remembred freezing, unable to call out, his limbs glued to his sides, as Merlin slowly lost clothing. Arthur's words echoed in Leon's brain, "You are mine. Don't forget".
+
 Leon could then see George bite his lower lip, as if thinking, while Merlin simply stared, as if looking through Leon. Leon wanted to reach out, to put a hand on Merlin's knee, but something about Freya's face sharp expression made Leon hesitate. Putting a hand on an Arthur victim may not be smart. Instead, he curled his right hand into a fist, while he shuffled, trying to get a view onto George's writing, to no avail.
 
-"Merlin, and I each have magic. This is how he manages to survive Arthur.  Merlin and I also regularly provide servants with.... medicines that can make them more comfortable after Arthur happens to them." Freya's words were sharp, and clear. 
+"Merlin, and I each have magic. This is how he manages to survive Arthur.  Merlin and I also regularly provide servants with.... medicines that can make them more comfortable after Arthur happens to them." Freya's words were clear and sharp, but otherwise  delivered without emotion.
+
+Leon took a  breath, "Why are you teling me this?" There was no possible way that Merlin was a sorcerer. Freay &mdash; maybe, but even that was hard to believe. Merlin was too much of  a little git, who somehow remained loyal to Arthur. There was no way he could possibly mean harm to Camelot or Arthur. 
+
+Merlin fidgeted, prompting a nod from George. 
+
+"Because Lancelot trusts you", George replied, placing a hand on the nape of Leon's neck. *So George knew? Of courese he knew.*
+
+George then turned to fully face Leon, placing the hand that was on his neck, onto lower thigh, just above the knee, startling Leon into making direct eye contact. George's eyes, hazel with flex of green, reminded Leon of a young wheat field, fertile, and strong.
 
 </section>
