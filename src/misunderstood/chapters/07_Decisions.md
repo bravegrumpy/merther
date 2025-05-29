@@ -19,8 +19,16 @@ He gave a sidelong glance to George, who, give Leon a private smile.  Hopefully 
 
 Merlin's history of being able to retort to Arthur without being killed could be helpful in preventing Arthur's behavior from leaking onto common folk. If especially if Gwaine's reports turned out to be substantiated, then there was a serious problem with castle staff being harmed, and Merlin seems to be able to do something about it. George had mentioned that Merlin may have some talents that Leon was unaware of.  Maybe some of his hidden talents could help coralle the awkward impulses of the king.
 
-Merlin seemed to curl in on himself. He placed a hand on his wife&rsquo;s,&mdash;*Freya was it?*&mdash; head, as she was curled up halfway on Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in seeiming confusion, almost as if deciding something. 
+Merlin seemed to curl in on himself. He placed a hand on his wife&rsquo;s,&mdash;*Freya was it?*&mdash; head, as she was curled up halfway on Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in seeming confusion, almost as if deciding something. 
 
-George continued to scratch notes, but his stance completely hid his writing from view.
+George continued to scratch notes, but his stance completely hid his writing from view.  *Great, George suspects something, and won't tell me.*  George did not typically keep secrets.
+
+Suddenly, Freya pushed up from her curled position, and sat up.
+
+Leon looked back and forth between Freya, Merlin, and George. The slight cock to George's head was the only thing that betrayed that something happened that Leon whas not privy to. 
+
+Leon could then see George bite his lower lip, as if thinking, while Merlin simply stared, as if looking through Leon. Leon wanted to reach out, to put a hand on Merlin's knee, but something about Freya's face sharp expression made Leon hesitate. Putting a hand on an Arthur victim may not be smart. Instead, he curled his right hand into a fist, while he shuffled, trying to get a view onto George's writing, to no avail.
+
+"Merlin, and I each have magic. This is how he manages to survive Arthur.  Merlin and I also regularly provide servants with.... medicines that can make them more comfortable after Arthur happens to them." Freya's words were sharp, and clear. 
 
 </section>
