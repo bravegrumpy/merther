@@ -60,3 +60,28 @@ Leon took a deep breath, and stood to go answer the door.
 Leon then purposefully went towards the door, opening it just enough to communicate, without inviting anybody inside. He hoped that his body obstructed most ofthe view. Leon also hoped that George would continue to obscure and or distract.
 
 </section>
+
+---
+
+
+<section class="gwenivere">
+
+#### Gwenivere
+
+Gwenivere puttered around the armoury. Yeterday, she had brought a new weapon, made out of a new mix of iron tempered with charcoal. Underneath her simple burlap dress, she wore a chainmail shirt with links so small, that it felt almost like fabric. Merlin's magic was a great help with fabricating it, and it felt secure on her person. Her leather utility belt, strapped outside her dress, safely conceled two distict daggers she could use.
+
+Whenever Arthur finally got here, she would be ready to talk about the new defense strategies, however she was more excited to show Gwaine the magic-based materials Lancelot and Merlin helped her develop.  Some of her hair was held in place by a particularly nifty design&mdash;A hairpin with a retractable blade. 
+
+Gwen couldn't help but worry about Merlin right now. Lancelot thought he could trust Leon, but Gwen hoped that Freya would and Merlin would come up with a way to be sure. Gwen was unsure of what she would do if harm came to Merlin or Freya.
+
+</section>
+
+---
+
+<section class="brian">
+
+#### Brian
+
+All Brian could feel was the icy burn of a hand on his shoulder. It needed to leave. The thumb touched the base of his neck, and the rest of his hand pushed him. Brian didn't know where. Everything was happening all at once. Too many voices. Too much noise. Another elbow brushed his side, and some hair swept his arm. And the hand was still on his shoulder. There was a singer. Maybe. He squeezed his eyes shut. There was laugher and people. The wind was too cold on his skin. Every arm hair was itchy. The itch radiated from the hand, still on his shoulder. His face. He was in public. Keep it neutral. Breath. Fuck, the air is itchy. The hand is stil his shoulder. Some hair brushed against his chin. A voice sent shivers down his spine, like a demon's talons scratching slate. Bloodcurdling. Another had
+
+</section>
