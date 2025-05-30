@@ -90,7 +90,7 @@ The world stopped spinning as he came face-to-face with calm dark brown eyes, de
 
 "Please unhand me," Brian finally said, taking a step back, towards a clearing with fewer people. He could not believe that he was talking to Kathy, and *that* was the first thing he said. 
 
-"Have you ever thought about the subtle differences between yak cheese and goat cheese?" What was he doing. The dairy maid, and cheese-dish genius was way better and explaining the cheese creation process. It took days, but alwyas turned  out spectacularly. Hw would need to ask her how she suggests serving the goat-cheese processed with lemon juice, rather than the goat-cheese processed with vinegar. 
+"Have you ever thought about the subtle differences between yak cheese and goat cheese?" What was he doing. The dairy maid, and cheese-dish genius was way better and explaining the cheese creation process. It took days, but alwyas turned  out spectacularly. How would need to ask her how she suggests serving the goat-cheese processed with lemon juice, rather than the goat-cheese processed with vinegar. 
 
 To Brian's surprise, and delight, Kathy removed the hand on his elbow, and straightened up and said, "Okay, so a even mixture between the two, served on a sourdough with  honey is my favorite.  I learned it from Jenny the Dairy Maid. Have you tried her cheeses?"
 
@@ -102,7 +102,7 @@ Kathy then sighhed. Since the conversation had started, they had moved to an emp
 
 Brian stood for a moment, unsure why she was confiding in him. He always wished he could pair his routine with music.  He jsut could never carry a tune, and had concept of how to play an instrument. Brian sensed a bit of melancholy in her tone, as she absently fidgeted with a strap to her string instrument.  Brian then noticed a little stamp in the shape of an iris on the flap she was fiddling with.  
 
-Brian then realized she likely wanted a response, "I actally care what you say. You captivate a room, and have opinions about cheese.  I have to be careful, to not ceede ground to other opportunistic criers, with less flair, but if you are willing to teach me to sing or play an instrument, would you maybe want a trial segment on one of my shows?"
+Brian then realized she likely wanted a response, "I care what you say. You captivate a room, and have opinions about cheese.  I have to be careful, to not ceede ground to other opportunistic criers, with less flair, but if you are willing to teach me to sing or play an instrument, would you maybe want a trial segment on one of my shows?"
 
 Brian really didn't want to take advantage of Kathy, but this was his chance to learn to be a *Bard*. He already tried rhyming much of his speeches, but he would *love* to be properly bardic.
 
