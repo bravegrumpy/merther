@@ -82,7 +82,32 @@ Gwen couldn't help but worry about Merlin right now. Lancelot thought he could t
 
 #### Brian
 
-All Brian could feel was the icy burn of a hand on his shoulder. It needed to leave. The thumb touched the base of his neck, and the rest of his hand pushed him. Brian didn't know where. Everything was happening all at once. Too many voices. Too much noise. Another elbow brushed his side, and some hair swept his arm. And the hand was still on his shoulder. There was a singer. Maybe. He squeezed his eyes shut. There was laugher and people. The wind was too cold on his skin. Every arm hair was itchy. The itch radiated from the hand, still on his shoulder. His face. He was in public. Keep it neutral. Breath. Fuck, the air is itchy. The hand is stil his shoulder. Some hair brushed against his chin. A voice sent shivers down his spine, like a demon's talons scratching slate. Bloodcurdling. Another had
+All Brian could feel was the icy burn of a hand on his shoulder. It needed to leave. The thumb touched the base of his neck, and the rest of his hand pushed him. Brian didn't know where. Everything was happening all at once. Too many voices. Too much noise. Another elbow brushed his side, and some hair swept his arm. And the hand was still on his shoulder. There was a singer. Maybe. He squeezed his eyes shut. There was laugher and people. The wind was too cold on his skin. Every arm hair was itchy. The itch radiated from the hand, still on his shoulder. His face. He was in public. Keep it neutral. Breath. Fuck, the air is itchy. The hand is stil his shoulder. Some hair brushed against his chin. A voice sent shivers down his spine, like a sword scraping the palace's stone walls. Bloodcurdling. A shiver shot down his spine. A new hand touched his arm, as the hand left his neck.  
 
+The world stopped spinning as he came face-to-face with calm dark brown eyes, decorated with paint. She smelled faintly of cinnamon.  It was her hand on on his elbow.
+
+"Gwaine says you are the Town Crier? Any good gossip for me? I am Kathy by the way, but I think you already knew that given that I just performed, and you are here. Tee hee hee". Kathy's laugh was musical, almost like she wanted to start singing about laughter. Her hair draped down her head, in flowing curls, as if they were ocean waves. Her hand was still on his elbow. 
+
+"Please unhand me," Brian finally said, taking a step back, towards a clearing with fewer people. He could not believe that he was talking to Kathy, and *that* was the first thing he said. 
+
+"Have you ever thought about the subtle differences between yak cheese and goat cheese?" What was he doing. The dairy maid, and cheese-dish genius was way better and explaining the cheese creation process. It took days, but alwyas turned  out spectacularly. Hw would need to ask her how she suggests serving the goat-cheese processed with lemon juice, rather than the goat-cheese processed with vinegar. 
+
+To Brian's surprise, and delight, Kathy removed the hand on his elbow, and straightened up and said, "Okay, so a even mixture between the two, served on a sourdough with  honey is my favorite.  I learned it from Jenny the Dairy Maid. Have you tried her cheeses?"
+
+"Have you seen me in the town square? I rather love calling craftspeople who deserve it." Kathy must have seen him. Late last  week, Brian referenced her stall at the market during his "Cool Crafts Creations Callout" section of his Crier speech, after getting a chance to see how she made her cheese, and how she cared for the goats, cows, and yaks, of all of Camelot. Brian remembered basiclly falling Kid Sophie when she rammed her antlers into his hand, not ten steps away form her momma goat. 
+
+"Yes! I checked out her stand at the market after I heard you talking about her. You are *so* good at coming up with interesting ways to appreciate everybody, even the small folks."
+
+Kathy then sighhed. Since the conversation had started, they had moved to an empty table towards the side of the room. Brian did not remember moving, but did appreciate it when he noticed the air around him felt less constricting, and he stand straight and tall without bumping into any other people. "I came to camelot in order to be the Town Crier.  I got laughed out of my village for daring to tell news to the village, when there were men perfectly happy to do the job. Somehow it  felt even worse when they 'allowed' me to strum my lute, but then removed me from the stage should I dare improvise, or worse&mdash; say something with my mouth."
+
+Brian stood for a moment, unsure why she was confiding in him. He always wished he could pair his routine with music.  He jsut could never carry a tune, and had concept of how to play an instrument. Brian sensed a bit of melancholy in her tone, as she absently fidgeted with a strap to her string instrument.  Brian then noticed a little stamp in the shape of an iris on the flap she was fiddling with.  
+
+Brian then realized she likely wanted a response, "I actally care what you say. You captivate a room, and have opinions about cheese.  I have to be careful, to not ceede ground to other opportunistic criers, with less flair, but if you are willing to teach me to sing or play an instrument, would you maybe want a trial segment on one of my shows?"
+
+Brian really didn't want to take advantage of Kathy, but this was his chance to learn to be a *Bard*. He already tried rhyming much of his speeches, but he would *love* to be properly bardic.
+
+"Many of the towns folk already bop to your music when you aren't performing here. It could bring some levity."
+
+Brian crined internally. He could not believe he was asking Bard Kathy for music lessons. He could not believe that Bard Kathy knew who he was.  He then supbsequently realized he had been rambling at Kathy.
 
 </section>
