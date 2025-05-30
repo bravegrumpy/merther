@@ -108,6 +108,6 @@ Brian really didn't want to take advantage of Kathy, but this was his chance to 
 
 "Many of the towns folk already bop to your music when you aren't performing here. It could bring some levity."
 
-Brian crined internally. He could not believe he was asking Bard Kathy for music lessons. He could not believe that Bard Kathy knew who he was.  He then supbsequently realized he had been rambling at Kathy.
+Brian cringed internally. He could not believe he was asking Bard Kathy for music lessons. He could not believe that Bard Kathy knew who he was.  He subsequently realized he had been rambling at Kathy.
 
 </section>
