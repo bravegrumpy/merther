@@ -31,6 +31,8 @@ An unbidden image of a frail and pathetic Merlin, shivering, with eyes wide, ent
 
 Leon could then see George bite his lower lip, as if thinking, while Merlin simply stared, as if looking through Leon. Leon wanted to reach out, to put a hand on Merlin's knee, but something about Freya's face sharp expression made Leon hesitate. Putting a hand on an Arthur victim may not be smart. Instead, he curled his right hand into a fist, while he shuffled, trying to get a view onto George's writing, to no avail.
 
+George seemed to sense Leon's curiosity. He put a hand on Leon's neck, rather than allowing Leon to view the pages.
+
 "Merlin and I regularly provide servants with.... medicines that can make them more comfortable after Arthur happens to them." Freya's words were clear and sharp, but otherwise  delivered without emotion.
 
 Leon took a deep breath. He was glad that they were doing something, but Leon was still sure that there was more that could be done. Leon wanted to figure out how to help Merlin, without overtly crossing Arthur.
@@ -39,11 +41,11 @@ Merlin fidgeted, prompting a nod from George.
 
 "Lancelot trusts you", George then said, surprisingly assertively. "Lets see if you desere it".  Leon sat up in his chair, now suspicious that there was more to this story that he knew. He wondered if any of the other knights were privy to whatever seemed to happen here. *Lancelot must know what this is about, but I wonder if Gwaine knows*.
 
-George then turned to fully face Leon, placing the hand that was on his neck, onto lower thigh, just above the knee, startling Leon into making direct eye contact. George's eyes, hazel with flex of green, reminded Leon of a young wheat field, fertile, and strong.  
+George then turned to fully face Leon, placing the hand that was on his neck, onto lower thigh, just above the knee, startling Leon into making direct eye contact. George's eyes, hazel with flex of green, reminded Leon of a young wheat field, fertile and strong.  
 
-leon trusted George's judgement, but this exchange still irked Leon. 
+Leon trusted George's judgement, but this exchange still irked Leon. 
 
-Leon then heard some sudden movement, and cry of distress from the Freya. Merlin was grasping her wrist, as she cried out, struggling against Merlin.  Merlin then wrangled Freya, despite her struggles, trapping her against his body, groping her. When she resisted, Merlin used her momentum to trap her underneath his body, against the bed. He continued to maneuver himself between her legs ripping her dress open.
+Leon then heard some sudden movement, and cry of distress from the Freya. Merlin was grasping her wrist, as she cried out, struggling against Merlin.  Merlin then wrangled Freya, despite her struggles, trapping her against his body, groping her. He then lewdly threw her onto the bed When she resisted, Merlin used her momentum to trap her underneath his body, forcing her against the bed. He continued to maneuver himself between her legs ripping her dress open.
 
 It seemed like Freya subtly leaned into Merlin's touch just before crying out "Nooo stopp!", and glaring at Merlin. Merlin moved his hips faster, more frantically, caging Freya, blocking her from view. This worried Leon. He felt himself unable to move. Wanting to help, but remembering the look that the king gave last time he tried. *Did I comfort a man guilty of the same crimes as Arthur?*
 
@@ -98,7 +100,7 @@ To Brian's surprise, and delight, Kathy removed the hand on his elbow, and strai
 
 "Yes! I checked out her stand at the market after I heard you talking about her. You are *so* good at coming up with interesting ways to appreciate everybody, even the small folks."
 
-Kathy then sighhed. Since the conversation had started, they had moved to an empty table towards the side of the room. Brian did not remember moving, but did appreciate it when he noticed the air around him felt less constricting, and he stand straight and tall without bumping into any other people. "I came to camelot in order to be the Town Crier.  I got laughed out of my village for daring to tell news to the village, when there were men perfectly happy to do the job. Somehow it  felt even worse when they 'allowed' me to strum my lute, but then removed me from the stage should I dare improvise, or worse&mdash; say something with my mouth."
+Kathy then sighed. Since the conversation had started, they had moved to an empty table towards the side of the room. Brian did not remember moving, but did appreciate it when he noticed the air around him felt less constricting, and he stand straight and tall without bumping into any other people. "I came to camelot in order to be the Town Crier.  I got laughed out of my village for daring to tell news to the village, when there were men perfectly happy to do the job. Somehow it  felt even worse when they 'allowed' me to strum my lute, but then removed me from the stage should I dare improvise, or worse&mdash; say something with my mouth."
 
 Brian stood for a moment, unsure why she was confiding in him. He always wished he could pair his routine with music.  He jsut could never carry a tune, and had concept of how to play an instrument. Brian sensed a bit of melancholy in her tone, as she absently fidgeted with a strap to her string instrument.  Brian then noticed a little stamp in the shape of an iris on the flap she was fiddling with.  
 
