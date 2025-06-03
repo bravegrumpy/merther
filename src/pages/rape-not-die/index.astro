@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { Debug } from "astro:components";
+import { FallbackContent } from "@/components/react/Components"
+
+import { getEntry, render } from "astro:content";
+
+import { mainLinks } from "@/scripts/data";
+
+
+const notes = await getEntry('rape_not_die', 'notes');
+let Notes;
+notes ? { Content: Notes} = await render(notes) : Notes = FallbackContent;
+
+const summary = await getEntry('rape_not_die', 'summary');
+let Summary;
+summary ? { Content: Summary } = await render(summary) : Summary = FallbackContent; 
+
+const content = await getEntry('rape_not_die', 'content');
+let Main;
+content ? { Content: Main } = await render(content) : Main = FallbackContent;
+
+const headTitle = "Muses | Merther Fanfic";
+const pageTitle = "Merlin Muses at Masturbating Monarch"
+---
+<Layout mainLinks={mainLinks} headTitle={headTitle} pageTitle={pageTitle} link="https://archiveofourown.org/users/Bravegrumpy/pseuds/BraveGrumpy">
+    <article class="chapter">
+        <h2>Summary</h2>
+        <Summary />
+        <hr />
+        <h2>Notes</h2>
+        <Notes />
+        <hr />
+        <Main />
+    </article>
+</Layout>

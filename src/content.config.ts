@@ -92,4 +92,12 @@ const gallery_ai = defineCollection({
     })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum }
+const rape_not_die = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/rape-not-die"}),
+    schema: z.object({
+        title: z.string(),
+        role: z.string()
+    })
+})
+
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum, rape_not_die }
