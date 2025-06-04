@@ -3,5 +3,4 @@ title: rape_not_die
 role: summary
 ---
 
-a
-sef
+What if Merlin needed to fuck Morgana to break the sleeping curse, instead of killing her?
