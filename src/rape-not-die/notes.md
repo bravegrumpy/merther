@@ -27,3 +27,11 @@ Tags:
 - Non-Consensual Blow Jobs × 
 - Dark Merlin (Merlin) × 
 - Not Beta Read ×s
+
+
+***
+
+## Endnotes
+
+This is very much a <em>first draft</em>, and may get removed or get polished later.  I just wanted to get a hot idea out of my brain and onto a page. And whoops. It got published.<br />
+I wrote it taking a break from my long-fic. I also was annoyed because somebody in my life has been a chronic boundary pusher, and has been pushing boundaries. I just got a highly emotional message in response to a calm request to plan with me, including a date an approximate time.  The whole situation has been making me exhausted and more angry than I've been in a very long time.
