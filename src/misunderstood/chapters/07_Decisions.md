@@ -150,6 +150,26 @@ Knowing that the intimacy was also grounding for Merlin, Freya concentrated, wil
 
 Merlin settled down behind her, placing her head in his lap, while ha absentmindedly fiddled with her exposed nipples in one hand, and grabbed her upper legs possesively, underneath the flimsy skirt, occasionally swiping his fingers between her folds. Freya was comfortable. Merlin's far away look softened each time he grabbed Freya, as if he was reminding himself she was still there.
 
-After a few blissful moments of silence, Freya asked, "How much do you trust Leon?"  She was staring through the walls of Leon's room in the physical plane, and had noticed Arthur outside the door. She noticed he was engaged in what looked like an inimate moment with somebody, but she could not make out details. Freya still struggled to defocus her eyes enough to see through solid objects in the physical plane, from the Ephemeral plane.  Seeing through humans was much more difficult for her.  She figured Merlin could see the trajectory of what events were to come.
+After a few blissful moments of silence, Freya asked, "How much do you trust Leon?"  She was staring through the walls of Leon's room in the physical plane, and had noticed Arthur outside the door. She noticed he was engaged in what looked like an inimate moment with somebody, but she could not make out details. Freya still struggled to defocus her eyes enough to see through solid objects in the physical plane, from the Ephemeral plane.  Seeing through humans was much more difficult for her.  She figured Merlin could see the trajectory of what events were to come.  She guessed it wasn't unlikely for Arthur to knock on this door.
+
+"I don't know" Merlin finally replied, his voice betraying a tiny hint of uncertainty. 
+
+"Arthur is here" Freya pointed out. 
+
+"Yeah, he will enter soon", Merlin confirmed. 
+
+"Will Leon..." Freya asked, letting her sentence trail off. Merlin knew she was asking about the worst case scenario. *Would Leon turn Merlin over to Arthur when asked?*
+
+"I'm less worried about that," Merlin replied cryptically, "than I am about if he would betray my presense, after he knows I &mdash; that *we* can be *dangerous*."
+
+Merlin shuddered at the word *dangerous*.  Freya turned her head, so she could nuzzle into Merlin's crotch, hoping for the hint of an erection.
+
+Freya was disspointed to feel a soft lump underneath the vexing stretcy fabric, and was rewarded with a hand yanking her head back.  Then two fingers plunged into her, thrusting deeply, nearly reaching her womb. They set a rapid pace, only managing to rile her up, as it felt wonderful, and did not fill her up enough, and all she wanted was to be owned by her Emrys. As quickly as the thrusting between he legs started, it stopped.  But then Freya nearly gagged, as the fingers, slick with her own juices, shoved into her mouth, stopping any hint of a moan in its tracks.  Freya spread her legs open, trying to get any friction, as she flicked her tongue back and forth on the fingers, as if it were another organ. Freya *needed* to be fucked against any surface. Now.
+
+Freya arched her back into the sensations, grabbing onto the shirt covering Merlin's torso, their familiar signal to "please continue".
+
+After a moment, Freya's mouth was empty, and Merlin's hands returned to their casual roaming across her body.  Looking down at her, Merlin's eyes twinkled.
+
+"I have an idea," Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn't had any observers since the they had to stop in the middle because Lancelot orgasmed all over Gwen's face and favorite dress. Even if they couldn't do obvious magic, they could at least show affection.
 
 </section>
