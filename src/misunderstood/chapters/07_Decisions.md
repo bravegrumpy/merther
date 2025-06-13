@@ -170,6 +170,6 @@ Freya arched her back into the sensations, grabbing onto the shirt covering Merl
 
 After a moment, Freya's mouth was empty, and Merlin's hands returned to their casual roaming across her body.  Looking down at her, Merlin's eyes twinkled.
 
-"I have an idea," Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn't had any observers since the they had to stop in the middle because Lancelot orgasmed all over Gwen's face and favorite dress. Even if they couldn't do obvious magic, they could at least show affection.
+"I have an idea," Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn't had any observers since the they had to stop in the middle because Lancelot orgasmed all over Gwen's face and favorite dress. Even if they couldn't do obvious magic, they could at least show affection.  It always made Freya sad when she saw Lancelot and Gwen, casually hold hands, at a quiet moment, knowing that she couldn't do the same to Merlin, unless in private.
 
 </section>
