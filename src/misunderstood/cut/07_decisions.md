@@ -2,6 +2,8 @@
 
 <section class="Leon">
 
+Hopefully George would be able to get Merlin to feel less alone, the way he did for him.
+
 
 Merlin fidgeted, prompting a nod from George. More precisely, he moved two fingers across the back of his hand, in what seemed like an intentional gesture. Leon was fairly certain he had seen this before when servants were clearing a feast. 
 

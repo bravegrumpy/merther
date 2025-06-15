@@ -15,17 +15,19 @@ description: ""
 
 It may have been unfair to expect Merlin to do anything about the recent reports from various maidens working as servants within the castle, but Leon hoped that the information would tell Merlin that he wasn't alone. Leon knew from experience that feeling alone was worse than whatever problems were happening.
 
-He gave a sidelong glance to George, who, give Leon a private smile.  Hopefully George would be able to get Merlin to feel less alone, the way he did for him. The curl of George's eye lashes glinted in the late afternoon light as he blinked, focusing back onto Merlin.
+He gave a sidelong glance to George who returned the look with a private smile.  Leon loved George's ability to make everybody feel welcome and loved.  Hopefully George would welcome Merlin the same way he had done for him. The curl of George's eye lashes glinted in the late afternoon light as he blinked, focusing back onto Merlin.
 
-Merlin's history of being able to retort to Arthur without being killed could be helpful in preventing Arthur's behavior from leaking onto common folk. If especially if Gwaine's reports turned out to be substantiated, then there was a serious problem with castle staff being harmed, and Merlin seems to be able to do something about it. George had mentioned that Merlin may have some talents that Leon was unaware of.  Maybe some of his hidden talents could help coralle the awkward impulses of the king.
+Merlin's history of being able to retort to Arthur without being killed could be helpful in preventing Arthur's behavior from leaking onto common folk. If especially if Gwaine's reports turned out to be substantiated, then there was a serious problem with castle staff being harmed. George had mentioned that Merlin may have some talents that Leon was unaware of.  Maybe some of his hidden talents could help coralle the awkward impulses of the king.
 
-Merlin seemed to curl in on himself. He placed a hand on the head of the other servant's&mdash;*Freya was it?* head, as she was curled up halfway on Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in seeming confusion, almost as if deciding something. 
+Merlin curled in on himself. He placed a hand on the head of the other servant's&mdash;head, *Freya was it?* as she rested her head Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in confusion, almost as if deciding something. 
+
+Leon was entertained, as this was the exact look that the king referenced when loudly proclaiming that Merlin was an idiot.
 
 George continued to scratch notes, but his stance completely hid his writing from view.  *Great, George suspects something, and won't tell me.*  George did not typically keep secrets.
 
 Suddenly, Freya pushed up from her curled position, and sat up.
 
-Leon looked back and forth between Freya, Merlin, and George. The slight cock to George's head was the only thing that betrayed that something happened that Leon whas not privy to. 
+Leon looked back and forth between Freya, Merlin, and George. The slight tilt something happened that Leon whas not privy to. 
 
 An unbidden image of a frail and pathetic Merlin, shivering, with eyes wide, entire body rigid and clenched, hair dripping, while slowly freezing, came to Leon's mind. He remembred freezing, unable to call out, his limbs glued to his sides, as Merlin slowly lost clothing. Arthur's words echoed in Leon's brain, "You are mine. Don't forget".
 
@@ -171,5 +173,69 @@ Freya arched her back into the sensations, grabbing onto the shirt covering Merl
 After a moment, Freya's mouth was empty, and Merlin's hands returned to their casual roaming across her body.  Looking down at her, Merlin's eyes twinkled.
 
 "I have an idea," Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn't had any observers since the they had to stop in the middle because Lancelot orgasmed all over Gwen's face and favorite dress. Even if they couldn't do obvious magic, they could at least show affection.  It always made Freya sad when she saw Lancelot and Gwen, casually hold hands, at a quiet moment, knowing that she couldn't do the same to Merlin, unless in private.
+
+Merlin continued, "I will trust Leon if stands up to *Arthur*, after seeing me as dangerous".  Merlin spat Arthur's name, as if was poison to his system. Freya wrapped her hands around Merlin's arm, hoping to comfort him, waiting for him to continue.  
+
+Merlin then started tapping his hands up and down the inside of Freya's thigh, tickling all of the most sensitive parts of her legs, taking advantage of her arousal, to slide his fingers across her skin.
+
+Freya squealed, rocking her hips to make it easier for Merlin to access her clit. Merlin, smirked, avoiding the one place that he knew would give maximum pleasure, with practiced ease.
+
+As Merlin stopped his minstrations for a moment, lying his palm flat on one of her legs, grabbing her slightly, allowing her to calm down. His other hand lay flat on her stomach, atop the corset, idly untying the laces.
+
+"I want to fuck you in front of them," Merlin continued, "after signaling to George that you are okay. Are you okay with that."
+
+Rather than responding, Freya squeezed the arm she was still gripping twice, their affirmative signal. 
+
+Freya then said, "Since we don't know them, don't make it too intense."  Freya chewed on her lip, wishing for a more intese session than what she would get with onlookers, but happy it would at least be in the physical plane.
+
+"But you owe me a real fuck when we get out of this mess," Freya continued, with a small smirk, fluttering her eyes up at Merlin.
+
+*Fineeee* Merlin joked, telepathically, then sending an image of Freya restrained with ropes, anchored to a beam on the ceiling in their home. In the image, Lancelot was nude, with his pelivis pressed against her bum, while Merlin was clearly thrusting into her from the front, while pinching her nippes. Gwen, also nude, was shoving her fingers into Freya's mouth. 
+
+*When are you going to finally fuck Lancelot?* Freya, telepathically asked, as Merlin waved his hand, returning them to their bodies, in the physical plane. 
+
+</section>
+
+---
+
+<section class="george">
+
+#### George
+
+George was very proud of the notes he kept, tracking the various events that happend at King Arthur's behest.  He knew Leon meant well, but unfortunately, it was all too predictable that he would as the *wrong* questions.  Of course Merlin and Freya were helping other people wronged by Arthur.  However, George was unsure if their means were particulalry legal.  They were almost certainly using magic.  Freya was doing well at her post on the Morgana servant team, but it was also becoming known for her abilities around plants.
+
+George was at least glad that Leon was getting a chance to make ammends with Merlin, and that Merlin would know who would support him.
+
+George looked over at Leon, smiling at him, hopefully encouraging him to continue. He then focued very intently on his notes, to keep himself from tussling Leons golden locks.  As much fun as that would be, he did not want to spook Merlin or Freya.  
+
+George kept his writing small, legible, but hidden from Leon's view, so he could notate exactly what was and was *not* revealed, without telling Leon about Merlin's magic.  No matter how frustrating it was that Merlin had *that* advantage, he did not want Merlin to know that he knew, until Merlin was ready to talk.
+
+When Freya suddenly sat up, George studied Merlin's face. Merlin caught his eye, and tilted his head in confusion, the look he typically had when thinking.  It was the same look that made powerful men think he was an idiot. 
+
+George nodded at Merlin, trying, but likely unsuccessfully portraying that he wouldn't say anything stupid. George chewed on his lip, while trying to figure out what they were going to do, and exactly how much they would reveal.
+
+George turned to Leon again. Leon was subltly bouncing his left foot, letting his heel jump up and down from the floor, somehow not making noise.  The set of his shoulders betrayed the tension and confusion. George risked placing a reassuring hand on the back of Leon's neck. George selfishly regretted the fact that their evening had been cut short.
+
+"Merlin and I regularly provied servants with...medicines that can make them more comfortable after Arthur happens to them," Freya said. *I'm sure its just medicine. Nothing else,* George thought sarcastically.  There was absolutely no way magic was not involved.  Freya's tone betrayed some hint of subterfuge.  But she could also just be copying her husband's typically suspicious tone.
+
+George withdrew his hand, momentarily, to mark that they had not yet revealed magic. He used a circle with a dot inside, to indicate knowledge, but no revelations.  It was the same code he used when tracking which stories he told which nobles, in order to quell their preposterous demands.  He could hear Leon exhale. 
+
+Returning his hand to Leon's neck, George focued back on Merlin, hoping to give off a relaxed posture.  George was used to sitting rigidly, egging Merlin to copy *his* image of perfect servitude. He wished that he could give Merlin poor marks on his etticque, despite Merlin being outside of the managerial structures all other palace staff were bound to.
+
+Merlin waved his hand, gesturing at Freya, and then sent George the hand signals for "Royalty appriaching", "Subvert", and "Leon". Unsure of what was coming, George pointededly nodded to Merlin, understanding the needed to prepare Leon for weird behavior. 
+
+
+"Leon trusts you," Goerge said, turning his whole body to Leon, George moved his hand to the thigh Leon was bouncing earlier, "Lets see if you deserve it."
+
+George loved the high he felt when he deepended his voice, and commanded Leon, Camelot's First Knight. It did not matter that he was a servant.  When he used  that voice, all of the power in Camelot would bend to his will.  George chuckled, thinking that all he *really* wanted was for Leon to bend over and present his arse to be smacked to George's content.  *Fuck,* George thought, feeling blood rush downward at the thought.
+
+Suddently, he heard a yelpand some fabric being rubbed together, indicatvie of bedroom activites.  It now took some serious effort to not rise from his chair and guide Leon's head to his own crotch.
+
+During some of the more fiersly *lewd* noices, George's fist clenched, nearly drawing blood.  Whenever Merlin and Freya were gone, Leon was going to get fucked so hard, that both of them would see stars.  George had to calmly imagine the adorable cats that Old Lady Alice kept in her cottage, to will his erection away.
+
+There was a knock on the door, a moment after Merlin hopped away from Freya, hiding under the bed.  *So this is what Merlin meant by Royalty and subterfuge.* Leon seemed to be frozeen in shock. *They did not have time for Leon to be still. There was a king waiting for him.*
+
+"It is likely the king," George prompted, hoping that this would jostle Leon into action.  He turned back to Freya. Her hair was standing up in all directions, and there was a mark visible on her now nude breast.  She looked exactly like she was interrupted sex, likely intentional. Arthur, while notorious for forcing himself onto any wayword woman, and the occasional serving man, he was rarely distracted by what he would call "used goods", or "somebody else's leftovers."  Arthur's entitlement to human bodies was sickening, but it at least created a way to discourage new violence.
+
 
 </section>
