@@ -8,7 +8,12 @@ chapter: 7
 
 <p> You can remove my custom styling by pressing the <a href="?style=disable">Hide Creator Style</a> button in the naviation menu or by <a href="?style=disable">clicking here</a>. </p>
 
-<p>There are some content warnings do contain spoilers.  They will be referenced in the <a href="#chapter_7_endnotes">end notes</a>.</p>
+<hr />
+
+<p>This chapter is a <em>doozy</em>!</p>
+
+<p>There are some content warnings that do contain spoilers.  They will be referenced in the <a href="#chapter_7_endnotes">end notes</a>.</p>
+
 
 <hr />
 
