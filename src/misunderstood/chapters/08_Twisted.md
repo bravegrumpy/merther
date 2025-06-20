@@ -21,7 +21,7 @@ At long last, the door to the armory door opened.  The tall, blonde man, styled 
 
 *Take a deep breath. Don't betray the degree of your nerves,* Gwen thought to herself.  She straightened her shoulders, hoping to hide her superior chainmail from view.
 
-"I said, what do you have for *me*," Arthur said, licking his lips. The armory was not well ventallated.  A pool of sweat dripped from Arthur's upper lip.  He might have been handsome if he weren't so cruel.  
+"I said, what do you have for *me*," Arthur said, licking his lips. The armory was not well ventallated.  A pool of sweat dripped from Arthur's upper lip.  He might have been handsome if he weren't so cruel.
 
 Gwen simultaneously drew her ordinary sword, and her dagger, moving the sword forward, angling some etching for Arthur. 
 
@@ -80,7 +80,7 @@ This earned him a smack on the leg from Freya.
 
 This innocent gesture seemed to startle Leon back into the conversation.
 
-&ldquo;Lets take moment. Freya, are *you* okay?&rdquo; He paused for a moment, making looking directly at Freya.  Merlin shifted his arm to be protectively around her. When Freya did not answer, he continued, &ldquo;You do not need to take such treatment from Merlin, any more than Merlin does from Arthur.  Are you aware that it is within your right to refuse a man&rsquo;s advances. &rdquo; 
+&ldquo;Lets take moment. Freya, are *you* okay?&rdquo; He paused for a moment, looking directly at Freya.  Merlin shifted his arm to be protectively around her. When Freya did not answer, he continued, &ldquo;You do not need to take such treatment from Merlin, any more than Merlin does from Arthur.  Are you aware that it is within your right to refuse a man&rsquo;s advances. &rdquo; 
 
 Leon then looked into Merlin&rsquo;s eyes with an intensity that could burn down a bridge, &ldquo;Unhand her please, and allow her to speak,&rdquo; he commanded. 
 
@@ -90,6 +90,8 @@ It was at this moment that George knocked his inkwell over, clattering to the gr
 
 George was doubled over in a fit of silent giggles. It was almost unnerving seeing the awkward creases of George&rsquo;s perfectly pressed uniform, and the little flecks of ink spilled onto his otherwise pristinely white shirt.
 
-&ldquo;Haa&mdash;Leon&mdash;Hehehehe&rdquo; George managed to wheeze between giggles, &ldquo;Those two are very married. And part of Merlin *has magic*. Do you think they did not *talk* about the little show they put on?&rdquo;
+&ldquo;Haa&mdash;Leon&mdash;Hehehehe&rdquo; George managed to wheeze between giggles, &ldquo;Those two are very married. And Merlin *has magic*. Do you think they did not *talk* about the little show they put on?&rdquo;
+
+At that Freya leaned in towards Merlin, lips pursed, about to gently kiss is cheek, but at the last moment, she licked his 
 
 </section>
