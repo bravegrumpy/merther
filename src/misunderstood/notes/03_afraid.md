@@ -9,3 +9,5 @@ chapter: 3
 
 <p>This chapter is a bit of a breather. I don't have any content warnings not already mentioned for the whole fic.</p>
 <p>There are no smut scenes in this chapter becasue <em>plot</em> got in the way.</p>
+
+FYI&mdash; *&#x00ab;I use italics and fancy french quotes to indicate the telepathic communication magic users can do.&#x00bb;*
