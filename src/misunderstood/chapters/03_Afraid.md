@@ -107,7 +107,7 @@ After looking around, and ensuring that she was alone, Frey the cart over, and l
 
 &ldquo;Ask George&rdquo; Merlin softly croaked, while sending a tendril of magic in her direction. Even without the physical touch, the feel of Merlin&rsquo;s magic immediately made her calm down.
 
-&ldquo;*Emrys, my love, why should I go to one of the royal servants, find a…soldier or politician…? … I think…?&rdquo;* Freya asked, telepathically, after re-securing Merlin and getting back onto the path. To be totally honest, Freya wasn&rsquo;t even sure why some random castle-person would be expecting a weapons and laundry delivery from some random servant. Or why a royal servant would deign to look at said castle-person. In Freya&rsquo;s experience, most of the royal servants were quite uppity until Merlin introduced her properly. Somehow saying Merlin was her husband was never enough.
+*&#x00ab;Emrys, my love, why should I go to one of the royal servants, find a…soldier or politician…? … I think…?&#x00bb;* Freya asked, telepathically, after re-securing Merlin and getting back onto the path. To be totally honest, Freya wasn&rsquo;t even sure why some random castle-person would be expecting a weapons and laundry delivery from some random servant. Or why a royal servant would deign to look at said castle-person. In Freya&rsquo;s experience, most of the royal servants were quite uppity until Merlin introduced her properly. Somehow saying Merlin was her husband was never enough.
 
 Instead of respond, Merlin chuckled, and sent her images of George proudly polishing armor, while Merlin was holding a spoon.
 
