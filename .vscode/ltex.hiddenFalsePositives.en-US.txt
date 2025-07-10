@@ -1,0 +1,4 @@
+{"rule":"IN_THE_MOMENT","sentence":"^\\QGwen's pupils were dilated, drinking in the moment, relieved to finally give control to somebody who will take it.\\E$"}
+{"rule":"MEAN_FOR_TO","sentence":"^\\QTo be fair, Merlin was already on his knees, pulling Arthur's trousers down, so Arthur placed his hand on Merlin's shoulder to accentuate that he meant for Merlin to stay there.\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\QGeorge’ was slighter and shorter than Merlin, giving him an unassuming presence.\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“Come in, ” Arthur responded to the knock, knowing that he had requested some food to energize him for training.\\E$"}
