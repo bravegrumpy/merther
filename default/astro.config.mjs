@@ -66,7 +66,7 @@ export default defineConfig({
     rehypePlugins: [
       rehypeSlug, 
       [rehypeAutolinkHeadings, {behavior: "prepend"}], 
-      [rehypeExternalLinks, {target: "_blank", rel: "nofollow"}] 
+      [rehypeExternalLinks, {target: "_blank", rel: "nofollow", content: { type: 'text', value: '🔗'}}] 
     ]
   },
 
@@ -86,5 +86,5 @@ export default defineConfig({
     webAnalytics: {
       enabled: true
     }
-  }),
+  })
 });
