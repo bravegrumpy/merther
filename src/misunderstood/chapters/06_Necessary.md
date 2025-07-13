@@ -18,7 +18,7 @@ The end to a long day found Veronica sitting alone at a table in the Rising Sun.
 
 &ldquo;Would you like me to cheer you up, lovely lass?&rdquo; It was just her luck that a gruff voice would notice her only when she let her guard down.
 
-&ldquo;I&rsquo;m not interested,&rdquo; Veronica mumbled, her right hand curling into a fist. Most days she could handle herself. Today was not that day. She thought she was prepping for her usual assignment in the bakery. By mid morning she thought she was getting to do a task she had always wanted. Normally the king&rsquo;s usual servant served all his meals—Veronica didn&rsquo;t know how— but today she was the one chosen to deliver the king&rsquo;s lunch. She had served Uther, the prior king, a few times, and had served in royal feasts. But she was not prepared for the depravity of what this king wanted. She wished someone had warned her about being on the menu. She might have stashed a weapon in her skirts.
+&ldquo;I&rsquo;m not interested,&rdquo; Veronica mumbled, her right hand curling into a fist. Most days she could handle herself. Today was not that day. She thought she was prepping for her usual assignment in the bakery. By mid-morning she thought she was getting to do a task she had always wanted. Normally the king&rsquo;s usual servant served all his meals—Veronica didn&rsquo;t know how— but today she was the one chosen to deliver the king&rsquo;s lunch. She had served Uther, the prior king, a few times, and had served in royal feasts. But she was not prepared for the depravity of what this king wanted. She wished someone had warned her about being on the menu. She might have stashed a weapon in her skirts.
 
 Then a softer, more welcome voice grabbed her attention, &ldquo;Another tankard?&rdquo; Veronica looked in her coin purse. She couldn&rsquo;t have another and still feed her siblings for the week. &ldquo;I—&rdquo;
 
@@ -34,7 +34,7 @@ When the barmaid handed her refilled tankard, Veronica took a sip. Brandy.
 
 Veronica tried her best not to stare at the barmaid as she glided from behind the counter, with trays of food and drinks, dancing to the rhythm of the city&rsquo;s personnel. Her green-plaid skirt fell to her ankles, but managed to drift around the barmaid, never once getting in the way, and always covered by the grey apron. Veronica wondered if the barmaid managed to keep at it by magic. A few minutes later, the barmaid caught her eye, and Veronica felt herself blush despite herself.
 
-Every few minutes the barmaid came over, and laced her hand through Veronica&rsquo;s fingers, squeezing her hand as if she already knew what was wrong. It was like she knew what Veronica needed in the moment. Miraculously, during the entire time, Veronica never once needed to worry about the gruff man bothering her.
+Every few minutes the barmaid came over, and laced her hand through Veronica&rsquo;s fingers, squeezing her hand as if she already knew what was wrong. It was like she knew what Veronica needed at that moment. Miraculously, during the entire time, Veronica never once needed to worry about the gruff man bothering her.
 
 As the evening grew older, the bustle came to a momentary dull. Veronica, feeling the familiar burn of brandy in her system felt a strange warmth, like maybe she was going to be okay. She wanted to hold onto this feeling, not knowing if she would ever feel it again.
 
@@ -82,9 +82,9 @@ Tess grabbed Veronica&rsquo;s hand and gently guided her up into a room.  Tess h
 
 The room was large enough to fit the two beds, two tables, and not much else. There were scant impersonal decorations, but next to the window, painting of an iris caught Veronica&rsquo;s eye. 
 
-She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed  the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess&rsquo;s waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
+She then noticed that sitting in the occupied bed was a woman surrounded by parchment, and had a lute across her lap.  When she noticed the door open, she gently placed the lute next to her, and then excitedly ran to Tess, jumping into her arms, wrapping her legs around Tess&rsquo;s waist.  Tess responded in kind, looping her arms around the woman, supporting her, and proceeding to kiss this woman.
 
-After a moment Veronica looked away, thinking that she was  intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.   Somehow this made Veronica wonder if she could elicit similar noises from Tess.
+After a moment Veronica looked away, thinking that she was intruding on a private moment. She was rather unsure of where to look when she heard noises typically reserved for a bedroom.  Then again she _was_ in a bedroom.  Somehow this made Veronica wonder if she could elicit similar noises from Tess.
 
 Veronica peeked again after a particularly salacious moan. Tess&rsquo;s face was obscured by hair as the mystery woman back arched with pleasure.
 
@@ -98,13 +98,13 @@ Part of Veronica wanted to kiss the hand, rather than take it, but instead she j
 
 Tess pulled on Kathy&rsquo;s hair, and remarked, &ldquo;She&rsquo;s been going through a rough day.&rdquo;
 
-By this time, Tess had also seemed  to have, as if by magic, unlaced her dress, such that she was still wearing her skirts, but left her nude from the waist up. 
+By this time, Tess had also seemed to have, as if by magic, unlaced her dress, such that she was still wearing her skirts, but left her nude from the waist up. 
 
 &ldquo;Have fun you two,&rdquo; Kathy winked at Veronica.
 
 Then, after biting down on one of Tess&rsquo;s exposed nipples, as if in greeting, then got up, shuffled her parchment together, strapped her lute to her back, and left the room. 
 
-Tess then gracefully stepped out of her skirts, and  walked over to the door, latching it from the inside.
+Tess then gracefully stepped out of her skirts, and walked over to the door, latching it from the inside.
 
 Veronica, transfixed by Tess&rsquo;s confident beauty, simply absorbed the moment.
 
@@ -112,7 +112,7 @@ Veronica, transfixed by Tess&rsquo;s confident beauty, simply absorbed the momen
 
 &ldquo;Tess&mdash;You&mdash; Agh&hellip;&rdquo; Veronica moaned, clamping her thighs around Tess&rsquo;s face, grinding into the expertly swirling tongue. She threaded her fingers through Tess&rsquo;s hair, holding her in just the right spot. All Veronica could feel were the hands her hips, and the tongue attacking her sweet spot. She didn&rsquo;t even try to temper her moans.
 
-As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail. It somehow then  felt good again, and  Veronica was then floating in the blissful throws of pleasure.
+As Veronica rode through her first orgasm, she tried to move away from Tess&rsquo;s stimulation, to no avail. It somehow then felt good again, and Veronica was then floating in the blissful throes of pleasure.
 
 Each crescendo melded with the previous one, until finally all Veronica could do was sit down and ride the waves.
 
@@ -120,9 +120,9 @@ Each crescendo melded with the previous one, until finally all Veronica could do
 
 &ldquo;Do you want to talk about it?&rdquo; Tess asked. At some point she had left to get a platter of bread cheese, and some water.  
 
-Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of dru, but even that didn&rsquo;t matter now.  The bread was the best bread she had ever tasted.
+Veronica was feeling more relaxed than she had ever felt. She wondered if she was on some sort of drug, but even that didn&rsquo;t matter now.  The bread was the best bread she had ever tasted.
 
-&ldquo;I think the King of Camelot is  a mad king,&rdquo; Veronica whispered.
+&ldquo;I think the King of Camelot is a mad king,&rdquo; Veronica whispered.
 
 &ldquo;Are you *just now* discovering this?&rdquo; Tess giggled, squeezing Veronica&rsquo;s hand, interlacing their fingers once more.
 
@@ -148,7 +148,7 @@ The only thing that could get a room full of Arthur&rsquo;s knights to be this e
 
 Her dramatic alto could reach baritones most men could only aspire to.  It was only enhanced by the melodic dancing of her fingers on her lute.
 
-Kathy&rsquo;s performace was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy&rsquo;s flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
+Kathy&rsquo;s performance was breathtaking. Not only was she a woman, she was likely the best lute player on this side of the White Mountains.   Kathy&rsquo;s flamboyant stage presence was somehow able to put the room at ease, and had even Brian singing and dancing at the chorus.  The music was just about the only thing stopping Gwaine from starting a tavern brawl.  No wonder Tess kept her around.
 
 During a break in the performance, Gwaine scanned the room looking for Tess, or the woman cowered away from him earlier that evening.  He then felt a tug at his sleeve, and a whiff of cinnamon perfume.
 
@@ -168,21 +168,21 @@ A crowd started to stare, a chant growing &ldquo;Kiss the hand! Kiss the hand!&r
 
 Kathy finally deigned to let Gwaine kiss her hand, When she withdrew her hand, she then blew a kiss into the crowd with a wink and a toss of her hair.  Gwaine was fairly certain that the half of the room attracted to women swooned.
 
-&ldquo;That&rsquo;s all I have,&rdquo; Then an idea occurred to Gwainne. Brian, the Town Crier desperately wanted to be a bard, but was too nervous to ever actually *talk* to Kathy. 
+&ldquo;That&rsquo;s all I have,&rdquo; Then an idea occurred to Gwaine. Brian, the Town Crier desperately wanted to be a bard, but was too nervous to ever actually *talk* to Kathy. 
 
-&ldquo;Kathy, May I introduce you to Brian, our Town Crier? He knows all of the most exciting craftsmen in the area,&rdquo; Gwaine then reached out at the retreating Brian, grabbed his shoulders, and pushed him towards Kathy. They could entertain each other for weeks.  He knew that Brian hated the physical touch, but would thank him for it later.
+&ldquo;Kathy, May I introduce you to Brian, our Town Crier? He knows all the most exciting craftsmen in the area,&rdquo; Gwaine then reached out at the retreating Brian, grabbed his shoulders, and pushed him towards Kathy. They could entertain each other for weeks.  He knew that Brian hated the physical touch, but would thank him for it later.
 
 Based on today&rsquo;s meeting with Knights, it was now imperative for him to find either Tess or that woman. Lancelot did not divulge much, but corroborating evidence of King Arthur&rsquo;s behavior will help them *avoid* future Rabbit Dance incidents.  By now he hoped that Merlin was talking to Leon.
 
 After scanning the room once more, to no avail, Gwaine turned to refill his ale tankard.  A man with bulging muscles a cropped haircut, and a strong jawline carried a crate from the side entrance into the kitchen. The entire tavern melted away, and Gwaine spent the rest of the evening watching the man.
 
-Two more trips, passed before the man settled in, taking a seat in the center of the tavern, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the rukkous, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
+Two more trips, passed before the man settled in, taking a seat in the center of the tavern, while various men lined up to arm wrestle the man. The man beat every competitor, without even breaking a sweat. Gwaine briefly wondered if the man could lift *him*.  It was unfamiliar to not be the center of the ruckus, but something kept Gwaine at the sideline, watching.  Even from across the room, Gwaine was certain he could see a twinkle in the man&rsquo;s eye.
 
 After one particularly excellent win, and a roar from the crowd, the man took a large swig from his tankard, and slammed it on the table. Immediately, somebody refilled his tankard, and the man raised it in gratitude, sloshing a bit onto his shirt, and then slammed it back onto the table before projecting &ldquo;And who is my next victim&mdash; I mean contestant&rdquo; with a broad smile. When the man&rsquo;s eyes briefly landed on Gwaine&rsquo;s before flitting away, Gwaine could feel his face heat up, as he quickly turned to order another drink, and avoid eye contact. 
 
 Once the next opponent sat down, the man noticed the stain to his shirt, so he promptly pulled his tunic over his head, threw it aside, flexing his muscles to a wooing crowd.
 
-Some time later, a plate of food appeared in front of the man, and he managed to completely miss his mouth, and smeared a bit of cabbage onto a corner of his mouth. Seeing this, Gwaine smiled to himself, taken in by this small gesture of imperfection. This time the man caught Gwiane staring, and somehow while his face was flushed red, he wiped his face with the back of his hand, completed the gesture by sending Gwaine a rude hand gesture. 
+Some time later, a plate of food appeared in front of the man, and he managed to completely miss his mouth, and smeared a bit of cabbage onto a corner of his mouth. Seeing this, Gwaine smiled to himself, taken in by this small gesture of imperfection. This time the man caught Gwaine staring, and somehow while his face was flushed red, he wiped his face with the back of his hand, completed the gesture by sending Gwaine a rude hand gesture. 
 
 Gwaine needed to learn more about this man.
 
@@ -194,7 +194,7 @@ Gwaine needed to learn more about this man.
 
 #### Merlin
 
-Freya was curled up on Leon&rsquo;s bed, next to Merlin, as they continued their discussion about various quirks about King Arthur&rsquo;s behavior.  He was okay with this conversation, in part because he knew that Leon meant well. But he could not shake some feeling of *wrongness* from his mind.  Despite the close-call from this morning, Merlin&rsquo;s place was by Arthur&rsquo;s side. Merlin needed to ensure that the age of Albion came to pass. Maybe one day Merlin would even come to love Arthur. Giaus had always told him that his destiny was entwined with Arthur&rsquo;s. 
+Freya was curled up on Leon&rsquo;s bed, next to Merlin, as they continued their discussion about various quirks about King Arthur&rsquo;s behavior.  He was okay with this conversation, in part because he knew that Leon meant well. But he could not shake some feeling of *wrongness* from his mind.  Despite the close-call from this morning, Merlin&rsquo;s place was by Arthur&rsquo;s side. Merlin needed to ensure that the age of Albion came to pass. Maybe one day Merlin would even come to love Arthur. Gaius had always told him that his destiny was entwined with Arthur&rsquo;s. 
 
 His thoughts about Albion reminded him that there was another matter to be discussed. Lancelot and Gwen new, but that was *different*.  Merlin was still not allowed to exist, and stay alive within Camelot. Leon still upheld Camelot&rsquo;s laws.
 
@@ -202,7 +202,7 @@ Merlin didn&rsquo;t really need the help. He could just stop time, and get out o
 
 &ldquo;We have heard reports that you are not the only victim of Arthur&rsquo;s behavior,&rdquo; Leon&rsquo;s question jarred Merlin out of his reverie.
 
-&ldquo;Who?&rdquo; Merlin asked, unexpectedly feeling betrayal at Arthur&rsquo;s attentions being elsewhere. Its not that Merlin wanted them, but he could endure them.
+&ldquo;Who?&rdquo; Merlin asked, unexpectedly feeling betrayal at Arthur&rsquo;s attentions being elsewhere. It's not that Merlin wanted them, but he could endure them.
 
 *How dare Arthur try to make love to others? Merlin could take it, and had Freya to go home to. Who else could survive Arthur&rsquo;s manipulations? Why didn&rsquo;t Arthur trust him enough to stay loyal? Was Merlin not enough for him? Would Arthur have remained loyal had he just complied this morning?*
 
@@ -212,7 +212,7 @@ Merlin idly stroked Freya&rsquo;s hair, hoping that she was starting relax, now 
 
 Ever since he had learned how to create a potion to help Freya control her Bastet form, she has been able to pass of as being mostly human.  It was amazing how many skill most would just accept as a skill, and not even think to suspect magical intervention.  Freya&rsquo;s skill plants was one of those skills.  Merlin&rsquo;s finger strayed to Freya&rsquo;s cheek, as he longed for the serene stillness of her garden, within his wards, where their secret could be free&mdash; magically guarded, to be unseen by any passerby.
 
-Until now, Merlin had  genuinely believed that Arthur&rsquo;s treatment of him had been a secret. Or at least ignored as &ldquo;Merlin being Merlin again&rdquo;. He thrived on invisibly shielding others from the pain.  Keeping Arthur&rsquo;s sins a secret felt no different than keeping his *other* secret. The one that would mean his own death. Arthur kill him gleefully upon finding out that Merlin had magic. Arthur was  the king after all.  There was no reason why Merlin&rsquo;s actual opinion on the king&rsquo;s &ldquo;affections&rdquo; should be any less of a secret.
+Until now, Merlin had genuinely believed that Arthur&rsquo;s treatment of him had been a secret. Or at least ignored as &ldquo;Merlin being Merlin again&rdquo;. He thrived on invisibly shielding others from the pain.  Keeping Arthur&rsquo;s sins a secret felt no different from keeping his *other* secret. The one that would mean his own death. Arthur kill him gleefully upon finding out that Merlin had magic. Arthur was the king after all.  There was no reason why Merlin&rsquo;s actual opinion on the king&rsquo;s &ldquo;affections&rdquo; should be any less of a secret.
 
 The important people in his life knew, and that was all that mattered.
 

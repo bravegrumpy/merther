@@ -19,7 +19,7 @@ endnotes: ""
 
 *Arthur nearly imperceptibly leaned towards Merlin as the raven-haired man put his hands underneath Arthur&rsquo;s shirt. Arthur secretly hoped that Merlin would simply place his palms on his chest and hold him close, forgetting about his station briefly.*
 
-*&ldquo;Carry on and quit being stupid,&rdquo; Arthur barked at Merlin, aiming to hid the blush creeping along his cheeks. The last thing he wanted was to be accused of was giving favor to a mere servant. No matter how petulant.*
+*&ldquo;Carry on and quit being stupid,&rdquo; Arthur barked at Merlin, aiming to hide the blush creeping along his cheeks. The last thing he wanted was to be accused of was giving favor to a mere servant. No matter how petulant.*
 
 *However, Arthur could not deny that Merlin&rsquo;s petulant defiance stirred something within him that made him want to force the servant to truly obey in a way that no other servant could. Then Merlin&rsquo;s sharp cheekbones moved in a way that made Arthur want to kiss him. Artur could not betray that he wanted something soft.*
 
@@ -65,7 +65,7 @@ endnotes: ""
 
 *Arthur swallowed down his embarrassing hesitation, and decided he was going to continue trying to convince Merlin that he meant no harm, and to ensure that Merlin would not pull a trick of defiance again. He figured the best way to achieve this was to make Merlin confront his own arousal, as Arthur was making it clear where they stood.*
 
-*Arthur crouched down and pulled down Merlin&rsquo;s pants and underwear, revealing two deliciously round ass cheeks. However, Arthur was rather surprised to fins a limp and soft dick, as if none of the fondling was arousing. With the lack of arousal in mind, Arthur figured that the situation is humiliating enough for now. Arthur wanted to make this last, so he could savor all of his servant. Merlin&rsquo;s lack of interest made Arthur&rsquo;s erection twitch, with barely controlled desire. Merlin&rsquo;s arms were flailing, and his countless disapproving insults were on his lips. While others may stop and confirm consent at this point, the the rejection only encouraged Arthur.*
+*Arthur crouched down and pulled down Merlin&rsquo;s pants and underwear, revealing two deliciously round ass cheeks. However, Arthur was rather surprised to fins a limp and soft dick, as if none of the fondling was arousing. With the lack of arousal in mind, Arthur figured that the situation is humiliating enough for now. Arthur wanted to make this last, so he could savor all of his servant. Merlin&rsquo;s lack of interest made Arthur&rsquo;s erection twitch, with barely controlled desire. Merlin&rsquo;s arms were flailing, and his countless disapproving insults were on his lips. While others may stop and confirm consent at this point, the rejection only encouraged Arthur.*
 
 *&ldquo;You are kind of hot being your master&rsquo;s little slut boy&rdquo; Arthur almost whispered, ghosting Merlin&rsquo;s cheek with his lips.*
 
@@ -75,7 +75,7 @@ endnotes: ""
 
 *Arthur roughly grabbed Merlin&rsquo;s head again, moving it back and forth along his length, ensuring that Merlin kept making the wonderful gagging noises that made his warm throat contract around his dick, feeling soft and inviting.*
 
-*Arthur kept up the pace, increasing until he was about to reach release. &ldquo;I think I want to show off today,&rdquo; Arthur said with a smile, looking into Merlin&rsquo;s glassy wet eyes. Release was coming. Merlin&rsquo;s head brought Arthur to the brink. Arthur had the sudden urge to mark his territory, ensuring that Merlin knew to whom he belonged. Arthur abruptly moved Merlin&rsquo;s head off of his cock, not giving him enough time to bite down, having learned his lesson. Arthur then grunted in absolute pleasure as he released his seed onto Merlin&rsquo;s face and shirt and then made sure he got some onto Merlin&rsquo;s neckerchief.*
+*Arthur kept up the pace, increasing until he was about to reach release. &ldquo;I think I want to show off today,&rdquo; Arthur said with a smile, looking into Merlin&rsquo;s glassy wet eyes. Release was coming. Merlin&rsquo;s head brought Arthur to the brink. He had the sudden urge to mark his territory, ensuring that Merlin knew to whom he belonged. Then he abruptly moved Merlin&rsquo;s head off of his cock, not giving him enough time to bite down, having learned his lesson. Arthur then grunted in absolute pleasure as he released his seed onto Merlin&rsquo;s face and shirt and then made sure he got some onto Merlin&rsquo;s neckerchief.*
 
 *Seeing this wondrous sight made Arthur&rsquo;s spent cock twitch again. So Arthur decided to grab Merlin&rsquo;s shoulder, bring him up to stand, and start rubbing Merlin&rsquo;s neckerchief to collect Arthur&rsquo;s seed. Noticing the moistened cloth, Arthur then started using his own seed to rub on Merlin&rsquo;s soft dick.*
 
@@ -85,9 +85,9 @@ endnotes: ""
 
 *Arthur started to kiss Merlin, starting on the forehead and making his way down, paying special attention to Merlin&rsquo;s nipples, stiff due to stress, the cold, or, most likely, arousal. A quick nip on Merlin&rsquo;s neck told Arthur this would be a special spot.*
 
-*Eventually, Merlin&rsquo;s energy came back, and with that more defiance. &ldquo;For real, I do not want this. Let me go, and I won&rsquo;t tell anybody about this,&rdquo; Merlin squealed pitifully. This may have been genuine communication. But to Arthur, the squeals were encouragement. He would not accept no, for he could finally be honest, and allow Merlin to do the same.*
+*Eventually, Merlin&rsquo;s energy came back, and with that more defiance. &ldquo;For real, I do not want this. Let me go, and I won&rsquo;t tell anybody about this,&rdquo; Merlin squealed pitifully. This may have been genuine communication. But to Arthur, the squeals were encouragement. He would not accept refusal, for now he could finally be honest, and allow Merlin to do the same.*
 
-*&ldquo;No, I want you to be aroused for me, as you are adorable and you want this more than I do,&rdquo; Arthur replied while softly rubbing Merlin&rsquo;s thighs and bollocks. Merlin&rsquo;s physical reactions already confirmed that he wanted this, regardless of what his mouth might be saying.*
+*&ldquo;No, I want you to be aroused for me, as you are adorable, and you want this more than I do,&rdquo; Arthur replied while softly rubbing Merlin&rsquo;s thighs and bollocks. Merlin&rsquo;s physical reactions already confirmed that he wanted this, regardless of what his mouth might be saying.*
 
 *Finally, Merlin&rsquo;s cock started to stiffen as Merlin sighed. With that, Arthur lifted Merlin up, bridal style, and gently placed him on the cushioned bed. Arthur was determined to make Merlin feel good. A bed was a first step in impressing onto Merlin just how much he mattered.*
 
@@ -103,7 +103,7 @@ endnotes: ""
 
 Feigning interest, Arthur looked down at the scroll on the table before him, attempting to shake off the daydream. Arthur, now fully erect, started paying attention to his notes, surprisingly scribbled, to reduce the inappropriate nature of his mood. Somehow, while daydreaming, he had successfully scribbled something. However, most of the notes he took were simple lines, keeping track of time. Arthur silently thanked Merlin for making his notes.
 
-After scanning for a question Merlin helpfully wrote Arthur asked, &ldquo;Is there a trade route that will make obtaining clay and other supplies easier?&rdquo;attempting to sound like he had been paying attention this whole time. He did his best to not let his mind wander over to his insolent servant.
+After scanning for a question Merlin helpfully wrote Arthur asked, &ldquo;Is there a trade route that will make obtaining clay and other supplies easier?&rdquo; attempting to sound like he had been paying attention this whole time. He did his best to not let his mind wander over to his insolent servant.
 
 Arthur did not particularly want to indulge in this anymore. He suddenly wanted to stand up and force himself on the closest person to him. Still, he also knew that such a public display of disinterest in the task at had would be politically problematic, so he continued. It was almost painful, as Arthur tried not to look around for a hint of raven haired goofiness to keep him focused. He attempted to keep one ear open this time as he drifted back into the deliciously sensual daydream.
 
@@ -111,7 +111,7 @@ Arthur promised himself that he would manage to get Merlin into bed at least som
 
 Picking up his quill and continuing with sham interest, Arthur motioned to George to refill his water glass. Maybe George could pretend to be Merlin for a while. He did not have Merlin&rsquo;s smirk, but he did have a rather fetching build, for a servant.
 
-George swiftly refilled Arthur&rsquo;s goblet with self-assured confidence, while unusual in servants is also present in Merlin. George&rsquo; was slighter and shorter than Merlin, giving him an unassuming presence. However, the gleam in his eye and the plumb of his butt made him worth admiring. Unlike Merlin, George&rsquo;s clothing was expertly tailored, with red, brown, and gold fabrics. George wore no neckerchief but a formal necktie, knotted and tucked underneath an ivory tunic.
+George swiftly refilled Arthur&rsquo;s goblet with self-assured confidence, while unusual in servants is also present in Merlin. George was slighter and shorter than Merlin, giving him an unassuming presence. However, the gleam in his eye and the plumb of his butt made him worth admiring. Unlike Merlin, George&rsquo;s clothing was expertly tailored, with red, brown, and gold fabrics. George wore no neckerchief but a formal necktie, knotted and tucked underneath an ivory tunic.
 
 Arthur attempted to rest his hand on George&rsquo;s hindquarters as he was refilling the goblet, but somehow, George managed to swiftly navigate the situation, preventing this from happening. Arthur was perplexed, expecting to be able to caress George with the same ease he liked to do with Merlin. *George is being professional,* Arthur thought, *he was **not** rejecting me,* attempting to stave off boredom.
 
@@ -121,11 +121,11 @@ Arthur was thoroughly frustrated when the &ldquo;matters of state&rdquo; meeting
 
 Before training, Arthur stopped at his chambers to change. After removing his tunic and before removing his trousers, Arthur heard a knock.
 
-&ldquo;Come in, &rdquo; Arthur responded to the knock, knowing that he had requested some food to energize him for training. This was part of his normal routine, although it did bother him that Merlin had not walked in.
+&ldquo;Come in,&rdquo; Arthur responded to the knock, knowing that he had requested some food to energize him for training. This was part of his normal routine, although it did bother him that Merlin had not walked in.
 
-In walked a servant Arthur had not noticed before. She was tall for a servant, only about a head shorter than Arthur. Her curly, auburn locks were tied back with a hemp ribbon, with wisps framing the front of her face. Her features were long and elegant, although there seemed to be a scar from her left eyebrow down to the middle of her cheek. Her face was now tinted pink, as she was not accustomed to seeing a shirtless king.
+In walked a servant Arthur had not noticed before. She was tall for a servant, only about a head shorter than Arthur. Curly, auburn locks were tied back with a hemp ribbon, with wisps framing the front of her face. Her features were long and elegant, although there seemed to be a scar from her left eyebrow down to the middle of her cheek. Her face was now tinted pink, as she was not accustomed to seeing a shirtless king.
 
-While her servant&rsquo;s dress fit loosely, Arthur figured she was quite pretty. &ldquo;You may place the tray over the table,&rdquo;Arthur requested, indicating the surface on which he wanted his food.
+While her servant&rsquo;s dress fit loosely, Arthur figured she was quite pretty. &ldquo;You may place the tray over the table,&rdquo; Arthur requested, indicating the surface on which he wanted his food.
 
 This may have been due to his extreme arousal, but Arthur could not ignore the way the servant&rsquo;s hips swayed as she glided across the room. Arthur followed behind her, trapping her against the table when she got there. For just a moment, he allowed himself to brush erection against her.
 
@@ -141,7 +141,7 @@ Obediently, this woman knelt. Arthur would later realize that he never saw her a
 
 &ldquo;N–no… Not really,&rdquo; The servant stammered, trying to remove herself from the situation. Arthur noticed that her refusal was earnest and quiet. Despite communicating discomfort, it was clear that she would obey regardless of the ask. This reassured Arthur that she could not possibly refuse the chance at being intimate with a king.
 
-The servant woman&rsquo;s ultimate compliance with the sensual requests, paired with explicit words of distaste softened Arthur. Part of the fun was the chase. He knew he was the most powerful man in Camelot. *There is no chance she does not want this,* Arthur thought to himself after hearing the her displeasure. *Refusal is the best way to ensure you will get what you want,* Arthur chided himself, happy that he was not thinking about Merlin for once.
+The servant woman&rsquo;s ultimate compliance with the sensual requests, paired with explicit words of distaste softened Arthur. Part of the fun was the chase. He knew he was the most powerful man in Camelot. *There is no chance she does not want this,* Arthur thought to himself after hearing her displeasure. *Refusal is the best way to ensure you will get what you want,* Arthur chided himself, happy that he was not thinking about Merlin for once.
 
 The serving girl was now leaning away from Arthur, precariously leaning against the table. One hand was gripping the bottom of the table. Her other hand felt and noticed that the table was mostly empty, so she pushed the plate of food over to an otherwise unused part of the table. Arthur raked his eyes down her smooth jawline, and letting his eyes rest just above her bosom.
 
@@ -153,9 +153,9 @@ Arthur tangled his right hand into her curls, allowing him to completely guide h
 
 With the memory of his seed all over Merlin in his mind&rsquo;s eye, Arthur decided that he first wanted to try something else.
 
-Arthur wanted to her this woman&rsquo;s shrieks of pleasure. This interaction would not be satisfying without knowing she was here. He wanted to see some life in her eyes. Pleasure or pain. Desire or Defiance. Command or deference. He wanted a challenge.
+Arthur wanted to hear this woman&rsquo;s shrieks of pleasure. This interaction would not be satisfying without knowing she was here. He wanted to see some life in her eyes. Pleasure or pain. Desire or Defiance. Command or deference. He wanted a challenge.
 
-A few minutes passed, as the serving girl writhed underneath Arthur&rsquo;s ministrations. Arthur neither knew or cared if she actually felt something, but at least she was resisting. He looked up, catching a breath for a moment, and moved away from her. She swiftly got up and left the room, nearly at a sprint. This was fine, as Arthur moved across the room towards his open window, only to see that his knights were gathering at the training grounds. While not completely satisfied, Arthur figured that he could now train with his knights, and maybe tire out. Hopefully Merlin would be tending to the weapons. and everything will go back to normal.
+A few minutes passed, as the serving girl writhed underneath Arthur&rsquo;s ministrations. Arthur neither knew nor cared if she actually felt something, but at least she was resisting. He looked up, catching a breath for a moment, and moved away from her. She swiftly got up and left the room, nearly at a sprint. This was fine, as Arthur moved across the room towards his open window, only to see that his knights were gathering at the training grounds. While not completely satisfied, Arthur figured that he could now train with his knights, and maybe tire out. Hopefully Merlin would be tending to the weapons and everything would go back to normal.
 
 After easily beating Sir Leon and Sir Percival in a two-on-one fight, Arthur realized that he did not see Lancelot. Frustrated with his absence on top of Merlin&rsquo;s, Arthur plodded over to Gwenivere&rsquo;s house, hoping that maybe *she* would know where the two weirdest men in his life were hiding. He sheathed his sword onto his belt, and plodded into town after politely waving to the knights. He did not care who saw him, or how sweaty and aggressive he looked right now. Arthur was on a mission.
 

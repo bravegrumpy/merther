@@ -15,11 +15,11 @@ description: ""
 
 It may have been unfair to expect Merlin to do anything about the recent reports from various women working as servants within the castle, but Leon hoped that the information would tell Merlin that he wasn&rsquo;t alone. Leon knew from experience that feeling alone was worse than whatever problems were happening.
 
-He gave a sidelong glance to George who returned the look with a private smile.  Leon loved George&rsquo;s ability to make everybody feel welcome and loved.  Hopefully George would welcome Merlin the same way he had done for him. The curl of George&rsquo;s eye lashes glinted in the late afternoon light as he blinked, focusing back onto Merlin.
+He gave a sidelong glance to George who returned the look with a private smile.  Leon loved George&rsquo;s ability to make everybody feel welcome and loved.  Hopefully George would welcome Merlin the same way he had done for him. The curl of George&rsquo;s eyelashes glinted in the late afternoon light as he blinked, focusing back onto Merlin.
 
-Merlin&rsquo;s history of being able to retort to Arthur without being killed could be helpful in preventing Arthur&rsquo;s behavior from leaking onto common folk. If especially if Gwaine&rsquo;s reports turned out to be substantiated, then there was a serious problem with castle staff being harmed. George had mentioned that Merlin may have some talents that Leon was unaware of.  Maybe some of his hidden talents could help corral the awkward impulses of the king.
+Merlin&rsquo;s history of being able to retort to Arthur without being killed could be helpful in preventing Arthur&rsquo;s behavior from leaking onto common folk. Especially if Gwaine&rsquo;s reports turned out to be substantiated, then there was a serious problem with castle staff being harmed. George had mentioned that Merlin may have some talents that Leon was unaware of.  Maybe some of his hidden talents could help corral the awkward impulses of the king.
 
-Merlin curled in on himself. He placed a hand on the head of the other servant&rsquo;s&mdash;head, *Freya was it?* as she rested her head Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in confusion, almost as if deciding something. 
+Merlin curled in on himself. He placed a hand on the head of the servant&mdash; *Freya, was it?*&mdash; as she rested her head in Merlin&rsquo;s lap. His head was perched awkwardly to the side, his eyebrows scrunched together in confusion, almost as if deciding something. 
 
 Leon was entertained, as this was the exact look that the king referenced when loudly proclaiming that Merlin was an idiot.
 
@@ -45,21 +45,21 @@ Merlin fidgeted, prompting a nod from George.
 
 George then turned to fully face Leon, placing the hand that was on his neck, onto lower thigh, just above the knee, startling Leon into making direct eye contact. George&rsquo;s eyes, hazel with flex of green, reminded Leon of a young wheat field, fertile and strong.  
 
-Leon trusted George&rsquo;s judgement, but this exchange still irked Leon. 
+Leon trusted George&rsquo;s judgment, but this exchange still irked Leon. 
 
 Leon then heard some sudden movement, and cry of distress from the Freya. Merlin was grasping her wrist, as she cried out, struggling against Merlin.  Merlin then wrangled Freya, despite her struggles, trapping her against his body, groping her. He then lewdly threw her onto the bed When she resisted, Merlin used her momentum to trap her underneath his body, forcing her against the bed. He continued to maneuver himself between her legs ripping her dress open.
 
 It seemed like Freya subtly leaned into Merlin&rsquo;s touch just before crying out &ldquo;Nooo stopp!&rdquo;, and glaring at Merlin. Merlin moved his hips faster, more frantically, caging Freya, blocking her from view. This worried Leon. He felt himself unable to move. Wanting to help, but remembering the look that the king gave last time he tried. *Did I comfort a man guilty of the same crimes as Arthur?*
 
-During one particularly forceful thrust, Merlin bend down, and aggressively bit Freya&rsquo;s bosom, her scream muffled by Merlin&rsquo;s hand on her mouth. During this exchange, Leon thought he could see tears forming in her eyes, as she continued to struggle against Merlin. *Why would Merlin do this, when he knows what it feels like?*
+During one particularly forceful thrust, Merlin bent down, and aggressively bit Freya&rsquo;s bosom, her scream muffled by Merlin&rsquo;s hand on her mouth. During this exchange, Leon thought he could see tears forming in her eyes, as she continued to struggle against Merlin. *Why would Merlin do this, when he knows what it feels like?*
 
-George knew Merlin better than he did, because of their job. George should have reacted to this. *Why would he tell him about all of the different ways he protected servants, and then stand down now?* George just kept his hand on Leon&rsquo;s knee, a small smirk on his face, that Leon had only ever seen during their private rendezvous. 
+George knew Merlin better than he did, because of their job. George should have reacted to this. *Why would he tell him about all the different ways he protected servants, and then stand down now?* George just kept his hand on Leon&rsquo;s knee, a small smirk on his face, that Leon had only ever seen during their private rendezvous. 
 
 Then, almost as fast as Merlin&rsquo;s behavior started, he jumped off of Freya, leaving her in a state of undress, and hid underneath the bed. No sooner had Merlin disappeared, Leon heard a knock on the door, preventing him from even being able to check on Freya&rsquo;s welfare.
 
 Leon took a deep breath, and stood to go answer the door.
 
-&ldquo;Its likely the king&rdquo;, George proclaimed, standing up, moving the papers he was writing into a drawer on Leon&rsquo;s desk, and revealing the armory inventory sheets. Freya still looked like a mess. 
+&ldquo;It's likely the king&rdquo;, George proclaimed, standing up, moving the papers he was writing into a drawer on Leon&rsquo;s desk, and revealing the armory inventory sheets. Freya still looked like a mess. 
 
 Leon then purposefully went towards the door, opening it just enough to communicate, without inviting anybody inside. He hoped that his body obstructed most of the view. Leon also hoped that George would continue to obscure and or distract.
 
@@ -88,7 +88,7 @@ Gwen couldn&rsquo;t help but worry about Merlin right now. Lancelot thought he c
 
 All Brian could feel was the icy burn of a hand on his shoulder. It needed to leave. The thumb touched the base of his neck, and the rest of his hand pushed him. Brian didn&rsquo;t know where. Everything was happening all at once. Too many voices. Too much noise. Another elbow brushed his side, and some hair swept his arm. And the hand was still on his shoulder. There was a singer. Maybe. He squeezed his eyes shut. There was laughter and people. The wind was too cold on his skin. Every arm hair was itchy. The itch radiated from the hand, still on his shoulder. His face. He was in public. Keep it neutral. Breath. Fuck, the air is itchy. The hand is still his shoulder. Some hair brushed against his chin. A voice sent shivers down his spine, like a sword scraping the palace&rsquo;s stone walls. Bloodcurdling. A shiver shot down his spine. A new hand touched his arm, as the hand left his neck.  
 
-The world stopped spinning as he came face-to-face with calm dark brown eyes, decorated with paint. She smelled faintly of cinnamon.  It was her hand on on his elbow.
+The world stopped spinning as he came face-to-face with calm dark brown eyes, decorated with paint. She smelled faintly of cinnamon.  It was her hand on his elbow.
 
 &ldquo;Gwaine says you are the Town Crier? Any good gossip for me? I am Kathy by the way, but I think you already knew that given that I just performed, and you are here. Tee hee hee&rdquo;. Kathy&rsquo;s laugh was musical, almost like she wanted to start singing about laughter. Her hair draped down her head, in flowing curls, as if they were ocean waves. Her hand was still on his elbow. 
 
@@ -96,23 +96,23 @@ The world stopped spinning as he came face-to-face with calm dark brown eyes, de
 
 &ldquo;Have you ever thought about the subtle differences between yak cheese and goat cheese?&rdquo; What was he doing. The dairy maid, and cheese-dish genius was way better and explaining the cheese creation process. It took days, but always turned  out spectacularly. How would need to ask her how she suggests serving the goat-cheese processed with lemon juice, rather than the goat-cheese processed with vinegar. 
 
-To Brian&rsquo;s surprise, and delight, Kathy removed the hand on his elbow, and straightened up and said, &ldquo;Okay, so a even mixture between the two, served on a sourdough with  honey is my favorite.  I learned it from Jenny the Dairy Maid. Have you tried her cheeses?&rdquo;
+To Brian&rsquo;s surprise, and delight, Kathy removed the hand on his elbow, and straightened up and said, &ldquo;Okay, so an even mixture between the two, served on a sourdough with honey is my favorite.  I learned it from Jenny the Dairy Maid. Have you tried her cheeses?&rdquo;
 
-&ldquo;Have you seen me in the town square? I rather love calling out craftspeople who deserve it.&rdquo; Kathy must have seen him. Late last  week, Brian referenced her stall at the market during his &ldquo;Cool Crafts Creations Callout&rdquo; section of his Crier speech, after getting a chance to see how she made her cheese, and how she cared for the goats, cows, and yaks, of the city of Camelot. Brian remembered basically falling for Kid Sophie when she rammed her antlers into his hand, not ten steps away form her momma goat. 
+&ldquo;Have you seen me in the town square? I rather love calling out craftspeople who deserve it.&rdquo; Kathy must have seen him. Late last week, Brian referenced her stall at the market during his &ldquo;Cool Crafts Creations Callout&rdquo; section of his Crier speech, after getting a chance to see how she made her cheese, and how she cared for the goats, cows, and yaks, of the city of Camelot. Brian remembered basically falling for Kid Sophie when she rammed her antlers into his hand, not ten steps away form her momma goat. 
 
 &ldquo;Yes! I checked out her stand at the market after I heard you talking about her. You are *so* good at coming up with interesting ways to appreciate everybody, even the small folks.&rdquo;
 
-Kathy then sighed. Since the conversation had started, they had moved to an empty table towards the side of the room. Brian did not remember moving, but did appreciate it when he noticed the air around him felt less constricting, and he stand straight and tall without bumping into any other people. &ldquo;I came to Camelot in order to be the Town Crier.  I got laughed out of my village for daring to tell news to the village, when there were men perfectly happy to do the job. Somehow it felt even worse when they &rsquo;allowed&rsquo; me to strum my lute, but then removed me from the stage should I dare improvise, or worse&mdash; *say something with my mouth.*&rdquo;
+Kathy then sighed. Since the conversation had started, they had moved to an empty table towards the side of the room. Brian did not remember moving, but did appreciate it when he noticed the air around him felt less constricting, and he stood straight and tall without bumping into any other people. &ldquo;I came to Camelot in order to be the Town Crier. I got laughed out of my village for daring to tell news to the village, when there were men perfectly happy to do the job. Somehow it felt even worse when they *allowed* me to strum my lute, but then removed me from the stage should I dare improvise, or worse&mdash; *say something with my mouth.*&rdquo;
 
 Brian stood for a moment, unsure why she was confiding in him. He always wished he could pair his routine with music.  He just could never carry a tune and had no concept of how to play an instrument. Brian sensed a bit of melancholy in her tone, as she absently fidgeted with a strap to her string instrument.  Brian then noticed a little stamp in the shape of an iris on the flap she was fiddling with.  
 
-Brian then realized she likely wanted a response, &ldquo;I care what you say. You captivate a room, and have opinions about cheese.  I have to be careful, to not cede ground to other opportunistic criers, with less flair, but if you are willing to teach me to sing or play an instrument, would you maybe want a trial segment on one of my shows?&rdquo;
+He then realized she likely wanted a response, &ldquo;I care what you say. You captivate a room, and have opinions about cheese.  I have to be careful, to not cede ground to other opportunistic criers, with less flair, but if you are willing to teach me to sing or play an instrument, would you maybe want a trial segment on one of my shows?&rdquo;
 
 Brian really didn&rsquo;t want to take advantage of Kathy, but this was his chance to learn to be a *Bard*. He already tried rhyming much of his speeches, but he would *love* to be properly bardic.
 
 &ldquo;Many of the towns folk already bop to your music when you aren&rsquo;t performing here. It could bring some levity.&rdquo;
 
-Brian cringed internally. He could not believe he was asking Bard Kathy for music lessons. He could not believe that Bard Kathy knew who he was. He subsequently realized he had been rambling at Kathy.
+Brian cringed internally. He could not believe he was asking Bard Kathy for music lessons. He could not believe that Bard Kathy knew who he was. Brian subsequently realized he had been rambling at Kathy.
 
 </section>
 
@@ -122,39 +122,39 @@ Brian cringed internally. He could not believe he was asking Bard Kathy for musi
 
 #### Freya
 
-Freya almost dozed off with her head in Merlin&rsquo;s lap. Merlin fell silent, as he mindlessly rubbed her head with the tips of his fingers, with the pressure just the way she liked it. Freya could almost purr.  If Freya were in her bastet form, looking like a large black panther with wings, she would be purring, nodding her head into Merlin&rsquo;s palm, getting the best possible nose and head scratches and marking Merlin as her own.  Alas, Freya was in Leon&rsquo;s unfamiliar bedroom, with Merlin, very much in the physical plane.  Despite being unfamiliar, Freya trusted Merlin completely.  He would keep her out of danger, and make the best decisions for her and for Magic.
+Freya almost dozed off with her head in Merlin&rsquo;s lap. Merlin fell silent, as he mindlessly rubbed her head with the tips of his fingers, with the pressure just the way she liked it. Freya could almost purr.  If Freya were in her Bastet form, looking like a large black panther with wings, she would be purring, nodding her head into Merlin&rsquo;s palm, getting the best possible nose and head scratches and marking Merlin as her own.  Alas, Freya was in Leon&rsquo;s unfamiliar bedroom, with Merlin, very much in the physical plane.  Despite being unfamiliar, Freya trusted Merlin completely.  He would keep her out of danger, and make the best decisions for her and for Magic.
 
 At some point, Merlin stopped the soothing scratching of her head.  When it stopped, it took Freya a moment to ground herself, and not attempt to rub her head into Merlin&rsquo;s palm, as was their custom at home, in bastet or human form.  This would not be the appropriate reaction in front of others.  Noticing Merlin tense, Freya sat up straight, trying to discern the source of his unease. 
 
 *&#x00ab;What is it?&#x00bb;* Freya telepathically asked Merlin, tilting her head slightly towards him.  Freya did hear Leon say something about other servants being attacked by Arthur. This was not new information, but she wanted to let Merlin decide exactly how much to reveal to Leon.  
 
-Lancelot may have orchestrated this meeting, but Freya still didn&rsquo;t know how much to trust this Sir Leon bloke.  If she was not mistaken, Sir Leon had been cruel to Merlin during at least a few of Merlin&rsquo;s more public assaults.  Freya was unsure of quite how cruel Leon was, given that Lancelot seemed to emphasize Leon&rsquo;s role in instigating the event in the winter, *Rabbit Dance*, according to Leon. Merlin had left that part out of the story when he told her what happened.  But Merlin often left out most details, despite her insistance that she wanted to be there for him, and could handle it.  From the way Merlin had come home that night, it was clear that at least two distinct people had forcibly fucked Merlin.  She was grateful that Lancelot and Gwen could help her with that one, as she likely would have turned into a bastet in anger, and killed King Arthur, for his cruelty right then. Today&rsquo;s mishap seemed fairly benign by comparison, if it weren&rsquo;t for Merlin&rsquo;s use of time-magic. 
+Lancelot may have orchestrated this meeting, but Freya still didn&rsquo;t know how much to trust this Sir Leon bloke.  If she was not mistaken, Sir Leon had been cruel to Merlin during at least a few of Merlin&rsquo;s more public assaults.  Freya was unsure of quite how cruel Leon was, given that Lancelot seemed to emphasize Leon&rsquo;s role in instigating the event in the winter, *Rabbit Dance*, according to Leon. Merlin had left that part out of the story when he told her what happened.  But Merlin often left out most details, despite her insistence that she wanted to be there for him, and could handle it.  From the way Merlin had come home that night, it was clear that at least two distinct people had forcibly fucked Merlin.  She was grateful that Lancelot and Gwen could help her with that one, as she likely would have turned into a bastet in anger, and killed King Arthur, for his cruelty right then. Today&rsquo;s mishap seemed fairly benign by comparison, if it weren&rsquo;t for Merlin&rsquo;s use of time-magic. 
 
-While Merlin had clearly relaxed a bit, when in Lancelot&rsquo;s lap, he had  yet to have an opportunity to sleep off the effects of the time-magic.  Freya did not know how long he had paused time earlier today, but the slight sag of his  shoulders, and the sluggishness of his reaction time told Freya that it might have been more than a few minutes, easily solved by going to bed a little earlier. 
+While Merlin had clearly relaxed a bit, when in Lancelot&rsquo;s lap, he had yet to have an opportunity to sleep off the effects of the time-magic.  Freya did not know how long he had paused time earlier today, but the slight sag of his shoulders, and the sluggishness of his reaction time told Freya that it might have been more than a few minutes, easily solved by going to bed a little earlier. 
 
-As if in response to Freya&rsquo;s gaze, Merlin waved his hand.  George and Leon froze.  This wasn&rsquo;t the familiar attempt to play dead, to avoid notices. This was an all-encompassing stillness, involuntary to all but her and Merlin. It was their private refuge, spliced between the flow of time.  If the pounding of their combinded pulses harmonizing, being the only sound within deafening silence weren&rsquo;t so familiar, Freya would panic. 
+As if in response to Freya&rsquo;s gaze, Merlin waved his hand.  George and Leon froze.  This wasn&rsquo;t the familiar attempt to play dead, to avoid notices. This was an all-encompassing stillness, involuntary to all but her and Merlin. It was their private refuge, spliced between the flow of time.  If the pounding of their combined pulses harmonizing, being the only sound within deafening silence weren&rsquo;t so familiar, Freya would panic. 
 
-She smirked to herself, remembering the first time Merlin paused time.  It was their first kiss.  She could not have dreamed of more romantic kiss, than one with rose petals, strawberries, and a whole world waiting for them to have their moment.  The moment was so sweet, and so private, that Freya often lied about her first kiss when asked by other women.  That moment was for her and Merlin alone.  Freya felt herself blushing, thinking about the sensation of Merlin&rsquo;s sweet, and smooth lips, carfully grazing her lips, with eyes shining with tears, promises to take care of her always.
+She smirked to herself, remembering the first time Merlin paused time.  It was their first kiss.  She could not have dreamed of more romantic kiss, than one with rose petals, strawberries, and a whole world waiting for them to have their moment.  The moment was so sweet, and so private, that Freya often lied about her first kiss when asked by other women.  That moment was for her and Merlin alone.  Freya felt herself blushing, thinking about the sensation of Merlin&rsquo;s sweet, and smooth lips, carefully grazing her lips, with eyes shining with tears, promises to take care of her always.
 
-Leon&rsquo;s chest was slightly puffed out, holding an inhaled breath. One of Leon&rsquo;s curls was askew, as if in the middle of falling down, frozen in time.  George held his quill in mid-air, just above the ink pot, as if about to write something. There was a frozen drop of ink, stuck in mid air, halfway between the quill and the ink pot. George&rsquo;s tongue was on his lip, as if about to bite his lower lip in thought.  There was no more wind, as the air was now still. Freya risked a glance towards the window, and noticed a bird flying past Leon&rsquo;s window. It was still as a statue, in mid-air, wings pointed downward, mid-flap. 
+Leon&rsquo;s chest was slightly puffed out, holding an inhaled breath. One of Leon&rsquo;s curls was askew, as if in the middle of falling down, frozen in time.  George held his quill perfectly still, just above the ink pot, as if about to write something. There was a frozen drop of ink, stuck in midair, halfway between the quill and the ink pot. George&rsquo;s tongue was on his lip, as if about to bite his lower lip in thought.  There was no more wind, as the air was now still. Freya risked a glance towards the window, and noticed a bird flying past Leon&rsquo;s window. It was still as a statue, in high above the ground, wings pointed downward, mid-flap. 
 
 Freya&rsquo;s gaze flitted back to Merlin&rsquo;s eyes, as the golden glow of magic faded. Merlin had paused time again.
 
-Merlin&rsquo;s right shoulder started to inflate, while the rest of his body was statue still, like the rest of the frozen world. The shoulder inflated until a second Merlin-head poked out, briefly creating silly image of Merlin with two heads. This second copy of Merlin was  non-corporeal. It seemed mostly solid, except for the fact that the new body parts, extruding from Merlin&rsquo;s physical shoulder, seemedto be able to pass through his physical form with ease, and allowed the smallest bit of sunlight to pass through, giving a slight translucent quality. One Merlin had completely pulled himself out from his shoulder, he stretched a little bit, clearly wincing at sore shoulder muscles. 
+Merlin&rsquo;s right shoulder started to inflate, while the rest of his body was statue still, like the rest of the frozen world. The shoulder inflated until a second Merlin-head poked out, briefly creating silly image of Merlin with two heads. This second copy of Merlin was non-corporeal. It seemed mostly solid, except for the fact that the new body parts, extruding from Merlin&rsquo;s physical shoulder, seemed to be able to pass through his physical form with ease, and allowed the smallest bit of sunlight to pass through, giving a slight translucent quality. One Merlin had completely pulled himself out from his shoulder, he stretched a little bit, clearly wincing at sore shoulder muscles. 
 
-Freya reached her hand out to touch her Emrys, as she referred to the Ephemeral plane version of Merlin. The sight of Emrys, dressed in a odd fashion, a tunic with something called buttons down the front, that is tailored precisely to exaggerate the shape of his torso, paired with trousers that  hugged the shape of his bum, held up by a leather belt, stirred a familiar heat between Freya&rsquo;s legs.  Merlin had explained that  this outfit was from some two millennia in the future.  Merlin could just sort of &ldquo;see&rdquo; the future, in the same way Freya could just tell how to coax a flower into bloom.  She had tried it, but could never  manage to get further than somewhat seeing where a ball conjured within the Ephemeral plane would land.  
+Freya reached her hand out to touch her Emrys, as she referred to the Ephemeral plane version of Merlin. The sight of Emrys, dressed in a odd fashion, a tunic with something called buttons down the front, that is tailored precisely to exaggerate the shape of his torso, paired with trousers that hugged the shape of his bum, held up by a leather belt, stirred a familiar heat between Freya&rsquo;s legs.  Merlin had explained that this outfit was from some two millennia in the future.  Merlin could just sort of &ldquo;see&rdquo; the future, in the same way Freya could just tell how to coax a flower into bloom.  She had tried it, but could never manage to get further than somewhat seeing where a ball conjured within the Ephemeral plane would land.  
 
-Freya felt her head move, as Merlin yanked her hair, forcing her eyes to meet his.  From his floating standpoint, Merlin&rsquo;s crotch nearly perfectly aligned with her mouth. Freya wondered if he planned it that way.  She leaned forward, hoping to nuzzle her mouth against the cloth covering Merlin&rsquo;s manhood.  She had never quite figured out how to manipulate the tab that freed his manhood, but prior the nuzzling was usually rewarded with firmness. 
+Freya felt her head move, as Merlin yanked her hair, forcing her eyes to meet his.  From his floating standpoint, Merlin&rsquo;s crotch nearly perfectly aligned with her mouth. Freya wondered if he planned it that way.  She leaned forward, hoping to nuzzle her mouth against the cloth covering Merlin&rsquo;s manhood.  She had never quite figured out how to manipulate the tab that freed his manhood, but prior to the nuzzling was usually rewarded with firmness. 
 
 This time, Merlin denied her, and rather grabbed one of her hands, pulling her fully into the Ephemeral plane, leaving her body as still as Merlin&rsquo;s.
 
-Once they were both situated in the Ephemeral plane, styled to be their own living room, but with one  wall removed to allow them to peer down at the Physical plane, Freya felt herself heat up with arousal once more.  She absently wondered if this was a Pavlovian response, aroused by the many memories of orgasming at Merlin&rsquo;s hand, mouth, or manhood in this very room. 
+Once they were both situated in the Ephemeral plane, styled to be their own living room, but with one wall removed to allow them to peer down at the Physical plane, Freya felt herself heat up with arousal once more.  She absently wondered if this was a Pavlovian response, aroused by the many memories of orgasming at Merlin&rsquo;s hand, mouth, or manhood in this very room. 
 
 Knowing that the intimacy was also grounding for Merlin, Freya concentrated, willing herself to be wearing only her corset, and a thin silk skirt.  She leaned back, signaling her desire, to be touched, without initiation.
 
 Merlin settled down behind her, placing her head in his lap, while ha absentmindedly fiddled with her exposed nipples in one hand, and grabbed her upper legs possessively, underneath the flimsy skirt, occasionally swiping his fingers between her folds. Freya was comfortable. Merlin&rsquo;s far away look softened each time he grabbed Freya, as if he was reminding himself she was still there.
 
-After a few blissful moments of silence, Freya asked, &ldquo;How much do you trust Leon?&rdquo;  She was staring through the walls of Leon&rsquo;s room in the physical plane, and had noticed Arthur outside the door. She noticed he was engaged in what looked like an intimate moment with somebody, but she could not make out details. Freya still struggled to de-focus her eyes enough to see through solid objects in the physical plane, from the Ephemeral plane.  Seeing through humans was much more difficult for her.  She figured Merlin could see the trajectory of what events were to come.  She guessed it wasn&rsquo;t unlikely for Arthur not to knock on this door.
+After a few blissful moments of silence, Freya asked, &ldquo;How much do you trust Leon?&rdquo;  She was staring through the walls of Leon&rsquo;s room in the physical plane, and had noticed Arthur outside the door. She noticed he was engaged in what looked like an intimate moment with somebody, but she could not make out details. Freya still struggled to unfocus her eyes enough to see through solid objects in the physical plane, from the Ephemeral plane.  Seeing through humans was much more difficult for her.  She figured Merlin could see the trajectory of what events were to come.  She guessed it wasn&rsquo;t unlikely for Arthur not to knock on this door.
 
 &ldquo;I don&rsquo;t know&rdquo; Merlin finally replied, his voice betraying a tiny hint of uncertainty. They could speak aloud in the Ephemeral plane with absolute privacy.
 
@@ -164,7 +164,7 @@ After a few blissful moments of silence, Freya asked, &ldquo;How much do you tru
 
 &ldquo;Will Leon...&rdquo; Freya asked, letting her sentence trail off. Merlin knew she was asking about the worst case scenario. *Would Leon turn Merlin over to Arthur when asked?*
 
-&ldquo;I&rsquo;m less worried about that,&rdquo; Merlin replied cryptically, &ldquo;than I am about if he would betray my presense, after he knows I &mdash; that *we* can be *dangerous*.&rdquo;
+&ldquo;I&rsquo;m less worried about that,&rdquo; Merlin replied cryptically, &ldquo;than I am about if he would betray my presence, after he knows I &mdash; that *we* can be *dangerous*.&rdquo;
 
 Merlin shuddered at the word *dangerous*.  Freya turned her head, so she could nuzzle into Merlin&rsquo;s crotch, hoping for the hint of an erection.
 
@@ -174,11 +174,11 @@ Freya arched her back into the sensations, grabbing onto the shirt covering Merl
 
 After a moment, Freya&rsquo;s mouth was empty, and Merlin&rsquo;s hands returned to their casual roaming across her body.  Looking down at her, Merlin&rsquo;s eyes twinkled.
 
-&ldquo;I have an idea,&rdquo; Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn&rsquo;t had any observers since the they had to stop in the middle because Lancelot orgasmed all over Gwen&rsquo;s face and favorite dress. Even if they couldn&rsquo;t do obvious magic, they could at least show affection.  It always made Freya sad when she saw Lancelot and Gwen, casually hold hands, at a quiet moment, knowing that she couldn&rsquo;t do the same to Merlin, unless in private.
+&ldquo;I have an idea,&rdquo; Merlin chuckled. Freya hoped that this idea involved a performance.  They hadn&rsquo;t had any observers since they had to stop in the middle because Lancelot orgasmed all over Gwen&rsquo;s face and favorite dress. Even if they couldn&rsquo;t do obvious magic, they could at least show affection.  It always made Freya sad when she saw Lancelot and Gwen, casually hold hands, at a quiet moment, knowing that she couldn&rsquo;t do the same to Merlin, unless in private.
 
 Merlin continued, &ldquo;I will trust Leon if stands up to *Arthur*, after seeing me as dangerous&rdquo;.  Merlin spat Arthur&rsquo;s name, as if was poison to his system. Freya wrapped her hands around Merlin&rsquo;s arm, hoping to comfort him, waiting for him to continue.  
 
-Merlin then started tapping his hands up and down the inside of Freya&rsquo;s thigh, tickling all of the most sensitive parts of her legs, taking advantage of her arousal, to slide his fingers across her skin.
+Merlin then started tapping his hands up and down the inside of Freya&rsquo;s thigh, tickling the most sensitive parts of her legs, taking advantage of her arousal, to slide his fingers across her skin.
 
 Freya squealed, rocking her hips to make it easier for Merlin to access her clit. Merlin, smirked, avoiding the one place that he knew would give maximum pleasure, with practiced ease.
 
@@ -210,15 +210,15 @@ As expected, Merlin gave a hand signal to George, so at least he would have some
 
 George was very proud of the notes he kept, tracking the various events that happened at King Arthur&rsquo;s behest.  He knew Leon meant well, but unfortunately, it was all too predictable that he would as the *wrong* questions.  Of course Merlin and Freya were helping other people wronged by Arthur.  However, George was unsure if their means were particularly legal.  They were almost certainly using magic.  Freya was doing well at her post on the Morgana servant team, but it was also becoming known for her abilities around plants.
 
-George was at least glad that Leon was getting a chance to make amends  with Merlin, and that Merlin would know who would support him.
+George was at least glad that Leon was getting a chance to make amends with Merlin, and that Merlin would know who would support him.
 
-George looked over at Leon, smiling at him, hopefully encouraging him to continue. He then focused very intently on his notes, to keep himself from tussling Leon&rsquo; golden locks.  As much fun as that would be, he did not want to spook Merlin or Freya.  
+George looked over at Leon, smiling at him, hopefully encouraging him to continue. He then focused very intently on his notes, to keep himself from tussling Leon&rsquo;s golden locks.  As much fun as that would be, he did not want to spook Merlin or Freya.  
 
 George kept his writing small, legible, but hidden from Leon&rsquo;s view, so he could notate exactly what was and was *not* revealed, without telling Leon about Merlin&rsquo;s magic.  No matter how frustrating it was that Merlin had *that* advantage, he did not want Merlin to know that he knew, until Merlin was ready to talk.
 
 When Freya suddenly sat up, George studied Merlin&rsquo;s face. Merlin caught his eye, and tilted his head in confusion, the look he typically had when thinking.  It was the same look that made powerful men think he was an idiot. 
 
-George nodded at Merlin, trying, but likely unsuccessfully portraying that he wouldn&rsquo;t say anything stupid. George chewed on his lip, while trying to figure out what they were going to do, and exactly how much they would reveal.
+George nodded at Merlin, trying, but likely unsuccessfully portraying that he wouldn&rsquo;t say anything stupid. He chewed on his lip, while trying to figure out what they were going to do, and exactly how much they would reveal.
 
 George turned to Leon again. Leon was subtly bouncing his left foot, letting his heel jump up and down from the floor, somehow not making noise.  The set of his shoulders betrayed the tension and confusion. George risked placing a reassuring hand on the back of Leon&rsquo;s neck. George selfishly regretted the fact that their evening had been cut short.
 
@@ -226,16 +226,16 @@ George turned to Leon again. Leon was subtly bouncing his left foot, letting his
 
 George withdrew his hand, momentarily, to mark that they had not yet revealed magic. He used a circle with a dot inside, to indicate knowledge, but no revelations.  It was the same code he used when tracking which stories he told which nobles, in order to quell their preposterous demands.  He could hear Leon exhale. 
 
-Returning his hand to Leon&rsquo;s neck, George focused back on Merlin, hoping to give off a relaxed posture.  George was used to sitting rigidly, egging Merlin to copy *his* image of perfect servitude. He wished that he could give Merlin poor marks on his etiquette, despite Merlin being outside of the managerial structures all other palace staff were bound to.
+Returning his hand to Leon&rsquo;s neck, George focused back on Merlin, hoping to give off a relaxed posture.  George was used to sitting rigidly, egging Merlin to copy *his* image of perfect servitude. He wished that he could give Merlin poor marks on his etiquette, despite Merlin being outside the managerial structures all other palace staff were bound to.
 
 Merlin waved his hand, gesturing at Freya, and then sent George the hand signals for &ldquo;Royalty approaching&rdquo;, &ldquo;Subvert&rdquo;, and &ldquo;Leon&rdquo;. Unsure of what was coming, George pointedly nodded to Merlin, understanding the needed to prepare Leon for weird behavior. 
 
 
 &ldquo;Leon trusts you,&rdquo; George said, turning his whole body to Leon, George moved his hand to the thigh Leon was bouncing earlier, &ldquo;Lets see if you deserve it.&rdquo;
 
-George loved the high he felt when he deepened his voice, and commanded Leon, Camelot&rsquo;s First Knight. It did not matter that he was a servant.  When he used  that voice, all of the power in Camelot would bend to his will.  George chuckled, thinking that all he *really* wanted was for Leon to bend over and present his arse to be smacked to George&rsquo;s content.  *Fuck,* George thought, feeling blood rush downward at the thought.
+George loved the high he felt when he deepened his voice, and commanded Leon, Camelot&rsquo;s First Knight. It did not matter that he was a servant.  When he used that voice, all the power in Camelot would bend to his will.  George chuckled, thinking that all he *really* wanted was for Leon to bend over and present his arse to be smacked to George&rsquo;s content.  *Fuck,* George thought, feeling blood rush downward at the thought.
 
-Suddently, he heard a yelp and some fabric being rubbed together, indicative of bedroom activities.  It now took some serious effort to not rise from his chair and guide Leon&rsquo;s head to his own crotch.
+Suddenly, he heard a yelp and some fabric being rubbed together, indicative of bedroom activities.  It now took some serious effort to not rise from his chair and guide Leon&rsquo;s head to his own crotch.
 
 During some of the more fiercely *lewd* noises, George&rsquo;s fist clenched, nearly drawing blood.  Whenever Merlin and Freya were gone, Leon was going to get fucked so hard, that both of them would see stars.  George had to calmly imagine the adorable cats that Old Lady Alice kept in her cottage, to will his erection away.
 
@@ -251,13 +251,13 @@ There was a knock on the door, a moment after Merlin hopped away from Freya, hid
 
 #### Arthur
 
-Arthur rapped on Leon&rsquo;s door.  Leon had the best grasp of the Knights&rsquo; armour and weapon&rsquo;s needs.  Some of the newer knights were starting to get on well with normal swords.
+Arthur rapped on Leon&rsquo;s door.  Leon had the best grasp of the Knights&rsquo; armor and weapon&rsquo;s needs.  Some of the newer knights were starting to get on well with normal swords.
 
 In order to fill out his &ldquo;Distraction Unit&rdquo;, as he had been dubbing it, he would need Leon&rsquo;s assessment of the Knights&rsquo; needs. 
 
-After a few moments of suffling, Leon opened the door just a crack.  
+After a few moments of scuffling, Leon opened the door just a crack.  
 
-&ldquo;How may I help you, Your Magesty?&rdquo; Leon said, with almost a quiver in his voice. 
+&ldquo;How may I help you, Your Majesty?&rdquo; Leon said, with almost a quiver in his voice. 
 
 This was *not* the reception he wanted from Leon.  Leon should be watching as he took the maidenhead of each young girl in this city. He shouldn&rsquo;t be *ambivalent*. 
 
@@ -277,9 +277,9 @@ Arthur eyed Leon&rsquo;s butt, as he walked to his desk, grabbing the reports. H
 
 &ldquo;I would not know where Merlin is,&rdquo; Leon responded, walking back, &ldquo;I assume he is with you, like he always is?&rdquo;
 
-&ldquo;I would not be asking you, if he was *with* me,&rdquo; Arthur said, &ldquo;But if you ever see him, do tell him that he has list of chores to do that will last at least the week.&rdquo;
+&ldquo;I would not be asking you if he was *with* me,&rdquo; Arthur said, &ldquo;But if you ever see him, do tell him that he has list of chores to do that will last at least the week.&rdquo;
 
-Arthur actually could not think of any chores at the moment. As the day had progressed, he noticed more little things that Merlin typically did, completed already. They were *not* done yesterday, so it was really a wonder how Merlin completed the chorese that the whole Morgana team struggles to do in a day, before waking Arthur up.  He must have had help. 
+Arthur actually could not think of any chores at the moment. As the day had progressed, he noticed more little things that Merlin typically did, completed already. They were *not* done yesterday, so it was really a wonder how Merlin completed the chores that the whole Morgana team struggles to do in a day, before waking Arthur up.  He must have had help. 
 
 Reports in hand, Arthur left Leon&rsquo;s chambers, hoping that this time, he would be able to deflower Gwenivere, during their weapons meeting. 
 

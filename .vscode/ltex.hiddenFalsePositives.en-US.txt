@@ -5,3 +5,16 @@
 {"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“It looks like you missed mandatory drills to have a romp with the blacksmith.\\E$"}
 {"rule":"HAVE_PART_AGREEMENT","sentence":"^\\Q“You kind of interrupted us, but we had err—plans for the extra two mugs, if you know what I mean?”\\E$"}
 {"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“I do not.\\E$"}
+{"rule":"YOU_GOOD","sentence":"^\\Q“You sure?” her voice barely a whisper, as she twisted to look directly into Merlin's eyes.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q“No—Nonono— not about that” Merlin quickly tried to recover,“About uhm the king—”\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q“Tess—You— Agh…”\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\Q“Love Love me do.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSo pleeeeeeeeease love me too!”\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q“Boop!”\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QNobody boops the nose of a Camelot Knight.\\E$"}
+{"rule":"SPURIOUS_APOSTROPHE","sentence":"^\\QHe placed a hand on the head of the other servant's—head, Freya was it?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QIt seemed like Freya subtly leaned into Merlin's touch just before crying out “Nooo stopp!”, and glaring at Merlin.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QTee hee hee”.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFineeee Merlin joked, telepathically, then sending an image of Freya restrained with ropes, anchored to a beam on the ceiling in their home.\\E$"}
+{"rule":"REPEATED_VERBS","sentence":"^\\QShe was happy that three tables and at least two distinct weapons stands stood between her and the king.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMerlin continued, “I would ultimately be fine, but well, I now feel safe telling you this: Forbyrn” Merlin stood up, walking a bit closer to Leon, still anxious about revealing the small flame in his hand.\\E$"}
