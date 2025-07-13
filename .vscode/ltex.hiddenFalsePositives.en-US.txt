@@ -2,3 +2,6 @@
 {"rule":"MEAN_FOR_TO","sentence":"^\\QTo be fair, Merlin was already on his knees, pulling Arthur's trousers down, so Arthur placed his hand on Merlin's shoulder to accentuate that he meant for Merlin to stay there.\\E$"}
 {"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\QGeorge’ was slighter and shorter than Merlin, giving him an unassuming presence.\\E$"}
 {"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“Come in, ” Arthur responded to the knock, knowing that he had requested some food to energize him for training.\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“It looks like you missed mandatory drills to have a romp with the blacksmith.\\E$"}
+{"rule":"HAVE_PART_AGREEMENT","sentence":"^\\Q“You kind of interrupted us, but we had err—plans for the extra two mugs, if you know what I mean?”\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q“I do not.\\E$"}
