@@ -19,6 +19,8 @@ At long last, the door to the armory door opened.  The tall, blonde man, styled 
 
 "Place your requests on the table, your *Majesty*," Gwen said, indicating at one of the tables.  Arthur wanted some weapons for his most special knights. Luckily, these *happen* to be *exactly* the knights that Merlin should most watch out for. 
 
+She nearly shuddered, thinking about how her own brother was on the list of dangerous knights.
+
 *Take a deep breath. Don't betray the degree of your nerves,* Gwen thought to herself.  She straightened her shoulders, hoping to hide her superior chain mail from view.
 
 "I said, what do you have for *me*," Arthur said, licking his lips. The armory was not well ventilated.  A pool of sweat dripped from Arthur's upper lip.  He might have been handsome if he weren't so cruel.
@@ -164,7 +166,7 @@ George nods.
 
 George, then offered Freya a polite bow, and then continued, &ldquo;I *do* expect you to be on time to work tomorrow.  Deliveries are behind with your absence.&rdquo; He then cracked a bit of a smile continuing, &ldquo;Keep him safe, okay? I don&rsquo;t trust him to do so on his own.  You were right to miss work today. But next time, find a way to warn me so I can get somebody else to cover your duties.&rdquo;
 
-With that, Merlin cast misdirection spell on them both, leaving Gwen&rsquo;s cart of weapons in Leon&rsquo;s room, to be returned during training tomorrow.
+With that, Merlin cast a misdirection spell on them both, leaving Gwen&rsquo;s cart of weapons in Leon&rsquo;s room, to be returned during training tomorrow.
 
 </section>
 
@@ -173,6 +175,8 @@ With that, Merlin cast misdirection spell on them both, leaving Gwen&rsquo;s car
 <section class="gwen">
 
 #### Gwenivere
+
+&ldquo;You shall address me as *Sire* or *Majesty*, as is appropriate&rdquo; Arthur's voice sounded gravelly, with a hint of assertiveness that reminded Gwen of the tone she uses to scold small children.
 
 
 
