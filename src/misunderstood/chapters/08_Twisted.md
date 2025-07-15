@@ -4,8 +4,8 @@ href: "#ch08"
 chapter: 8
 text: "Twisted"
 title: "Chapter 8: Twisted"
-pubDate: 2000-01-01
-published: false
+pubDate: 2025-07-15
+published: true
 description: ""
 ---
 
