@@ -218,4 +218,30 @@ There was something spectacular about how far a doe-eyed pout could hide someone
 
 This also explained why it was essential to have a way to stop the man eventually.
 
+Gwen bit the inside of her cheek, to keep from internally laughing at Arthur.  She couldn't help but think it was mildly hilarious that the vile creature Arthur was, was also capable of looking weak. She also couldn't help but think that Arthur was a hypocrite for constantly calling *Merlin* the klutz.
+
+&ldquo;Hey, why don't you go along and finish your other kingly duties,&rdquo; Gwen said.  She could just blatantly use the secret door.  Arthur knew about that, and by now Gwen had plenty of spare keys.  But it was more fun and less risky to get Arthur to leave first. 
+
+Arthur squinted his eyes and started walking towards the main entrance. Before closing the door, right outside the armory, he paused and said, &ldquo;You know, there is one more thing,&rdquo; 
+
+He stepped in, and raised his finger, as if to point at her, and then brought his hand down awkwardly.
+
+&ldquo;Would you be interested in&hellip; erm, no. I mean&rdquo;
+&ldquo;What is it that you would like to ask?&rdquo; Gwen prompted, curious.
+&ldquo;Have you actually not seen Merlin today? I assume you overheard Lancelot talk about&hellip; activities with teacups at your home. I don't believe that you have *actually* given up your virtue, so I assume Merlin was with you. Who was the fourth person?&rdquo;
+
+Gwenivere gulped. The still air in the armory now pressed against her, suddenly oppressively hot.  The armor she wore underneath her dress now felt sweaty and uncomfortable. She took a deep breath.
+
+&ldquo;Why would you be so interested in the interactions of a servant and a knight? I cannot take responsibility for your untoward thoughts.  If you are interested in me, well, I am in no position to be queen, that is for sure.  You should marry for the good of the land.&rdquo;
+
+Arthur winked at her, but said nothing.  After tilting his head to one side, shrugged, and left her alone in the armory.
+
+Before heading home to sleep, Gwenivere finished some chores she needed to do in the armory.  First she carefully folded and placed the names Arthur gave her into an inner pocket in her skirt.
+
+Under the guise of tidying up the armory, she sorted the armor by knight who wears it.  She then surreptitiously placed of her new armor material into the underclothing of Leon, Lancelot, and Gwaine, along with a note. While Leon was a risk, she figured Lancelot and Gwaine would know what to do with it.
+
+With that, she herself exited the armory, through the secret passage, and walked home. 
+
+When she got home, Lancelot was sprawled in the bed, shirtless, and fast asleep. After kissing Lancelot's forehead, she undressed, and snuggled in beside him. Tomorrow would be a new day.
+
 </section>
