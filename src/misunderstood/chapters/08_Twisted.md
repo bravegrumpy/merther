@@ -178,6 +178,44 @@ With that, Merlin cast a misdirection spell on them both, leaving Gwen&rsquo;s c
 
 &ldquo;You shall address me as *Sire* or *Majesty*, as is appropriate&rdquo; Arthur's voice sounded gravelly, with a hint of assertiveness that reminded Gwen of the tone she uses to scold small children.
 
+&ldquo;Is this a problem for you, *Sire*?&rdquo; Gwenivere intended to mimic Merlin's wonderful ability to turn titles into insults. Based on Lancelot has told her about castle chatter, being demure would not be a smart strategy there.  She was relieved that she hadn't disclosed the armor invention to the king yet.
 
+&ldquo;Are you so insecure about your rank, that you must have people confirm it to you at all times?&rdquo; she responded, taking a risk. 
+
+Arthur's look was dangerous.  If Gwen weren't safely surrounded by gear, tables and armor stands, she likely would worry about an attack.  Arthur was a formidable sword-fighter, but he excelled in open fields, not cramped armor-closets. Gwen nearly giggled remembering the mess the marketplace turned when Arthur faced Merlin with maces.  It only years after marrying Freya did Merlin ever admit that he used magic to make the then-prince trip.
+
+Arthur drew his own sword, and made to look at the etchings within it.  He then moved to jab the sword forward towards her.  Rather than meeting his mark, Arthur hit the armor stand, burdened by some greaves and a hauberk, with the flat of his blade. The clanging noise filled the room, echoing against the stone walls, vibrated a few of the shields hanging against the wall. This instance of ineptitude was entirely *King* Arthur's doing. 
+
+Gwenivere snorted, aiming to hide the giggle coming up from her belly.  Arthur's eyes seemed to widen in surprise at the noise.  He then leaned forward a bit too much, and tripped, his foot catching underneath the now horizontal pole of the armor stand.  
+
+He landed face down, and peered up at Gwenivere, looking almost pathetic with wide eyes, and hair standing on end for just a moment. Gwenivere had to school her features, and clench her fist to avoid doubling over in laughter, and then kicking Arthur's nose. 
+
+&ldquo;Are you not going to offer to help me up? You might not be aware of this, but it is polite for a maiden to offer to assist her suitor if he fumbles.&rdquo; Arthur's nose wrinkled slightly, as the pitch of voice increased slightly, from the way he strained his neck. 
+
+Gwenivere, made no move to help Arthur up.  To be fair, he was slightly out of reach, as she was still behind two other tables. She would need to climb atop the tables in order to get to Arthur's current position.  At this moment Gwen silently thanked Morgana for showing her the secret entrance to the armory all those years ago. Gwen always kept a copy of the key on her person ever since Morgana slipped it to her with a knowing nod.  
+
+They had just been girls then. The Lady Morgana had only been in Camelot for a couple of years.  Gwen had just turned ten, and was really proud of getting a position to help the royal household, even though her family were simply craftsmen.  She got the job after she invited Morgana to come watch her father in his forge.  At the time she only knew Morgana as "that girl who kept sneaking into the back of the shop without any parents around."
+
+Even when they were children, Gwen would sometimes catch Morgana in a melancholic stare when she thought nobody was looking. Gwen never understood what was troubling Morgana at the time, but would try to get Morgana out of her moods by initiating a game of tag, practicing sword fighting with her, in the back of her father's shop, or at least bringing her some tea and offering to pretend with some dolls they made out of bits of spare clay or cloth. Only as an adult did Gwen start to understand that there was good reason for melancholy.
+
+Gwenivere missed spending time with Morgana, but hasn't done so much ever since her father died some years back. But this secret passage in the armory always reminded her of Morgana.
+
+Gwenivere made a mental note to ask Merlin if she could bring Morgana in on whatever trouble he was brewing with Leon and Lancelot.  She knew that Morgana would be itching for a chance to make life more difficult for King Arthur. She always knew that she hated her brother, but not why. 
+
+Gwenivere finally responded to Arthur's demand, &ldquo;Might I remind you that I'm not here as Morgana's lady-in-waiting, but as your blacksmith.  I do not need to follow the etiquette expected of a lady looking for a courtship. You should be thanking me for not killing you on the spot, I've had plenty of opportunity.&rdquo; 
+
+Arthur sputtered, as he floundered, his own armor clanging against other pieces of equipment. He kept scraping against the stone floor, or clanging. Arthur looked almost cute, with his eyes wide in petulant frustration.  In another life Gwenivere might almost have been attracted to him.  She then shuddered, wiping the thought from her mind.
+
+&ldquo;I don't believe there is anything wrong with royalty flirting with those lower than him,&rdquo; Arthur stated, after spending time righting himself.
+
+&ldquo;Please hand me the list of knights whom you want to have a customized sword,&rdquo; Gwenivere stated flatly. This time she felt her skin crawl slightly as she noted where Arthur's gaze was.  It took him a moment to meet her eyes. 
+
+Arthur took a couple of steps forward, holding out the parchment with names on it.  He looked at her with an intensity that Lancelot saved for the bedroom.  His eyes looked soft, and vulnerable, but there was a determined set in his eyes. Arthur's hair stood up in too many directions, after having clanged against furniture and armor too many times. 
+
+Gwenivere took care to avoid touching any part of Arthur's outstretched hand when accepting the parchment. 
+
+There was something spectacular about how far a doe-eyed pout could hide someone's true nature. She now understood why Merlin seemed to be unable to completely exit his role as servant, and why Morgana absolutely seethed when he walked into the room.
+
+This also explained why it was essential to have a way to stop the man eventually.
 
 </section>
