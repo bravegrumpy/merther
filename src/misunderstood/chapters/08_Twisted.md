@@ -172,7 +172,7 @@ With that, Merlin cast a misdirection spell on them both, leaving Gwen&rsquo;s c
 
 ---
 
-<section class="gwen">
+<section class="gwenivere">
 
 #### Gwenivere
 
