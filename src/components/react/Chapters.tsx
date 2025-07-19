@@ -298,15 +298,17 @@ export function ChapterNav({
   return (
     <>
       <nav className={`menu-container chnav-container ${navClass}`} id={chId}>
-        <p className="menu-shadow">
+        <p className="menu-shadow" key={`${k}-${i++}-shadow-${chId}`}>
           <button
+            key={`${k}-${i++}-reload-btn-${chId}`}
             className={`chnav menu chnav-start ${reloadClass}`}
             onClick={reloadPage}>
             {reloadSymbol}
           </button>
         </p>
-        <p className="menu-shadow">
+        <p className="menu-shadow" key={`${k}-${i++}`}>
           <button
+            key={`Button-${chId}-${k}-Contents`}
             onClick={toggleContents}
             className={`chnav menu chnav-start ${contentsBtnClass}`}>
             Contents:{" "}
@@ -314,9 +316,9 @@ export function ChapterNav({
         </p>
         {chapters.map((chapter) => (
           <>
-            <p className="menu-shadow">
+            <p className="menu-shadow" key={`${k}-${i++}-anotherShadow`}>
               <a
-                key={`link-${chapter.id}-${k}`}
+                key={`${chId}-link-${chapter.id}-${k}`}
                 className={`chnav menu chlst hide hidden ${chapterClass}`}
                 href={chapter.href ?? null}>
                 {chapter.text}
