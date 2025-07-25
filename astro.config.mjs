@@ -84,7 +84,15 @@ export default defineConfig({
   output: 'server',
   adapter: vercel({
     webAnalytics: {
-      enabled: true
-    }
-  })
+      enabled: true,
+    },
+    isr: {
+      expiration: 60 * 60 * 24
+    },
+    maxDuration: 60,
+    experimentalStaticHeaders: true
+  }),
+  experimental: {
+    csp: true
+  }
 });
