@@ -18,3 +18,8 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFineeee Merlin joked, telepathically, then sending an image of Freya restrained with ropes, anchored to a beam on the ceiling in their home.\\E$"}
 {"rule":"REPEATED_VERBS","sentence":"^\\QShe was happy that three tables and at least two distinct weapons stands stood between her and the king.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMerlin continued, “I would ultimately be fine, but well, I now feel safe telling you this: Forbyrn” Merlin stood up, walking a bit closer to Leon, still anxious about revealing the small flame in his hand.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q“Look Brittney, Murphy is the goodest dog and he brought me back the ball, and look his tail is wagging and i think he likes me can I throw the ball again please?”\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\Q“Look Brittney, Murphy is the goodest dog and he brought me back the ball, and look his tail is wagging and i think he likes me can I throw the ball again please?”\\E$"}
+{"rule":"EXTREME_ADJECTIVES","sentence":"^\\QHer red hair glinted in the sunlight making her look really pretty.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q“Scootch forward, and sit up, okay?”\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QI'm going to make both of us feel good,” Arthur said, pushing Morgana back onto the bed.\\E$"}

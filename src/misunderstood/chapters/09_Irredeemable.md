@@ -19,11 +19,11 @@ Brittney seemed sad yesterday, and still looks sad, but she won't tell him what 
 
 Murphy raced back to with the cloth covered wooden ball in his mouth. He expertly wove through various stalls in the market, causing all sorts of grown-ups to make funny noises. Some of the noises were squeaks of surprise. Others were scolds or even growls. People really should look out for dogs. Murphy was the greatest. Even the huge amount of slobber dripping from ball. His golden hair was the most beautiful Todd had ever seen. Tod had learned that he should never stand directly under Murphy, because he didn't want the dog to drip his slobber onto his head.
 
-“Look Brittney, Murphy is the goodest dog and he brought me back the ball, and look his tail is wagging and i think he likes me can I throw the ball again please?”
+“Look Brittney, Murphy is the goodest dog and he brought me back the ball, and look his tail is wagging and I think he likes me can I throw the ball again please?”
 
 Brittney placed a hand on Gracey's arm, looked down on him with a smile. Even though it was clear she was trying, he could tell the smile didn't reach his eyes. Gracey seemed to be helping.
 
-“You gatta watch how far I can throw the ball” Todd exclaimed. There weren't too many people right in front of him. Brittney, bent over so he could see her eyes more clearly. Her red hair glinted in the sunlight making her look really pretty.
+“You gotta watch how far I can throw the ball” Todd exclaimed. There weren't too many people right in front of him. Brittney, bent over so he could see her eyes more clearly. Her red hair glinted in the sunlight making her look really pretty.
 
 “Okay, but be careful” Brittney chastised, ruffling his hair.
 
@@ -43,9 +43,9 @@ Gracey looks down from where she was looking up from, and when she does, she pal
 
 “My Cabbages!” Todd suddenly hears from the food market across the way. When he turns around, He sees another long rope of the white fluid land on Old Lady Alice's newest knitting project.
 
-Todd wasn't completely sure of what was happening, but he did know that nobody should ever be stupid enough to anger Old Lady Alice. She yelled at people who ruined her knitting. Todd was lucky enough to have been gifted a hat from Old Lady Alice during the Beltaine festival before last. He kept it hidden in a box underneath his bed so that Sally wouldn't steal it from him. He never understood why Sally kept trying to take his hat from him. Sally had her own, and it was a pretty blue color, like all the other girls had.
+Todd wasn't completely sure of what was happening, but he did know that nobody should ever be stupid enough to anger Old Lady Alice. She yelled at people who ruined her knitting. Todd was lucky enough to have been gifted a hat from Old Lady Alice during the Beltane festival before last. He kept it hidden in a box underneath his bed so that Sally wouldn't steal it from him. He never understood why Sally kept trying to take his hat from him. Sally had her own, and it was a pretty blue color, like all the other girls had.
 
-Before Todd could continue his train of thought, he felt himself being lifted up and placed on Brittney's shoulders. Brittney almost never let him ride on her shoulders, but he gripped her forehead tightly, as she brought him inside Gracey's home.
+Before Todd could continue his train of thought, he felt himself being lifted and placed on Brittney's shoulders. Brittney almost never let him ride on her shoulders, but he gripped her forehead tightly, as she brought him inside Gracey's home.
 
 </section>
 
@@ -75,29 +75,29 @@ _“I want that. You were hurting me. What were you doing?” Morgana asked._
 
 _Arthur replied, “Do you want to make me feel good?” not bothering to answer._
 
-_Arthur grabbed one of Morgana’s hands, and placed it placed it between her legs._
+_Arthur grabbed one of Morgana’s hands, and placed it between her legs._
 
 _“Can you try touching and playing with yourself like I was doing?’ Arthur asked._
 
-_“Okay” Morgana responded. She slowly started to rub circles around herself. Her shoulders hunched over, and she kept her palm flat covering all of the interesting bits._
+_“Okay” Morgana responded. She slowly started to rub circles around herself. Her shoulders hunched over, and she kept her palm flat covering all the interesting bits._
 
-_Before letting go, Arthur stopped her, “Not like that, I want to see you actually try.” He then very gently used his tongue to indicate where her clitoris is, and positioned her hand so that she held her vaginal lips open, showing off the location where Arthur would inevitable place his own cock._
+_Before letting go, Arthur stopped her, “Not like that, I want to see you actually try.” He then very gently used his tongue to indicate where her clitoris is, and positioned her hand so that she held her vaginal lips open, showing off the location where Arthur would inevitably place his own cock._
 
 _“Can we bring Gaius next time we play?” Morgana asked, curiously. Arthur was swiftly removing his britches, having rid himself of his leather armor. He could feel the sheen of sweat and grime covering his body. This was part of the charm. Sir Beckham had told him that girls liked it more when you were sweaty and grimy. He had talked about an irresistible smell, that exuded masculinity._
 
-_“No, Morgana,” Arthur replied grabbing his erection, “This is special time between you an me okay?”_
+_“No, Morgana,” Arthur replied grabbing his erection, “This is special time between you and me okay?”_
 
 _Morgana just looked at him, as her fingers slowed._
 
-_“You can’t tell anybody else what we are doing here. Its our little secret,” Arthur continued with a conspiratorial tone._
+_“You can’t tell anybody else what we are doing here. It's our little secret,” Arthur continued with a conspiratorial tone._
 
 _Arthur approached Morgana’s legs, and slowly rubbed the precum leaking from his dick along the Morgana’s clit, down to her opening. “Scootch forward, and sit up, okay?”_
 
 _Morgana complied, moving forward, and started kissing Arthur’s dick. Arthur remembered the first time she sucked his dick. It was the first night after she had moved to Camelot, but her mouth was only just large enough to fit his head, with his foreskin pulled back. While he was proud of how much he had grown, Morgana had gotten much better at that in the past two years._
 
-_While Morgana bobbed her head, Arthur with practiced ease. Meanwhile, Arthur’s hands roamed Morgna’s body, and eventually found her warm slit. While she was distracted, he was able to slip his index finger and middle finger into her expanding hole._
+_While Morgana bobbed her head, Arthur with practiced ease. Meanwhile, Arthur’s hands roamed Morgana's body, and eventually found her warm slit. While she was distracted, he was able to slip his index finger and middle finger into her expanding hole._
 
-_After only a minute or so Arthur pulled himself out of Morgana’s warm mouth. and just looked at her. She gazed up at him with innocence in her eyes._
+_After only a minute or so Arthur pulled himself out of Morgana’s warm mouth and just looked at her. She gazed up at him with innocence in her eyes._
 
 _“My mother, before she died, told me that I should tell her if anybody told me to keep a secret for them,” Morgana said, tears welling in her eyes._
 
@@ -141,7 +141,7 @@ _“Morgana, sweetie, I will start moving in and out. You still feel nice and fu
 
 _Morgana babbled something incomprehensible into his chest. If Arthur really thought about it, it would have sounded something like a no, but it was super non-obvious._
 
-_It only took a few minutes as Arthur’s pace increased, becoming less gentle. He placed a finger into Morgna’s mouth, to keep it occupied, and to muffle the noises she was making. His own grunts were manly, but girls were supposed to stay silent while they pleased their men. Arthur decided that he was happy to have Morgana be his Little Lady for the rest of time._
+_It only took a few minutes as Arthur’s pace increased, becoming less gentle. He placed a finger into Morgana's mouth, to keep it occupied, and to muffle the noises she was making. His own grunts were manly, but girls were supposed to stay silent while they pleased their men. Arthur decided that he was happy to have Morgana be his Little Lady for the rest of time._
 
 _Arthur’s pace then became erratic, as he felt himself release into Morgana’s warmth. He felt the warm pleasure of her womb, and tingling all of her his body. Once he was done shuddering, he slowly pulled himself out of Morgana with a pop. He grabbed her juices, and rubbed up towards the top of his now soft dick. However, seeing Morgana clearly zoned out on a bed, with his seed dripping out from her, made his adolescent dick twitch._
 
@@ -165,11 +165,11 @@ It was an absolutely gorgeous morning. Morning dales sang their songs as the peo
 
 He figured he would bestow the custom blades as an honor, that a Knight of Camelot could earn during his service.
 
-Arthur was standing on the overpass, that had a wonderful lookout over the marketplace. He often observed from here, as it it could see out to the gates, and provided a more granular view than some of the vantage points above. He saw Gwenivere walking about, _flirting_ with Sir Gwaine. The thought made him shudder as Gwaine was not man for polite society. His skill with a sword, and fierce determination to stay by Merlin’s side has kept his position as a knight so far.
+Arthur was standing on the overpass, that had a wonderful lookout over the marketplace. He often observed from here, as he could see out to the gates, and the location provided a more granular view than some of the vantage points above. He saw Gwenivere walking about, _flirting_ with Sir Gwaine. The thought made him shudder as Gwaine was not man for polite society. His skill with a sword, and fierce determination to stay by Merlin’s side has kept his position as a knight so far.
 
-There was one lookout, set up as a bit of stage for a king to make addresses to his people. He had used it plenty of times since his coronation, but also often used its as a way to survey his people.
+There was one lookout, set up as a bit of stage for a king to make addresses to his people. He had used it plenty of times since his coronation, but also often used it as a way to survey his people.
 
-This morning, Merlin made him feel powerful again. Merlin’s eye lashes fluttered, while his fingers flirted, as he dressed him this morning. Knowing that everybody, even the most petulant of servants, would eventually bow to his power gave Arthur a head rush.
+This morning, Merlin made him feel powerful again. Merlin’s eyelashes fluttered, while his fingers flirted, as he dressed him this morning. Knowing that everybody, even the most petulant of servants, would eventually bow to his power gave Arthur a head rush.
 
 Looking around, and seeing nobody approach from the castle’s perspective, Arthur brought his hand to his own growing hardness. Quickly, he removed his cock, and started rubbing himself, while surveying the market below. He way a boy running to play fetch with a golden retriever, a little old lady knitting, and a cart with fresh red cabbages over in the food mart.
 
@@ -181,7 +181,7 @@ Morgana was never the same after she came back from being gone. Despite Arthur t
 
 It was no matter, because Arthur had started dating Princess Vivienne. That didn’t last long, and did not compare to Morgana’s small face and trusting eyes.
 
-After some time Arthur allowed himself to expel his spend into the market below, in long ropes. He had forgotten how good the power felt. He felt himself start to float, knowing that he was the source of fertility in this land, and that all who touch his seed will be blessed by the goddess _Freja_ to be forever fertile.
+After some time Arthur allowed himself to expel his spend into the market below, in long ropes. He had forgotten how good the power felt. He felt himself start to float, knowing that he was the source of fertility in this land, and that all who touch his seed will be blessed by the goddess _Freyja_ to be forever fertile.
 
 </section>
 
@@ -191,11 +191,11 @@ After some time Arthur allowed himself to expel his spend into the market below,
 
 #### Merlin
 
-_Where are you, Emrys_, Merlin heard. Typically, he only ever heard Freya’s voice, as familiar as is own. This was not her. The person sounded frantic, like a prayer, not a genuine communication.
+_Where are you, Emrys_, Merlin heard. Typically, he only ever heard Freya’s voice, as familiar as his own. This was not her. The person sounded frantic, like a prayer, not a genuine communication.
 
 _Please don’t let the king take any more of my children or there innocence from me_. There it was again. Merlin was extremely sweaty, his face covered in an unnecessary amount of hoarse dung — his punishment for yesterday’s antics.
 
-A few years ago Freya and Merlin had figured out that there were a large number of people in Camelot who had latent magic, but did not know about it, and that only the most powerful sorcerers in dire situations could actually control their telepathy. This sounded like a prayer.
+A few years ago Freya and Merlin had figured out that there were numerous people in Camelot who had latent magic, but did not know about it, and that only the most powerful sorcerers in dire situations could actually control their telepathy. This sounded like a prayer.
 
 Dropping the shovel where it was, knowing that the _actual_ stable-hands would be much faster and better at this than he could ever be, Merlin to the lower town, without bothering to wipe off his face.
 
