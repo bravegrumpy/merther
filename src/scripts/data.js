@@ -20,6 +20,11 @@ export const mainLinks = [
       text: "Fires"
     },
     {
+      key: "04_Swagger",
+      href: "/swagger",
+      text: "Swagger"
+    },
+    {
       key: "ZX_OTHER",
       href: "/other/",
       text: "Other Stuff"

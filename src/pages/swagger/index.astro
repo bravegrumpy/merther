@@ -1,0 +1,28 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { Debug } from "astro:components"
+import { FallbackContent } from "@/components/react/Components"
+
+import { Chapter } from "@/components/react/Chapters"
+import { Icon } from "astro-icon/components";
+
+import { getCollection, getEntry, render } from "astro:content"
+
+import { mainLinks } from "@/scripts/data"
+
+const swagger = await getCollection('swagger');
+swagger.sort((a, b) => a.data.chapter - b.data.chapter);
+---
+
+<Layout mainLinks={mainLinks}>
+    {
+        swagger.map(async (chapter) => {
+            const { Content: Ch } = await render(chapter)
+            return (<>
+                <Chapter articleId={chapter.id} chapterNameHeading={chapter.data.title}>
+                <Ch />
+                </Chapter>
+            </>)
+        })
+    }
+</Layout>

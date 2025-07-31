@@ -100,4 +100,13 @@ const rape_not_die = defineCollection({
     })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum, rape_not_die }
+const swagger = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/swagger"}),
+    schema: z.object({
+        title: z.optional(z.string()),
+        chapter: z.number(),
+        role: z.optional(z.string())
+    })
+})
+
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum, rape_not_die, swagger }
