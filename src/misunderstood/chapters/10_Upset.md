@@ -1,7 +1,7 @@
 ---
 id: "ch10"
 href: "#ch10"
-chapter: 9
+chapter: 10
 text: "Upset"
 title: "Chapter 10: Upset"
 pubDate: 2000-01-01
