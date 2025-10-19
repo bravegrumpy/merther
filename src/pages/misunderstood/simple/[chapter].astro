@@ -91,7 +91,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <!-- <span slot="backToTopIcon"> -->
             <!-- <Icon name="hugeicons:transition-top" width={32} height={32} /> -->
         <!-- </span> -->
-        <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${misunderstood.data.href}`} AnchorText="single" />
+        <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${misunderstood.data.href}`} AnchorText="single" published={misunderstood.data.published} />
             <a slot="lastChild" href={`/misunderstood/print/${chapter}`} aria-label="print preview" id="printLink" class="menu chnav chnav-start">
                 <Icon name="hugeicons:printer" width="24" height="24" />
             </a>

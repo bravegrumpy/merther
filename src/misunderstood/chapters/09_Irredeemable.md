@@ -4,8 +4,8 @@ href: "#ch09"
 chapter: 9
 text: "Irredeemable"
 title: "Chapter 9: Irredeemable"
-pubDate: 2000-01-01
-published: false
+pubDate: 2025-07-19
+published: true
 description: ""
 ---
 

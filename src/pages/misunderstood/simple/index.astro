@@ -68,7 +68,7 @@ const latestChapter = chapters.length - 1;
                     {/* <span slot="backToTopIcon"> */}
                         {/* <Icon name="hugeicons:transition-top" width={32} height={32} /> */}
                     {/* </span> */}
-                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${chapter.id}/`} AnchorText="all" />
+                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/misunderstood/simple/${chapter.id}/`} AnchorText="all" published={chapter.data.published} />
                     <a slot="lastChild" href={`/misunderstood/print/${chapter.data.href}`} aria-label="print preview" id={`${chapter.id}PrintLink`} class="menu chnav chnav-start">
                         <Icon name="hugeicons:printer" width="24" height="24" />
                     </a>

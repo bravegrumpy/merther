@@ -331,7 +331,7 @@ export function ChapterNav({
   );
 }
 
-export function ChapterInfo({readingTime, pubDate, href, AnchorText}: {readingTime: any; pubDate: any; href: string; AnchorText: 'all' | 'single'}) {
+export function ChapterInfo({readingTime, pubDate, href, AnchorText, published}: {readingTime: any; pubDate: any; href: string; AnchorText: 'all' | 'single', published?: boolean;}) {
   let txt;
   switch(AnchorText) {
     case "all":
@@ -346,7 +346,7 @@ export function ChapterInfo({readingTime, pubDate, href, AnchorText}: {readingTi
       <div className="chi">
         <a className="chb" href={href}>{txt}</a>
         <p className="chb"><span className="chi-notes">Reading Time: </span>{readingTime}</p>
-        <p className="chb"><span className="chi-notes">Published On: </span>{dayjs(pubDate).format('MMMM Do, YYYY')}</p>
+        <p className="chb">{ published ? <><span className="chi-notes">Published On: </span> {dayjs(pubDate).format('MMMM Do, YYYY')}</> : <></>}</p>
       </div>
     </div>
   </>);
