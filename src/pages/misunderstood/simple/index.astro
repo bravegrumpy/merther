@@ -14,7 +14,7 @@ import Article from "@/components/Article.astro";
 
 import { Chapter, ChapterNav, ChapterInfo } from "@/components/react/Chapters"
 import ChapterPostnav from "@/components/ChapterPostnav.astro"
-import { Banner } from "@/components/react/Components"
+import { Banner, FallbackContent } from "@/components/react/Components"
 import { StyleToggle } from "@/components/react/Navigation"
 
 import dayjs from "dayjs";
@@ -23,16 +23,75 @@ import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(utc)
 dayjs.extend(advancedFormat);
 
-import { getCollection, render } from "astro:content"
+import { getCollection, render, getEntry } from "astro:content"
 
-const Misunderstood = await getCollection('misunderstood')
+const Misunderstood = await getCollection('misunderstood');
 
 Misunderstood.sort((a, b) => a.data.chapter - b.data.chapter)
 
 const chapters = Misunderstood.map((ch) => ch.data);
 const latestChapter = chapters.length - 1;
+
+const bigSummary = await getEntry('misunderstood_summary', '00_misunderstood');
+
+let Summary;
+bigSummary ? { Content: Summary } = await render(bigSummary): Summary = FallbackContent;
+
+const bigNotes = await getEntry('misunderstood_notes', '00_misunderstood');
+
+let Notes;
+bigNotes ? { Content: Notes } = await render(bigNotes) : Notes = FallbackContent;
+
+const AO3TagList = [
+    "Explicit",
+    "Rape/Non-Con", "Graphic Depictions Of Violence", "Underage Sex", "Major Character Death",
+    "F/F", "F/M", "M/M",
+    "Work in Progress",
+    "Rape/Non-Con", "Graphic Depictions Of Violence", 
+    "Underage Sex Major Character DeathFreya/Merlin (Merlin)", 
+    "Merlin/Arthur Pendragon (Merlin)",
+    "Gwen/Lancelot (Merlin)",
+    "Lancelot & Merlin (Merlin)",
+    "Freya/Gwen (Merlin)",
+    "George & Leon (Merlin)",
+    "Lancelot / Merlin / Freya / Gwen / LancelotMerlin (Merlin)",
+    "Freya (Merlin)", 
+    "Arthur Pendragon (Merlin)",
+    "Gwen (Merlin)",
+    "Lancelot (Merlin)",
+    "Leon (Merlin)",
+    "George (Merlin)",
+    "Gwaine (Merlin)",
+    "Percival (Merlin)",
+    "Hurt/Comfort", 
+    "Lancelot is alive", 
+    "Canon Era Everyone Knows About Merlin's Magic Except Arthur Pendragon (Merlin)",
+    "CPTSD", 
+    "Post-Traumatic Stress Disorder - PTSD",
+    "recovering from trauma",
+    "Dark Arthur Pendragon (Merlin)",
+    "Polyamory Kink Hurt Merlin (Merlin)",
+    "Explicit Sexual Content", 
+    "Mildly Dubious Consent", 
+    "Smut", 
+    "Angst",
+    "Porn With Plot", 
+    "Rape/Non-con Elements", 
+    "King Arthur Pendragon (Merlin)",
+    "Abusive Relationships", 
+    "Abusive Arthur Pendragon (Merlin)",
+    "Not Beta Read", "Rape", "Non-Consensual Oral Sex", "Abuse of Authority", "Graphic Rape/Non-Con", "Power Imbalance", "Non-Consensual Touching", "Psychological Horror", "Power Exchange", "Power Dynamics", "Slow Build", "Plot",  "Dom/sub", "BDSM", "Blow Jobs", "Oral Sex", "Rough Oral Sex", "Rough Sex", "Humiliation", "The dub-con and rape are for distinct events", "hurt and comfort are by different people", "rhe same sex acts can occur in both consensual and non consensual contexts", "Kinky power exchange is not the same is non con", "Dissociation", "Hurt No Comfort", "Rape Fantasy", "Femdom","Underage Rape/Non-con", "Sibling Incest" ]
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
+        <h2>Tags</h2>
+        <ul>
+            {AO3TagList.map((tag) => <li>{tag}</li>)}
+        </ul>
+        <h2>Summary</h2>
+        <Summary />
+        <h2>Notes</h2>
+        <Notes />
+    <hr class="section" />
     <StyleToggle slot="header" client:only="react" />
     <Article>
         <div class="chapter-preamble-shadow">

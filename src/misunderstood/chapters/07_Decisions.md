@@ -5,7 +5,7 @@ chapter: 7
 text: "Decisions"
 title: "Chapter 7: Decisions"
 pubDate: 2025-06-06
-published: false
+published: true
 description: ""
 ---
 
