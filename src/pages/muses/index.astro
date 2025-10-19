@@ -10,7 +10,7 @@ import { mainLinks } from "@/scripts/data";
 
 const notes = await getEntry('muses', 'notes');
 let Notes;
-notes ? { Content: Notes} = await render(notes) : Notes = FallbackContent;
+notes ? { Content: Notes } = await render(notes) : Notes = FallbackContent;
 
 const summary = await getEntry('muses', 'summary');
 let Summary;
