@@ -109,4 +109,20 @@ const swagger = defineCollection({
     })
 })
 
-export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum, rape_not_die, swagger }
+const fig = defineCollection({
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/fig"}),
+    schema: z.object({
+        id: z.union([z.string(), z.number()]),
+        href: z.string(),
+        title: z.optional(z.string()),
+        text: z.string(),
+        chapter: z.number(),
+        tags: z.optional(z.array(z.string())),
+        pubDate: z.optional(z.date()),
+        published: z.boolean(),
+        description: z.optional(z.string()),
+
+    })
+})
+
+export const collections = {resources, misunderstood, misunderstood_summary, misunderstood_notes, misunderstood_endnotes, muses, microblog, gallery_ai, llorem_ipsum, rape_not_die, swagger, fig }

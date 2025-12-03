@@ -1,0 +1,69 @@
+---
+import Layout from "@/layouts/Layout.astro"
+const headTitle = "Fig | Huetopia"
+const pageTitle = "Fig in Huetopia"
+const bravegrumpyLink = "https://www.bravegrumpy.com/writing"
+
+import { Icon } from "astro-icon/components"
+
+import Article from "@/components/Article.astro"
+import dayjs from "dayjs"
+import utc from "dayjs/plugin/utc"
+import advancedFormat from "dayjs/plugin/advancedFormat"
+dayjs.extend(utc)
+dayjs.extend(advancedFormat)
+
+import { getCollection, render } from "astro:content"
+import { Chapter, ChapterNav, ChapterInfo } from "@/components/react/Chapters"
+import ChapterPostnav from "@/components/ChapterPostnav.astro"
+import { Banner, FallbackContent } from "@/components/react/Components"
+
+const Fig = await getCollection("fig");
+Fig.sort((a, b) => a.data.chapter - b.data.chapter)
+const chapters = Fig.map((ch) => ch.data)
+const latestChapter = chapters.length - 1;
+
+---
+<Layout
+    headTitle={headTitle}
+    pageTitle={pageTitle}
+    bottomLine={true}
+    link={bravegrumpyLink}
+>
+    <Article>
+        <div class="chapter-preamble-shadow">
+            <div class="chapter-preamble latest-chapter">
+                <h2 class="text-gradient" style={{paddingLeft: "20px"}}>Latest Chapter: </h2>
+                <h3>
+                    <a href={chapters[latestChapter].href} style={{color: "#2e045e", fontFamily: "'Delius', 'Recursive', 'Georgia'"}}>{chapters[latestChapter].title}</a>
+                </h3>
+                <div></div>
+            </div>
+        </div>
+        <Banner />
+    </Article>
+    {
+        Fig.map(async (f) => {
+            const { Content, remarkPluginFrontmatter } = await render(f);
+            const previous = Fig[f.data.chapter - 2] ? `/fig/${Fig[f.data.chapter - 2].data.href}` : '';
+            const next = Fig[f.data.chapter] ? `/fig/${Fig[f.data.chapter].data.href}` : '';
+            const lastModified = dayjs(remarkPluginFrontmatter.lastModified).utc();
+            const readingTime = remarkPluginFrontmatter.minutesRead;
+            const pubDate = dayjs(f.data.pubDate).utc();
+            return(<>
+                <Chapter articleId={String(f.data.id)} chapterNameHeading={f.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine="start" anchorClass="menu back-to-top" backToTopButton={false}>
+                    <span slot="previousIcon">
+                        <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} aria-labelledby="Previous Chapter" />
+                    </span>
+                    <span slot="nextIcon">
+                        <Icon name="hugeicons:arrow-turn-forward" width={32} height={32} aria-labelledby="Next Chapter" />
+                    </span>
+                    <ChapterInfo readingTime={readingTime} pubDate={pubDate} href={`/fig/${f.data.href}`} AnchorText="all" published={f.data.published} />
+                    <Content />
+                    <ChapterPostnav previous={previous} next={next} other="all" chapterId={f.id} size={32} backToTopIcon="hugeicons:arrow-up-03" previousIcon="hugeicons:arrow-turn-backward"
+                    nextIcon="hugeicons:arrow-turn-forward" />
+                </Chapter>
+            </>);
+        })
+    }
+</Layout>
