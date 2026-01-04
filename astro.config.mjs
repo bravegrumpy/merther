@@ -40,6 +40,7 @@ export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
   // site: 'https://mertherfanfic.neocities.org',
   security: {
+    checkOrigin: true,
     allowedDomains: [
       {
         hostname: "*.testing-cors-self.vercel.app",
@@ -56,10 +57,12 @@ export default defineConfig({
     ],
   },
 
+
   image: {
     domains: ["bravegrumpy.com"],
     remotePatterns: [{ protocol: "https"}]
   },
+
   prefetch: {
     defaultStrategy: 'load',
     prefetchAll: true
