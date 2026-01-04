@@ -81,9 +81,6 @@ export default defineConfig({
   // trailingSlash: 'always',
   // output: 'static',
   output: 'server',
-  server: {
-    allowedHosts: true
-  },
   adapter: vercel({
     webAnalytics: {
       enabled: true
