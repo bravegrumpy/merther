@@ -4,7 +4,7 @@ import { defineMiddleware } from "astro:middleware";
 
 const allowedOrigins = new Set([
     "https://ncase.me",
-    "https://testing-cors-self.vercel.app/",
+    "https://testing-cors-self.vercel.app",
     "https://cdn.jsdeliver.net",
     "https://*.bravegrumpy.com",
     "http://localhost:3000",

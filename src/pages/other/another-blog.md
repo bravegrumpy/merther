@@ -4,4 +4,4 @@
 
 How are you doing?
 
-[:Normal Link](https://testin-cors-self.vercel.app)
+[:Normal Link](https://testing-cors-self.vercel.app)
