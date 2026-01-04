@@ -1,5 +1,3 @@
-// copy in SSR
-
 // This file was built in part by AI using Chat GPT-5.2
 
 import { defineMiddleware } from "astro:middleware";

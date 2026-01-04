@@ -39,7 +39,7 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
   // site: 'https://mertherfanfic.neocities.org',
-  
+
   image: {
     domains: ["bravegrumpy.com"],
     remotePatterns: [{ protocol: "https"}]
