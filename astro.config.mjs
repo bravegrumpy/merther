@@ -81,6 +81,9 @@ export default defineConfig({
   // trailingSlash: 'always',
   // output: 'static',
   output: 'server',
+  server: {
+    allowedHosts: ["https://testing-cors-self.vercel.app"]
+  },
   adapter: vercel({
     webAnalytics: {
       enabled: true
