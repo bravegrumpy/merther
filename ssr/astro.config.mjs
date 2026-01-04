@@ -40,25 +40,6 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
   // site: 'https://mertherfanfic.neocities.org',
-  security: {
-    checkOrigin: true,
-    allowedDomains: [
-      {
-        hostname: "*.testing-cors-self.vercel.app",
-        protocol: 'https'
-      },
-      {
-        hostname: '**.ncase.me',
-        protocol: 'https'
-      },
-      {
-        hostname: '**.bravegrumpy.com',
-        protocol: 'https'
-      }
-    ],
-  },
-
-
 
   image: {
     domains: ["bravegrumpy.com"],
