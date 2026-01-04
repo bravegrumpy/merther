@@ -44,14 +44,6 @@ export default defineConfig({
     domains: ["bravegrumpy.com"],
     remotePatterns: [{ protocol: "https"}]
   },
-  server: {
-    allowedHosts: [
-      'https://ncase.me', 
-      'http://localhost:5173', 
-      '*.bravegrumpy.com', 
-      'https://testing-cors-self.vercel.app'
-    ]
-  },
   prefetch: {
     defaultStrategy: 'load',
     prefetchAll: true
