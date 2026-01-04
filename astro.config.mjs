@@ -39,6 +39,22 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
   // site: 'https://mertherfanfic.neocities.org',
+  security: {
+    allowedDomains: [
+      {
+        hostname: "*.testing-cors-self.vercel.app",
+        protocol: 'https'
+      },
+      {
+        hostname: '**.ncase.me',
+        protocol: 'https'
+      },
+      {
+        hostname: '**.bravegrumpy.com',
+        protocol: 'https'
+      }
+    ],
+  },
 
   image: {
     domains: ["bravegrumpy.com"],
@@ -81,9 +97,6 @@ export default defineConfig({
   // trailingSlash: 'always',
   // output: 'static',
   output: 'server',
-  server: {
-    allowedHosts: ["https://testing-cors-self.vercel.app"]
-  },
   adapter: vercel({
     webAnalytics: {
       enabled: true
