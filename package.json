@@ -40,7 +40,7 @@
     "update:ssg:api:image": "npm run update:ssg:api:image:copy && ( echo // This is the copy in the ssg directory && cat ssg/src/pages/api/images/[image].[ext].ts) > temp && mv temp ssg/src/pages/api/images/[image].[ext].ts",
     "update:ssg:api": "npm run update:ssg:api:directory:image && npm run update:ssg:api:image",
     "update:ssg": "npm run update:ssg:config && npm run update:ssg:misunderstood && npm run update:ssg:api",
-    "dynamic:reset": "cp default/astro.config.mjs . && cp default/src/middleware.ts . && cp default/src/pages/misunderstood/simple/* src/pages/misunderstood/simple && cp default/src/pages/misunderstood/print/* src/pages/misunderstood/print && cp -rf default/src/pages/api/images/* src/pages/api/images"
+    "dynamic:reset": "cp default/astro.config.mjs . && cp default/src/middleware.ts src && cp default/src/pages/misunderstood/simple/* src/pages/misunderstood/simple && cp default/src/pages/misunderstood/print/* src/pages/misunderstood/print && cp -rf default/src/pages/api/images/* src/pages/api/images"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
