@@ -1,4 +1,4 @@
-// copy in SSR
+// This is the copy in the SSR directory
 
 // This file was built in part by AI using Chat GPT-5.2
 
@@ -6,8 +6,12 @@ import { defineMiddleware } from "astro:middleware";
 
 const allowedOrigins = new Set([
     "https://ncase.me",
-    "https://testing-cors-self.vercel.app/",
-    "https://cdn.jsdeliver.net"
+    "https://testing-cors-self.vercel.app",
+    "https://cdn.jsdeliver.net",
+    "https://*.bravegrumpy.com",
+    "http://localhost:3000",
+    "http://localhost:4321",
+    "http://localhost:5173"
 ]);
 
 function corsHeaders(origin: string | null) {
@@ -37,7 +41,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     }
 
     const response = await next();
-    ;const headers = corsHeaders(origin)
+    const headers = corsHeaders(origin);
     headers.forEach((value, key) => response.headers.set(key, value));
 
     return response;

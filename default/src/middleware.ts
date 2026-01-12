@@ -1,3 +1,5 @@
+// this is the copy in the default directory
+
 // This file was built in part by AI using Chat GPT-5.2
 
 import { defineMiddleware } from "astro:middleware";
@@ -39,7 +41,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     }
 
     const response = await next();
-    ;const headers = corsHeaders(origin)
+    const headers = corsHeaders(origin);
     headers.forEach((value, key) => response.headers.set(key, value));
 
     return response;

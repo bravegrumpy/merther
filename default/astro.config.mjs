@@ -1,3 +1,5 @@
+// this is the copy in the default directory
+
 // @ts-check
 import { defineConfig } from 'astro/config';
 
@@ -85,6 +87,7 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: {
       enabled: true
-    }
+    },
+    imageService: true
   })
 });

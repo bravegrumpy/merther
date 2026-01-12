@@ -1,3 +1,5 @@
+// this is the copy in the default directory
+
 // export function getStaticPaths() {
 //     return [
 //         { params: { directory: "topography", image: "topography_brown", ext: "png"} },

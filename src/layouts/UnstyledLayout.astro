@@ -31,6 +31,28 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
     <Analytics />
     <SpeedInsights />
     <slot name="head" />
+
+    <!--Preloading fonts -->
+    <link rel="preload" href="/_astro/fonts/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/_astro/fonts/Delius-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/_astro/fonts/StyleScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Add font-display: swap via CSS -->
+
+    <style is:global>
+        @font-face {
+            font-family: 'Recursive';
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Delius';
+            display: swap;
+        }
+        @font-face {
+            font-family: 'StyleScript';
+            display: swap;
+        }
+    </style>
     <!-- <script src="../scripts/scrollPosition.js"></script> -->
   </head>
   <body class={bodyClasses} style={{visibility: stopFlash ? 'hidden' : 'visible'}}>

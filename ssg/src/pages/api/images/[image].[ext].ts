@@ -1,4 +1,5 @@
-// This is the copy in the ssg directory 
+// This is the copy in the ssg directory
+
 export function getStaticPaths() {
     return [
         { params: { image: "candid", ext: "png"} },

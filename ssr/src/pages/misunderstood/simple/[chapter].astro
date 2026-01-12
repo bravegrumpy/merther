@@ -1,5 +1,6 @@
---- 
-// This is the copy in the ssr directory 
+---
+// This is the copy in the ssr directory
+// this is the copy in the default directory
 
 // export const prerender = true
 import { Debug } from "astro/components";
@@ -70,7 +71,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <h1 class="text-gradient text-center">{pageTitle}</h1>
         <h2 class="text-center">{misunderstood.data.title}</h2>
     </div>
-    <StyleToggle slot="header" client:only="react" />
+    <StyleToggle slot="header" client:idle />
     <!-- <Article>
         <div class="chapter-preamble latest-chapter">
             <h2 class="text-gradient" style={{paddingLeft: "20px"}}>Latest Chapter: </h2>
@@ -82,7 +83,7 @@ const pubDate = dayjs(misunderstood.data.pubDate).utc();
         <Banner />
     </Article> -->
     <!-- <hr class="section" /> -->
-    <ChapterNav chapters={chapters} client:only="react" icons={true} />
+    <ChapterNav chapters={chapters} client:idle icons={true} />
     <Container articleId={misunderstood.data.id} chapterNameHeading={misunderstood.data.title} previousChapterSrc={previous} nextChapterSrc={next} preambleTopLine={'start'} anchorClass="menu back-to-top" backToTopButton={false}>
         <span slot="previousIcon">
             <Icon name="hugeicons:arrow-turn-backward" width={32} height={32} transform="flip" />
