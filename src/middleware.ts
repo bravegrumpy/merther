@@ -39,7 +39,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     }
 
     const response = await next();
-    ;const headers = corsHeaders(origin)
+    const headers = corsHeaders(origin);
     headers.forEach((value, key) => response.headers.set(key, value));
 
     return response;
