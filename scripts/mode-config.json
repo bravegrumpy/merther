@@ -26,6 +26,10 @@
           "to": "src/pages/api/images/",
           "glob": true,
           "recursive": true
+        },
+        {
+            "from": "ssr/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/"
         }
       ]
     },
@@ -51,6 +55,10 @@
           "to": "src/pages/api/images/",
           "glob": true,
           "recursive": true
+        },
+        {
+            "from": "ssg/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/"
         }
       ],
       "removeFiles": [
@@ -83,6 +91,10 @@
           "to": "src/pages/api/images/",
           "glob": true,
           "recursive": true
+        }, 
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/UnstyledLayout.astro"
         }
       ]
     }
@@ -121,6 +133,12 @@
           "from": "default/src/pages/api/images/[image].[ext].ts",
           "to": "ssr/src/pages/api/images/[image].[ext].ts",
           "addComment": "// This is the copy in the ssr directory"
+        },
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "ssr/src/layouts/UnstyledLayout.astro",
+            "addComment": "// This is the copy in the ssr directory",
+            "addFrontmatter": true
         }
       ]
     },
@@ -152,6 +170,12 @@
           "from": "default/src/pages/api/images/[image].[ext].ts",
           "to": "ssg/src/pages/api/images/[image].[ext].ts",
           "addComment": "// This is the copy in the ssg directory"
+        },
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "ssg/src/layouts/UnstyledLayout.astro",
+            "addComment": "// This is the copy in the ssg directory",
+            "addFrontmatter": true
         }
       ]
     }
