@@ -29,7 +29,7 @@
         },
         {
             "from": "ssr/src/layouts/UnstyledLayout.astro",
-            "to": "src/layouts/"
+            "to": "src/layouts/UnstyledLayout.astro"
         }
       ]
     },
@@ -58,7 +58,7 @@
         },
         {
             "from": "ssg/src/layouts/UnstyledLayout.astro",
-            "to": "src/layouts/"
+            "to": "src/layouts/UnstyledLayout.astro"
         }
       ],
       "removeFiles": [
@@ -91,7 +91,7 @@
           "to": "src/pages/api/images/",
           "glob": true,
           "recursive": true
-        }, 
+        },
         {
             "from": "default/src/layouts/UnstyledLayout.astro",
             "to": "src/layouts/UnstyledLayout.astro"
