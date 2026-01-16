@@ -121,7 +121,7 @@ const AO3TagList = [
         <h2>Notes</h2>
         <Notes />
     <hr class="section" />
-    <StyleToggle slot="header" client:idle />
+    <StyleToggle slot="header" client:only="react" />
     <Article>
         <div class="chapter-preamble-shadow">
             <div class="chapter-preamble latest-chapter">
@@ -136,7 +136,7 @@ const AO3TagList = [
          <Banner />
     </Article>
     <hr class="section" />
-    <ChapterNav chapters={chapters} icons={true} client:idle/>
+    <ChapterNav chapters={chapters} icons={true} client:only="react"/>
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);
