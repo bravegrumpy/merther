@@ -2,8 +2,7 @@
 // This is the copy in the default directory
 import Analytics from "@vercel/analytics/astro"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
-// Astro.response.headers.set('Access-Control-Allow-Origin', "*")
-// Astro.response.headers.set("Access-Control-Allow-Methods", "GET")
+// Note: CORS headers are handled by middleware.ts, not in layouts
 const icon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
@@ -32,13 +31,46 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
     <Analytics />
     <SpeedInsights />
     <slot name="head" />
+    
+    <!-- Load Google Fonts CSS asynchronously to avoid blocking render -->
+    <script is:inline>
+      // Load Google Fonts CSS asynchronously after page load
+      (function() {
+        const loadFonts = function() {
+          const link1 = document.createElement('link');
+          link1.rel = 'stylesheet';
+          link1.href = 'https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allison&family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Autour+One&family=Bad+Script&family=Beth+Ellen&family=Bilbo&family=Bilbo+Swash+Caps&family=Birthstone&family=Birthstone+Bounce:wght@400;500&family=Bonbon&family=Bonheur+Royale&family=Bubblegum+Sans&family=Butterfly+Kids&family=Caesar+Dressing&family=Cagliostro&family=Calligraffitti&family=Caramel&family=Carattere&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Charmonman:wght@400;700&family=Chilanka&family=Comforter&family=Coming+Soon&family=Cookie&family=Covered+By+Your+Grace&family=Crafty+Girls&family=Delius&family=Delius+Swash+Caps&family=Devonshire&family=Dr+Sugiyama&family=Eagle+Lake&family=East+Sea+Dokdo&family=Farsan&family=Fasthand&family=Festive&family=Fondamento:ital@0;1&family=Freehand&family=Gloria+Hallelujah&family=Grape+Nuts&family=Handlee&family=Homemade+Apple&family=Indie+Flower&family=Merienda:wght@300..900&family=Moon+Dance&family=Mr+Bedfort&family=Nothing+You+Could+Do&family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Srisakdi:wght@400;700&family=Style+Script&display=swap';
+          link1.media = 'print';
+          link1.onload = function() { this.media = 'all'; };
+          document.head.appendChild(link1);
+          
+          const link2 = document.createElement('link');
+          link2.rel = 'stylesheet';
+          link2.href = 'https://fonts.googleapis.com/css2?family=Combo&display=swap';
+          link2.media = 'print';
+          link2.onload = function() { this.media = 'all'; };
+          document.head.appendChild(link2);
+          
+          const link3 = document.createElement('link');
+          link3.rel = 'stylesheet';
+          link3.href = 'https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap';
+          link3.media = 'print';
+          link3.onload = function() { this.media = 'all'; };
+          document.head.appendChild(link3);
+        };
+        
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', loadFonts);
+        } else {
+          loadFonts();
+        }
+      })();
+    </script>
 
-    <!--Preloading fonts -->
+    <!--Preconnecting to font sources for faster font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link rel="preload" href="/_astro/fonts/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/_astro/fonts/Delius-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/_astro/fonts/StyleScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Note: Font preloads removed - fonts are loaded via @fontsource packages which handle optimization -->
 
     <!--Preloading critical background images -->
     <link rel="preload" href="https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_FabricPatterns0061_M.jpg" as="image" type="image/jpeg" fetchpriority="high">
@@ -54,11 +86,16 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
         }
         @font-face {
             font-family: 'Delius';
-            display: swap;
+            font-display: swap;
         }
         @font-face {
             font-family: 'StyleScript';
-            display: swap;
+            font-display: swap;
+        }
+
+        /* Font fallbacks to prevent layout shift */
+        html, body {
+            font-family: "Recursive", "Helvetica", "Courier New", monospace;
         }
 
         /* Preventing content shift for background images */
@@ -76,6 +113,21 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
 
         img[loading="lazy"] {
             content-visibility: auto;
+        }
+
+        /* Prevent layout shift for containers */
+        header, main {
+            min-height: 1px; /* Reserve space to prevent CLS */
+        }
+
+        /* Reserve space for navigation to prevent CLS */
+        #main-nav, #top-nav {
+            min-height: 1px;
+        }
+
+        /* Prevent layout shift during font loading */
+        main, header, p, h1, h2, h3, h4, h5, h6 {
+            font-family: "Recursive", "Helvetica", "Courier New", monospace;
         }
     </style>
     <!-- <script src="../scripts/scrollPosition.js"></script> -->
