@@ -88,6 +88,7 @@ export default defineConfig({
     webAnalytics: {
       enabled: true
     },
-    imageService: true
+    imageService: true,
+    isr: true,
   })
 });
