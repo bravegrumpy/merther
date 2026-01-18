@@ -1,7 +1,8 @@
 ---
+// This is the copy in the ssg directory
 // This is the copy in the default directory
-import Analytics from "@vercel/analytics/astro"
-import  SpeedInsights  from "@vercel/speed-insights/astro"
+// import Analytics from "@vercel/analytics/astro"
+// import  SpeedInsights  from "@vercel/speed-insights/astro"
 // Astro.response.headers.set('Access-Control-Allow-Origin', "*")
 // Astro.response.headers.set("Access-Control-Allow-Methods", "GET")
 const icon = {
@@ -12,7 +13,7 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
 ---
 
 <!doctype html>
-<html lang="en-us">
+<html>
   <head>
     <!-- <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script> -->
     <link rel="preconnect" href="https://cdn.bravegrumpy.com" crossorigin />
@@ -29,8 +30,8 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title="Merther Fanfic" href={new URL("rss.xml", Astro.site)} />
     <title>{headTitle}</title>
-    <Analytics />
-    <SpeedInsights />
+    <!-- Analytics / -->
+    <!-- SpeedInsights /-->
     <slot name="head" />
 
     <!--Preloading fonts -->

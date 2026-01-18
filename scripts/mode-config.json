@@ -1,0 +1,183 @@
+{
+  "modes": {
+    "ssr": {
+      "sourceDir": "ssr",
+      "files": [
+        {
+          "from": "ssr/astro.config.mjs",
+          "to": "astro.config.mjs"
+        },
+        {
+          "from": "ssr/src/middleware.ts",
+          "to": "src/middleware.ts"
+        },
+        {
+          "from": "ssr/src/pages/misunderstood/simple/*",
+          "to": "src/pages/misunderstood/simple/",
+          "glob": true
+        },
+        {
+          "from": "ssr/src/pages/misunderstood/print/*",
+          "to": "src/pages/misunderstood/print/",
+          "glob": true
+        },
+        {
+          "from": "ssr/src/pages/api/images/*",
+          "to": "src/pages/api/images/",
+          "glob": true,
+          "recursive": true
+        },
+        {
+            "from": "ssr/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/UnstyledLayout.astro"
+        }
+      ]
+    },
+    "ssg": {
+      "sourceDir": "ssg",
+      "files": [
+        {
+          "from": "ssg/astro.config.mjs",
+          "to": "astro.config.mjs"
+        },
+        {
+          "from": "ssg/src/pages/misunderstood/simple/*",
+          "to": "src/pages/misunderstood/simple/",
+          "glob": true
+        },
+        {
+          "from": "ssg/src/pages/misunderstood/print/*",
+          "to": "src/pages/misunderstood/print/",
+          "glob": true
+        },
+        {
+          "from": "ssg/src/pages/api/images/*",
+          "to": "src/pages/api/images/",
+          "glob": true,
+          "recursive": true
+        },
+        {
+            "from": "ssg/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/UnstyledLayout.astro"
+        }
+      ],
+      "removeFiles": [
+        "src/middleware.ts"
+      ]
+    },
+    "default": {
+      "sourceDir": "default",
+      "files": [
+        {
+          "from": "default/astro.config.mjs",
+          "to": "astro.config.mjs"
+        },
+        {
+          "from": "default/src/middleware.ts",
+          "to": "src/middleware.ts"
+        },
+        {
+          "from": "default/src/pages/misunderstood/simple/*",
+          "to": "src/pages/misunderstood/simple/",
+          "glob": true
+        },
+        {
+          "from": "default/src/pages/misunderstood/print/*",
+          "to": "src/pages/misunderstood/print/",
+          "glob": true
+        },
+        {
+          "from": "default/src/pages/api/images/*",
+          "to": "src/pages/api/images/",
+          "glob": true,
+          "recursive": true
+        },
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "src/layouts/UnstyledLayout.astro"
+        }
+      ]
+    }
+  },
+  "updateOperations": {
+    "ssr": {
+      "files": [
+        {
+          "from": "default/astro.config.mjs",
+          "to": "ssr/astro.config.mjs",
+          "addComment": "// This is the copy in the ssr directory"
+        },
+        {
+          "from": "default/src/middleware.ts",
+          "to": "ssr/src/middleware.ts",
+          "addComment": "// This is the copy in the SSR directory"
+        },
+        {
+          "from": "default/src/pages/misunderstood/simple/[chapter].astro",
+          "to": "ssr/src/pages/misunderstood/simple/[chapter].astro",
+          "addComment": "// This is the copy in the ssr directory",
+          "addFrontmatter": true
+        },
+        {
+          "from": "default/src/pages/misunderstood/print/[chapter].astro",
+          "to": "ssr/src/pages/misunderstood/print/[chapter].astro",
+          "addComment": "// This is the copy in the ssr directory",
+          "addFrontmatter": true
+        },
+        {
+          "from": "default/src/pages/api/images/[directory]/[image].[ext].ts",
+          "to": "ssr/src/pages/api/images/[directory]/[image].[ext].ts",
+          "addComment": "// This is the copy in the ssr directory"
+        },
+        {
+          "from": "default/src/pages/api/images/[image].[ext].ts",
+          "to": "ssr/src/pages/api/images/[image].[ext].ts",
+          "addComment": "// This is the copy in the ssr directory"
+        },
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "ssr/src/layouts/UnstyledLayout.astro",
+            "addComment": "// This is the copy in the ssr directory",
+            "addFrontmatter": true
+        }
+      ]
+    },
+    "ssg": {
+      "files": [
+        {
+          "from": "default/astro.config.mjs",
+          "to": "ssg/astro.config.mjs",
+          "addComment": "// This is the copy in the ssg directory"
+        },
+        {
+          "from": "default/src/pages/misunderstood/simple/[chapter].astro",
+          "to": "ssg/src/pages/misunderstood/simple/[chapter].astro",
+          "addComment": "// This is the copy in the ssg directory",
+          "addFrontmatter": true
+        },
+        {
+          "from": "default/src/pages/misunderstood/print/[chapter].astro",
+          "to": "ssg/src/pages/misunderstood/print/[chapter].astro",
+          "addComment": "// This is the copy in the ssg directory",
+          "addFrontmatter": true
+        },
+        {
+          "from": "default/src/pages/api/images/[directory]/[image].[ext].ts",
+          "to": "ssg/src/pages/api/images/[directory]/[image].[ext].ts",
+          "addComment": "// This is the copy in the ssg directory"
+        },
+        {
+          "from": "default/src/pages/api/images/[image].[ext].ts",
+          "to": "ssg/src/pages/api/images/[image].[ext].ts",
+          "addComment": "// This is the copy in the ssg directory"
+        },
+        {
+            "from": "default/src/layouts/UnstyledLayout.astro",
+            "to": "ssg/src/layouts/UnstyledLayout.astro",
+            "addComment": "// This is the copy in the ssg directory",
+            "addFrontmatter": true
+        }
+      ]
+    }
+  }
+}

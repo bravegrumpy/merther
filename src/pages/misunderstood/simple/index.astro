@@ -136,7 +136,7 @@ const AO3TagList = [
          <Banner />
     </Article>
     <hr class="section" />
-    <ChapterNav chapters={chapters} icons={true} client:load/>
+    <ChapterNav chapters={chapters} icons={true} client:only="react"/>
     {
         Misunderstood.map(async (chapter) => {
             const { Content, remarkPluginFrontmatter } = await render(chapter);

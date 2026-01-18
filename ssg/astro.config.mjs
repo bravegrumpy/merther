@@ -1,4 +1,5 @@
-// This is the copy in the ssg directory 
+// This is the copy in the ssg directory
+
 // @ts-check
 import { defineConfig } from 'astro/config';
 
@@ -84,8 +85,9 @@ export default defineConfig({
   output: 'static',
   // output: 'server',
   // adapter: vercel({
-  //   webAnalytics: {
-  //     enabled: true
-  //   }
-  // }),
+    // webAnalytics: {
+        // enabled: true
+    // },
+    // imageService: true
+  // })
 });
