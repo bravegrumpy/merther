@@ -967,3 +967,23 @@ h2.heading {
     margin-left: -154px;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+img:not([width]):not([height]) {
+  aspect-ratio: 16 / 9;
+}
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+[style*="background-image"],
+.bg-image {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body[class="bg-"] {
+  min-height: 100vh;
+}

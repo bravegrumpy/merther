@@ -15,6 +15,11 @@
 //     ]
 // }
 
+// Using Vercel Edge runtime for faster responses 
+export const config = {
+    runtime: "edge"
+}
+
 export async function GET ({ params, request }: {params: any, request: any}) {
     const url = `https://cdn.bravegrumpy.com/AO3Styles/images/${params.image}.${params.ext}`;
     
