@@ -3,7 +3,8 @@
 // This is the copy in the default directory
 import Analytics from "@vercel/analytics/astro"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
-// Note: CORS headers are handled by middleware.ts, not in layouts
+// Astro.response.headers.set('Access-Control-Allow-Origin', "*")
+// Astro.response.headers.set("Access-Control-Allow-Methods", "GET")
 const icon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
@@ -12,7 +13,7 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
 ---
 
 <!doctype html>
-<html>
+<html lang="en-us">
   <head>
     <!-- <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script> -->
     <link rel="preconnect" href="https://cdn.bravegrumpy.com" crossorigin />

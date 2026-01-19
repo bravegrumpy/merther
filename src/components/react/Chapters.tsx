@@ -318,7 +318,8 @@ export function ChapterNav({
           <>
             <p className="menu-shadow" key={`${k}-${i++}-anotherShadow`}>
               <a
-                key={`${chId}-link-${chapter.id}-${k}`}
+                key={`${chapter.id}`}
+                // key={`${chId}-link-${chapter.id}-${k}`}
                 className={`chnav menu chlst hide hidden ${chapterClass}`}
                 href={chapter.href ?? null}>
                 {chapter.text}
