@@ -37,6 +37,8 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 import vercel from '@astrojs/vercel';
 
+import criticalCss from 'astro-critical-css';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
@@ -75,7 +77,7 @@ export default defineConfig({
   integrations: [icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt()],
+  }), svelte(), aiRobotsTxt(), criticalCss()],
 
   vite: {
     plugins: [tailwindcss()],

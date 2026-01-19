@@ -55,6 +55,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "astro": "^5.11.0",
     "astro-ai-robots-txt": "^0.1.2",
+    "astro-critical-css": "^0.0.7",
     "astro-icon": "^1.1.5",
     "astro-page-insight": "^0.10.1",
     "class-variance-authority": "^0.7.1",
