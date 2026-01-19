@@ -3,7 +3,7 @@ import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders"
 
 const resources = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/links"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/collections/links"}),
     schema: z.object({
         title: z.string(),
         
@@ -11,7 +11,7 @@ const resources = defineCollection({
 })
 
 const misunderstood = defineCollection({
-    loader: glob({ pattern: ["*.md","*.mdx", "!index**"], base: "./src/misunderstood/chapters" }),
+    loader: glob({ pattern: ["*.md","*.mdx", "!index**"], base: "./src/collections/misunderstood/chapters" }),
     schema: z.object({
         id: z.string(),
         href: z.string(),
@@ -28,7 +28,7 @@ const misunderstood = defineCollection({
 });
 
 const llorem_ipsum = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/llorem_ipsum"}),
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/collections/llorem_ipsum"}),
     schema: z.object({
         id: z.string(),
         href: z.string(),
@@ -41,28 +41,28 @@ const llorem_ipsum = defineCollection({
 });
 
 const misunderstood_summary = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: "./src/misunderstood/summaries"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "!index**"], base: "./src/collections/misunderstood/summaries"}),
     schema: z.object({
         chapter: z.optional(z.union([z.string(), z.number()]))
     })
 });
 
 const misunderstood_notes = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "*.html", "!index**"], base: "./src/misunderstood/notes"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html", "!index**"], base: "./src/collections/misunderstood/notes"}),
     schema: z.object({
         chapter: z.optional(z.union([z.number(), z.string()]))
     })
 })
 
 const  misunderstood_endnotes = defineCollection({
-    loader: glob({ pattern: ["*md", "*mdx", "*.html", "!index**"], base: './src/misunderstood/endnotes'}),
+    loader: glob({ pattern: ["*md", "*mdx", "*.html", "!index**"], base: './src/collections/misunderstood/endnotes'}),
     schema: z.object({
         chapter: z.optional(z.union([z.string(), z.number()]))
     })
 });
 
 const muses = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/muses"}),
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/collections/muses"}),
     schema: z.object({
         title: z.string(),
         role: z.string()
@@ -70,7 +70,7 @@ const muses = defineCollection({
 });
 
 const microblog = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/other_stuff/posts"}),
+    loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/collections/other_stuff/posts"}),
     schema: z.object({
         id: z.number(),
         title: z.string(),
@@ -80,7 +80,7 @@ const microblog = defineCollection({
 });
 
 const gallery_ai = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx","*.html"], base: "./src/other_stuff/gallery/gen_ai"}),
+    loader: glob({ pattern: ["*.md", "*.mdx","*.html"], base: "./src/collections/other_stuff/gallery/gen_ai"}),
     schema: z.object({
         title: z.optional(z.string()),
         subtitle: z.optional(z.string()),
@@ -93,7 +93,7 @@ const gallery_ai = defineCollection({
 })
 
 const rape_not_die = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/rape-not-die"}),
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/collections/rape-not-die"}),
     schema: z.object({
         title: z.string(),
         role: z.string()
@@ -101,7 +101,7 @@ const rape_not_die = defineCollection({
 })
 
 const swagger = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/swagger"}),
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/collections/swagger"}),
     schema: z.object({
         title: z.optional(z.string()),
         chapter: z.number(),
@@ -110,7 +110,7 @@ const swagger = defineCollection({
 })
 
 const fig = defineCollection({
-    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/fig"}),
+    loader: glob({ pattern: ["*.md", "*.mdx"], base: "./src/collections/fig"}),
     schema: z.object({
         id: z.union([z.string(), z.number()]),
         href: z.string(),
