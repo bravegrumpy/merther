@@ -2,8 +2,8 @@
 // This is the copy in the default directory
 import Analytics from "@vercel/analytics/astro"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
-Astro.response.headers.set('Access-Control-Allow-Origin', "*")
-Astro.response.headers.set("Access-Control-Allow-Methods", "GET")
+// Astro.response.headers.set('Access-Control-Allow-Origin', "*")
+// Astro.response.headers.set("Access-Control-Allow-Methods", "GET")
 const icon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
@@ -12,7 +12,7 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
 ---
 
 <!doctype html>
-<html>
+<html lang="en-us">
   <head>
     <!-- <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script> -->
     <link rel="preconnect" href="https://cdn.bravegrumpy.com" crossorigin />
@@ -34,6 +34,8 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
     <slot name="head" />
 
     <!--Preloading fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link rel="preload" href="/_astro/fonts/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/_astro/fonts/Delius-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/_astro/fonts/StyleScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -55,8 +57,25 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
             display: swap;
         }
         @font-face {
-            font-family: 'StyleScript';
+            font-family: 'Style Script';
             display: swap;
+        }
+
+        /* Preventing content shift for background images */
+        /* Reserving space for background images to prevent layout shift */
+        [style*="background-image"] {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Ensure images have dimensions to prevent CLS */
+        img:not([width]):not([height]) {
+            aspect-ratio: attr(width) / attr(height);
+        }
+
+        img[loading="lazy"] {
+            content-visibility: auto;
         }
     </style>
     <!-- <script src="../scripts/scrollPosition.js"></script> -->

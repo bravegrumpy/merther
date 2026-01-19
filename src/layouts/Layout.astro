@@ -79,15 +79,16 @@ import { Footer } from "@/components/react/Components";
     <!-- <ClientRouter /> -->
      {/* Temporarily putting ClientRouter into Unstyled */}
     <style is:global>
+      /* Font fallbacks to prevent CLS - use system fonts until web fonts load */
       *,
       body {
-        font-family: "Recursive";
+        font-family: "Recursive", "Helvetica", "Courier New", monospace;
       }
       main {
-        font-family: "Recursive";
+        font-family: "Recursive", "Helvetica", "Courier New", monospace;
       }
       p {
-        font-family: "Recursive";
+        font-family: "Recursive", "Helvetica", "Courier New", monospace;
       }
     </style>
     <style>
@@ -246,7 +247,7 @@ import { Footer } from "@/components/react/Components";
     </slot>
     <hr class="section end" />
   </main>
-  <Footer client:load>
+  <Footer client:idle>
     <!-- <div class="social" slot="socialLinks">
       <AllSocial />
     </div> -->
