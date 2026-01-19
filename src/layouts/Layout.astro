@@ -8,7 +8,7 @@ const favicon = {
   src: "https://cdn.bravegrumpy.com/AO3Styles/images/favicon.png",
 };
 
-// import { ClientRouter } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 
 import UnstyledLayout from "./UnstyledLayout.astro";
 
@@ -76,7 +76,7 @@ import { Footer } from "@/components/react/Components";
   <Fragment slot="head">
     <slot name="head" />
     {/* I like ClientRouter better than StopFlash. */}
-    <!-- <ClientRouter /> -->
+    <ClientRouter />
      {/* Temporarily putting ClientRouter into Unstyled */}
     <style is:global>
       /* Font fallbacks to prevent CLS - use system fonts until web fonts load */
@@ -89,6 +89,12 @@ import { Footer } from "@/components/react/Components";
       }
       p {
         font-family: "Recursive", "Helvetica", "Courier New", monospace;
+      }
+      h1, h2 {
+        font-family: "Style Script", "Recursive", "Brush Script MT", 'sans-serif';
+      }
+      h3, h4, h5, h6 {
+        font-family: "Delius", "Brush Script MT", "Kurale", "Garamond", serif;
       }
     </style>
     <style>
