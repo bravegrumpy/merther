@@ -29,3 +29,19 @@ div.chapters div.chapter {
 div.chapters div.chapter h2 {
   background-color: #9acd32;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 50px;
+  background-color: #88aaee80;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+}
+nav a {
+  border: 1px double;
+  padding: 5px 50px;
+}
+nav a:hover {
+  background-color: #9acd3240;
+}

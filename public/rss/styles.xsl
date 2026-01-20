@@ -7,6 +7,17 @@
                 <link rel="stylesheet" href="/rss/styles.css" type="text/css" />
             </head>
             <body>
+                <header>
+                    <nav>
+                        <a href="/pages">Home</a>
+                        <a href="/rss.xml">RSS Home</a>
+                        <a href="/misunderstood/rss.xml">Misunderstood</a>
+                        <a href="/muses/rss.xml">Muses</a>
+                        <a href="/rape-not-die/rss.xml">Fires</a>
+                        <a href="/fig/rss.xml">Fig</a>
+                        
+                    </nav>
+                </header>
                 <table border="1">
                     <tr bgcolor="#9acd32">
                         <th>Title</th>
