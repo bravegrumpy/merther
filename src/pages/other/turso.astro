@@ -1,0 +1,32 @@
+---
+import Layout from "@/layouts/Layout.astro"
+const headTitle = "Data"
+
+import { turso } from "@/turso"
+
+const { rows } = await turso.execute("SELECT * FROM Comment")
+---
+<Layout headTitle={headTitle}>
+    <div slot="pageTitle">
+        <nav class="menu-container">
+            <span class="menu-shadow">
+                <a class="menu" href="/other">Other</a>
+            </span>
+            <span class="menu-shadow">
+                <a data-active="true" class="menu chnav chnav-start" href="/other/images">Images</a>
+            </n>
+            <span class="menu-shadow">
+                <a class="menu" href="/other/css_expo">CSS Expo</a>
+            </span>
+            <span class="menu-shadow">
+                <a class="menu" href="/other/turso">Data</a>
+            </span>
+        </nav>
+    </div>
+    <p>Hello World</p>
+    <ol>
+        {
+            rows.map((row) => (<li>{row.body}</li>))
+        }
+    </ol>
+</Layout>
