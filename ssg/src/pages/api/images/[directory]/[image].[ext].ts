@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 // Using Vercel Edge runtime for faster responses 
 // export const config = {
-    // runtime: "edge"
+//     runtime: "edge"
 // }
 
 export async function GET ({ params, request }: {params: any, request: any}) {
