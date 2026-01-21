@@ -15,13 +15,13 @@ Holy shittakki mushrooms.
 This shit be real
 
 ## Seriously though
-> I can now write &ldquo;my content&rdquo; insided of my website. 
+> I can now write &ldquo;my content&rdquo; inside of my website. 
 
 Now the ~only~ *next* challenge will be to migrate the collections into a database, so that these changes are persistant when I'm not exclusively in my local dev mode.
 
 ---
 
-#### HOLY FUCKING SHIT THE STYLING JUS WORKS
+#### HOLY FUCKING SHIT THE STYLING JUST WORKS
 
 ## The Marvelous World of AI help
 
@@ -43,4 +43,4 @@ The scroll bars are just the native ones, and even the save button is, i'm guess
 
 ---
 
-When I say that *I need to make the UX feel integrated* I don't mean the *display* interface, I'm talking about the admin page, that allows me to adda file.
+When I say that *I need to make the UX feel integrated* I don't mean the *display* interface, I'm talking about the admin page, that allows me to adds file.
