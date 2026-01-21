@@ -41,6 +41,8 @@ import criticalCss from 'astro-critical-css';
 
 import contentViewer from "astro-content-viewer"
 
+import og from 'astro-og';
+
 // https://astro.build/config
 export default defineConfig({
   // site: 'https://merther.bravegrumpy.com',
@@ -79,7 +81,7 @@ export default defineConfig({
   integrations: [contentViewer(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), criticalCss()],
+  }), svelte(), aiRobotsTxt(), criticalCss(), og()],
 
   vite: {
     plugins: [tailwindcss()],
@@ -89,10 +91,10 @@ export default defineConfig({
   output: 'static',
   // output: 'server',
   // adapter: vercel({
-    // webAnalytics: {
-      // enabled: true
-    // },
-    // imageService: true,
-    // isr: true,
+  //   webAnalytics: {
+  //     enabled: true
+  //   },
+  //   imageService: true,
+  //   isr: true,
   // })
 });

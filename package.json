@@ -57,6 +57,7 @@
     "astro-ai-robots-txt": "^0.1.2",
     "astro-critical-css": "^0.0.7",
     "astro-icon": "^1.1.5",
+    "astro-og": "^0.3.2",
     "astro-page-insight": "^0.10.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
