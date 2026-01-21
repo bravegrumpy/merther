@@ -43,6 +43,8 @@ import contentViewer from "astro-content-viewer"
 
 import og from 'astro-og';
 
+import db from '@astrojs/db';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
@@ -78,10 +80,12 @@ export default defineConfig({
     ]
   },
 
-  integrations: [contentViewer(), icon(), sitemap(), pageInsight(), mdx(), react({
+  integrations: [contentViewer(), og(), db({
+    mode: "node"
+  }), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), criticalCss(), og()],
+  }), svelte(), aiRobotsTxt(), criticalCss()],
 
   vite: {
     plugins: [tailwindcss()],
