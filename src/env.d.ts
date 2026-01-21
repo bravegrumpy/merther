@@ -11,6 +11,16 @@ interface ImportMetaEnv {
   readonly DATABASE_URL: string;
   readonly DISCORD_CLIENT_ID: string
   readonly DISCORD_CLIENT_SECRET: string;
+  readonly ASTRO_DB_APP_TOKEN: string;
+  readonly ASTRO_DB_REMOTE_URL: string;
+  readonly ASTRO_DATABASE_FILE: string;
+  readonly TURSO_DATABASE_URL: string;
+  readonly TURSO_AUTH_TOKEN: string;
+  readonly VERCEL_TELEMETRY_DEBUG: number;
+  readonly CLOUDINARY_URL: string;
+  readonly PUBLIC_CLOUDINARY_CLOUD_NAME: string;
+  readonly PUBLIC_CLOUDINARY_API_KEY: string;
+  readonly CLOUDINARY_API_SECRET: string;
 }
 
 interface ImportMeta {
