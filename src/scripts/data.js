@@ -89,6 +89,30 @@ export const secondaryLinks = [
     },
 ];
 
+export let otherSecLinks = [
+    {
+        key: "gal",
+        href: "/other",
+        text: "Other"
+    },
+    {
+        key: "imgs",
+        href: "/other/images",
+        text: "Images",
+    },
+    {
+        key: "css",
+        href: "/other/css_expo",
+        text: "CSS Expo",
+    },
+    {
+        key: "data",
+        text: "Data",
+        href: "/other/turso"
+    }
+
+]
+
 export const pdfPagesOptions = {
   pages: {
     '/misunderstood/print': {

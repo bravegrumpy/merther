@@ -65,3 +65,18 @@ export function StyleToggle({ buttonText="Toggle Styling Options", showText="Sho
         {/* </div> */}
     </>);
 }
+
+export function NavBar({ title, links }) {
+    return(<>
+        <h1 className="text-gradient text-center">{title}</h1>
+        <nav className="menu-container">
+            { links.map((link) => {
+                return(<>
+                    <span className="menu-shadow">
+                        <a data-active={link.active ? "true": null} className="menu" key={link.key} href={link.href}>{link.text}</a>
+                    </span>
+                </>)
+            })}
+        </nav>
+    </>);
+}
