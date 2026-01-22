@@ -43,6 +43,8 @@ import contentViewer from "astro-content-viewer"
 
 import og from 'astro-og';
 
+import astroBuildInfo from "astro-build-info";
+
 // https://astro.build/config
 export default defineConfig({
   // site: 'https://merther.bravegrumpy.com',
@@ -78,10 +80,10 @@ export default defineConfig({
     ]
   },
 
-  integrations: [contentViewer(), icon(), sitemap(), pageInsight(), mdx(), react({
+  integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), criticalCss(), og()],
+  }), svelte(), aiRobotsTxt(), astroBuildInfo()],//, criticalCss()],
 
   vite: {
     plugins: [tailwindcss()],
