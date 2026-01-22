@@ -30,8 +30,13 @@ import Article from "@/components/Article.astro"
     <div slot="pageTitle">
         <NavBar title={"Gallery"} links={links} />
     </div>
-
-    <article class="article chapter">
+    <div class="title">
+        <h2 id="aiTitle" class="text-gradient title-text">AI Generated Images</h2>
+        <p><span class="disclaimer">Disclaimer: </span>The images shown on this page are AI generated. This does not mean that any generative technology is endorsed.  AI content There is no other computer-generated content on this website.</p>
+    </div>
+    
+    <article class="article chapter" id="aiContent">
+        <section id="marker"></section>
         {
             AiImagaes.map(async (img) => {
                 const { Content } = await render(img);
@@ -49,11 +54,24 @@ import Article from "@/components/Article.astro"
 </Layout>
 
 <style>
+    div.title {
+        width: fit-content;
+        margin: 0px auto;
+    }
+    div.title h2.title-text {
+        text-align: center;
+        margin: 25px auto;
+        font-size: 3.0rem;
+    }
+    span.disclaimer {
+        font-family: "Delius", "Georgia", "sans" !important;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
     .article {
         margin-top: 20px;
-        display: grid;
+        display: grid-lanes;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: masonry;
         gap: 60px;
     }
     .image {

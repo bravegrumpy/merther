@@ -471,6 +471,12 @@ hr.section.end {
   margin-left: -20px;
   text-align: center;
 }
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
 footer {
   background-color: #f5dbb3;
   background: linear-gradient(to bottom, #ebb86c50, #814b1e54), linear-gradient(to top, #f5deb340, #f5deb340), linear-gradient(to right, #f5deb380, #f5deb380), url("https://cdn.bravegrumpy.com/AO3Styles/images/textures/TCom_PaperPage0016_2_masked_XXL.png"), #f5dbb3;
