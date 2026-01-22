@@ -1,9 +1,9 @@
 ---
 import { Icon } from "astro-icon/components";
-const {articleId = 'latestChapter' , heading } = Astro.props;
+const {articleId = 'latestChapter' , heading, className } = Astro.props;
 ---
 
-<article id={articleId ?? undefined}>
+<article id={articleId ?? undefined} class={ className ?? undefined}>
     {heading ? <h2>{heading}</h2> : ""}
   <slot>
     <article>
