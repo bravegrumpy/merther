@@ -90,22 +90,21 @@ export const secondaryLinks = [
 ];
 
 export let otherSecLinks = [
-    {
-        key: "gal",
-        href: "/other",
-        text: "Other"
-    },
-    {
-        key: "imgs",
-        href: "/other/images",
-        text: "Images",
-    },
-    {
-        key: "css",
-        href: "/other/css_expo",
-        text: "CSS Expo",
-    }
-
+  {
+    key: "gal",
+    href: "/other",
+    text: "Other"
+  },
+  {
+    key: "imgs",
+    href: "/other/images",
+    text: "Images",
+  },
+  {
+    key: "css",
+    href: "/other/css_expo",
+    text: "CSS Expo",
+  }
 ]
 
 export const pdfPagesOptions = {
