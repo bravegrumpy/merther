@@ -83,7 +83,7 @@ export default defineConfig({
   integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), astroBuildInfo()],//, criticalCss()],
+  }), svelte(), aiRobotsTxt(), astroBuildInfo(), criticalCss()],
 
   vite: {
     plugins: [tailwindcss()],
