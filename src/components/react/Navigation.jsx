@@ -72,8 +72,8 @@ export function NavBar({ title, links }) {
         <nav className="menu-container">
             { links.map((link) => {
                 return(<>
-                    <span className="menu-shadow">
-                        <a data-active={link.active ? "true": null} className="menu" key={link.key} href={link.href}>{link.text}</a>
+                    <span className="menu-shadow" key={link.key}>
+                        <a data-active={link.active ? "true": null} className="menu" key={`${link.key}+anchor`} href={link.href}>{link.text}</a>
                     </span>
                 </>)
             })}
