@@ -42,25 +42,35 @@ const bigNotes = await getEntry('misunderstood_notes', '00_misunderstood');
 let Notes;
 bigNotes ? { Content: Notes } = await render(bigNotes) : Notes = FallbackContent;
 
-const AO3TagList = [
-    "Explicit",
-    "Rape/Non-Con", "Graphic Depictions Of Violence", "Underage Sex", "Major Character Death",
-    "F/F", "F/M", "M/M",
-    "Work in Progress",
-    "Rape/Non-Con", "Graphic Depictions Of Violence", 
-    "Underage Sex Major Character DeathFreya/Merlin (Merlin)", 
-    "Merlin/Arthur Pendragon (Merlin)",
-    "Gwen/Lancelot (Merlin)",
-    "Lancelot & Merlin (Merlin)",
-    "Freya/Gwen (Merlin)",
-    "George & Leon (Merlin)",
-    "Lancelot / Merlin / Freya / Gwen / LancelotMerlin (Merlin)",
-    "Freya (Merlin)", 
-    "Arthur Pendragon (Merlin)",
-    "Gwen (Merlin)",
-    "Lancelot (Merlin)",
-    "Leon (Merlin)",
-    "George (Merlin)",
+type tagType = {
+    type: "rating" | "warning" | "category" | "tag" | "relationship" | "character" | "fandom";
+    text: string;
+    href?: string;
+}
+const AO3TagList: Array<tagType | string> = [
+    { type: "rating", text: "Explicit", href: "https://archiveofourown.org/tags/Explicit/works"},
+    { type: "warning", text: "Rape/Non-Con", href: "https://archiveofourown.org/tags/Rape*s*Non-Con/works" }, 
+    { type: "warning", text: "Graphic Depictions Of Violence", href: "https://archiveofourown.org/tags/Graphic%20Depictions%20Of%20Violence/works" }, 
+    { type: "warning", text: "Underage Sex" }, 
+    { type: "warning", text: "Major Character Death" },
+    { type: "category", text: "F/F" }, 
+    { type: "category", text: "F/M" }, 
+    { type: "category", text: "M/M" },
+    { type: "fandom", text: "Merlin (TV)"},
+    { type: "tag", text: "Work in Progress" },
+    { type: "relationship", text: "Freya/Merlin (Merlin)"}, 
+    { type: "relationship", text: "Merlin/Arthur Pendragon (Merlin)"},
+    { type: "relationship", text: "Gwen/Lancelot (Merlin)"},
+    { type: "relationship", text: "Lancelot & Merlin (Merlin)"},
+    { type: "relationship", text: "Freya/Gwen (Merlin)"},
+    { type: "relationship", text: "George & Leon (Merlin)"},
+    { type: "relationship", text: "Lancelot / Merlin / Freya / Gwen / LancelotMerlin (Merlin)" },
+    { type: "character", text: "Freya (Merlin)"}, 
+    { type: "character", text: "Arthur Pendragon (Merlin)" },
+    { type: "character", text: "Gwen (Merlin)"},
+    { type: "character", text: "Lancelot (Merlin)"},
+    {type: "character", text: "Leon (Merlin)"},
+    {type: "character", text: "George (Merlin)"},
     "Gwaine (Merlin)",
     "Percival (Merlin)",
     "Hurt/Comfort", 
@@ -101,7 +111,7 @@ const AO3TagList = [
     "Humiliation", 
     "The dub-con and rape are for distinct events", 
     "hurt and comfort are by different people", 
-    "rhe same sex acts can occur in both consensual and non consensual contexts", 
+    "the same sex acts can occur in both consensual and non consensual contexts", 
     "Kinky power exchange is not the same is non con", 
     "Dissociation", 
     "Hurt No Comfort", 
@@ -113,15 +123,26 @@ const AO3TagList = [
 ---
 <Layout headTitle={headTitle} pageTitle={pageTitle} secondaryLinks={secondaryLinks} bottomLine={true} link={bravegrumpyLink} >
         <h2>Tags</h2>
-        <ul>
-            {AO3TagList.map((tag) => <li>{tag}</li>)}
-        </ul>
+        <details class="tag-container">
+            <summary>Tag List</summary>
+            <ul class="tag-list">
+                {AO3TagList.map((tag) => <li class={`tag ${tag.type ?? undefined}`}>
+                    {
+                        tag.href ?
+                            <a target="_blank" no-referrer href={tag.href}>
+                                {tag.text}
+                            </a> :
+                            <Fragment>{tag.text ?? tag}</Fragment>
+                    }
+                </li>)}
+            </ul>
+        </details>
         <h2>Summary</h2>
         <Summary />
         <h2>Notes</h2>
         <Notes />
     <hr class="section" />
-    <StyleToggle slot="header" client:only="react" />
+    <StyleToggle slot="header" client:load />
     <Article>
         <div class="chapter-preamble-shadow">
             <div class="chapter-preamble latest-chapter">
@@ -170,6 +191,56 @@ const AO3TagList = [
 </Layout>
 
 <style>
+    li.tag {
+        border-radius: 20px;
+        width: fit-content;
+        text-align: center;
+        margin: 0px auto;
+        overflow: hidden;
+        padding: 2px 10px;
+        border: 1px dashed currentColor;
+    }
+    li.tag.rating {
+        color: rgb(14, 14, 71);
+        background-color: rgba(184, 60, 11, 0.849);
+        border: 2px solid currentColor;
+    }
+    li.tag.warning {
+        color: rgb(66, 19, 119);
+        background-color: rgb(202, 131, 0);
+        border: 2px solid currentColor;
+    }
+    li.tag.category {
+        color: rgb(245, 172, 184);
+        background-color: rgba(68, 151, 151, 0.664);
+    }
+    li.tag.relationship {
+        color: rgb(133, 8, 8);
+        background-color: rgba(196, 134, 145, 0.884);
+        border: 1px solid currentColor;
+    }
+    li.tag.character {
+        color: rgb(175, 133, 214);
+        background-color: rgb(53, 53, 53);
+        border: 1px double currentColor;
+    }
+    li.tag a {
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        color: currentColor;
+        padding: 2px 0px;
+    }
+    li.tag:has(a):hover {
+        filter: brightness(125%) hue-rotate(-20deg) saturate(85%);
+        scale: 110%;
+    }
+    ul.tag-list {
+        list-style-type: none;
+        display: grid-lanes;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 5px;
+    }
     #printLink {
         padding-top: 20px;
     }
