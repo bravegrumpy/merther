@@ -17,9 +17,17 @@ import { Content as General, frontmatter as genfm } from "@/pages/pages/content/
 
 const Resources = await getCollection('resources')
 
+import { Image } from "astro:assets"
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
+    <Article>
+        <div>
+            <Image src="https://geekring.net/img/undercon.gif" width="50" height="50" alt="Under Construction Gif" />
+            <p>This page is <em>always</em> updating and changing, so I guess here is my obligitary &ldquo;old-web&rdquo; under construction gif 😉 </p>
+        </div>
+    </Article>
+    <hr class="section" />
     <div class="chapter">
         <Article articleId="worksList">
                 <WorkList />
