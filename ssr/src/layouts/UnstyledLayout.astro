@@ -15,7 +15,12 @@ const { headTitle = "Merther", favicon = icon, bodyClasses='', stopFlash=true} =
 <!doctype html>
 <html lang="en-us">
   <head>
-    <!-- <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script> -->
+    <script src='https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js'></script>
+    <script>
+      Nutshell.setOptions({
+        dontEmbedHeadings: true
+      });
+    </script>
     <link rel="preconnect" href="https://cdn.bravegrumpy.com" crossorigin />
     <link rel="dns-prefetch" href="https://cdn.bravegrumpy.com" />
     <meta charset="utf-8" />
