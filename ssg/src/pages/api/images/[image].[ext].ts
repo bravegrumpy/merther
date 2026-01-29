@@ -40,16 +40,16 @@ export async function GET ({ params, request }: {params: any, request: any}) {
     const etag = createETag(buffer);
 
     // Check if client already has this version
-    const ifNoneMatch = request.headers.get('If-None-Match');
-    if (ifNoneMatch === etag) {
-        return new Response(null, { 
-            status: 304,
-            headers: {
-                "ETag": etag,
-                "Cache-Control": "public, max-age=31536000, immutable",
-            }
-        });
-    }
+    // const ifNoneMatch = request.headers.get('If-None-Match');
+    // if (ifNoneMatch === etag) {
+    //     return new Response(null, { 
+    //         status: 304,
+    //         headers: {
+    //             "ETag": etag,
+    //             "Cache-Control": "public, max-age=31536000, immutable",
+    //         }
+    //     });
+    // }
 
     // Optimized caching headers
     const headers = {
