@@ -45,6 +45,8 @@ import og from 'astro-og';
 
 import astroBuildInfo from "astro-build-info";
 
+import { visualizer } from "rollup-plugin-visualizer";
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://merther.bravegrumpy.com',
@@ -83,10 +85,13 @@ export default defineConfig({
   integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), astroBuildInfo(), criticalCss()],
+  }), svelte(), aiRobotsTxt(), criticalCss(), astroBuildInfo()],
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), visualizer({
+      emitFile: true,
+      filename: "stats.html"
+    })],
   },
 
   // trailingSlash: 'always',
