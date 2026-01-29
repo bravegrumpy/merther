@@ -53,7 +53,7 @@ export default defineConfig({
   // site: 'https://mertherfanfic.neocities.org',
 
   image: {
-    domains: ["bravegrumpy.com"],
+    domains: ["*.bravegrumpy.com"],
     remotePatterns: [{ protocol: "https"}]
   },
 
@@ -85,7 +85,7 @@ export default defineConfig({
   integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), criticalCss(), astroBuildInfo()],
+  }), svelte(), aiRobotsTxt(), astroBuildInfo(), criticalCss(),],
 
   vite: {
     plugins: [tailwindcss(), visualizer({

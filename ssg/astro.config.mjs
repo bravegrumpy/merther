@@ -35,7 +35,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
-// import vercel from '@astrojs/vercel';
+import vercel from '@astrojs/vercel';
 
 import criticalCss from 'astro-critical-css';
 
@@ -49,11 +49,11 @@ import { visualizer } from "rollup-plugin-visualizer";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://merther.bravegrumpy.com',
-  site: 'https://mertherfanfic.neocities.org',
+  site: 'https://merther.bravegrumpy.com',
+  // site: 'https://mertherfanfic.neocities.org',
 
   image: {
-    domains: ["bravegrumpy.com"],
+    domains: ["*.bravegrumpy.com"],
     remotePatterns: [{ protocol: "https"}]
   },
 
@@ -85,24 +85,23 @@ export default defineConfig({
   integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), criticalCss(), astroBuildInfo()],
+  }), svelte(), aiRobotsTxt(), astroBuildInfo(), criticalCss(),],
 
   vite: {
     plugins: [tailwindcss(), visualizer({
       emitFile: true,
       filename: "stats.html"
     })],
-    external: ["sharp"]
   },
 
   // trailingSlash: 'always',
-  output: 'static',
-  // output: 'server',
-  // adapter: vercel({
-  //   webAnalytics: {
-  //     enabled: true
-  //   },
-  //   imageService: true,
-  //   isr: true,
-  // })
+  // output: 'static',
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true
+    },
+    imageService: true,
+    isr: true,
+  })
 });
