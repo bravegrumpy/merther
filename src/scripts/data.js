@@ -109,6 +109,11 @@ export let otherSecLinks = [
     key: "tst",
     href: "/other/test",
     text: "TestPage"
+  },
+  {
+    key: "tst2",
+    href: "/other/test-again",
+    text: "Markdown Test"
   }
 ]
 

@@ -1,0 +1,10 @@
+.yikes {
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}

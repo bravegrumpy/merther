@@ -5,6 +5,8 @@ pageTitle: "Page Not Found"
 author: null
 ---
 
+import { Icon } from "astro-icon/components"
+
 ## Error 404: Page Not Found
 
 ### The requested page was not found
@@ -17,7 +19,17 @@ Otherwise, you can hope that the scribes writing the stories will remember that 
 
 ### While you are waiting for the scribes to write cheesy calligraphy...
 
-<nav className="menu-container chnav-container">
+<div style={{ margin: "0px auto", width: "fit-content"}}>
+
+<Icon name="svg-spinners:wind-toy" 
+    size={200}
+    style={{color: "#2e045e12"}}
+/>
+
+</div>
+
+
+<nav className="menu-container chnav-container" style={{ width: "fit-content", margin: "0px auto"}}>
 <a class="menu chnav" onclick="history.back()">&leftarrow;Back</a>
 <a class="menu chnav" href="/pages">Home</a>
 </nav>

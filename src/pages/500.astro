@@ -9,11 +9,15 @@ interface Props {
 }
 
 const { error } = Astro.props;
+import Article from "@/components/Article.astro"
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author}>
-    <h2>Error 500: {pageTitle} </h2>
-    <h3> The requested page { error instanceof Error ? error.message : 'has an internal error'}</h3>
+        <h2>Error 500: {pageTitle} </h2>
+    <h3>The requested page has an internal error.</h3>
+    <!-- <h3> The requested page { error instanceof Error ? error.message : 'has an internal error'}</h3> -->
+
+    <p>{ error instanceof Error ? error.message : 'has an unknown error.'}</p>
 
     <p>Check your url and try again.</p>
     <p>Otherwise, you can hope that the scribes writing the stories will remember that htis page is supposed to exist</p>
@@ -22,7 +26,7 @@ const { error } = Astro.props;
 
     <h3>While you are waiting for the scribes to write cheesy calligraphy...</h3>
     
-    <nav class="menu-container chnav-container">
+    <nav class="menu-container chnav-container return">
         <a class="menu chnav" onclick="history.back()">&leftarrow;Back</a>
         <a class="menu chnav" href="/pages">Home</a>
     </nav>
