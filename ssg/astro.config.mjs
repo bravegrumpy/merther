@@ -37,7 +37,7 @@ import aiRobotsTxt from 'astro-ai-robots-txt';
 
 // import vercel from '@astrojs/vercel';
 
-// import criticalCss from 'astro-critical-css';
+import criticalCss from 'astro-critical-css';
 
 import contentViewer from "astro-content-viewer"
 
@@ -85,7 +85,7 @@ export default defineConfig({
   integrations: [contentViewer(), og(), icon(), sitemap(), pageInsight(), mdx(), react({
     include: ['**/react/*'],
     experimentalReactChildren: true
-  }), svelte(), aiRobotsTxt(), astroBuildInfo()],
+  }), svelte(), aiRobotsTxt(), astroBuildInfo(), criticalCss()],
 
   vite: {
     plugins: [tailwindcss(), visualizer({

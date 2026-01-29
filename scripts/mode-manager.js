@@ -240,7 +240,7 @@ Note: "default" is the source of truth - all other modes copy from their directo
           console.error('Mode required for build command');
           process.exit(1);
         }
-        await runCommand(mode, 'npm run build', true);
+        await runCommand(mode, 'pnpm run build', true);
         break;
 
       case 'dev':
@@ -248,7 +248,7 @@ Note: "default" is the source of truth - all other modes copy from their directo
           console.error('Mode required for dev command');
           process.exit(1);
         }
-        await runCommand(mode, 'npm run dev', false);
+        await runCommand(mode, 'pnpm run dev', false);
         break;
 
       case 'preview':
@@ -256,7 +256,7 @@ Note: "default" is the source of truth - all other modes copy from their directo
           console.error('Mode required for preview command');
           process.exit(1);
         }
-        await runCommand(mode, 'npm run preview', false);
+        await runCommand(mode, 'pnpm run preview', false);
         break;
 
       case 'update':
