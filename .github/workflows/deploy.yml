@@ -1,0 +1,43 @@
+name: Deploy to neocities
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        node-version: [22]
+
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with: 
+        node-version: ${{ matrix.node-version }}
+        cache: pnpm
+    
+    - name: Install Dependancies
+      run: pnpm install
+    
+    - name: Build Artifacts
+      run: pnpm run build:ssg
+    
+    - name: Deploy to neocities
+      uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        neocities_supporter: true
+        preview_before_deploy: true
+        dist_dir: dist
+
