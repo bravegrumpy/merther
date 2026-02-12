@@ -8,3 +8,11 @@ a {
     text-decoration: none;
     font-size: 2rem;
 }
+
+.construction {
+    font-family: "Style Script" "Verdana", serif;
+}
+
+.hideMe {
+    display: none;
+}

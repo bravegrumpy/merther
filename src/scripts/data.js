@@ -110,11 +110,11 @@ export let otherSecLinks = [
     href: "/other/test",
     text: "TestPage"
   },
-  {
-    key: "tst2",
-    href: "/other/test-again",
-    text: "Markdown Test"
-  }
+  // {
+  //   key: "tst2",
+  //   href: "/other/test-again",
+  //   text: "Markdown Test"
+  // }
 ]
 
 export const pdfPagesOptions = {

@@ -21,8 +21,13 @@ const {articleId = 'latestChapter' , heading, className } = Astro.props;
         </p>
         <hr />
         <h3>
-          Elevator music from the queue starts playing&hellip;<span></span>
+          Elevator music from the queue starts playing&hellip;
         </h3>
+        <div class="text-center">        
+          <audio id="player">
+            <source id="mp3Source" src="/audio/LeopardPrintElevator.mp3" />
+          </audio>
+        </div>
         <p style={{textAlign: "center"}}>
           <Icon
             name="svg-spinners:bars-scale-middle"
@@ -30,6 +35,24 @@ const {articleId = 'latestChapter' , heading, className } = Astro.props;
             style={{color: "#2e045e12"}}
           />
         </p>
+        <div class="attributions">
+          <details class="attributions-details" open>
+            <summary class="menu back-to-top attributions-summary">Music Attribution</summary>
+            <ol>
+              <li>
+                <p>"Leopard Print Elevator" Kevin MacLeod <a target="_blank" class="attribution-anchor" href="https://incompetech.com/music/royalty-free/music.html">(incompetech.com)</a></p>
+                <p>Licensed under <a class="attribution-anchor" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons: By Attribution 4.0 License</a></p>
+              </li>
+              { false && (<>
+              <li>
+                <p>"Local Forecast - Elevator" Kevin MacLeod <a class="attribution-anchor" target="_blank" href="https://incompetech.com/music/royalty-free/music.html">(incompetech.com)</a></p>
+                <p>Licensed under Creative Commons: <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" class="attribution-anchor">By Attribution 4.0 License</a></p>
+              </li>
+              </>)
+              }
+              </ol>
+          </details>
+        </div>
         <nav class="menu-container tmp-container return">
           <button class="menu back-to-top" onclick="history.back()"
             >Go back
@@ -66,5 +89,31 @@ const {articleId = 'latestChapter' , heading, className } = Astro.props;
         color: blue;
         text-decoration: underline;
         /* cursor: pointer; */
+    }
+    details summary::marker {
+      display: none;
+      content: "";
+    }
+    .attributions-details {
+      width: 100%;
+      max-width: 750px;
+      margin: 0px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    summary.attributions-summary {
+      width: fit-content;
+    }
+    .attributions-details ol {
+      border: 10px inset #8f5b3680;
+    }
+
+    a.attribution-anchor {
+      font-size: 1rem;
+    }
+
+    li.hidden {
+      display: none;
     }
 </style>

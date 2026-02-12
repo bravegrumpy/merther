@@ -1,13 +1,31 @@
+---
+layout: "@/layouts/Layout.astro"
+---
+
 import Article from "@/components/Article.astro"
 import "./test.css"
-
 
 <link rel="icon" href="/api/images/mixture.png" />
 <title>This is Something</title>
 
 
+<div class="hideMe">
+
 ## Living the Life
 
+{/*
+
+<UnderConstruction>
+
+<div style={{ backgroundColor: "pink", width: "fit-content", margin: "0px auto" }} class="construction">
+
+BEWARE THIS PAGE IS AN EXPERIMENT
+
+</div>
+
+</UnderConstruction>
+
+*/}
 
 ### Life
 
@@ -17,11 +35,33 @@ Is a long road.
     
 <a href="/pages">Home</a>
 
+***
+
+## Empty Article Below
+
+### Test to see if music works
+
+I don't know. There is a song here.
+
+<audio controls>
+    <source src="/audio/LeopardPrintElevator.mp3" type="audio/mpeg" />
+    Audio is not supported
+</audio>
+
+<details>
+<summary>Music Attribution</summary>
+
+Attribution Code
+"Leopard Print Elevator" Kevin MacLeod (incompetech.com)
+Licensed under [Creative Commons: By Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/)
+
+</details>
+
+***
+
+</div>
 
 <Article>
 
-I want to add some stuff.
-
-Most specifically, I want to ensure that I see a change.
 
 </Article>
