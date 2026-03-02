@@ -70,11 +70,12 @@ import "@fontsource/delius";
 import "@fontsource-variable/recursive";
 import "@fontsource/style-script";
 
-import { Footer as Foot } from "@/components/react/Components";
-import Footer from "@/components/Footer.astro";
+import { Footer } from "@/components/react/Components";
+import Foot from "@/components/Footer.astro";
 ---
 <UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
   <Fragment slot="head">
+    <link rel="stylesheet" href="https://fandomr.ing/onionring/onionring.css">
     <slot name="head" />
     {/* I like ClientRouter better than StopFlash. */}
     <ClientRouter />

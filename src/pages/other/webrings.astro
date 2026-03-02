@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+const headTitle = "WebRings | Merther";
+const bravegrumpyLink = "https://www.bravegrumpy.com";
+const pageTitle = "WebRings";
+const author = null;
+import { mainLinks, otherSecLinks } from "@/scripts/data"
+
+import { Content as WebRing } from "@/pages/pages/content/webrings.mdx";
+
+import { NavBar } from "@/components/react/Navigation";
+import Article from "@/components/Article.astro";
+
+const links = JSON.parse(JSON.stringify(otherSecLinks));
+links[2].active = true;
+---
+
+<Layout headTitle={headTitle} bottomLine={true} link={bravegrumpyLink}>
+    <div slot="pageTitle">
+        <NavBar title={"Web Rings"} links={links} />
+    </div>
+    <Article>
+        <WebRing />
+    </Article>
+</Layout>
+
+<style is:global>
+    .webring {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+    }
+</style>

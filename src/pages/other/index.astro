@@ -14,6 +14,8 @@ let Community;
 
 community ? { Content: Community } = await render(community) : Community = FallbackContent;
 
+import { Content as WebRing } from "@/pages/pages/content/webrings.mdx";
+
 import { NavBar } from "@/components/react/Navigation"
 
 import { otherSecLinks } from "@/scripts/data";
@@ -56,6 +58,10 @@ links[0].active = true
     <div class="frame-container">
     <iframe scrolling="no" src="https://bravegrumpy.atabook.org/"></iframe>
     </div>
+  </Article>
+  <hr class="section">
+  <Article>
+    <WebRing />
   </Article>
   <hr class="section" />
   <article class="microblog chapter">

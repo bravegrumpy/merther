@@ -105,6 +105,11 @@ export let otherSecLinks = [
     href: "/other/css_expo",
     text: "CSS Expo",
   },
+  {
+    key: "webrings",
+    href: "/other/webrings",
+    text: "Web Rings"
+  }
   // {
   //   key: "tst",
   //   href: "/other/test",

@@ -15,6 +15,8 @@ import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/conten
 import { Content as Mature, frontmatter as matfm } from "@/pages/pages/content/mature.mdx";
 import { Content as General, frontmatter as genfm } from "@/pages/pages/content/general.mdx"
 
+import { Content as WebRing, frontmatter as wrfm} from "@/pages/pages/content/webrings.mdx";
+
 const Resources = await getCollection('resources')
 
 import { Image } from "astro:assets"
@@ -50,16 +52,18 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             {
                 renderType === "ssg" ? 
                     (<>
+                    {/*
                         <hr />
                         <div>
                             <script src="https://ficring.neocities.org/ring.js" is:inline></script>
                         </div>
+                    */}
                         <hr />
-                        <a class="menu chnav" href="https://merther.bravegrumpy.com">View Site Mirror</a>
+                        <a class="menu chnav" href="https://merther.bravegrumpy.com/pages">View Site Mirror</a>
                     </>) :
                     (<>
                         <hr />
-                        <a class="menu chnav" href="https://mertherfanfic.neocities.org">
+                        <a class="menu chnav" href="https://mertherfanfic.neocities.org/pages">
                         Visit Neocities Site
                         </a>
                     </>)
@@ -78,6 +82,13 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             <Mature />
             <hr />
             <General />
+            { renderType === "ssg" ?
+                (<>
+                <hr class="section"/>
+                <WebRing />
+                </>) :
+                (<></>)
+            }
         </Article>
     </div>
     <!-- <hr /> -->
@@ -95,6 +106,17 @@ const renderType = import.meta.env.RENDER_TYPE as string;
     </div> -->
 </Layout>
 
+<style is:global>
+    .webring {
+        margin: 100px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+</style>
 <style>
     div.chapter {
         width: calc(100% - 20px);
