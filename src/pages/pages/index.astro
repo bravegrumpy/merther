@@ -21,6 +21,8 @@ import { Image } from "astro:assets"
 
 const siteURL = String(Astro.site);
 
+const renderType = import.meta.env.RENDER_TYPE as string;
+
 
 
 ---
@@ -46,14 +48,16 @@ const siteURL = String(Astro.site);
             </button>
             <p style="display: none" class="construction-paragraph" id="construction-paragraph">This page is <em>always</em> updating and changing, so I guess here is my obligitary &ldquo;old-web&rdquo; under construction disclaimer 😉 </p>
             {
-                siteURL === "https://mertherfanfic.neocities.org" ? 
+                renderType === "ssg" ? 
                     (<>
                         <hr />
                         <div>
                             <script src="https://ficring.neocities.org/ring.js" is:inline></script>
                         </div>
                     </>) :
-                    (<></>)
+                    (<>
+                        <p>{renderType}</p>
+                    </>)
             }
         </div>
     </Article>

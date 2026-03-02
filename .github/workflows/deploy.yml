@@ -34,6 +34,8 @@ jobs:
         run: pnpm install
     
       - name: Build Artifacts
+        env:
+          RENDER_TYPE: ${{ secrets.RENDER_TYPE }}
         run: pnpm run build:ssg
     
       - name: Deploy to neocities
