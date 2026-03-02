@@ -24,11 +24,11 @@ export const mainLinks = [
       href: "/swagger",
       text: "Swagger"
     },
-    {
-      key: "05_Fig",
-      href: "/fig",
-      text: "Fig"
-    },
+    // {
+    //   key: "05_Fig",
+    //   href: "/fig",
+    //   text: "Fig"
+    // },
     {
       key: "ZX_OTHER",
       href: "/other/",
@@ -95,21 +95,21 @@ export let otherSecLinks = [
     href: "/other",
     text: "Other"
   },
-  {
-    key: "imgs",
-    href: "/other/images",
-    text: "Images",
-  },
+  // {
+  //   key: "imgs",
+  //   href: "/other/images",
+  //   text: "Images",
+  // },
   {
     key: "css",
     href: "/other/css_expo",
     text: "CSS Expo",
   },
-  {
-    key: "tst",
-    href: "/other/test",
-    text: "TestPage"
-  },
+  // {
+  //   key: "tst",
+  //   href: "/other/test",
+  //   text: "TestPage"
+  // },
   // {
   //   key: "tst2",
   //   href: "/other/test-again",

@@ -71,7 +71,7 @@ const AO3TagList: Array<tagType | string> = [
     { type: "character", text: "Lancelot (Merlin)"},
     {type: "character", text: "Leon (Merlin)"},
     {type: "character", text: "George (Merlin)"},
-    "Gwaine (Merlin)",
+    { type: "character", text: "Gwaine (Merlin)" },
     "Percival (Merlin)",
     "Hurt/Comfort", 
     "Lancelot is alive", 
@@ -191,6 +191,12 @@ const AO3TagList: Array<tagType | string> = [
 </Layout>
 
 <style>
+    .tag-container {
+        background-color: oklch(39.71% 0.08078 59.91 / 0.041);
+        padding: 15px 10px;
+        text-align: center;
+        font-family: "Delius", "Comic Sans MS", "Courier New", monospace;
+    }
     li.tag {
         border-radius: 20px;
         width: fit-content;
@@ -237,8 +243,9 @@ const AO3TagList: Array<tagType | string> = [
     }
     ul.tag-list {
         list-style-type: none;
-        display: grid-lanes;
+        display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: masonry;
         gap: 5px;
     }
     #printLink {

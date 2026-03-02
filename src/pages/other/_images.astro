@@ -70,9 +70,10 @@ import Article from "@/components/Article.astro"
     }
     .article {
         margin-top: 20px;
-        display: grid-lanes;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 60px;
+        grid-template-rows: masonry;
+        gap: 20px;
     }
     .image {
         width: 100%;

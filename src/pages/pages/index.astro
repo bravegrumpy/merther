@@ -18,13 +18,43 @@ import { Content as General, frontmatter as genfm } from "@/pages/pages/content/
 const Resources = await getCollection('resources')
 
 import { Image } from "astro:assets"
+
+const siteURL = String(Astro.site);
+
+
+
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
     <Article>
-        <div>
+        <script is:inline>
+
+            function displayConstructionParagraph() {
+                const para = document.getElementById("construction-paragraph");
+                if (para) {
+                    if (para.style.display === "none") {
+                        para.style = undefined;
+                    } else {
+                        para.style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <div class="under-construction">
+            <button class="menu chnav back-to-top" id="construction-button" onclick="displayConstructionParagraph()">
             <Image src="https://geekring.net/img/undercon.gif" width="50" height="50" alt="Under Construction Gif" />
-            <p>This page is <em>always</em> updating and changing, so I guess here is my obligitary &ldquo;old-web&rdquo; under construction gif 😉 </p>
+            </button>
+            <p style="display: none" class="construction-paragraph" id="construction-paragraph">This page is <em>always</em> updating and changing, so I guess here is my obligitary &ldquo;old-web&rdquo; under construction disclaimer 😉 </p>
+            {
+                siteURL === "https://mertherfanfic.neocities.org" ? 
+                    (<>
+                        <hr />
+                        <div>
+                            <script src="https://ficring.neocities.org/ring.js" is:inline></script>
+                        </div>
+                    </>) :
+                    (<></>)
+            }
         </div>
     </Article>
     <hr class="section" />
@@ -77,6 +107,27 @@ import { Image } from "astro:assets"
     }
 </style>
 <style is:global>
+    .under-construction {
+        background-color: oklch(83.439% 0.14645 91.939 / 0.103);
+        border-radius: 5px;
+        width: 50%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 20px;
+        border: 2px ridge rgba(31, 7, 51, 0.452);
+        padding: 20px 50px;
+    }
+    .under-construction p {
+        width: 200px;
+        background-color: rgba(235, 205, 171, 0.623);
+        border-radius: 5px;
+        border: 2px solid oklch(16.336% 0.06994 299.02 / 0.582);
+        padding: 10px;
+    }
     .links article {
         border-inline: 20px outset #6848390f;
         border-block: 4px dotted #ed052318  ;

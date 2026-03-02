@@ -4,6 +4,7 @@ import Chat from "@/components/chat.html";
 import Microblog from "@/components/Microblog.astro"
 import { getCollection, getEntry, render } from "astro:content";
 import { FallbackContent } from "@/components/react/Components";
+import Article from "@/components/Article.astro";
 
 const lsts = await getCollection('resources');
 
@@ -44,12 +45,19 @@ links[0].active = true
     <section class="community section">
       <Community />
     </section>
-    <div class="section">
+    <div class="section hidden">
       <h2>Chat/Guest Book</h2>
       <Chat />
     </div>
   </article>
     <hr class="section" />
+  <Article>
+    <h2 class="text-gradient">Guestbook!</h2>
+    <div class="frame-container">
+    <iframe scrolling="no" src="https://bravegrumpy.atabook.org/"></iframe>
+    </div>
+  </Article>
+  <hr class="section" />
   <article class="microblog chapter">
     <section class="blog-intro">
       <h2 class="text-gradient text-center">Microblog</h2>
@@ -60,9 +68,31 @@ links[0].active = true
 </Layout>
 
 <style>
+  iframe {
+    width: 700px;
+    height: 700px;
+    border: 0px;
+  }
+  .frame-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /**
   .article {
     display: grid-lanes;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+    */
+  .hidden {
+    display: none !important;
+  }
+  .article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: masonry;
     gap: 20px;
   }
   section.section {
