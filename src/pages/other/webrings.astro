@@ -13,6 +13,8 @@ import Article from "@/components/Article.astro";
 
 const links = JSON.parse(JSON.stringify(otherSecLinks));
 links[2].active = true;
+
+const renderType = import.meta.env.RENDER_TYPE;
 ---
 
 <Layout headTitle={headTitle} bottomLine={true} link={bravegrumpyLink}>
@@ -20,7 +22,12 @@ links[2].active = true;
         <NavBar title={"Web Rings"} links={links} />
     </div>
     <Article>
-        <WebRing />
+
+        {renderType === "ssg" ? <WebRing /> : <>
+            <div class="webring">
+                <p>This website is not a part of any webrings.</p>
+            </div>
+        </>}
     </Article>
 </Layout>
 
