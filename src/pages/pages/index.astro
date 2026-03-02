@@ -34,7 +34,6 @@ const renderType = import.meta.env.RENDER_TYPE as string;
         const closeButton = document.getElementById("close-dialog");
 
         function closeDialog() {
-            alert("clicked");
             const modal = document.querySelector("dialog");
             modal.open = false;  
             const dialogBody = document.querySelector("div#dialog-body");
