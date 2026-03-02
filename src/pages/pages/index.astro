@@ -33,13 +33,37 @@ const renderType = import.meta.env.RENDER_TYPE as string;
 
         const closeButton = document.getElementById("close-dialog");
 
+        const agreed = localStorage.getItem("agreed");
+
+        function loadPage() {
+            if (agreed === "true") {
+                const modal = document.querySelector("dialog");
+                modal.open = false;
+                const dialogDiv = document.querySelector("div#dialog-body");
+                const indexBody = document.querySelector("div#index-body");
+                dialogDiv.style.display = "none";
+                indexBody.style = undefined;
+            } else {
+                localStorage.setItem("agreed", true);
+                const modal = document.querySelector("div#modal");
+                modal.open = true;
+                const dialogDiv = document.querySelector("div#dialog-body");
+                dialogDiv.style = undefined;
+                const indexBody = document.querySelector("div#index-body");
+                alert(JSON.stringify(indexBody));
+            }
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+            loadPage();
+        })
         function closeDialog() {
             const modal = document.querySelector("dialog");
-            modal.open = false;  
+            modal.open = false;
             const dialogBody = document.querySelector("div#dialog-body");
             dialogBody.style.display = "none";
-            const indexBody = document.querySelector("div#index-body");
-            indexBody.style.display = "block";
+            const indexBody = document.getElementById("index-body")
+            indexBody.style = undefined;
+            localStorage.setItem("agreed", true);
         }
     </script>
     <dialog id="modal" open>
@@ -58,7 +82,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
         </div>
     </dialog>
     <div class="dialog-body" id="dialog-body"></div>
-    <div class="index-body">
+    <div class="index-body" id="index-body" style="display:none">
     <Article>
         <script is:inline>
 
