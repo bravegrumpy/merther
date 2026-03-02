@@ -1,0 +1,35 @@
+---
+import dayjs from "dayjs";
+interface Props {
+    footerClass?: string;
+    copyrightClass?: string;
+    disclaimerClass?: string;
+}
+let  { footerClass, copyrightClass, disclaimerClass }: Props = Astro.props;
+const created = dayjs("2025-01-02");
+const today = dayjs();
+
+const renderType = import.meta.env.RENDER_TYPE;
+---
+<footer class={footerClass}>
+    {
+        renderType === "ssg" ? (<>
+        <div class="footer-webring">
+            <script is:inline src="https://ficring.neocities.org/ring.js"></script>
+        </div>     
+        </>) : (<></>)
+    }
+    <p class={copyrightClass}>Copyright &copy; {created.format("YYYY")} &mdash; {today.format('YYYY')} <a href="https://www.bravegrumpy.com">BraveGrumpy</a></p>
+    <p class={disclaimerClass} style={{ fontSize: '0.85rem', width: '35ch', textAlign: 'center'}}>This is an unofficial fan site and is not affiliated with <em>BBC Merlin</em> or <abbr title='Organization for Transformative Works'><a href="https://transformativeworks.org" target='_blank'>OTW</a></abbr></p>
+    <p>All Rights Reserved</p>
+    <slot name="socialLinks" />
+</footer>
+
+<style>
+    .footer-webring {
+        margin: 20px auto;
+        width: fit-content;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+</style>
