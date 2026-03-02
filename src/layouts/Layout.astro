@@ -16,6 +16,7 @@ import { Icon } from "astro-icon/components";
 
 import AllSocial from "@/components/AllSocial.astro";
 import FicWebRing from "@/components/FicWebRing.astro";
+import WebRings from "@/components/WebRings.astro";
 
 import {
   Navigation,
@@ -73,13 +74,15 @@ import "@fontsource/style-script";
 
 import { Footer } from "@/components/react/Components";
 import Foot from "@/components/Footer.astro";
+
+const renderType = import.meta.env.RENDER_TYPE;
 ---
 <UnstyledLayout headTitle={headTitle} favicon={favicon} stopFlash={stopFlash}>
   <Fragment slot="head">
     <link rel="stylesheet" href="https://fandomr.ing/onionring/onionring.css">
     <slot name="head" />
     {/* I like ClientRouter better than StopFlash. */}
-    <ClientRouter />
+    { renderType === "ssg" ? <></> : <ClientRouter /> }
      {/* Temporarily putting ClientRouter into Unstyled */}
     <style is:global>
       /* Font fallbacks to prevent CLS - use system fonts until web fonts load */
@@ -256,13 +259,10 @@ import Foot from "@/components/Footer.astro";
     </slot>
     <hr class="section end" />
   </main>
-  <Footer client:idle>
+  <Footer client:load>
     <!-- <div class="social" slot="socialLinks">
       <AllSocial />
     </div> -->
-    <div slot="socialLinks" class="wrfoot">
-      <FicWebRing />
-    </div>
   </Footer>
 </UnstyledLayout>
 

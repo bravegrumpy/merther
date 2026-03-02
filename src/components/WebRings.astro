@@ -1,0 +1,26 @@
+---
+import FicRing from "@/components/FicWebRing.astro";
+---
+
+<div class="webring">
+    <div class="ficring">
+        <FicRing />
+    </div>
+    <div id='fandomring' class="fandomring">
+        <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-variables.js"></script>
+        <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-widget.js"></script>
+    </div>
+</div>
+
+<style>
+    .webring {
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+</style>

@@ -6,7 +6,8 @@ const pageTitle = "WebRings";
 const author = null;
 import { mainLinks, otherSecLinks } from "@/scripts/data"
 
-import { Content as WebRing } from "@/pages/pages/content/webrings.mdx";
+import { Content as WebRing1 } from "@/pages/pages/content/webrings.mdx";
+import WebRing from "@/components/WebRings.astro";
 
 import { NavBar } from "@/components/react/Navigation";
 import Article from "@/components/Article.astro";
@@ -22,7 +23,6 @@ const renderType = import.meta.env.RENDER_TYPE;
         <NavBar title={"Web Rings"} links={links} />
     </div>
     <Article>
-
         {renderType === "ssg" ? <WebRing /> : <>
             <div class="webring">
                 <p>This website is not a part of any webrings.</p>
@@ -31,7 +31,7 @@ const renderType = import.meta.env.RENDER_TYPE;
     </Article>
 </Layout>
 
-<style is:global>
+<!--style is:global>
     .webring {
         width: 100%;
         display: flex;
@@ -40,4 +40,4 @@ const renderType = import.meta.env.RENDER_TYPE;
         align-items: center;
         gap: 50px;
     }
-</style>
+</style-->

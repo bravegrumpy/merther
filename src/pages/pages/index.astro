@@ -15,7 +15,8 @@ import { Content as Explicit, frontmatter as explfm}  from "@/pages/pages/conten
 import { Content as Mature, frontmatter as matfm } from "@/pages/pages/content/mature.mdx";
 import { Content as General, frontmatter as genfm } from "@/pages/pages/content/general.mdx"
 
-import { Content as WebRing, frontmatter as wrfm} from "@/pages/pages/content/webrings.mdx";
+import { Content as WebRing1, frontmatter as wrfm} from "@/pages/pages/content/webrings.mdx";
+import WebRing from "@/components/WebRings.astro";
 
 const Resources = await getCollection('resources')
 
@@ -25,11 +26,40 @@ const siteURL = String(Astro.site);
 
 const renderType = import.meta.env.RENDER_TYPE as string;
 
-
-
 ---
 
 <Layout headTitle={headTitle} pageTitle={pageTitle} author={author} mainLinks={mainLinks}>
+    <script is:inline>
+
+        const closeButton = document.getElementById("close-dialog");
+
+        function closeDialog() {
+            alert("clicked");
+            const modal = document.querySelector("dialog");
+            modal.open = false;  
+            const dialogBody = document.querySelector("div#dialog-body");
+            dialogBody.style.display = "none";
+            const indexBody = document.querySelector("div#index-body");
+            indexBody.style.display = "block";
+        }
+    </script>
+    <dialog id="modal" open>
+        <h2>Adult Content</h2>
+        <h4 style="text-align: center">This website is unsuitable for persons under the age of 18</h4>
+        <p style="text-align: center; font-size: 1.8rem">By proceeding, you confirm that you are at least 18 years of age and consent to view adult content.</p>
+
+        <div class="chapter-preamble-shadow">
+            <div class="chapter-preamble">
+                <h3>Do you want to continue?</h3>
+                <div class="menu-container">
+                    <a class="menu back-to-top" style="font-size: 1.5rem" href="https://neocities.org">&leftarrow; Go Back</a>
+                    <button id="close-dialog" class="menu back-to-top" style="font-size: 1.5rem" onclick="closeDialog()">Proceed &rightarrow;</button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <div class="dialog-body" id="dialog-body"></div>
+    <div class="index-body">
     <Article>
         <script is:inline>
 
@@ -104,6 +134,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             })
         }
     </div> -->
+    </div>
 </Layout>
 
 <style is:global>
@@ -118,6 +149,12 @@ const renderType = import.meta.env.RENDER_TYPE as string;
     }
 </style>
 <style>
+    dialog {
+        background-color: #a28f7c;
+    }
+    .dialog-body {
+        height: 500px;
+    }
     div.chapter {
         width: calc(100% - 20px);
     }
