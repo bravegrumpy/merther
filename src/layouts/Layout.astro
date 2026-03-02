@@ -15,6 +15,7 @@ import UnstyledLayout from "./UnstyledLayout.astro";
 import { Icon } from "astro-icon/components";
 
 import AllSocial from "@/components/AllSocial.astro";
+import FicWebRing from "@/components/FicWebRing.astro";
 
 import {
   Navigation,
@@ -259,6 +260,9 @@ import Foot from "@/components/Footer.astro";
     <!-- <div class="social" slot="socialLinks">
       <AllSocial />
     </div> -->
+    <div slot="socialLinks" class="wrfoot">
+      <FicWebRing />
+    </div>
   </Footer>
 </UnstyledLayout>
 
@@ -271,5 +275,11 @@ import Foot from "@/components/Footer.astro";
     flex-wrap: wrap;
     grid-column: 1 / -1;
     margin-bottom: 20px;
+  }
+  .wrfoot {
+    width: fit-content;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
   }
 </style>
