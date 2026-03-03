@@ -16,7 +16,7 @@ import { Content as Mature, frontmatter as matfm } from "@/pages/pages/content/m
 import { Content as General, frontmatter as genfm } from "@/pages/pages/content/general.mdx"
 
 import { Content as WebRing1, frontmatter as wrfm} from "@/pages/pages/content/webrings.mdx";
-import WebRing from "@/components/WebRings.astro";
+import WebRings from "@/components/WebRings.astro";
 
 const Resources = await getCollection('resources')
 
@@ -33,7 +33,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
 
         const closeButton = document.getElementById("close-dialog");
 
-        const agreed = localStorage.getItem("agreed");
+        const agreed = localStorage.getItem("agreed-to-view-adult-content");
 
         function loadPage() {
             if (agreed === "true") {
@@ -44,7 +44,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
                 dialogDiv.style.display = "none";
                 indexBody.style = undefined;
             } else {
-                localStorage.setItem("agreed", true);
+                localStorage.setItem("agreed-to-view-adult-content", false);
                 const modal = document.querySelector("div#modal");
                 modal.open = true;
                 const dialogDiv = document.querySelector("div#dialog-body");
@@ -63,7 +63,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             dialogBody.style.display = "none";
             const indexBody = document.getElementById("index-body")
             indexBody.style = undefined;
-            localStorage.setItem("agreed", true);
+            localStorage.setItem("agreed-to-view-adult-content", true);
         }
     </script>
     <dialog id="modal" open>
@@ -75,7 +75,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             <div class="chapter-preamble">
                 <h3>Do you want to continue?</h3>
                 <div class="menu-container">
-                    <a class="menu back-to-top" style="font-size: 1.5rem" href="https://neocities.org">&leftarrow; Go Back</a>
+                    <button class="menu back-to-top" style="font-size: 1.5rem" onclick="history.back()">&leftarrow; Go Back</button>
                     <button id="close-dialog" class="menu back-to-top" style="font-size: 1.5rem" onclick="closeDialog()">Proceed &rightarrow;</button>
                 </div>
             </div>
@@ -138,7 +138,7 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             { renderType === "ssg" ?
                 (<>
                 <hr class="section"/>
-                <WebRing />
+                <WebRings />
                 </>) :
                 (<></>)
             }

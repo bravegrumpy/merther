@@ -1,14 +1,14 @@
 ---
 import FicRing from "@/components/FicWebRing.astro";
+import FandomRing from "@/components/FandomRing.astro";
 ---
 
 <div class="webring">
     <div class="ficring">
         <FicRing />
     </div>
-    <div id='fandomring' class="fandomring">
-        <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-variables.js"></script>
-        <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-widget.js"></script>
+    <div class="fandomring">
+        <FandomRing />
     </div>
 </div>
 
