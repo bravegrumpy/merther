@@ -17,6 +17,8 @@ import { Content as General, frontmatter as genfm } from "@/pages/pages/content/
 
 import { Content as WebRing1, frontmatter as wrfm} from "@/pages/pages/content/webrings.mdx";
 import WebRings from "@/components/WebRings.astro";
+import FicWebRing from "@/components/FicWebRing.astro";
+import FandomRing from "@/components/FandomRing.astro";
 
 const Resources = await getCollection('resources')
 
@@ -137,8 +139,10 @@ const renderType = import.meta.env.RENDER_TYPE as string;
             <General />
             { renderType === "ssg" ?
                 (<>
-                <hr class="section"/>
-                <WebRings />
+                    <hr class="section" />
+                    <div>
+                        <WebRing1 />
+                    </div>
                 </>) :
                 (<></>)
             }
