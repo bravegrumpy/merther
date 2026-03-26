@@ -95,10 +95,23 @@ links[0].active = true
   .hidden {
     display: none !important;
   }
+
+  /** This is a workaround because Moz 
+  and Chromium have different implementations 
+  for the masonry layout. */
+
+  @-moz-document url-prefix() {
+    /** This is the exception for FF based browsers */
+    .article {
+      display: grid;
+      grid-template-rows: masonry;
+    }
+  }
+
+  /** The Chromium is the default right now */
   .article {
-    display: grid;
+    display: grid-lanes;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: masonry;
     gap: 20px;
   }
   section.section {
