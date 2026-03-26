@@ -9,7 +9,22 @@ import utc from "dayjs/plugin/utc"
 
 dayjs.extend(advancedFormat);
 dayjs.extend(utc);
+
+import { MastodonPost } from "astro-embed";
+
 ---
+
+
+<article class="blog twitter">
+    <h2 class="text-gradient">Blorbo.Social</h2>
+    <MastodonPost id="https://blorbo.social/api/v1/username/bravegrumpy/statuses/116286809282112383" />
+    <MastodonPost id="https://blorbo.social/@bravegrumpy/116259558407471582" />
+    <hr class="section" />
+
+    <MastodonPost id="https://blorbo.social/@bravegrumpy/116253101125495252" />
+
+    <MastodonPost id="https://blorbo.social/@bravegrumpy/116252177256700459" />
+</article>
 
 <article class="blog">
     {

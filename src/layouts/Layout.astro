@@ -16,7 +16,8 @@ import { Icon } from "astro-icon/components";
 
 import AllSocial from "@/components/AllSocial.astro";
 import FicWebRing from "@/components/FicWebRing.astro";
-import WebRings from "@/components/WebRings.astro";
+import WR from "@/components/WebRings.astro";
+import WebRings from "@/components/FandomRing.astro"
 
 import {
   Navigation,
@@ -262,8 +263,6 @@ const renderType = import.meta.env.RENDER_TYPE;
   <Footer client:load>
     <div class="social" slot="socialLinks">
       <!-- AllSocial / -->
-       <p></p>
-      <WebRings />
     </div>
   </Footer>
 </UnstyledLayout>
