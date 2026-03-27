@@ -6,6 +6,8 @@ const resources = defineCollection({
     loader: glob({ pattern: ["*.md", "*.mdx", "*.html"], base: "./src/collections/links"}),
     schema: z.object({
         title: z.string(),
+        order: z.optional(z.number()),
+        classes: z.optional(z.array(z.optional(z.string())))
         
     })
 })

@@ -7,14 +7,20 @@ import { FallbackContent } from "@/components/react/Components";
 import Article from "@/components/Article.astro";
 
 const lsts = await getCollection('resources');
+// lsts.sort((a, b) => a.data.order - b.data.order)
 
 const community = await getEntry('resources', 'community');
 
+const webrings = await getEntry("resources", "webrings");
+
 let Community;
+let WebRings;
 
 community ? { Content: Community } = await render(community) : Community = FallbackContent;
 
-import { Content as WebRing } from "@/pages/pages/content/webrings.mdx";
+webrings ? { Content: WebRings } = await render(webrings) : WebRings = FallbackContent;
+
+import WebRing from "@/pages/pages/content/webrings.mdx";
 
 import { NavBar } from "@/components/react/Navigation"
 
@@ -34,16 +40,19 @@ links[0].active = true
     </section>
     {
       lsts.map(async (l) => {
-        if (l.id !== "community") {
+        if ((l.id !== "community") && (l.id !== "webrings")) {
           const { Content: List} = await render(l);
           return (<>
-            <section class="section">
+            <section class={`section ${l.data.classes}`}>
               <List />
             </section>
           </>);
         }
       })
     }
+    <section class="webrings section">
+      <WebRings />
+    </section>
     <section class="community section">
       <Community />
     </section>
@@ -139,6 +148,20 @@ links[0].active = true
     padding: 20px 20px;
     background-color: #d0801020;
   }
+
+  .community {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .webrings {
+    /* color: oklch(80.261% 0.04147 214.265); */
+  }
+  
+  .col-one {}
+  .col-two {}
+  .col-three {}
+  .col-one-three {}
 
   @media (min-width: 100ch) {
     .article {
